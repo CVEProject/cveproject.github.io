@@ -6,16 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Common Vulnerabilities and Exposures
+email: cve@mitre.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Common Vulnerabilities and Exposures (CVE&reg;) is a dictionary of common
+  names (i.e., CVE Identifiers) for publicly known information security
+  vulnerabilities. CVE's common identifiers enable data exchange between
+  security products and provide a baseline index point for evaluating coverage
+  of tools and services.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
