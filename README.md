@@ -1,2 +1,2 @@
 # docs
-CVE Documentation
+CVE Project Documentation
