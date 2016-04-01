@@ -1,5 +1,6 @@
 ﻿---
 title: Researcher Reservation Guidelines
+
 layout: page
 ---
 Here is the current description of how CVE reservation requests occur,
