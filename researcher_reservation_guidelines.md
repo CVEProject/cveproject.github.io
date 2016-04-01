@@ -1,11 +1,10 @@
-﻿
----
+﻿------------------------------------------------------------------------
 
 title: Researcher Reservation Guidelines
 
 layout: page
 
----
+------------------------------------------------------------------------
 
 Here is the current description of how CVE reservation requests occur,
 along with information about closely related parts of the CVE process.
