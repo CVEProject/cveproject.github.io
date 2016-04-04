@@ -314,6 +314,54 @@ multiple examples of this decision tree.
 						</ul>
 					</td>
 				</tr>
+
+
+
+	
+		<tr>
+			<td bgcolor="E0E0E0"><b>ADT1.2:</b></td>
+			<td bgcolor="E0E0E0">
+			Do the two products share the same codebase in which X and Y
+			appear, such as a library or executable, or third-party software
+			that is used by many vendors?
+			</td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			
+			<td>
+			  <ul>
+				<li><b>Yes:</b> Jump to <u>ADT2</u></li>
+				<li><b>No:</b> Continue to ADT1.3</li>
+				<li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+			  </ul>
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor="E0E0E0"><b>ADT1.3:</b></td>
+			<td bgcolor="E0E0E0">
+			Is this a large-scale problem that affects many vendors and
+			products?  (e.g. a new class of vulnerability or attack, or
+			results from fuzz testing many products)
+			</td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td>
+			  <ul>
+				  <li><b>No:</b> Continue to ADT2</li>
+				  <li><b>Yes:</b> Jump to special appendix on <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#largescale">Large-Scale Disclosures</a>.</li>
+				  <li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+			  </ul> 
+			</td>
+		</tr>
+
+
+
+
 			</tbody>
 			</table>
 		  </li>
