@@ -437,15 +437,6 @@ Guidance on Identifying Different Bug Types</a>
 
 
 
-</tbody>
-</table>
-
-
-
-
-<table border="5" cellpadding="2" cellspacing="2">
-<tbody>
-
 
 </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3:</b>
 </td><td bgcolor="E0E0E0">
