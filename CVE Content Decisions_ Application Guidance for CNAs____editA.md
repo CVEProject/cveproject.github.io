@@ -233,18 +233,33 @@ multiple examples of this decision tree.
 
 <table border="5" cellpadding="2" cellspacing="2">
 
-<tbody><tr><td bgcolor="E0E0E0"><b>*</b>
-</td><td bgcolor="E0E0E0">
+<tbody>
+<tr>
+<td bgcolor="E0E0E0">
+<b>*</b>
+</td>
+
+<td bgcolor="E0E0E0">
 Are there more than 2 bugs, issues, or attack vectors?
 
-</td></tr><tr><td></td><td>
+</td>
+</tr>
+
+<tr>
+<td></td>
+
+<td>
   <ul>
   <li><b>No:</b> Continue to ADT1.
   </li><li><b>Yes:</b> See the Appendix on
   <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#mult">"Handling More Than 2 Issues At Once"</a>
-  </li></ul>
+  </li>
+  </ul>
 
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT1:</b>
+</td>
+</tr>
+
+<tr><td bgcolor="E0E0E0"><b>ADT1:</b>
 </td><td bgcolor="E0E0E0">
 <i>(By codebase)</i><br>
 Does X affect at least one different product than Y?
