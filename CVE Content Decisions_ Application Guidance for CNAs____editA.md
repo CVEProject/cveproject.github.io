@@ -373,15 +373,7 @@ multiple examples of this decision tree.
 		<td><i>Relevant content decisions: SF-CODEBASE</i></td>
 	</tr>
 
-</tbody>
-</table>
 
-
-
-
-
-<table border="5" cellpadding="2" cellspacing="2">
-<tbody>
 
 
 <tr><td bgcolor="E0E0E0"><b>ADT2:</b>
