@@ -256,6 +256,14 @@ Does X affect at least one different product than Y?
   </li><li><b>Yes:</b>
 
 
+    <table border="2" cellpadding="2" cellspacing="2">
+    <tbody>
+  
+  
+  
+  
+    </tbody></table>
+  
 	
  </li></ul>
 
