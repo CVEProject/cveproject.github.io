@@ -423,6 +423,18 @@ Guidance on Identifying Different Bug Types</a>
 </td></tr><tr><td></td><td>
 <i>Relevant content decisions: AB1</i>
 
+
+
+</tbody>
+</table>
+
+
+
+
+<table border="5" cellpadding="2" cellspacing="2">
+<tbody>
+
+
 </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3:</b>
 </td><td bgcolor="E0E0E0">
 <i>(By version)</i><br>
@@ -487,6 +499,14 @@ but Y only affects 3.4.  Consider "1.x" and "1.2" as different.)
 
 </td></tr><tr><td></td><td>
 <i>Relevant content decisions: AB2</i>
+
+
+
+
+
+
+
+
 
 
 </td></tr><tr><td bgcolor="E0E0E0"><b>ADT4:</b>
