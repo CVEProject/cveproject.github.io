@@ -216,24 +216,25 @@ identifier; instead, consult MITRE (issue is complex)
 </li></ul>
 
 <p>
-A separate <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application-examples.html">document</a> lists
-multiple examples of this decision tree.
+	A separate <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application-examples.html">document</a> lists
+	multiple examples of this decision tree.
 </p>
 
 
 <p>
-<i></i>
+	<i></i>
 </p>
 
 
-<ul><i>
-<li>to do: handling exploits with multiple vuln chains</li>
-</i></ul>
+<ul>
+	<i>
+		<li>to do: handling exploits with multiple vuln chains</li>
+	</i>
+</ul>
 
 <i></i>
 
-<p>
-</p>
+<p></p>
 
 
 <p>
@@ -247,7 +248,6 @@ multiple examples of this decision tree.
 		Are there more than 2 bugs, issues, or attack vectors?
 		</td>
 	</tr>
-
 	<tr>
 		<td></td>
 		<td>
@@ -259,14 +259,12 @@ multiple examples of this decision tree.
 		  </ul>
 		</td>
 	</tr>
-
 	<tr>
 		<td bgcolor="E0E0E0"><b>ADT1:</b></td>
 		<td bgcolor="E0E0E0"><i>(By codebase)</i><br>
 		Does X affect at least one different product than Y?
 		</td>
 	</tr>
-
 	<tr>
 		<td></td>
 		<td>
@@ -371,61 +369,97 @@ multiple examples of this decision tree.
 
 
 
-<tr><td bgcolor="E0E0E0"><b>ADT2:</b>
-</td><td bgcolor="E0E0E0">
-<i>(By bug type)</i><br>
-Are X and Y different bug types? (e.g. buffer overflow, SQL injection,
-NULL pointer dereference?)
-See
-<a href="http://cve.mitre.org/cve/editorial_policies/cd_abstraction.html#identifying_different_bug_types">
-Guidance on Identifying Different Bug Types</a>
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT2:</b></td>
+		<td bgcolor="E0E0E0"><i>(By bug type)</i><br>
+			Are X and Y different bug types? (e.g. buffer overflow, SQL injection,
+			NULL pointer dereference?)
+			See
+			<a href="http://cve.mitre.org/cve/editorial_policies/cd_abstraction.html#identifying_different_bug_types">
+			Guidance on Identifying Different Bug Types</a>
+		</td>
+	</tr>
 
-</td></tr><tr><td></td><td>
-  <ul>
-  <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-  </li><li><b>No:</b>  Continue to ADT3
-  </li><li><b>Not sure:</b>
-     <table border="2" cellpadding="2" cellspacing="2">
-     <tbody><tr><td bgcolor="E0E0E0"><b>ADT2.1:</b>
-	 </td><td bgcolor="E0E0E0">
-	 Are they both "unspecified", i.e., no details are available about
-	 what programming error caused the bugs?
-     </td></tr><tr><td></td><td>
-	     <ul>
-		 <li><b>Yes:</b> Jump to <u>ADT3</u>
-		 </li><li><b>No:</b> Continue to ADT2.2
-		 </li><li><b>Not Sure:</b> This option is not applicable
-		 for this question.  Decide "Yes" or "No" based on the
-		 information that you currently have available to you.
-		 </li></ul>
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT2.2:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Is X's bug type known, but Y's bug type is unspecified?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		Continue to ADT2.3.
-		</li><li><b>No:</b> Continue to ADT2.3
-		 </li><li><b>Not Sure:</b> This option is not applicable
-		 for this question.  Decide "Yes" or "No" based on the
-		 information that you currently have available to you.
-		</li></ul>
+	<tr>
+		<td></td>
 
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT2.3:</b>
-	  </td><td bgcolor="E0E0E0">
+		<td>
+			<ul>
+			<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.</li>
+			<li><b>No:</b>  Continue to ADT3</li>
+			<li><b>Not sure:</b>
 
-	  Does X appear in a protection mechanism that tries to prevent
-	  bug type T, and Y is of type T, but Y has no protection
-	  mechanism at all?	 <font color="FF0000">(Needs Work)</font>
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font>
-		them.  Continue to ADT3
-		</li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-		</li></ul>
-	</td></tr></tbody></table>
-  </li></ul>
+				<table border="2" cellpadding="2" cellspacing="2">
+				<tbody>
 
+					<tr>
+					 <td bgcolor="E0E0E0"><b>ADT2.1:</b></td>
+					 <td bgcolor="E0E0E0">
+						 Are they both "unspecified", i.e., no details are available about
+						 what programming error caused the bugs?
+					 </td>
+					</tr>
+
+					<tr>
+					 <td></td>
+					 <td>
+						 <ul>
+							 <li><b>Yes:</b> Jump to <u>ADT3</u></li>
+							 <li><b>No:</b> Continue to ADT2.2</li>
+							 <li><b>Not Sure:</b> This option is not applicable
+								 for this question.  Decide "Yes" or "No" based on the
+								 information that you currently have available to you.
+							 </li>
+						 </ul>
+					  </td>
+					</tr>
+
+					<tr>
+						<td bgcolor="E0E0E0"><b>ADT2.2:</b></td>
+						<td bgcolor="E0E0E0">
+							Is X's bug type known, but Y's bug type is unspecified?
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<ul>
+								<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+									Continue to ADT2.3.
+								</li>
+								<li><b>No:</b> Continue to ADT2.3</li>
+								<li><b>Not Sure:</b> This option is not applicable
+									for this question.  Decide "Yes" or "No" based on the
+									information that you currently have available to you.
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="E0E0E0"><b>ADT2.3:</b></td>
+						<td bgcolor="E0E0E0">
+							Does X appear in a protection mechanism that tries to prevent
+							bug type T, and Y is of type T, but Y has no protection
+							mechanism at all?<font color="FF0000">(Needs Work)</font>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<ul>
+								<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font>
+									them.  Continue to ADT3
+								</li>
+								<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+							</ul>
+						</td>
+					</tr>
+
+				</tbody>
+				</table>
+
+			</li>
+			</ul>
 		</td>
 	</tr>
 	
@@ -595,21 +629,27 @@ other external party) than Y?
 At this stage, you have multiple closely-related vulnerabilities,
 issues, or attack vectors.
 
-</p></td></tr><tr><td></td><td>
-
- <ul>
- <li><font color="FF0000"><b>MERGE</b></font> them.
- </li></ul>
-
-</td></tr>
-
-</tbody></table>
+</p>
 
 
+</td>
+</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><font color="FF0000"><b>MERGE</b></font> them.</li>
+			</ul>
+		</td>
+	</tr>
+
+</tbody>
+</table>
 
 <a name="mult"></a>
 
 </p>
+
 
 <h1>Appendix: Handling More Than 2 Issues At Once</h1>
 
@@ -675,8 +715,8 @@ following basic process:
 </tbody>
 </table>
 
-
 </p>
+
 
 <h3>Example Table</h3>
 
@@ -689,10 +729,8 @@ something like:
 <table border="2" cellpadding="2" cellspacing="2">
 <tbody>
 	<tr>
-		<th>Bug type</th><th>Version</th><th>Issues
-		</th>
+		<th>Bug type</th><th>Version</th><th>Issues</th>
 	</tr>
-
 	<tr>
 		<td>XSS</td><td>1.0</td><td>V1</td>
 	</tr>
@@ -708,13 +746,13 @@ something like:
 </p>
 
 <p>
-One multi-issue group remains: V2/V3/V4.  Apply the ABSTRACTION CDs to
-that group.
+	One multi-issue group remains: V2/V3/V4.  Apply the ABSTRACTION CDs to
+	that group.
 </p>
 
 <p>
-V1 and V5 would be split from this group.
-<a name="largescale"></a>
+	V1 and V5 would be split from this group.
+	<a name="largescale"></a>
 </p>
 
 <h1>Appendix: Large-Scale Disclosures</h1>
