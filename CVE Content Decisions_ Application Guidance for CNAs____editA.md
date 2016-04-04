@@ -352,8 +352,7 @@ multiple examples of this decision tree.
 		</td>
 	</tr>
   
-</tbody>
-</table>
+
   
 	
  </li>
