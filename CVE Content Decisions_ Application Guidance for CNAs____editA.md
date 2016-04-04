@@ -260,15 +260,21 @@ Does X affect at least one different product than Y?
     <tbody>
   
   
-  <tr><td bgcolor="E0E0E0"><b>ADT1.1.1:</b>
+     <tr><td bgcolor="E0E0E0"><b>ADT1.1.1:</b>
 	 </td><td bgcolor="E0E0E0">
 	 Is there strong evidence that X and Y are the exact same bug,
      e.g. the products share the same library?
-	 </td></tr><tr><td></td><td>
+	 </td>
+	 </tr>
+	 <tr>
+	 <td>
+	 </td>
+	 <td>
 	  <ul>
 	  <li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
 	  Continue to ADT1.2
-	  </li><li>
+	  </li>
+	  <li>
 	  <b>No:</b>
 	  <font color="FF0000">
 	  <b>SPLIT</b>
