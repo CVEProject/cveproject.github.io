@@ -232,31 +232,27 @@ multiple examples of this decision tree.
 </p><p>
 
 <table border="5" cellpadding="2" cellspacing="2">
-
 <tbody>
+
 <tr>
-<td bgcolor="E0E0E0">
-<b>*</b>
-</td>
-
-<td bgcolor="E0E0E0">
-Are there more than 2 bugs, issues, or attack vectors?
-
-</td>
+	<td bgcolor="E0E0E0"><b>*</b></td>
+	<td bgcolor="E0E0E0">
+	Are there more than 2 bugs, issues, or attack vectors?
+	</td>
 </tr>
 
 <tr>
-<td></td>
+	<td></td>
 
-<td>
-  <ul>
-  <li><b>No:</b> Continue to ADT1.
-  </li><li><b>Yes:</b> See the Appendix on
-  <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#mult">"Handling More Than 2 Issues At Once"</a>
-  </li>
-  </ul>
+	<td>
+	  <ul>
+	  <li><b>No:</b> Continue to ADT1.
+	  </li><li><b>Yes:</b> See the Appendix on
+	  <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#mult">"Handling More Than 2 Issues At Once"</a>
+	  </li>
+	  </ul>
 
-</td>
+	</td>
 </tr>
 
 <tr><td bgcolor="E0E0E0"><b>ADT1:</b>
