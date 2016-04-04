@@ -362,11 +362,6 @@ multiple examples of this decision tree.
 		  </ul>
 		</td>
 	</tr>
-
-
-  
-  	</td>
-	</tr>
   
 	<tr>
 		<td></td>
