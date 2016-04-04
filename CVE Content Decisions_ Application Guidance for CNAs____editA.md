@@ -437,23 +437,16 @@ Guidance on Identifying Different Bug Types</a>
 
 
 
-</tbody>
-</table>
-
-
-
-
-<table border="5" cellpadding="2" cellspacing="2">
-<tbody>
-
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT3:</b>
-</td><td bgcolor="E0E0E0">
-<i>(By version)</i><br>
-Does X affect a version that Y does not?  (e.g. X affects 1.2 and 3.4,
-but Y only affects 3.4.  Consider "1.x" and "1.2" as different.)
-
-</td></tr><tr><td></td><td>
+	<tr>
+	<td bgcolor="E0E0E0"><b>ADT3:</b></td>
+	<td bgcolor="E0E0E0"><i>(By version)</i><br>
+	Does X affect a version that Y does not?  (e.g. X affects 1.2 and 3.4,
+	but Y only affects 3.4.  Consider "1.x" and "1.2" as different.)
+	</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
   <ul>
   <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
   </li><li><b>No:</b>  Continue to ADT4
