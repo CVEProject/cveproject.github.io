@@ -216,20 +216,27 @@ identifier; instead, consult MITRE (issue is complex)
 </li></ul>
 
 <p>
-
 A separate <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application-examples.html">document</a> lists
 multiple examples of this decision tree.
+</p>
 
-
-</p><p>
-<i>  
-</i></p><ul><i>
-<li>to do: handling exploits with multiple vuln chains
-</li></i></ul><i>
-</i>
 
 <p>
-</p><p>
+<i></i>
+</p>
+
+
+<ul><i>
+<li>to do: handling exploits with multiple vuln chains</li>
+</i></ul>
+
+<i></i>
+
+<p>
+</p>
+
+
+<p>
 
 <table border="5" cellpadding="2" cellspacing="2">
 <tbody>
