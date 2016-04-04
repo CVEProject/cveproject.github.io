@@ -307,7 +307,11 @@ multiple examples of this decision tree.
 		  </ul>
 		</td>
 	</tr>
-	
+
+
+	<tr>
+	<td></td>
+		<td>
 	
 	<table border="2" cellpadding="2" cellspacing="2">
 	<tbody>
@@ -356,6 +360,9 @@ multiple examples of this decision tree.
 
 	</tbody>
 	</table>  
+  
+  	</td>
+	</tr>
   
 	<tr>
 		<td></td>
