@@ -355,11 +355,7 @@ multiple examples of this decision tree.
 
   
 	
- </li>
- </ul>
 
-</td>
-</tr>
 
 <tr>
 <td></td>
@@ -372,7 +368,8 @@ multiple examples of this decision tree.
 
 
 
-
+</tbody>
+</table>
 
 
 
