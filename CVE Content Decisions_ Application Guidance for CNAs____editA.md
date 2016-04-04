@@ -268,41 +268,54 @@ multiple examples of this decision tree.
 	</tr>
 
 	<tr>
-	<td></td>
+		<td></td>
 		<td>
 		  <ul><li><b>No:</b> Continue to ADT2.</li>
 		  <li><b>Yes:</b>
 
 			<table border="2" cellpadding="2" cellspacing="2">
 			<tbody>
-			
-				 <tr>
-					 <td bgcolor="E0E0E0"><b>ADT1.1.1:</b></td>
-					 
-					 <td bgcolor="E0E0E0">
-					 Is there strong evidence that X and Y are the exact same bug,
-					 e.g. the products share the same library?
-					 </td>
-				 </tr>
-				 
-				 <tr>
-					 <td></td>
-					 <td>
-					  <ul>
-						  <li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
-						  Continue to ADT1.2
-						  </li>
-						  <li><b>No:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-						  Continue to ADT1.2
-						  </li>
-						  <li><b>Not Sure:</b> Continue to ADT1.2</li>
-					  </ul>
-					 </td>
-				 </tr>
-				 
-			 </tbody>
-			 </table>
-			 
+				<tr>
+					<td bgcolor="E0E0E0"><b>ADT1.1:</b></td>
+					<td bgcolor="E0E0E0">Does the same vendor offer both products?</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<ul>
+							<li><b>No:</b> Continue to ADT1.2.</li>
+							<li><b>Yes:</b>
+								<table border="2" cellpadding="2" cellspacing="2">
+								<tbody>
+									 <tr>
+										 <td bgcolor="E0E0E0"><b>ADT1.1.1:</b></td>
+										 <td bgcolor="E0E0E0">
+											Is there strong evidence that X and Y are the exact same bug,
+											e.g. the products share the same library?
+										 </td>
+									 </tr>
+									 <tr>
+										 <td></td>
+										 <td>
+										  <ul>
+											  <li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
+												Continue to ADT1.2
+											  </li>
+											  <li><b>No:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+												Continue to ADT1.2
+											  </li>
+											  <li><b>Not Sure:</b> Continue to ADT1.2</li>
+										  </ul>
+										 </td>
+									 </tr>
+								</tbody>
+								</table>
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+			</table>
 		  </li>
 		  </ul>
 		</td>
