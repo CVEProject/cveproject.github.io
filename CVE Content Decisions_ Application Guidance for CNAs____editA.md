@@ -287,25 +287,22 @@ multiple examples of this decision tree.
 				 
 				 <tr>
 					 <td></td>
-					 
 					 <td>
 					  <ul>
 						  <li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
 						  Continue to ADT1.2
 						  </li>
-						  
 						  <li><b>No:</b> <font color="FF0000"><b>SPLIT</b></font> them.
 						  Continue to ADT1.2
 						  </li>
-						  
-						  <li>
-						  <b>Not Sure:</b> Continue to ADT1.2
-						  </li>
+						  <li><b>Not Sure:</b> Continue to ADT1.2</li>
 					  </ul>
 					 </td>
 				 </tr>
+				 
 			 </tbody>
 			 </table>
+			 
 		  </li>
 		  </ul>
 		</td>
@@ -352,21 +349,10 @@ multiple examples of this decision tree.
 		</td>
 	</tr>
   
-
-  
-	
-
-
-<tr>
-<td></td>
-
-<td>
-<i>Relevant content decisions: SF-CODEBASE</i>
-
-</td>
-</tr>
-
-
+	<tr>
+		<td></td>
+		<td><i>Relevant content decisions: SF-CODEBASE</i></td>
+	</tr>
 
 </tbody>
 </table>
@@ -374,6 +360,9 @@ multiple examples of this decision tree.
 
 
 
+
+<table border="5" cellpadding="2" cellspacing="2">
+<tbody>
 
 
 <tr><td bgcolor="E0E0E0"><b>ADT2:</b>
