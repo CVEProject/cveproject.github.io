@@ -426,14 +426,23 @@ Guidance on Identifying Different Bug Types</a>
 	</td></tr></tbody></table>
   </li></ul>
 
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
+		</td>
+	</tr>
+	
+	<tr>
+		<td></td>
+		<td><i>Relevant content decisions: AB1</i></td>
+	</tr>
 
-<i>Relevant content decisions: AB1</i>
+</tbody>
+</table>
+
+
+
+
+<table border="5" cellpadding="2" cellspacing="2">
+<tbody>
+
 
 
 
