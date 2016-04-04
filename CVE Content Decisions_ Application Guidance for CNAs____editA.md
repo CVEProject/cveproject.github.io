@@ -291,14 +291,20 @@ Does X affect at least one different product than Y?
 	 </tbody>
 	 </table>
 
-    </li></ul></td></tr>
+    </li>
+	</ul>
+	</td>
+	</tr>
 	
-	<tr><td bgcolor="E0E0E0"><b>ADT1.2:</b>
-	</td><td bgcolor="E0E0E0">
+	<tr>
+	<td bgcolor="E0E0E0"><b>ADT1.2:</b>
+	</td>
+	<td bgcolor="E0E0E0">
 	Do the two products share the same codebase in which X and Y
 	appear, such as a library or executable, or third-party software
 	that is used by many vendors?
-    </td></tr>
+    </td>
+	</tr>
 	
 	<tr><td></td><td>
 	  <ul>
