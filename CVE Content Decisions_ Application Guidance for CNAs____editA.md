@@ -268,13 +268,22 @@ Does X affect at least one different product than Y?
 	  <ul>
 	  <li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
 	  Continue to ADT1.2
-	  </li><li><b>No:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+	  </li><li>
+	  <b>No:</b>
+	  <font color="FF0000">
+	  <b>SPLIT</b>
+	  </font> them.
 	  Continue to ADT1.2
-	  </li><li><b>Not Sure:</b> 	  Continue to ADT1.2
-	  </li></ul>
-	 </td></tr>
+	  </li>
+	  <li>
+	  <b>Not Sure:</b> Continue to ADT1.2
+	  </li>
+	  </ul>
+	 </td>
+	 </tr>
 	 
-	 </tbody></table>
+	 </tbody>
+	 </table>
 
     </li></ul></td></tr>
 	
