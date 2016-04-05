@@ -468,15 +468,22 @@ identifier; instead, consult MITRE (issue is complex)
 		<td><i>Relevant content decisions: AB1</i></td>
 	</tr>
 
-</tbody>
-</table>
 
-
-
-
-
-<table border="5" cellpadding="2" cellspacing="2">
-<tbody>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	<tr>
 		<td bgcolor="E0E0E0"><b>ADT3:</b></td>
