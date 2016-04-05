@@ -62,24 +62,24 @@ CVE Abstraction Content Decisions: Rationale and Application
 <li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#inclusion">INCLUSION Decision Tree</a> - how to
 determine if an issue should receive a CVE
 
-</li><li><a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
 numbers must be assigned, and how related issues should be grouped
 together
 
-</li><li><a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#mult">Appendix: Handling More Than 2 Issues At Once</a>
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#mult">Appendix: Handling More Than 2 Issues At Once</a>
 - when you might be dealing with more than 2 issues
 
-</li><li><a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#largescale">Appendix: Large-Scale Disclosures</a> - when many
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#largescale">Appendix: Large-Scale Disclosures</a> - when many
 products and vendors are affected
 
-</li><li><a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#complexAB">Complex Abstraction Scenarios</a> - 
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#complexAB">Complex Abstraction Scenarios</a> - 
 
 
-</li><li><a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#checklist">Final Pre-Disclosure Checklist for CVE</a> - 
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#checklist">Final Pre-Disclosure Checklist for CVE</a> - 
 
-</li><li><a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#FAQ">Frequently Asked Questions (FAQ)</a>
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#FAQ">Frequently Asked Questions (FAQ)</a>
 
-</li><li><a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#examples">Examples</a>
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#examples">Examples</a>
 
 
 </li></ul>
@@ -216,8 +216,8 @@ identifier; instead, consult MITRE (issue is complex)
 </li></ul>
 
 <p>
-	A separate <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application-examples.html">document</a> lists
-	multiple examples of this decision tree.
+	A separate <a href="">document</a> lists multiple examples of this decision tree.
+	(note: Link removed pending doc updates)
 </p>
 
 
@@ -253,7 +253,7 @@ identifier; instead, consult MITRE (issue is complex)
 		  <ul>
 		  <li><b>No:</b> Continue to ADT1.</li>
 		  <li><b>Yes:</b> See the Appendix on
-		  <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#mult">"Handling More Than 2 Issues At Once"</a>
+		  <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#mult">"Handling More Than 2 Issues At Once"</a>
 		  </li>
 		  </ul>
 		</td>
