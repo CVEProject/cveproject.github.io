@@ -216,38 +216,37 @@ identifier; instead, consult MITRE (issue is complex)
 </li></ul>
 
 <p>
-A separate <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application-examples.html">document</a> lists
-multiple examples of this decision tree.
+	A separate <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application-examples.html">document</a> lists
+	multiple examples of this decision tree.
 </p>
 
 
 <p>
-<i></i>
+	<i></i>
 </p>
 
 
-<ul><i>
-<li>to do: handling exploits with multiple vuln chains</li>
-</i></ul>
+<ul>
+	<i>
+		<li>to do: handling exploits with multiple vuln chains</li>
+	</i>
+</ul>
 
 <i></i>
 
-<p>
-</p>
+<p></p>
 
 
 <p>
 
 <table border="5" cellpadding="2" cellspacing="2">
 <tbody>
-
 	<tr>
 		<td bgcolor="E0E0E0"><b>*</b></td>
 		<td bgcolor="E0E0E0">
 		Are there more than 2 bugs, issues, or attack vectors?
 		</td>
 	</tr>
-
 	<tr>
 		<td></td>
 		<td>
@@ -259,14 +258,12 @@ multiple examples of this decision tree.
 		  </ul>
 		</td>
 	</tr>
-
 	<tr>
 		<td bgcolor="E0E0E0"><b>ADT1:</b></td>
 		<td bgcolor="E0E0E0"><i>(By codebase)</i><br>
-		Does X affect at least one different product than Y?
+			Does X affect at least one different product than Y?
 		</td>
 	</tr>
-
 	<tr>
 		<td></td>
 		<td>
@@ -371,61 +368,97 @@ multiple examples of this decision tree.
 
 
 
-<tr><td bgcolor="E0E0E0"><b>ADT2:</b>
-</td><td bgcolor="E0E0E0">
-<i>(By bug type)</i><br>
-Are X and Y different bug types? (e.g. buffer overflow, SQL injection,
-NULL pointer dereference?)
-See
-<a href="http://cve.mitre.org/cve/editorial_policies/cd_abstraction.html#identifying_different_bug_types">
-Guidance on Identifying Different Bug Types</a>
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT2:</b></td>
+		<td bgcolor="E0E0E0"><i>(By bug type)</i><br>
+			Are X and Y different bug types? (e.g. buffer overflow, SQL injection,
+			NULL pointer dereference?)
+			See
+			<a href="http://cve.mitre.org/cve/editorial_policies/cd_abstraction.html#identifying_different_bug_types">
+			Guidance on Identifying Different Bug Types</a>
+		</td>
+	</tr>
 
-</td></tr><tr><td></td><td>
-  <ul>
-  <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-  </li><li><b>No:</b>  Continue to ADT3
-  </li><li><b>Not sure:</b>
-     <table border="2" cellpadding="2" cellspacing="2">
-     <tbody><tr><td bgcolor="E0E0E0"><b>ADT2.1:</b>
-	 </td><td bgcolor="E0E0E0">
-	 Are they both "unspecified", i.e., no details are available about
-	 what programming error caused the bugs?
-     </td></tr><tr><td></td><td>
-	     <ul>
-		 <li><b>Yes:</b> Jump to <u>ADT3</u>
-		 </li><li><b>No:</b> Continue to ADT2.2
-		 </li><li><b>Not Sure:</b> This option is not applicable
-		 for this question.  Decide "Yes" or "No" based on the
-		 information that you currently have available to you.
-		 </li></ul>
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT2.2:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Is X's bug type known, but Y's bug type is unspecified?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		Continue to ADT2.3.
-		</li><li><b>No:</b> Continue to ADT2.3
-		 </li><li><b>Not Sure:</b> This option is not applicable
-		 for this question.  Decide "Yes" or "No" based on the
-		 information that you currently have available to you.
-		</li></ul>
+	<tr>
+		<td></td>
 
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT2.3:</b>
-	  </td><td bgcolor="E0E0E0">
+		<td>
+			<ul>
+			<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.</li>
+			<li><b>No:</b>  Continue to ADT3</li>
+			<li><b>Not sure:</b>
 
-	  Does X appear in a protection mechanism that tries to prevent
-	  bug type T, and Y is of type T, but Y has no protection
-	  mechanism at all?	 <font color="FF0000">(Needs Work)</font>
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font>
-		them.  Continue to ADT3
-		</li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-		</li></ul>
-	</td></tr></tbody></table>
-  </li></ul>
+				<table border="2" cellpadding="2" cellspacing="2">
+				<tbody>
 
+					<tr>
+					 <td bgcolor="E0E0E0"><b>ADT2.1:</b></td>
+					 <td bgcolor="E0E0E0">
+						 Are they both "unspecified", i.e., no details are available about
+						 what programming error caused the bugs?
+					 </td>
+					</tr>
+
+					<tr>
+					 <td></td>
+					 <td>
+						 <ul>
+							 <li><b>Yes:</b> Jump to <u>ADT3</u></li>
+							 <li><b>No:</b> Continue to ADT2.2</li>
+							 <li><b>Not Sure:</b> This option is not applicable
+								 for this question.  Decide "Yes" or "No" based on the
+								 information that you currently have available to you.
+							 </li>
+						 </ul>
+					  </td>
+					</tr>
+
+					<tr>
+						<td bgcolor="E0E0E0"><b>ADT2.2:</b></td>
+						<td bgcolor="E0E0E0">
+							Is X's bug type known, but Y's bug type is unspecified?
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<ul>
+								<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+									Continue to ADT2.3.
+								</li>
+								<li><b>No:</b> Continue to ADT2.3</li>
+								<li><b>Not Sure:</b> This option is not applicable
+									for this question.  Decide "Yes" or "No" based on the
+									information that you currently have available to you.
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="E0E0E0"><b>ADT2.3:</b></td>
+						<td bgcolor="E0E0E0">
+							Does X appear in a protection mechanism that tries to prevent
+							bug type T, and Y is of type T, but Y has no protection
+							mechanism at all?<font color="FF0000">(Needs Work)</font>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<ul>
+								<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font>
+									them.  Continue to ADT3
+								</li>
+								<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+							</ul>
+						</td>
+					</tr>
+
+				</tbody>
+				</table>
+
+			</li>
+			</ul>
 		</td>
 	</tr>
 	
@@ -434,226 +467,286 @@ Guidance on Identifying Different Bug Types</a>
 		<td><i>Relevant content decisions: AB1</i></td>
 	</tr>
 
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT3:</b></td>
+		<td bgcolor="E0E0E0"><i>(By version)</i><br>
+			Does X affect a version that Y does not?  (e.g. X affects 1.2 and 3.4,
+			but Y only affects 3.4.  Consider "1.x" and "1.2" as different.)
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.</li>
+				<li><b>No:</b>  Continue to ADT4</li>
+				<li><b>Not sure:</b>
+	  
+					<table border="2" cellpadding="2" cellspacing="2">
+					<tbody>
+	 
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.1:</b></td>
+							<td bgcolor="E0E0E0">
+								Is an official vendor patch available for X, but Y does not have
+								an official patch (or Y's patch status is unknown)?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+								 <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+								 Continue to ADT3.2 </li>
+								 <li><b>No:</b> Continue to ADT3.2</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.2:</b></td>
+							<td bgcolor="E0E0E0">
+								Does X affect a general range (such as "4.x") and Y's version is
+								more specific (such as "4.1")?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+									<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+									Continue to ADT3.3
+									</li>
+									<li><b>No:</b> Continue to ADT3.3</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.3:</b></td>
+							<td bgcolor="E0E0E0">
+								Does X's minimum affected version differ from Y's minimum
+								affected version, but the maximum versions are the same?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+									<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+										Continue to ADT3.4
+									</li>
+									<li><b>No:</b> Continue to ADT3.4</li>
+									<li><b>Not sure:</b> <font color="FF0000"><b>MERGE</b></font> them</li>
+								</ul>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.4:</b></td>
+							<td bgcolor="E0E0E0">
+								Is X the result of an incomplete fix for Y, or X is a new
+								vulnerability that was introduced by a fix for Y?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+									<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+										Continue to ADT4
+									</li>
+									<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE.
+										Continue to ADT4
+									</li>
+								</ul>
+							</td>
+						</tr>
+	
+	
+					</tbody>
+					</table>
+	
+				</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td><i>Relevant content decisions: AB2</i></td>
+	</tr>
+
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT4:</b></td>
+		<td bgcolor="E0E0E0">
+			<i>(Address Common SPLIT Assumptions)</i><br>
+				At this stage, X and Y are the same bug type, affect the same
+				versions, and affect the same products.
+			<p>
+				Do X and Y have any of the following characteristics?
+			</p>
+			<ul>
+				<li>X appears in a different DLL, library, program, or application
+				than Y (e.g. X affects LIB1.DLL and Y affects LIB2.DLL)
+				</li>
+				<li>X has a more serious impact than Y (e.g. code execution as root
+				versus leak of system pathname)
+				</li>
+				<li>X takes a different input parameter/argument than Y (e.g. SQL
+				injection in both the "user" and "password" parameters)
+				</li>
+				<li>X has a different "access vector" than Y (e.g. local, remote,
+				"adjacent network," physical, etc.)
+				</li>
+				<li>X requires stronger authentication than Y.</li>
+				<li>X can be exploited by a certain user that Y can not (e.g. a guest
+				user vs. an admin)
+				</li>
+				<li>X has a different CVSS score than Y (e.g. due to different access
+				vector, attack complexity, or CIA impact)
+				</li>
+				<li>X uses a different service, port, or protocol than Y (e.g., UDP
+				versus TCP)
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
+					These characteristics are irrelevant for CVE.  Continue to
+					ADT5
+				</li>
+				<li><b>No:</b> Continue to ADT5</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td><i>Relevant content decisions: AB3, SF-LOC, SF-EXEC</i></td>
+	</tr>
+
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT5:</b></td>
+		<td bgcolor="E0E0E0">
+			<p>
+				<i>(By researcher)</i><br>
+					Is X reported by a different person from a different organization (or
+					other external party) than Y?
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+				Continue to ADT6</li>
+				<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT6:</b></td>
+		<td bgcolor="E0E0E0">
+			<p>
+				<i>(Fall-Through Merge)</i><br>
+				At this stage, you have multiple closely-related vulnerabilities,
+				issues, or attack vectors.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><font color="FF0000"><b>MERGE</b></font> them.</li>
+			</ul>
+		</td>
+	</tr>
+
 </tbody>
 </table>
 
-
-<table border="5" cellpadding="2" cellspacing="2">
-<tbody>
-
-	<tr>
-	<td bgcolor="E0E0E0"><b>ADT3:</b></td>
-	<td bgcolor="E0E0E0"><i>(By version)</i><br>
-	Does X affect a version that Y does not?  (e.g. X affects 1.2 and 3.4,
-	but Y only affects 3.4.  Consider "1.x" and "1.2" as different.)
-	</td>
-	</tr>
-	<tr>
-	<td></td>
-	<td>
-  <ul>
-  <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-  </li><li><b>No:</b>  Continue to ADT4
-  </li><li><b>Not sure:</b>
-     <table border="2" cellpadding="2" cellspacing="2">
-     <tbody><tr><td bgcolor="E0E0E0"><b>ADT3.1:</b>
-	 </td><td bgcolor="E0E0E0">
-
-	 Is an official vendor patch available for X, but Y does not have
-     an official patch (or Y's patch status is unknown)?
-
-     </td></tr><tr><td></td><td>
-	     <ul>
-		 <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		 Continue to ADT3.2
-		 </li><li><b>No:</b> Continue to ADT3.2
-		 </li></ul>
-
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3.2:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Does X affect a general range (such as "4.x") and Y's version is
-	  more specific (such as "4.1")?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		Continue to ADT3.3
-		</li><li><b>No:</b> Continue to ADT3.3
-		</li></ul>
-
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3.3:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Does X's minimum affected version differ from Y's minimum
-	  affected version, but the maximum versions are the same?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them/
-		Continue to ADT3.4
-		</li><li><b>No:</b> Continue to ADT3.4
-		</li><li><b>Not sure:</b> <font color="FF0000"><b>MERGE</b></font> them
-		</li></ul>
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3.4:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Is X the result of an incomplete fix for Y, or X is a new
-	  vulnerability that was introduced by a fix for Y?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		Continue to ADT4
-		</li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE.
-		Continue to ADT4
-		</li></ul>
-	</td></tr></tbody></table>
-  </li></ul>
-
-
-</td></tr><tr><td></td><td>
-<i>Relevant content decisions: AB2</i>
-
-
-
-
-
-
-
-
-
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT4:</b>
-</td><td bgcolor="E0E0E0">
-<i>(Address Common SPLIT Assumptions)</i><br>
-At this stage, X and Y are the same bug type, affect the same
-versions, and affect the same products.
-
-<p>
-
-Do X and Y have any of the following characteristics?
-
-</p><ul>
-
-<li>X appears in a different DLL, library, program, or application
-than Y (e.g. X affects LIB1.DLL and Y affects LIB2.DLL)
-
-</li><li>X has a more serious impact than Y (e.g. code execution as root
-versus leak of system pathname)
-
-</li><li>X takes a different input parameter/argument than Y (e.g. SQL
-injection in both the "user" and "password" parameters)
-
-</li><li>X has a different "access vector" than Y (e.g. local, remote,
-"adjacent network," physical, etc.)
-
-</li><li>X requires stronger authentication than Y.
-
-</li><li>X can be exploited by a certain user that Y can not (e.g. a guest
-user vs. an admin)
-
-</li><li>X has a different CVSS score than Y (e.g. due to different access
-vector, attack complexity, or CIA impact)
-
-</li><li>X uses a different service, port, or protocol than Y (e.g., UDP
-versus TCP)
-
-</li></ul>
-
-  </td></tr><tr><td></td><td>
-    <ul>
-	<li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
-	These characteristics are irrelevant for CVE.  Continue to
-	ADT5
-	</li><li><b>No:</b> Continue to ADT5
-	</li></ul>
-
-
-</td></tr><tr><td></td><td>
-<i>Relevant content decisions: AB3, SF-LOC, SF-EXEC</i>
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT5:</b>
-</td><td bgcolor="E0E0E0">
-
-<p>
-<i>(By researcher)</i><br>
-
-Is X reported by a different person from a different organization (or
-other external party) than Y?
-
-  </p></td></tr><tr><td></td><td>
-    <ul>
-	<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-	Continue to ADT6
-	</li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-	</li></ul>
-
-
-
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT6:</b>
-</td><td bgcolor="E0E0E0">
-
-<p>
-<i>(Fall-Through Merge)</i><br>
-
-At this stage, you have multiple closely-related vulnerabilities,
-issues, or attack vectors.
-
-</p></td></tr><tr><td></td><td>
-
- <ul>
- <li><font color="FF0000"><b>MERGE</b></font> them.
- </li></ul>
-
-</td></tr></tbody></table>
-
 <a name="mult"></a>
-</p><h1>Appendix: Handling More Than 2 Issues At Once</h1>
+
+</p>
+
+
+
+
+
+<h1>Appendix: Handling More Than 2 Issues At Once</h1>
 
 When assigning CVEs for groups of more than 2 issues, use the
 following basic process:
 
 <p>
 
-
 <table border="2" cellpadding="2" cellspacing="2">
-<tbody><tr><td bgcolor="E0E0E0"><b>MULT1:</b>
-</td><td>
-<ul>
-<li>Remove any issues that should be excluded (see INCLUSION decision
-tree).
-</li></ul>
-</td></tr><tr><td bgcolor="E0E0E0"><b>MULT2:</b>
-</td><td>
-<ul>
-<li> Group the issues based on different bug types and affected
-    versions.  See questions 2 and 3 in the ABSTRACTION guidelines.
-</li></ul>
+<tbody>
+	<tr>
+		<td bgcolor="E0E0E0"><b>MULT1:</b></td>
+		<td>
+			<ul>
+				<li>Remove any issues that should be excluded (see INCLUSION decision
+				tree).
+				</li>
+			</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor="E0E0E0"><b>MULT2:</b></td>
+		<td>
+			<ul>
+				<li> Group the issues based on different bug types and affected
+					versions.  See questions 2 and 3 in the ABSTRACTION guidelines.
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="E0E0E0"><b>MULT3:</b></td>
+		<td>
+			<ul>
+				<li>For each remaining group with more than one issue, apply the rest of
+				the ABSTRACTION guidelines to each issue within each group.
+				</li>
+			</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor="E0E0E0"><b>MULT4:</b></td>
+		<td>
+			<ul>
+				<li><font color="FF0000"><b>SPLIT</b></font> each group from the other
+				groups.
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="E0E0E0"><b>MULT5:</b></td>
+		<td>
+			<ul>
+				<li><font color="FF0000"><b>MERGE</b></font> the issues that are within
+				a multi-issue group.
+				</li>
+			</ul>
+		</td>
+	</tr>
+</tbody>
+</table>
 
-</td></tr><tr><td bgcolor="E0E0E0"><b>MULT3:</b>
-</td><td>
-
-<ul>
-<li>For each remaining group with more than one issue, apply the rest of
-the ABSTRACTION guidelines to each issue within each group.
-</li></ul>
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>MULT4:</b>
-</td><td>
-
-<ul>
-<li><font color="FF0000"><b>SPLIT</b></font> each group from the other
-groups.
-</li></ul>
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>MULT5:</b>
-</td><td>
-
-<ul>
-<li><font color="FF0000"><b>MERGE</b></font> the issues that are within
-a multi-issue group.
-</li></ul>
-
-</td></tr></tbody></table>
+</p>
 
 
-</p><h3>Example Table</h3>
+<h3>Example Table</h3>
 
 For example, suppose you have issues V1, V2, V3, V4, and V5, which
 have different affected versions and bug types.  Your table might look
@@ -662,28 +755,35 @@ something like:
 <p>
 
 <table border="2" cellpadding="2" cellspacing="2">
-<tbody><tr><th>Bug type</th><th>Version</th><th>Issues
-</th></tr><tr>
-<td>XSS</td><td>1.0</td><td>V1
-</td></tr><tr>
-<td>XSS</td><td>1.0 and 2.0</td><td>V2, V3, V4
-</td></tr><tr>
-<td>SQL injection</td><td>2.0</td><td>V5
-</td></tr></tbody></table>
+<tbody>
+	<tr>
+		<th>Bug type</th><th>Version</th><th>Issues</th>
+	</tr>
+	<tr>
+		<td>XSS</td><td>1.0</td><td>V1</td>
+	</tr>
+	<tr>
+		<td>XSS</td><td>1.0 and 2.0</td><td>V2, V3, V4</td>
+	</tr>
+	<tr>
+		<td>SQL injection</td><td>2.0</td><td>V5</td>
+	</tr>
+</tbody>
+</table>
 
-</p><p>
+</p>
 
-One multi-issue group remains: V2/V3/V4.  Apply the ABSTRACTION CDs to
-that group.
+<p>
+	One multi-issue group remains: V2/V3/V4.  Apply the ABSTRACTION CDs to
+	that group.
+</p>
 
-</p><p>
+<p>
+	V1 and V5 would be split from this group.
+	<a name="largescale"></a>
+</p>
 
-V1 and V5 would be split from this group.
-
-
-
-<a name="largescale"></a>
-</p><h1>Appendix: Large-Scale Disclosures</h1>
+<h1>Appendix: Large-Scale Disclosures</h1>
 
 
 When dealing with large-scale problems, use the following item in
@@ -692,162 +792,192 @@ addition to the regular decision tree.
 <p>
 
 <table border="5" cellpadding="2" cellspacing="2">
-    <tbody><tr><td bgcolor="E0E0E0"><b>LP1:</b>
-	</td><td bgcolor="E0E0E0">
-
-	Is it an implementation problem where many products
-    accidentally make the same mistake?  (examples: certificates, FTP
-    user overflows)
-
-	</td></tr><tr><td></td><td>
-    <ul>
-	<li><b>No:</b> See next question.
-	</li><li><b>Yes:</b>
-
-	  <table border="2" cellpadding="2" cellspacing="2">
-	      <tbody><tr><td bgcolor="E0E0E0"><b>LP1.1:</b>
-		  </td><td bgcolor="E0E0E0">
-		  Do you have solid knowledge of which vendors and products
-		  are affected, and their codebase relationships?
-		  </td></tr><tr><td></td><td>
-		  <ul>
-		  <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> based
-		  on related vendors/products, then apply other CDs for bug
-		  type and affected versions
-		  </li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-		  </li><li><b>Not sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-	  </li></ul></td></tr></tbody></table>
-  	</li></ul>
-
-	</td></tr><tr><td bgcolor="E0E0E0"><b>LP2:</b>
-    </td><td bgcolor="E0E0E0">
-
-	Is it a fundamental problem with the design or protocol?  That
-    is, does every implementation have this problem because it must
-    conform to the design/protocol?
-
-
-	</td></tr><tr><td></td><td>
-    <ul>
-	<li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them
-	</li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-	</li><li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-	</li></ul>
+<tbody>
+	<tr>
+		<td bgcolor="E0E0E0"><b>LP1:</b></td>
+		<td bgcolor="E0E0E0">
+		Is it an implementation problem where many products
+		accidentally make the same mistake?  (examples: certificates, FTP
+		user overflows)
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><b>No:</b> See next question.</li>
+				<li><b>Yes:</b>
+				
+				<table border="2" cellpadding="2" cellspacing="2">
+				<tbody>
+					<tr>
+						<td bgcolor="E0E0E0"><b>LP1.1:</b></td>
+						<td bgcolor="E0E0E0">
+							Do you have solid knowledge of which vendors and products
+							are affected, and their codebase relationships?
+						</td>
+					  </tr>
+					  <tr>
+						<td></td>
+						<td>
+							<ul>
+								<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> based
+									on related vendors/products, then apply other CDs for bug
+									type and affected versions
+								</li>
+								<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+								<li><b>Not sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+				</table>
+				
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="E0E0E0"><b>LP2:</b></td>
+		<td bgcolor="E0E0E0">
+			Is it a fundamental problem with the design or protocol?  That
+			is, does every implementation have this problem because it must
+			conform to the design/protocol?
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them</li>
+				<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+				<li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+			</ul>
 	
-</td></tr></tbody></table>
+		</td>
+	</tr>
+</tbody>
+</table>
 
 
-<a name="complexAB">
-</a></p><h1><a name="complexAB">Complex Abstraction Scenarios</a></h1><a name="complexAB">
-</a>
+<a name="complexAB"></a>
+
+</p>
+
+<h1><a name="complexAB">Complex Abstraction Scenarios</a></h1>
+
+<a name="complexAB"></a>
 
 <h2>Vulnerability and Attack Chains</h2>
 
-<p>
+<p></p>
 
-</p><ul>
+<ul>
+	<li>When dealing with multiple issues that are chained together, a
+	general rule to use is: "if one issue is fixed, then does it
+	automatically fix the second issue?"  If so, then the first issue is
+	probably the "root cause," and only one CVE would be needed.  But if
+	the second issue could still exist even after the first is fixed,
+	then likely both of them need separate issues.
+	</li>
 
-  <li>When dealing with multiple issues that are chained together, a
-  general rule to use is: "if one issue is fixed, then does it
-  automatically fix the second issue?"  If so, then the first issue is
-  probably the "root cause," and only one CVE would be needed.  But if
-  the second issue could still exist even after the first is fixed,
-  then likely both of them need separate issues.
+	<li>If bug X creates a condition that introduces bug Y - e.g., an
+	integer overflow that leads to a buffer overflow - then you need to
+	consider whether X, on its own, would be a vulnerability.  In the
+	case of an integer overflow leading to a buffer overflow, the
+	integer overflow would not be a problem on its own; it is simply an
+	incorrect calculation.
+	</li>
 
-  </li><li>If bug X creates a condition that introduces bug Y - e.g., an
-  integer overflow that leads to a buffer overflow - then you need to
-  consider whether X, on its own, would be a vulnerability.  In the
-  case of an integer overflow leading to a buffer overflow, the
-  integer overflow would not be a problem on its own; it is simply an
-  incorrect calculation.
-
-  </li><li>Consider issues X and Y.  Suppose the attacker can exploit X in
-  order to gain privilege P.  Then, using P, the attacker can exploit
-  Y.  In this case, the primary question is whether a valid user with
-  privilege P already has the capability to perform Y.  For example,
-  consider a web application in which any remote, unauthenticated
-  attacker can call an administrator function that modifies web pages;
-  the attacker then modifies the web page to insert an HTML injection
-  (XSS) attack.  Here, an administrator is already allowed to modify
-  HTML; the admin is already have the legitimate privileges to insert
-  arbitrary HTML or Javascript code into the page, so to an admin
-  there is no extra benefit to attempting an XSS.  As a result, only
-  one CVE would be assigned - to the web application's lack of access
-  control to the admin function - and the XSS would be "resultant"
-  from that.
-
-
-</li></ul>
+	<li>Consider issues X and Y.  Suppose the attacker can exploit X in
+	order to gain privilege P.  Then, using P, the attacker can exploit
+	Y.  In this case, the primary question is whether a valid user with
+	privilege P already has the capability to perform Y.  For example,
+	consider a web application in which any remote, unauthenticated
+	attacker can call an administrator function that modifies web pages;
+	the attacker then modifies the web page to insert an HTML injection
+	(XSS) attack.  Here, an administrator is already allowed to modify
+	HTML; the admin is already have the legitimate privileges to insert
+	arbitrary HTML or Javascript code into the page, so to an admin
+	there is no extra benefit to attempting an XSS.  As a result, only
+	one CVE would be assigned - to the web application's lack of access
+	control to the admin function - and the XSS would be "resultant"
+	from that.
+	</li>
+</ul>
 
 <h2>Variants, Incomplete Fixes, and Regression Errors</h2>
 
 <p>
+	<b>Variants.</b>  Generally, if an issue X is
+	fixed in one software version, but a new variant, Y, is discovered
+	that affects the new version, these are typically SPLIT.  The reason
+	is that X and Y affect different versions.
+</p>
 
-<b>Variants.</b>  Generally, if an issue X is
-fixed in one software version, but a new variant, Y, is discovered
-that affects the new version, these are typically SPLIT.  The reason
-is that X and Y affect different versions.
+<p>
+	<b>Regression Errors.</b>  Regression errors are
+	generally SPLIT.  For the purpose of CVE, a specific issue is called a
+	regression error when:
+</p>
 
-</p><p>
-
-<b>Regression Errors.</b>  Regression errors are
-generally SPLIT.  For the purpose of CVE, a specific issue is called a
-regression error when:
-</p><ul>
-<li> the issue appears in a version (e.g., 3.1).
-</li><li> the issue is fixed in a subsequent version (e.g., 3.2).
-</li><li> a CVE ID is assigned for this issue.
-</li><li> at a later time, the exact same issue re-appears in a later version
-(e.g., 3.4).
-  </li></ul>
+<ul>
+	<li> the issue appears in a version (e.g., 3.1).
+	</li><li> the issue is fixed in a subsequent version (e.g., 3.2).
+	</li><li> a CVE ID is assigned for this issue.
+	</li><li> at a later time, the exact same issue re-appears in a later version
+	(e.g., 3.4).
+	</li>
+</ul>
 
 In this case, a separate CVE ID would then be assigned.
 
 <p>
-  
-The rationale is that since there was a fixed version between 3.1 and
-3.4, CVE consumers and CVE-compatible tools have likely associated the
-CVE with only version 3.1, applied patches that are only associated
-with version 3.1, etc.  So, the assignment of a separate CVE ID for
-the issue in version 3.4 acts as a "signal" that there is a different
-issue that requires a distinct action.
-</p><p>
+	The rationale is that since there was a fixed version between 3.1 and
+	3.4, CVE consumers and CVE-compatible tools have likely associated the
+	CVE with only version 3.1, applied patches that are only associated
+	with version 3.1, etc.  So, the assignment of a separate CVE ID for
+	the issue in version 3.4 acts as a "signal" that there is a different
+	issue that requires a distinct action.
+</p>
 
-<b>Later identification of additional affected versions.</b>  When an
-issue is published with one set of versions, and later it is reported
-that other versions are also affected, this typically will result in a
-MERGE (with a CVE description update), except for regression errors as
-outlined previously.
+<p>
+	<b>Later identification of additional affected versions.</b>  When an
+	issue is published with one set of versions, and later it is reported
+	that other versions are also affected, this typically will result in a
+	MERGE (with a CVE description update), except for regression errors as
+	outlined previously.
+</p>
 
-</p><p>
+<p>
+	Here are a few common scenarios in which additional versions might be
+	announced at a later time:
+</p>
 
-Here are a few common scenarios in which additional versions might be
-announced at a later time:
+<ul>
+	<li>if the vendor is maintaining multiple ranges of versions
+	simultaneously, such as a legacy major version 2.x that is still
+	being actively maintained and a modern major version 3.x, the vendor
+	might announce the vulnerability before all version ranges have been
+	patched.  Other affected major versions might have their fixes
+	published days, weeks, or months later.  This is not considered a
+	regression error, but instead, a clarification of the set of
+	affected versions for the original bug; as long as the same bug is
+	being patched, a new CVE would not need to be assigned for these
+	additional versions.
+	</li>
 
-</p><ul>
-
-  <li>if the vendor is maintaining multiple ranges of versions
-  simultaneously, such as a legacy major version 2.x that is still
-  being actively maintained and a modern major version 3.x, the vendor
-  might announce the vulnerability before all version ranges have been
-  patched.  Other affected major versions might have their fixes
-  published days, weeks, or months later.  This is not considered a
-  regression error, but instead, a clarification of the set of
-  affected versions for the original bug; as long as the same bug is
-  being patched, a new CVE would not need to be assigned for these
-  additional versions.
-
-  </li><li>A researcher who does not coordinate closely with a vendor might
-  publicize a vulnerability with incomplete version information,
-  e.g. if they were analyzing an older version of the software.
-  Later, the vendor (or another researcher) might publish that other,
-  later versions are also affected.  Typically, no new CVE would be
-  necessary, as long as there are not any apparent fixes in between
-  the original version and the more recently-announced version (which
-  would suggest a regression error); ideally, the CVE description
-  would be updated with the new version information.
-
-</li></ul>
+	<li>A researcher who does not coordinate closely with a vendor might
+	publicize a vulnerability with incomplete version information,
+	e.g. if they were analyzing an older version of the software.
+	Later, the vendor (or another researcher) might publish that other,
+	later versions are also affected.  Typically, no new CVE would be
+	necessary, as long as there are not any apparent fixes in between
+	the original version and the more recently-announced version (which
+	would suggest a regression error); ideally, the CVE description
+	would be updated with the new version information.
+	</li>
+</ul>
 
   
 
