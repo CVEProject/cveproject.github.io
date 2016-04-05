@@ -1136,10 +1136,11 @@ check with MITRE.  Search the CVE or NVD web sites to be sure.
 
 <a name="examples"></a>
 
-</p><h1>CVE COntent Decision Examples</h1>
+</p><h1>CVE Content Decision Examples</h1>
 
-See <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application-examples.html">this document</a> which
+See <a href="">this document</a> which
 lists multiple examples for CD application.
+(note: Link removed pending updates)
 
 
 <a name="changelog"></a>
