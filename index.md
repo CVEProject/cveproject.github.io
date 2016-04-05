@@ -8,7 +8,7 @@ layout: page
 This page will include links to documentation as it is added to this site:
 
 * Markdown Rendered [CVE Content Decisions: Application Guidance for CNAs](https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md)
-* Markdown Source   [CVE Content Decisions: Application Guidance for CNAs](application_guidance_for_cnas.html)
+* Markdown as HTML  [CVE Content Decisions: Application Guidance for CNAs](application_guidance_for_cnas.html)
 
 * Item One
 * Item Two
