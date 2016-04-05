@@ -62,24 +62,24 @@ CVE Abstraction Content Decisions: Rationale and Application
 <li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#inclusion">INCLUSION Decision Tree</a> - how to
 determine if an issue should receive a CVE
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
 numbers must be assigned, and how related issues should be grouped
 together
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#mult">Appendix: Handling More Than 2 Issues At Once</a>
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#mult">Appendix: Handling More Than 2 Issues At Once</a>
 - when you might be dealing with more than 2 issues
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#largescale">Appendix: Large-Scale Disclosures</a> - when many
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#largescale">Appendix: Large-Scale Disclosures</a> - when many
 products and vendors are affected
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#complexAB">Complex Abstraction Scenarios</a> - 
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#complexAB">Complex Abstraction Scenarios</a> - 
 
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#checklist">Final Pre-Disclosure Checklist for CVE</a> - 
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#checklist">Final Pre-Disclosure Checklist for CVE</a> - 
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#FAQ">Frequently Asked Questions (FAQ)</a>
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#FAQ">Frequently Asked Questions (FAQ)</a>
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#examples">Examples</a>
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#examples">Examples</a>
 
 
 </li></ul>
@@ -216,8 +216,8 @@ identifier; instead, consult MITRE (issue is complex)
 </li></ul>
 
 <p>
-	A separate <a href="">document</a> lists multiple examples of this decision tree.
-	(note: Link removed pending doc updates)
+	A separate <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md">document</a> lists multiple examples of this decision tree.
+	(note: Link disabled pending document updates)
 </p>
 
 
@@ -253,7 +253,7 @@ identifier; instead, consult MITRE (issue is complex)
 		  <ul>
 		  <li><b>No:</b> Continue to ADT1.</li>
 		  <li><b>Yes:</b> See the Appendix on
-		  <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.html#mult">"Handling More Than 2 Issues At Once"</a>
+		  <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#mult">"Handling More Than 2 Issues At Once"</a>
 		  </li>
 		  </ul>
 		</td>
@@ -315,9 +315,9 @@ identifier; instead, consult MITRE (issue is complex)
 				<tr>
 					<td bgcolor="E0E0E0"><b>ADT1.2:</b></td>
 					<td bgcolor="E0E0E0">
-					Do the two products share the same codebase in which X and Y
-					appear, such as a library or executable, or third-party software
-					that is used by many vendors?
+						Do the two products share the same codebase in which X and Y
+						appear, such as a library or executable, or third-party software
+						that is used by many vendors?
 					</td>
 				</tr>
 				
@@ -347,7 +347,7 @@ identifier; instead, consult MITRE (issue is complex)
 					<td>
 					  <ul>
 						  <li><b>No:</b> Continue to ADT2</li>
-						  <li><b>Yes:</b> Jump to special appendix on <a href="http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html#largescale">Large-Scale Disclosures</a>.</li>
+						  <li><b>Yes:</b> Jump to special appendix on <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md#largescale">Large-Scale Disclosures</a>.</li>
 						  <li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
 					  </ul> 
 					</td>
@@ -1138,8 +1138,8 @@ check with MITRE.  Search the CVE or NVD web sites to be sure.
 
 </p><h1>CVE Content Decision Examples</h1>
 
-See <a href="">this document</a> which lists multiple examples for CD application.
-(note: Link removed pending updates)
+See <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md">this document</a> which lists multiple examples for CD application.
+(note: Link disabled pending document updates)
 
 
 <a name="changelog"></a>
