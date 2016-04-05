@@ -3,13 +3,6 @@ title: "CVE Content Decisions: Application Guidance for CNAs"
 layout: page
 ---
 
-
-<!-- saved from url=(0072)http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>CVE Content Decisions: Application Guidance for CNAs</title>
-</head><body bgcolor="FFFFFF">
-
-<h1>CVE Content Decisions: Application Guidance for CNAs</h1>
-
 <i>
 
 Last Modified: November 20, 2014<br>
@@ -64,27 +57,27 @@ CVE Abstraction Content Decisions: Rationale and Application
 </p><h1>Index</h1>
 
 <ul>
-<li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#inclusion">INCLUSION Decision Tree</a> - how to
+<li><a href="#inclusion">INCLUSION Decision Tree</a> - how to
 determine if an issue should receive a CVE
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
+</li><li><a href="#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
 numbers must be assigned, and how related issues should be grouped
 together
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#mult">Appendix: Handling More Than 2 Issues At Once</a>
+</li><li><a href="#mult">Appendix: Handling More Than 2 Issues At Once</a>
 - when you might be dealing with more than 2 issues
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#largescale">Appendix: Large-Scale Disclosures</a> - when many
+</li><li><a href="#largescale">Appendix: Large-Scale Disclosures</a> - when many
 products and vendors are affected
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#complexAB">Complex Abstraction Scenarios</a> - 
+</li><li><a href="#complexAB">Complex Abstraction Scenarios</a> - 
 
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#checklist">Final Pre-Disclosure Checklist for CVE</a> - 
+</li><li><a href="#checklist">Final Pre-Disclosure Checklist for CVE</a> - 
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#FAQ">Frequently Asked Questions (FAQ)</a>
+</li><li><a href="#FAQ">Frequently Asked Questions (FAQ)</a>
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#examples">Examples</a>
+</li><li><a href="#examples">Examples</a>
 
 
 </li></ul>
@@ -258,7 +251,7 @@ identifier; instead, consult MITRE (issue is complex)
 		  <ul>
 		  <li><b>No:</b> Continue to ADT1.</li>
 		  <li><b>Yes:</b> See the Appendix on
-		  <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#mult">"Handling More Than 2 Issues At Once"</a>
+		  <a href="#mult">"Handling More Than 2 Issues At Once"</a>
 		  </li>
 		  </ul>
 		</td>
@@ -352,7 +345,7 @@ identifier; instead, consult MITRE (issue is complex)
 					<td>
 					  <ul>
 						  <li><b>No:</b> Continue to ADT2</li>
-						  <li><b>Yes:</b> Jump to special appendix on <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#largescale">Large-Scale Disclosures</a>.</li>
+						  <li><b>Yes:</b> Jump to special appendix on <a href="#largescale">Large-Scale Disclosures</a>.</li>
 						  <li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
 					  </ul> 
 					</td>
@@ -1183,5 +1176,3 @@ See <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidan
 	</tr>
 </tbody>
 </table>
-
-</body></html>
