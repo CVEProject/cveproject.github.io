@@ -472,6 +472,9 @@ identifier; instead, consult MITRE (issue is complex)
 </table>
 
 
+
+
+
 <table border="5" cellpadding="2" cellspacing="2">
 <tbody>
 
@@ -540,100 +543,103 @@ identifier; instead, consult MITRE (issue is complex)
   </li></ul>
 
 
-</td></tr><tr><td></td><td>
-<i>Relevant content decisions: AB2</i>
-
-
-
-
-
-
-
-
-
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT4:</b>
-</td><td bgcolor="E0E0E0">
-<i>(Address Common SPLIT Assumptions)</i><br>
-At this stage, X and Y are the same bug type, affect the same
-versions, and affect the same products.
-
-<p>
-
-Do X and Y have any of the following characteristics?
-
-</p><ul>
-
-<li>X appears in a different DLL, library, program, or application
-than Y (e.g. X affects LIB1.DLL and Y affects LIB2.DLL)
-
-</li><li>X has a more serious impact than Y (e.g. code execution as root
-versus leak of system pathname)
-
-</li><li>X takes a different input parameter/argument than Y (e.g. SQL
-injection in both the "user" and "password" parameters)
-
-</li><li>X has a different "access vector" than Y (e.g. local, remote,
-"adjacent network," physical, etc.)
-
-</li><li>X requires stronger authentication than Y.
-
-</li><li>X can be exploited by a certain user that Y can not (e.g. a guest
-user vs. an admin)
-
-</li><li>X has a different CVSS score than Y (e.g. due to different access
-vector, attack complexity, or CIA impact)
-
-</li><li>X uses a different service, port, or protocol than Y (e.g., UDP
-versus TCP)
-
-</li></ul>
-
-  </td></tr><tr><td></td><td>
-    <ul>
-	<li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
-	These characteristics are irrelevant for CVE.  Continue to
-	ADT5
-	</li><li><b>No:</b> Continue to ADT5
-	</li></ul>
-
-
-</td></tr><tr><td></td><td>
-<i>Relevant content decisions: AB3, SF-LOC, SF-EXEC</i>
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT5:</b>
-</td><td bgcolor="E0E0E0">
-
-<p>
-<i>(By researcher)</i><br>
-
-Is X reported by a different person from a different organization (or
-other external party) than Y?
-
-  </p></td></tr><tr><td></td><td>
-    <ul>
-	<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-	Continue to ADT6
-	</li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE
-	</li></ul>
-
-
-
-
-</td></tr><tr><td bgcolor="E0E0E0"><b>ADT6:</b>
-</td><td bgcolor="E0E0E0">
-
-<p>
-<i>(Fall-Through Merge)</i><br>
-
-At this stage, you have multiple closely-related vulnerabilities,
-issues, or attack vectors.
-
-</p>
-
-
 </td>
 </tr>
+
+
+
+
+
+
+	<tr>
+		<td></td>
+		<td><i>Relevant content decisions: AB2</i></td>
+	</tr>
+
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT4:</b></td>
+		<td bgcolor="E0E0E0">
+			<i>(Address Common SPLIT Assumptions)</i><br>
+				At this stage, X and Y are the same bug type, affect the same
+				versions, and affect the same products.
+			<p>
+				Do X and Y have any of the following characteristics?
+			</p>
+			<ul>
+				<li>X appears in a different DLL, library, program, or application
+				than Y (e.g. X affects LIB1.DLL and Y affects LIB2.DLL)
+				</li>
+				<li>X has a more serious impact than Y (e.g. code execution as root
+				versus leak of system pathname)
+				</li>
+				<li>X takes a different input parameter/argument than Y (e.g. SQL
+				injection in both the "user" and "password" parameters)
+				</li>
+				<li>X has a different "access vector" than Y (e.g. local, remote,
+				"adjacent network," physical, etc.)
+				</li>
+				<li>X requires stronger authentication than Y.</li>
+				<li>X can be exploited by a certain user that Y can not (e.g. a guest
+				user vs. an admin)
+				</li>
+				<li>X has a different CVSS score than Y (e.g. due to different access
+				vector, attack complexity, or CIA impact)
+				</li>
+				<li>X uses a different service, port, or protocol than Y (e.g., UDP
+				versus TCP)
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><b>Yes:</b> <font color="FF0000"><b>MERGE</b></font> them.
+					These characteristics are irrelevant for CVE.  Continue to
+					ADT5
+				</li>
+				<li><b>No:</b> Continue to ADT5</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td><i>Relevant content decisions: AB3, SF-LOC, SF-EXEC</i></td>
+	</tr>
+
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT5:</b></td>
+		<td bgcolor="E0E0E0">
+			<p>
+				<i>(By researcher)</i><br>
+					Is X reported by a different person from a different organization (or
+					other external party) than Y?
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<ul>
+				<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+				Continue to ADT6</li>
+				<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="E0E0E0"><b>ADT6:</b></td>
+		<td bgcolor="E0E0E0">
+			<p>
+				<i>(Fall-Through Merge)</i><br>
+				At this stage, you have multiple closely-related vulnerabilities,
+				issues, or attack vectors.
+			</p>
+		</td>
+	</tr>
 	<tr>
 		<td></td>
 		<td>
@@ -649,6 +655,9 @@ issues, or attack vectors.
 <a name="mult"></a>
 
 </p>
+
+
+
 
 
 <h1>Appendix: Handling More Than 2 Issues At Once</h1>
