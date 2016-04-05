@@ -983,64 +983,57 @@ In this case, a separate CVE ID would then be assigned.
 
 <h1>Common Assumptions That Frequently Lead to Assignment Errors</h1>
 
-
 <ul>
+	<li><b>One remote, one local.</b> I have two buffer overflows in the
+	same product.  One is exploitable <u>remotely</u>, and one is
+	exploitable <u>locally</u>.  Should I SPLIT them?
+		<ul>
+			<li>No (rather, these would stay merged based only on these two
+				criteria).  ADT1 would not split - it's the same product.  ADT2
+				would not split - it's the same bug type.  ADT3 woud not split -
+				it's the same affected version.  However ADT4, explicitly says
+				that the two issues should stay MERGED even if they have a
+				different "access vector."
+			</li>
+		</ul>
+	</li>
+	<li><b>Different bugs in different executables.</b>  I have two bugs
+	of the same type in an open source product, such as SQL injection.
+	There are two separate patches, in parameter X in executable A,
+	and in parameter Y in executable B.  These are <u>clearly
+	different bugs</u>.  Should I SPLIT them?
+		<ul>
+			<li>No.  They are in the same product, so ADT1 would not split.
+				They are the same bug type, SQL injection, so ADT2 would not
+				split.  They affect the same version, so ADT3 would not split.
+				Also, ADT4 explicitly says that the issues should stay merged when
+				"X appears in a different DLL, library, program, or application
+				than Y."
+			</li>
+		</ul>
+	</li>
+	<li><b>Different Impacts.</b>  I have two bugs, both directory
+	traversal, affecting the same product versions.  One allows me to
+	delete files, and the other allows me to read files.  Should I SPLIT
+	them?
+		<ul>
+			<li>No.  By ADT1, there is no split since the bugs are in the same
+				product.  There also is no split for the same bug type (ADT2) and
+				affected versions (ADT3).  Finally, ADT4 explicitly recommends
+				merge when "X has a more serious impact than Y."
+			</li>
+		</ul>
+	</li>
+</ul>
 
-<li><b>One remote, one local.</b> I have two buffer overflows in the
-same product.  One is exploitable <u>remotely</u>, and one is
-exploitable <u>locally</u>.  Should I SPLIT them?
-  <ul>
 
-    <li>No (rather, these would stay merged based only on these two
-    criteria).  ADT1 would not split - it's the same product.  ADT2
-    would not split - it's the same bug type.  ADT3 woud not split -
-    it's the same affected version.  However ADT4, explicitly says
-    that the two issues should stay MERGED even if they have a
-    different "access vector."
-
-  </li></ul>
-
-</li><li><b>Different bugs in different executables.</b>  I have two bugs
-    of the same type in an open source product, such as SQL injection.
-    There are two separate patches, in parameter X in executable A,
-    and in parameter Y in executable B.  These are <u>clearly
-    different bugs</u>.  Should I SPLIT them?
-
-  <ul>
-
-    <li>No.  They are in the same product, so ADT1 would not split.
-    They are the same bug type, SQL injection, so ADT2 would not
-    split.  They affect the same version, so ADT3 would not split.
-    Also, ADT4 explicitly says that the issues should stay merged when
-    "X appears in a different DLL, library, program, or application
-    than Y."
-
-  </li></ul>
-
-</li><li><b>Different Impacts.</b>  I have two bugs, both directory
-  traversal, affecting the same product versions.  One allows me to
-  delete files, and the other allows me to read files.  Should I SPLIT
-  them?
-
-  <ul>
-
-    <li>No.  By ADT1, there is no split since the bugs are in the same
-    product.  There also is no split for the same bug type (ADT2) and
-    affected versions (ADT3).  Finally, ADT4 explicitly recommends
-    merge when "X has a more serious impact than Y."
-
-  </li></ul>
-
-</li></ul>
 
 <a name="FAQ"></a>
 <h1>Frequently Asked Questions (FAQ)</h1>
 
+<p></p>
 
-
-<p>
-
-</p><h3>Changing CVEs Assignments After Discovering New Information</h3>
+<h3>Changing CVEs Assignments After Discovering New Information</h3>
 
 
 <ul>
