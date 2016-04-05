@@ -1147,27 +1147,36 @@ See <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md"
 <h1>Changelog</h1>
 
 <table border="2" cellpadding="2" cellspacing="2">
-<tbody><tr><th>Date</th><th>Comment
+<tbody>
 
-</th></tr><tr>
-<td>September 17, 2008
-</td><td>Initial creation
+	<tr>
+		<th>Date</th>
+		<th>Comment</th>
+	</tr>
 
-</td></tr><tr>
-<td>September 10, 2012
-</td><td>Added fall-through "Continue to [X]" options to make fall-through
-more clear.
+	<tr>
+		<td>September 17, 2008</td>
+		<td>Initial creation</td>
+	</tr>
 
-</td></tr><tr>
-<td>April 19, 2013
-</td><td>Added and clarified characteristics for ADT4, added additional
-fall-through options.
+	<tr>
+		<td>September 10, 2012</td>
+		<td>Added fall-through "Continue to [X]" options to make fall-through more clear.</td>
+	</tr>
 
-</td></tr><tr>
-<td>November 20, 2014
-</td><td>Improved explanation of "Application Examples" page.
-</td><td>Added "Complex Abstraction Scenarios" section.
-</td><td>expanded "Common Assumptions" section.
+	<tr>
+		<td>April 19, 2013</td>
+		<td>Added and clarified characteristics for ADT4, added additional fall-through options.</td>
+	</tr>
 
-</td></tr></tbody></table>
+	<tr>
+		<td>November 20, 2014</td>
+		<td>Improved explanation of "Application Examples" page.
+			Added "Complex Abstraction Scenarios" section.
+			Expanded "Common Assumptions" section.
+		</td>
+	</tr>
+</tbody>
+</table>
+
 </body></html>
