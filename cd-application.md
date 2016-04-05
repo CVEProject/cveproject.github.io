@@ -217,7 +217,7 @@ identifier; instead, consult MITRE (issue is complex)
 
 <p>
 	A separate <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md">document</a> lists multiple examples of this decision tree.
-	(note: Link disabled pending document updates)
+	<b>(note: Link disabled pending document updates)</b>
 </p>
 
 
