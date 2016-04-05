@@ -479,77 +479,107 @@ identifier; instead, consult MITRE (issue is complex)
 <tbody>
 
 	<tr>
-	<td bgcolor="E0E0E0"><b>ADT3:</b></td>
-	<td bgcolor="E0E0E0"><i>(By version)</i><br>
-	Does X affect a version that Y does not?  (e.g. X affects 1.2 and 3.4,
-	but Y only affects 3.4.  Consider "1.x" and "1.2" as different.)
-	</td>
+		<td bgcolor="E0E0E0"><b>ADT3:</b></td>
+		<td bgcolor="E0E0E0"><i>(By version)</i><br>
+			Does X affect a version that Y does not?  (e.g. X affects 1.2 and 3.4,
+			but Y only affects 3.4.  Consider "1.x" and "1.2" as different.)
+		</td>
 	</tr>
 	<tr>
-	<td></td>
-	<td>
-  <ul>
-  <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-  </li><li><b>No:</b>  Continue to ADT4
-  </li><li><b>Not sure:</b>
-     <table border="2" cellpadding="2" cellspacing="2">
-     <tbody><tr><td bgcolor="E0E0E0"><b>ADT3.1:</b>
-	 </td><td bgcolor="E0E0E0">
+		<td></td>
+		<td>
+			<ul>
+				<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.</li>
+				<li><b>No:</b>  Continue to ADT4</li>
+				<li><b>Not sure:</b>
+	  
+					<table border="2" cellpadding="2" cellspacing="2">
+					<tbody>
+	 
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.1:</b></td>
+							<td bgcolor="E0E0E0">
+								Is an official vendor patch available for X, but Y does not have
+								an official patch (or Y's patch status is unknown)?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+								 <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+								 Continue to ADT3.2 </li>
+								 <li><b>No:</b> Continue to ADT3.2</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.2:</b></td>
+							<td bgcolor="E0E0E0">
+								Does X affect a general range (such as "4.x") and Y's version is
+								more specific (such as "4.1")?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+									<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+									Continue to ADT3.3
+									</li>
+									<li><b>No:</b> Continue to ADT3.3</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.3:</b></td>
+							<td bgcolor="E0E0E0">
+								Does X's minimum affected version differ from Y's minimum
+								affected version, but the maximum versions are the same?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+									<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+										Continue to ADT3.4
+									</li>
+									<li><b>No:</b> Continue to ADT3.4</li>
+									<li><b>Not sure:</b> <font color="FF0000"><b>MERGE</b></font> them</li>
+								</ul>
+							</td>
+						</tr>
 
-	 Is an official vendor patch available for X, but Y does not have
-     an official patch (or Y's patch status is unknown)?
-
-     </td></tr><tr><td></td><td>
-	     <ul>
-		 <li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		 Continue to ADT3.2
-		 </li><li><b>No:</b> Continue to ADT3.2
-		 </li></ul>
-
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3.2:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Does X affect a general range (such as "4.x") and Y's version is
-	  more specific (such as "4.1")?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		Continue to ADT3.3
-		</li><li><b>No:</b> Continue to ADT3.3
-		</li></ul>
-
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3.3:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Does X's minimum affected version differ from Y's minimum
-	  affected version, but the maximum versions are the same?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them/
-		Continue to ADT3.4
-		</li><li><b>No:</b> Continue to ADT3.4
-		</li><li><b>Not sure:</b> <font color="FF0000"><b>MERGE</b></font> them
-		</li></ul>
-      </td></tr><tr><td bgcolor="E0E0E0"><b>ADT3.4:</b>
-	  </td><td bgcolor="E0E0E0">
-	  Is X the result of an incomplete fix for Y, or X is a new
-	  vulnerability that was introduced by a fix for Y?
-	  </td></tr><tr><td></td><td>
-	    <ul>
-		<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
-		Continue to ADT4
-		</li><li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE.
-		Continue to ADT4
-		</li></ul>
-	</td></tr></tbody></table>
-  </li></ul>
-
-
-</td>
-</tr>
-
-
-
-
-
+						<tr>
+							<td bgcolor="E0E0E0"><b>ADT3.4:</b></td>
+							<td bgcolor="E0E0E0">
+								Is X the result of an incomplete fix for Y, or X is a new
+								vulnerability that was introduced by a fix for Y?
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<ul>
+									<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.
+										Continue to ADT4
+									</li>
+									<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE.
+										Continue to ADT4
+									</li>
+								</ul>
+							</td>
+						</tr>
+	
+	
+					</tbody>
+					</table>
+	
+				</li>
+			</ul>
+		</td>
+	</tr>
 
 	<tr>
 		<td></td>
