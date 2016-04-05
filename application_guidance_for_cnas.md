@@ -1,3 +1,8 @@
+---
+title: "CVE Content Decisions: Application Guidance for CNAs"
+layout: page
+---
+
 
 <!-- saved from url=(0072)http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>CVE Content Decisions: Application Guidance for CNAs</title>
