@@ -1139,7 +1139,7 @@ check with MITRE.  Search the CVE or NVD web sites to be sure.
 </p><h1>CVE Content Decision Examples</h1>
 
 See <a href="https://github.com/CVEProject/docs/blob/gh-pages/cd-application.md">this document</a> which lists multiple examples for CD application.
-(note: Link disabled pending document updates)
+<b>(note: Link disabled pending document updates)</b>
 
 
 <a name="changelog"></a>
