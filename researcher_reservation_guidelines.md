@@ -71,16 +71,16 @@ including steps that occur before and after reservation:
 
 
 1. [Introduction](#introduction)
-2. Background
-3. Before Requesting a CVE Number
-4. Following Coordinated Disclosure Practices
-5. When to Request a CVE Number
-6. Where to Request a CVE Number
-7. Information to Provide in Your Request
-8. Information That You Receive from the CNA (or MITRE)
-9. Sharing the CVE Number with Others
-10. Information to Include in Your Announcement
-11. After Your Announcement Has Been Publicized
+2. [Background](#background)
+3. [Before Requesting a CVE Number](#before-requesting-a-cve-number)
+4. [Following Coordinated Disclosure Practices](#following-coordinated-disclosure-practices)
+5. [When to Request a CVE Number](#when-to-request-a-cve-number)
+6. [Where to Request a CVE Number](#where-to-request-a-cve-number)
+7. [Information to Provide in Your Request](#information-to-provide-in-your-request)
+8. [Information That You Receive from the CNA (or MITRE)](#information-that-you-receive-from-the-cna-or-mitre)
+9. [Sharing the CVE Number with Others](#sharing-the-cve-number-with-others)
+10. [Information to Include in Your Announcement](#information-to-include-in-your-announcement)
+11. [After Your Announcement Has Been Publicized](#after-your-announcement-has-been-publicized)
 
 
 ## 1. Introduction
@@ -108,24 +108,24 @@ The basic process is:
 Following is some background information, which may help you to
 understand the rationales for the process.
 
-1) See http://cve.mitre.org/cve/identifiers/index.html for
+1. See http://cve.mitre.org/cve/identifiers/index.html for
    details on how vulnerabilities are included in CVE.
 
-2) As more and more CVEs are included in announcements of new
+2. As more and more CVEs are included in announcements of new
    vulnerabilities, it can be more difficult to exchange CVEs
    across all involved parties.  This could increase the amount of
    "noise" in CVE.
 
-3) If you do not use and share CVE numbers properly, then MITRE
+3. If you do not use and share CVE numbers properly, then MITRE
    and other CVE Numbering Authorities (CNAs) will not provide
    them to you any more.  This reduces the risk of #2, and it helps to
    prevent abuse.
 
-4) The CVE request process is designed so that it minimizes
+4. The CVE request process is designed so that it minimizes
    interference with the current disclosure process, e.g. posting to
    Bugtraq or Full-Disclosure.
 
-5) The CVE request process is designed to minimize the amount of
+5. The CVE request process is designed to minimize the amount of
    non-public vulnerability information that is available to MITRE.
    This reduces the risk of accidental disclosure of such information.
    It also reduces the amount of overlap with the work of other
@@ -134,14 +134,14 @@ understand the rationales for the process.
 
 ## 3. Before Requesting a CVE Number
 
-1) CVE numbers are ONLY for security issues that are going to be
+1. CVE numbers are ONLY for security issues that are going to be
    publicly announced.
 
-2) You must make sure that your issue is not already a duplicate of an
+2. You must make sure that your issue is not already a duplicate of an
    existing CVE entry by performing a keyword search on the CVE web
    site at http://cve.mitre.org/cve/ .
 
-3) You should follow coordinated disclosure practices as described in
+3. You should follow coordinated disclosure practices as described in
    the next section.
 
 ## 4. Following Coordinated Disclosure Practices
@@ -152,15 +152,15 @@ more accurate and complete when researchers and vendors work together.
 
 Improper disclosure practices have the following impact on CVE:
 
-1) You may introduce inaccurate information, such as the affected
+1. You may introduce inaccurate information, such as the affected
    versions or the underlying cause of the problem.
 
-2) Your description of the problem could vary so much from that of the
+2. Your description of the problem could vary so much from that of the
    vendor, that duplicate CVE IDs may be produced - one for your
    description, and another for the vendor's.  This has happened in
    the past.
 
-3) Without independent confirmation or vendor acknowledgement, members
+3. Without independent confirmation or vendor acknowledgement, members
    of the CVE Editorial Board may not be confident that the issue is
    real.
 
@@ -363,10 +363,10 @@ You can also just say something like:
 
     CVE Number: CVE-yyyy-nnnn
 
-1) Make sure that the CVE number is correct.  Some advisories have
+1. Make sure that the CVE number is correct.  Some advisories have
    been released with incorrect numbers, occasionally due to typos.
 
-2) If you are announcing more than one CVE number, then list each
+2. If you are announcing more than one CVE number, then list each
    number followed by a short title (only a few words), so that people
    can easily tell which candidate is related to which issue.  For
    example:
@@ -374,7 +374,7 @@ You can also just say something like:
       CVE-yyyy-nnnn - buffer overflows
       CVE-yyyy-mmmm - format string
 
-3) OSF (an organization separate from MITRE) offers suggestions about
+3. OSF (an organization separate from MITRE) offers suggestions about
    other content in the announcement:
 
     http://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines
@@ -407,22 +407,22 @@ Database (NVD) at http://nvd.nist.gov.
 The following documents describe processes for vulnerability
 disclosure practices that lead to more accurate CVE entries.
 
-1)  "Guidelines for Security Vulnerability Reporting and Response",
+1.  "Guidelines for Security Vulnerability Reporting and Response",
     Organization for Internet Safety.  Version 2.0, 01 September 2004.
 
       http://www.oisafety.org/
       http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf
 
-2) "Vulnerability Disclosure Framework", US Department of Homeland
+2. "Vulnerability Disclosure Framework", US Department of Homeland
     Security.  January 2004.
 
       http://www.dhs.gov/xlibrary/assets/vdwgreport.pdf
 
-3) "Responsible Vulnerability Disclosure Process", IETF draft
+3. "Responsible Vulnerability Disclosure Process", IETF draft
    document, Christey/Wysopal.  February 2002.
 
       http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00
 
-4) "RFPolicy 2.0", Rain Forest Puppy.  2000.
+4. "RFPolicy 2.0", Rain Forest Puppy.  2000.
 
       http://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt
