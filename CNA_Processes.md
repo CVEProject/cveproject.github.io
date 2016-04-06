@@ -37,7 +37,7 @@ Updated: October 7, 2014
 
 The potential CNA is called a "prospect."
 
-1. Determine if the prospect qualifies (see CNA-requirements.txt etc.)
+1. Determine if the prospect qualifies (see Requirements)
 
 2. Email first, then telecon
 
@@ -45,7 +45,7 @@ The potential CNA is called a "prospect."
    strong technical ability who is involved in the day-to-day process
    of vulnerability disclosure.  Prospect provides assurances to MITRE
    that the primary POC will follow content decisions closely, follow
-   expected coordinating procedures to reduce risk of duplicates, etc.
+   expected coordinatin procedures to reduce risk of duplicates, etc.
 
 4. MITRE makes the prospect aware of process changes they may need to
    undergo (which might include working with their own management or
@@ -76,7 +76,7 @@ The potential CNA is called a "prospect."
 
 11. Prospect is expected to devise its own processes and procedures
     for managing its CVE pool.  (This often requires some internal
-    clarifications of tasks and/or changes to the advisory-publication
+    clarificatons of tasks and/or changes to the advisory-publication
     process.)
 
 12. With the first pool, the primary POC is expected to (a) assign the
@@ -112,11 +112,9 @@ some.
    size seems too large, then negotiate with the CNA.
 
    If no pool size is given, then determine an "appropriate" size.
-   Methods for determining pool size differ between Steve Christey
-   Coley and Matt Power.  Steve C generally prefers to use a pool size
+   Methods for determining pool size differ. Some prefer to use a pool size
    that is roughly equivalent to the number of IDs published by the
-   CNA in 3 months (a quarter); Matt generally appears to prefer
-   larger pool sizes.
+   CNA in 3 months (a quarter); others appear to prefer larger pool sizes.
 
 2. Once the pool size has been determined, use the usual process to
    reserve and commit the IDs to candidates.txt.  (See the "Candidate
@@ -129,28 +127,3 @@ some.
       grep :CANDIDATE [TEMPFILE] | awk '{print $2}'
 
 4. Copy-and-paste this list of IDs in the e-mail response to the CNA.
-
-____________
-
-## VENDOR AND RESEARCHER LIAISONS FOR CANDIDATE RESERVATION
-
-Updated: 3/11/2003
-
-clearly, some rough notes here...
-
-Dec 2002 - now regularly participating w/Red Hat and about half the
-time with Debian.  Most other Linux vendors include CVE's when
-available in other vendors' advisories.
-
-8/31/01 - I sent out various emails in early July or late June; got
-some nibbles from Immunix and someone else (Compaq or SCO?  Or was it
-SGI?), no responses from others.
-
-vendor liaisons - software vendors that we consult for CVE.  See
-~/cve/docs/vendor-liaison-cans.txt for an introductory letter I'm
-considering.  Still need to write up the actual process - which will
-be primarily ad hoc.  I haven't contacted any liaisons as of
-6/13/2001.
-
-liaisons.dat - "database" of liaisons, though I've just been
-populating it, and haven't used it much.
