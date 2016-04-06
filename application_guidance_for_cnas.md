@@ -3,17 +3,8 @@ title: "CVE Content Decisions: Application Guidance for CNAs"
 layout: page
 ---
 
-
-<!-- saved from url=(0072)http://cvecmssrv1.mitre.org/cve-content/content-docs/cd-application.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>CVE Content Decisions: Application Guidance for CNAs</title>
-</head><body bgcolor="FFFFFF">
-
-<h1>CVE Content Decisions: Application Guidance for CNAs</h1>
-
-<i>
-
 Last Modified: November 20, 2014<br>
-</i>
+
 
 <p>
 
@@ -77,10 +68,10 @@ together
 </li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#largescale">Appendix: Large-Scale Disclosures</a> - when many
 products and vendors are affected
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#complexAB">Complex Abstraction Scenarios</a> - 
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#complexAB">Complex Abstraction Scenarios</a> -
 
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#checklist">Final Pre-Disclosure Checklist for CVE</a> - 
+</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#checklist">Final Pre-Disclosure Checklist for CVE</a> -
 
 </li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#FAQ">Frequently Asked Questions (FAQ)</a>
 
@@ -325,10 +316,10 @@ identifier; instead, consult MITRE (issue is complex)
 						that is used by many vendors?
 					</td>
 				</tr>
-				
+
 				<tr>
 					<td></td>
-					
+
 					<td>
 					  <ul>
 						<li><b>Yes:</b> Jump to <u>ADT2</u></li>
@@ -337,7 +328,7 @@ identifier; instead, consult MITRE (issue is complex)
 					  </ul>
 					</td>
 				</tr>
-				
+
 				<tr>
 					<td bgcolor="E0E0E0"><b>ADT1.3:</b></td>
 					<td bgcolor="E0E0E0">
@@ -346,7 +337,7 @@ identifier; instead, consult MITRE (issue is complex)
 					results from fuzz testing many products)
 					</td>
 				</tr>
-				
+
 				<tr>
 					<td></td>
 					<td>
@@ -354,7 +345,7 @@ identifier; instead, consult MITRE (issue is complex)
 						  <li><b>No:</b> Continue to ADT2</li>
 						  <li><b>Yes:</b> Jump to special appendix on <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#largescale">Large-Scale Disclosures</a>.</li>
 						  <li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
-					  </ul> 
+					  </ul>
 					</td>
 				</tr>
 
@@ -364,7 +355,7 @@ identifier; instead, consult MITRE (issue is complex)
 		  </ul>
 		</td>
 	</tr>
-  
+
 	<tr>
 		<td></td>
 		<td><i>Relevant content decisions: SF-CODEBASE</i></td>
@@ -466,7 +457,7 @@ identifier; instead, consult MITRE (issue is complex)
 			</ul>
 		</td>
 	</tr>
-	
+
 	<tr>
 		<td></td>
 		<td><i>Relevant content decisions: AB1</i></td>
@@ -486,10 +477,10 @@ identifier; instead, consult MITRE (issue is complex)
 				<li><b>Yes:</b> <font color="FF0000"><b>SPLIT</b></font> them.</li>
 				<li><b>No:</b>  Continue to ADT4</li>
 				<li><b>Not sure:</b>
-	  
+
 					<table border="2" cellpadding="2" cellspacing="2">
 					<tbody>
-	 
+
 						<tr>
 							<td bgcolor="E0E0E0"><b>ADT3.1:</b></td>
 							<td bgcolor="E0E0E0">
@@ -565,11 +556,11 @@ identifier; instead, consult MITRE (issue is complex)
 								</ul>
 							</td>
 						</tr>
-	
-	
+
+
 					</tbody>
 					</table>
-	
+
 				</li>
 			</ul>
 		</td>
@@ -703,7 +694,7 @@ following basic process:
 			</ul>
 		</td>
 	</tr>
-	
+
 	<tr>
 		<td bgcolor="E0E0E0"><b>MULT2:</b></td>
 		<td>
@@ -724,7 +715,7 @@ following basic process:
 			</ul>
 		</td>
 	</tr>
-	
+
 	<tr>
 		<td bgcolor="E0E0E0"><b>MULT4:</b></td>
 		<td>
@@ -812,7 +803,7 @@ addition to the regular decision tree.
 			<ul>
 				<li><b>No:</b> See next question.</li>
 				<li><b>Yes:</b>
-				
+
 				<table border="2" cellpadding="2" cellspacing="2">
 				<tbody>
 					<tr>
@@ -837,7 +828,7 @@ addition to the regular decision tree.
 					</tr>
 				</tbody>
 				</table>
-				
+
 				</li>
 			</ul>
 		</td>
@@ -858,7 +849,7 @@ addition to the regular decision tree.
 				<li><b>No:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
 				<li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
 			</ul>
-	
+
 		</td>
 	</tr>
 </tbody>
@@ -984,7 +975,7 @@ In this case, a separate CVE ID would then be assigned.
 	</li>
 </ul>
 
-  
+
 
 <h1>Common Assumptions That Frequently Lead to Assignment Errors</h1>
 
