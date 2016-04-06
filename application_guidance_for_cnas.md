@@ -3,10 +3,10 @@ title: "CVE Content Decisions: Application Guidance for CNAs"
 layout: page
 ---
 
-<i>
+
 
 Last Modified: November 20, 2014<br>
-</i>
+
 
 <p>
 
