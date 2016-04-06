@@ -68,7 +68,7 @@ including steps that occur before and after reservation:
   clear about which CVE goes with which issue.
 
 ==============================================================================
-Table of Contents
+<br>Table of Contents<br>
 ==============================================================================
 
 1. Introduction
@@ -84,7 +84,7 @@ Table of Contents
 11. After Your Announcement Has Been Publicized
 
 ==============================================================================
-1. Introduction
+<br>1. Introduction<br>
 ==============================================================================
 
 This document provides vulnerability researchers with information on
@@ -105,7 +105,7 @@ The basic process is:
 6. The CVE later appears on the cve.mitre.org web site.
 
 ==============================================================================
-2. Background
+<br>2. Background<br>
 ==============================================================================
 
 Following is some background information, which may help you to
@@ -136,7 +136,7 @@ understand the rationales for the process.
 
 
 ==============================================================================
-3. Before Requesting a CVE Number
+<br>3. Before Requesting a CVE Number<br>
 ==============================================================================
 
 1) CVE numbers are ONLY for security issues that are going to be
@@ -151,7 +151,7 @@ understand the rationales for the process.
 
 
 ==============================================================================
-4. Following Coordinated Disclosure Practices
+<br>4. Following Coordinated Disclosure Practices<br>
 ==============================================================================
 
 You should make a good faith effort to notify the affected vendor and
@@ -214,7 +214,7 @@ mailing lists, and sites like exploit-db and Packet Storm.
 
 
 ==============================================================================
-5. When to Request a CVE Number
+<br>5. When to Request a CVE Number<br>
 ==============================================================================
 
 You should request a CVE number after you have made a good faith
@@ -225,7 +225,7 @@ publicize the vulnerability.
 
 
 ==============================================================================
-6. Where to Request a CVE Number
+<br>6. Where to Request a CVE Number<br>
 ==============================================================================
 
 You request a CVE number from a CVE Numbering Authority (CNA).  CNAs
@@ -239,7 +239,7 @@ CVE as well.
 
 
 ==============================================================================
-7. Information to Provide in Your Request
+<br>7. Information to Provide in Your Request<br>
 ==============================================================================
 
 The information should be sent to: cve-assign@mitre.org
@@ -335,7 +335,7 @@ z2alm8YFAk7nvkLSXfEveHr/EtVm3kM=
 
 
 ==============================================================================
-8. Information That You Receive from the CNA (or MITRE)
+<br>8. Information That You Receive from the CNA (or MITRE)<br>
 ==============================================================================
 
 After you send your request, MITRE will reserve the CVE number(s) and
@@ -351,7 +351,7 @@ vulnerability.  See below.
 
 
 ==============================================================================
-9. Sharing the CVE Number with Others
+<br>9. Sharing the CVE Number with Others<br>
 ==============================================================================
 
 After you have obtained the CVE number, you should provide it to
@@ -361,7 +361,7 @@ assign different numbers.
 
 
 ==============================================================================
-10. Information to Include in Your Announcement
+<br>10. Information to Include in Your Announcement<br>
 ==============================================================================
 
 When you make your public announcement, include the CVE number
@@ -401,7 +401,7 @@ You can also just say something like:
 
 
 ==============================================================================
-11. After Your Announcement Has Been Publicized
+<br>11. After Your Announcement Has Been Publicized<br>
 ==============================================================================
 
 After your announcement has been publicized, you should contact MITRE
@@ -425,7 +425,7 @@ Database (NVD) at http://nvd.nist.gov.
 
 
 ==============================================================================
-Appendix A: Documents on Disclosure Practices
+<br>Appendix A: Documents on Disclosure Practices<br>
 ==============================================================================
 
 The following documents describe processes for vulnerability
