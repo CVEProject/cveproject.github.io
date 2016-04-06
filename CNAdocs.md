@@ -5,17 +5,8 @@ layout: page
 ----------------
 Updated: October 7, 2014
 
-*****************
-***** DRAFT *****
-*****************
-
-
 ## Requirements
 ------------
-
-***
-*** see/integrate other requirements from CVE web site.
-***
 
 1. Must be an established entity that has published security
    advisories, or their equivalents, for at least six months,
@@ -65,7 +56,7 @@ The potential CNA is called a "prospect."
    required for any consumer; and tells MITRE how to access those
    advisories to find the most recent advisories first.
 
-### Training period begins
+   ### Training period begins
 
 6. MITRE provides documents on abstraction/inclusion and fields any
    questions.
