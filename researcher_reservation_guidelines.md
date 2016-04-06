@@ -67,9 +67,9 @@ including steps that occur before and after reservation:
 * If you have multiple CVEs, make sure that your advisory makes it
   clear about which CVE goes with which issue.
 
-==============================================================================
-Table of Contents
-==============================================================================
+==========================================================================
+<br>Table of Contents<br>
+==========================================================================
 
 1. Introduction
 2. Background
@@ -83,9 +83,9 @@ Table of Contents
 10. Information to Include in Your Announcement
 11. After Your Announcement Has Been Publicized
 
-==============================================================================
-1. Introduction
-==============================================================================
+==========================================================================
+<br>1. Introduction<br>
+==========================================================================
 
 This document provides vulnerability researchers with information on
 how to reserve a CVE number before publicizing a new vulnerability.
@@ -104,9 +104,9 @@ The basic process is:
 5. You notify MITRE that the CVE has been made public.
 6. The CVE later appears on the cve.mitre.org web site.
 
-==============================================================================
-2. Background
-==============================================================================
+==========================================================================
+<br>2. Background<br>
+==========================================================================
 
 Following is some background information, which may help you to
 understand the rationales for the process.
@@ -135,9 +135,9 @@ understand the rationales for the process.
    entities such as CERT/CC, Bugtraq, and Full-Disclosure.
 
 
-==============================================================================
-3. Before Requesting a CVE Number
-==============================================================================
+==========================================================================
+<br>3. Before Requesting a CVE Number<br>
+==========================================================================
 
 1) CVE numbers are ONLY for security issues that are going to be
    publicly announced.
@@ -150,9 +150,9 @@ understand the rationales for the process.
    the next section.
 
 
-==============================================================================
-4. Following Coordinated Disclosure Practices
-==============================================================================
+==========================================================================
+<br>4. Following Coordinated Disclosure Practices<br>
+==========================================================================
 
 You should make a good faith effort to notify the affected vendor and
 work with them to ensure that a patch is available.  Information is
@@ -213,9 +213,9 @@ Currently, those forums include the Bugtraq and Full-Disclosure
 mailing lists, and sites like exploit-db and Packet Storm.
 
 
-==============================================================================
-5. When to Request a CVE Number
-==============================================================================
+==========================================================================
+<br>5. When to Request a CVE Number<br>
+==========================================================================
 
 You should request a CVE number after you have made a good faith
 attempt to notify the vendor.
@@ -224,9 +224,9 @@ In general, you should request a CVE number 1 to 2 weeks before you
 publicize the vulnerability.
 
 
-==============================================================================
-6. Where to Request a CVE Number
-==============================================================================
+==========================================================================
+<br>6. Where to Request a CVE Number<br>
+==========================================================================
 
 You request a CVE number from a CVE Numbering Authority (CNA).  CNAs
 obtain pools of "blank" candidate numbers from MITRE, and use those
@@ -238,9 +238,9 @@ they generally obtain them from other CNAs.  You could ask them for a
 CVE as well.
 
 
-==============================================================================
-7. Information to Provide in Your Request
-==============================================================================
+==========================================================================
+<br>7. Information to Provide in Your Request<br>
+==========================================================================
 
 The information should be sent to: cve-assign@mitre.org
 
@@ -334,9 +334,9 @@ z2alm8YFAk7nvkLSXfEveHr/EtVm3kM=
 - -----END PGP PUBLIC KEY BLOCK-----
 
 
-==============================================================================
-8. Information That You Receive from the CNA (or MITRE)
-==============================================================================
+==========================================================================
+<br>8. Information That You Receive from the CNA (or MITRE)<br>
+==========================================================================
 
 After you send your request, MITRE will reserve the CVE number(s) and
 provide them to you.  Generic, "blank" descriptions will be added to
@@ -350,9 +350,9 @@ security issue.  You must inform MITRE once you have publicized the
 vulnerability.  See below.
 
 
-==============================================================================
-9. Sharing the CVE Number with Others
-==============================================================================
+==========================================================================
+<br>9. Sharing the CVE Number with Others<br>
+==========================================================================
 
 After you have obtained the CVE number, you should provide it to
 all affected vendors and other parties (such as CERT/CC) that you are
@@ -360,9 +360,9 @@ communicating with.  This reduces the risk that different parties may
 assign different numbers.
 
 
-==============================================================================
-10. Information to Include in Your Announcement
-==============================================================================
+==========================================================================
+<br>10. Information to Include in Your Announcement<br>
+==========================================================================
 
 When you make your public announcement, include the CVE number
 in the text.
@@ -400,9 +400,9 @@ You can also just say something like:
     http://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines
 
 
-==============================================================================
-11. After Your Announcement Has Been Publicized
-==============================================================================
+==========================================================================
+<br>11. After Your Announcement Has Been Publicized<br>
+==========================================================================
 
 After your announcement has been publicized, you should contact MITRE
 again (cve-assign@mitre.org) and provide us with the following
@@ -424,9 +424,9 @@ Database (NVD) at http://nvd.nist.gov.
 
 
 
-==============================================================================
-Appendix A: Documents on Disclosure Practices
-==============================================================================
+==========================================================================
+<br>Appendix A: Documents on Disclosure Practices<br>
+==========================================================================
 
 The following documents describe processes for vulnerability
 disclosure practices that lead to more accurate CVE entries.
