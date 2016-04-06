@@ -67,11 +67,11 @@ including steps that occur before and after reservation:
 * If you have multiple CVEs, make sure that your advisory makes it
   clear about which CVE goes with which issue.
 
-==========================================================================
-<br>Table of Contents<br>
-==========================================================================
 
-1. Introduction
+## Table of Contents
+
+
+1. [Introduction](#introduction)
 2. Background
 3. Before Requesting a CVE Number
 4. Following Coordinated Disclosure Practices
@@ -83,9 +83,9 @@ including steps that occur before and after reservation:
 10. Information to Include in Your Announcement
 11. After Your Announcement Has Been Publicized
 
-==========================================================================
-<br>1. Introduction<br>
-==========================================================================
+
+## 1. Introduction
+
 
 This document provides vulnerability researchers with information on
 how to reserve a CVE number before publicizing a new vulnerability.
@@ -180,30 +180,30 @@ Appendix A: Documents on Disclosure Practices for more details.
 
 In general, you should do the following:
 
-1) Find and notify the appropriate security contact for the vendor
+1. Find and notify the appropriate security contact for the vendor
    If you cannot find a contact, then try technical support.
 
-2) Provide the vendor with at least 5 business days to respond and
+2. Provide the vendor with at least 5 business days to respond and
    show that the vendor is aware of the problem.  An "auto-reply"
    email or other computer-generated response does not represent
    vendor awareness.
 
-3) Work with the vendor to explain the problem, conduct further
+3. Work with the vendor to explain the problem, conduct further
    analysis if necessary, test any patches that the vendor proposes,
    and ensure the accuracy of your advisory - as well as the vendor's.
 
-4) If the vendor is not responsive, then report the problem to a third
+4. If the vendor is not responsive, then report the problem to a third
    party ("coordinator") such as CERT/CC.  These coordinators may have
    contacts with the vendor, or they may lend credibility to your
    report.
 
-5) When possible, do not announce the vulnerability until the vendor
+5. When possible, do not announce the vulnerability until the vendor
    has provided a patch.  This could take between 1 day and 6 months,
    depending on the vendor and the nature of the problem.  If you
    believe that the issue is urgent and the vendor is not responding
    quickly enough, then try using a coordinator as described in #4.
 
-6) When possible, avoid releasing precise details of the vulnerability
+6. When possible, avoid releasing precise details of the vulnerability
    until system administrators have some time to apply the patch.
 
 If an advisory will not be published by the vendor or an established
@@ -272,66 +272,66 @@ You may encrypt your communications using PGP or GnuPG (gpg), with
 the following cve-assign@mitre.org PGP key, which can be downloaded
 from various PGP key servers:
 
-- -----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v1
+    - -----BEGIN PGP PUBLIC KEY BLOCK-----
+    Version: GnuPG v1
 
-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
-z2alm8YFAk7nvkLSXfEveHr/EtVm3kM=
-=v/YW
-- -----END PGP PUBLIC KEY BLOCK-----
+    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
+    z2alm8YFAk7nvkLSXfEveHr/EtVm3kM=
+    =v/YW
+    - -----END PGP PUBLIC KEY BLOCK-----
 
 
 ==========================================================================
@@ -381,7 +381,7 @@ include a URL to the CVE:
 
 You can also just say something like:
 
-  CVE Number: CVE-yyyy-nnnn
+    CVE Number: CVE-yyyy-nnnn
 
 1) Make sure that the CVE number is correct.  Some advisories have
    been released with incorrect numbers, occasionally due to typos.
