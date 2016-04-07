@@ -1,12 +1,12 @@
 ---
-title: CNA Requirements
+title: CNA Processes
 layout: page
 ---
-----------------
+
 Updated: October 7, 2014
 
 ## Requirements
-------------
+
 
 1. Must be an established entity that has published security
    advisories, or their equivalents, for at least six months,
@@ -32,7 +32,7 @@ Updated: October 7, 2014
 
 
 ## CNA Recruitment Process
------------------------
+
 Updated: October 7, 2014
 
 The potential CNA is called a "prospect."
@@ -95,7 +95,6 @@ The potential CNA is called a "prospect."
 
 
 
-_________________
 
 ## Pool/Block Requests from Secondary CNAs
 
