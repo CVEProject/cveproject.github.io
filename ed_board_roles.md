@@ -25,12 +25,14 @@ Participation should be consistent with respect to the specific task. Allowances
 
 ## Tasks for All Members
 All members are expected to perform the following tasks:
+
 1.	Consultation: Participate in Editorial Board meetings or discussion of ad hoc issues related to CVE content or Editorial Board processes such as content decisions, Editorial Board membership, or CVE compatibility.
 2.	Awareness: Participate in Editorial Board meetings and/or reading meeting summaries, and regularly reading posts on the Editorial Board mailing lists.
 
 Note: In general, if a member provides no response to an Editorial Board discussion topic, it is viewed as agreement. No response to an Editorial Board vote, however, is viewed as lack of participation.
 
 Many members may perform the following tasks:
+
 1.	Outreach: Actively promote CVE and educate the public about CVE, or introduce various contacts to MITRE within the CVE context.
 2.	Non-CVE activities: Participate in activities that are undertaken under the Editorial Board context, but not directly related to CVE.
 
@@ -39,6 +41,7 @@ The amount of effort for these tasks may vary widely. Each consultation task usu
 
 ## Technical Implementer Tasks
 In addition to those tasks that are required of all members, each Technical Implementer should regularly perform one or more of the following tasks:
+
 1.	Oversight and Review: Review and comment on new CVE Identifiers, as necessary.
 2.	Content Provision: Provide portions of their vulnerability databases to MITRE for conversion into CVE Identifiers, which ensures that CVE content is as complete as possible.
 3.	Reservation and Assignment: Be actively involved in CVE Identifier reservation; or act as CVE Numbering Authorities (CNAs), which are authorized to assign CVE Identifiers to security issues before they are publicized.
@@ -66,6 +69,7 @@ The individual's knowledge may be broad (e.g., general knowledge of various type
 
 ## SME Tasks
 SMEs should perform one or more of the following tasks, in addition to those tasks that are required of all members:
+
 1.	Community Education: Educate the SME's own user community in various aspects of CVE, where appropriate.
 2.	Editorial Board Education: Educate the Editorial Board about the needs and interests for CVE within the SME-specific community, particularly relating to patch prioritization, vulnerability scanning, policy compliance, and/or threat and incident management.
 3.	Other: Undertake other technical tasks and ad hoc consultation tasks.
@@ -74,13 +78,14 @@ SMEs should perform one or more of the following tasks, in addition to those tas
 SMEs are expected to commit approximately 1-2 hours per week to maintain enough high-level knowledge of CVE and Editorial Board activities to effectively educate their constituency, and the Editorial Board, on CVE-related issues.
 
 ### Qualifications for SMEs
-1.	SMEs that represent a constituency beyond an individual organization must be visible and active in the SME�s constituency community.
+1.	SMEs that represent a constituency beyond an individual organization must be visible and active in the SME's constituency community.
 2.	SMEs that represent an individual organization must be able to effectively communicate with all other relevant parts of that organization.
 3.	SMEs must be familiar with patch prioritization, vulnerability scanning, policy compliance, and/or threat and incident management.
 4.	Software vendor SMEs must be able to effectively communicate with the vendor's security and product development teams.
 
 ## Advocate Tasks
 Advocates should perform one or more of the following tasks, in addition to those tasks that are required of all members:
+
 1.	Endorse CVE: Endorse CVE to constituencies that will benefit from it.
 2.	Foster Communication: Foster better communication between constituencies.
 3.	Editorial Board Participation: Participate in Editorial Board activities, especially in decisions related to Editorial Board structure and strategic activities.
@@ -104,11 +109,13 @@ Emeritus members may participate at will in the CVE Initiative, and are invited 
 
 ## Recognition of Former Members
 A person who has left the Editorial Board is recognized in one of the following ways:
+
 1.	If the person has qualified for Emeritus status, then the member is identified as Emeritus.
 2.	If the person did not qualify for Emeritus status, but made clear contributions to CVE as determined by MITRE, then the member is identified as a former contributing member.
 
 ## Editorial Board Roles for MITRE
 The following roles are unique to MITRE:
+
 1.	Editorial Board Moderator: MITRE, as moderator of the Editorial Board, is responsible for the structure of the Editorial Board, management of Editorial Board mailing lists and meetings, recruitment of new Editorial Board members, and additional Editorial Board activities.
 2.	IP Protection: MITRE is responsible for protecting contributed and transferred intellectual property (IP) and makes non-competitive use of contributed IP, with appropriate licensing and access.
 3.	Other: MITRE undertakes additional tasks, including CVE content creation, CVE website maintenance, CVE adoption, and community outreach.

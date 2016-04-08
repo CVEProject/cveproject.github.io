@@ -12,3 +12,4 @@ This page will include links to documentation as it is added to this site:
 * [CVE Counting - Draft for comment - 2016-03-22.pdf](CVE Counting - Draft for comment - 2016-03-22.pdf)
 * [Key Details Phrasing - slides as PDF](key_details_phrasing_slides.pdf)
 * [CNA Processes](CNA_Processes.html)
+* [CVE Editorial Board Member Roles, Tasks, and Qualifications](ed_board_roles.html)
