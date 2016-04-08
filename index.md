@@ -13,3 +13,4 @@ This page will include links to documentation as it is added to this site:
 * [Key Details Phrasing - slides as PDF](key_details_phrasing_slides.pdf)
 * [CNA Processes](CNA_Processes.html)
 * [CVE Editorial Board Member Roles, Tasks, and Qualifications](ed_board_roles.html)
+* [Adding and Removing CVE Editorial Board Members](ed_board_add_remove.html)

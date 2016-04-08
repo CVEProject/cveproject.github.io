@@ -120,4 +120,4 @@ The following roles are unique to MITRE:
 2.	IP Protection: MITRE is responsible for protecting contributed and transferred intellectual property (IP) and makes non-competitive use of contributed IP, with appropriate licensing and access.
 3.	Other: MITRE undertakes additional tasks, including CVE content creation, CVE website maintenance, CVE adoption, and community outreach.
 
-For background discussion on Editorial Board Member Roles, Tasks, and Qualifications, refer to archived notes from a meeting held in March 2001, as documented in the summary at http://cve.mitre.org/data/board/archives/2001-03/msg00014.html
+For background discussion on Editorial Board Member Roles, Tasks, and Qualifications, refer to archived notes from a meeting held in March 2001, as documented in the summary at [http://cve.mitre.org/data/board/archives/2001-03/msg00014.html](http://cve.mitre.org/data/board/archives/2001-03/msg00014.html)
