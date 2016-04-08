@@ -2,6 +2,9 @@
 title: Adding and Removing CVE Editorial Board Members
 layout: page
 ---
+<center>DRAFT – PREDECISIONAL – FOR DISCUSSION ONLY</center>
+<br>
+
 Date: June 12, 2015
 Document version: 0.4
 
