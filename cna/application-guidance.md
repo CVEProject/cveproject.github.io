@@ -55,27 +55,27 @@ CVE Abstraction Content Decisions: Rationale and Application
 </p><h1>Index</h1>
 
 <ul>
-<li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#inclusion">INCLUSION Decision Tree</a> - how to
+<li><a href="#inclusion">INCLUSION Decision Tree</a> - how to
 determine if an issue should receive a CVE
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
+</li><li><a href="#abstraction">ABSTRACTION Decision Tree</a> - how many CVE
 numbers must be assigned, and how related issues should be grouped
 together
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#mult">Appendix: Handling More Than 2 Issues At Once</a>
+</li><li><a href="#mult">Appendix: Handling More Than 2 Issues At Once</a>
 - when you might be dealing with more than 2 issues
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#largescale">Appendix: Large-Scale Disclosures</a> - when many
+</li><li><a href="#largescale">Appendix: Large-Scale Disclosures</a> - when many
 products and vendors are affected
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#complexAB">Complex Abstraction Scenarios</a> -
+</li><li><a href="#complexAB">Complex Abstraction Scenarios</a> -
 
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#checklist">Final Pre-Disclosure Checklist for CVE</a> -
+</li><li><a href="#checklist">Final Pre-Disclosure Checklist for CVE</a> -
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#FAQ">Frequently Asked Questions (FAQ)</a>
+</li><li><a href="#FAQ">Frequently Asked Questions (FAQ)</a>
 
-</li><li><a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#examples">Examples</a>
+</li><li><a href="#examples">Examples</a>
 
 
 </li></ul>
@@ -212,7 +212,7 @@ identifier; instead, consult MITRE (issue is complex)
 </li></ul>
 
 <p>
-	A separate <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md">document</a> lists multiple examples of this decision tree.
+	A separate <a href="#">document</a> lists multiple examples of this decision tree.
 	<b>(note: Link disabled pending document updates)</b>
 </p>
 
@@ -249,7 +249,7 @@ identifier; instead, consult MITRE (issue is complex)
 		  <ul>
 		  <li><b>No:</b> Continue to ADT1.</li>
 		  <li><b>Yes:</b> See the Appendix on
-		  <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#mult">"Handling More Than 2 Issues At Once"</a>
+		  <a href="#mult">"Handling More Than 2 Issues At Once"</a>
 		  </li>
 		  </ul>
 		</td>
@@ -343,7 +343,7 @@ identifier; instead, consult MITRE (issue is complex)
 					<td>
 					  <ul>
 						  <li><b>No:</b> Continue to ADT2</li>
-						  <li><b>Yes:</b> Jump to special appendix on <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md#largescale">Large-Scale Disclosures</a>.</li>
+						  <li><b>Yes:</b> Jump to special appendix on <a href="#largescale">Large-Scale Disclosures</a>.</li>
 						  <li><b>Not Sure:</b> <font color="FF0000"><b>CONSULT</b></font> MITRE</li>
 					  </ul>
 					</td>
@@ -855,14 +855,11 @@ addition to the regular decision tree.
 </tbody>
 </table>
 
-
-<a name="complexAB"></a>
-
 </p>
 
-<h1><a name="complexAB">Complex Abstraction Scenarios</a></h1>
-
 <a name="complexAB"></a>
+<h1>Complex Abstraction Scenarios</h1>
+
 
 <h2>Vulnerability and Attack Chains</h2>
 
@@ -1134,7 +1131,7 @@ check with MITRE.  Search the CVE or NVD web sites to be sure.
 
 </p><h1>CVE Content Decision Examples</h1>
 
-See <a href="https://github.com/CVEProject/docs/blob/gh-pages/application_guidance_for_cnas.md">this document</a> which lists multiple examples for CD application.
+See <a href="#">this document</a> which lists multiple examples for CD application.
 <b>(note: Link disabled pending document updates)</b>
 
 
