@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
   vulnerabilities. CVE's common identifiers enable data exchange between
   security products and provide a baseline index point for evaluating coverage
   of tools and services.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown

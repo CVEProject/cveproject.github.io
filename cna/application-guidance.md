@@ -47,7 +47,7 @@ For background information, go to:
 
 </p><p>
 
-<a target="_blank" href="http://cve.mitre.org/cve/editorial_policies/cd_abstraction.html">
+<a target="_blank" href="https://cve.mitre.org/cve/editorial_policies/cd_abstraction.html">
 CVE Abstraction Content Decisions: Rationale and Application
 </a>
 
@@ -370,7 +370,7 @@ identifier; instead, consult MITRE (issue is complex)
 			Are X and Y different bug types? (e.g. buffer overflow, SQL injection,
 			NULL pointer dereference?)
 			See
-			<a href="http://cve.mitre.org/cve/editorial_policies/cd_abstraction.html#identifying_different_bug_types">
+			<a href="https://cve.mitre.org/cve/editorial_policies/cd_abstraction.html#identifying_different_bug_types">
 			Guidance on Identifying Different Bug Types</a>
 		</td>
 	</tr>
