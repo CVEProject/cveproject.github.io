@@ -3,7 +3,7 @@ title: Common Vulnerabilities and Exposures
 layout: page
 ---
 
-<img class="center-block img-responsive" src="{{ site.github.url }}/img/cve-logo-600.png" alt="CVE Logo" />
+<img class="center-block img-responsive" src="{{ site.baseurl }}/img/cve-logo-600.png" alt="CVE Logo" />
 
 <div class="row">
 

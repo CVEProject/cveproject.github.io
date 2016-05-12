@@ -19,10 +19,10 @@ Here are the five factors that most often affect determination of the
 correct number of new CVE IDs:
 
 A. Duplicate search. Duplicates may be found by searching
-http://cve.mitre.org/cve/cve.html and also by general web searches (at
+https://cve.mitre.org/cve/cve.html and also by general web searches (at
 any moment in time, not every assigned CVE ID is covered on the
 cve.mitre.org web site). Also, if you have previously contacted
-another organization on the http://cve.mitre.org/cve/cna.html list, a
+another organization on the https://cve.mitre.org/cve/cna.html list, a
 CVE ID assignment may already exist and should not be duplicated.
 
 B. Scope of CVE. CVE IDs are for cases in which the primary method of
@@ -108,7 +108,7 @@ The basic process is:
 Following is some background information, which may help you to
 understand the rationales for the process.
 
-1. See http://cve.mitre.org/cve/identifiers/index.html for
+1. See https://cve.mitre.org/cve/identifiers/index.html for
    details on how vulnerabilities are included in CVE.
 
 2. As more and more CVEs are included in announcements of new
@@ -139,7 +139,7 @@ understand the rationales for the process.
 
 2. You must make sure that your issue is not already a duplicate of an
    existing CVE entry by performing a keyword search on the CVE web
-   site at http://cve.mitre.org/cve/ .
+   site at https://cve.mitre.org/cve/ .
 
 3. You should follow coordinated disclosure practices as described in
    the next section.
@@ -219,7 +219,7 @@ publicize the vulnerability.
 You request a CVE number from a CVE Numbering Authority (CNA).  CNAs
 obtain pools of "blank" candidate numbers from MITRE, and use those
 pools to assign candidates to specific issues.  See
-http://cve.mitre.org/cve/cna.html for a list.
+https://cve.mitre.org/cve/cna.html for a list.
 
 Most major OS vendors use CVE numbers, even if they are not a CNA;
 they generally obtain them from other CNAs.  You could ask them for a
@@ -237,7 +237,7 @@ number of CVE IDs.
 However, the request will have much higher priority if you explain
 its relationship to the CVE coverage goals stated at:
 
-  http://cve.mitre.org/cve/data_sources_product_coverage.html
+  https://cve.mitre.org/cve/data_sources_product_coverage.html
 
 There are three aspects to this:
 
@@ -351,13 +351,13 @@ You can include a paragraph such as the following:
 
   The Common Vulnerabilities and Exposures (CVE) project has assigned
   the name CVE-YYYY-NNNN to this issue. This is an entry on the CVE
-  list (http://cve.mitre.org), which standardizes names for security
+  list (https://cve.mitre.org), which standardizes names for security
   problems.
 
 If you can not include this text due to space limitations, then try to
 include a URL to the CVE:
 
-   http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-YYYY-NNNN
+   https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-YYYY-NNNN
 
 You can also just say something like:
 
@@ -398,7 +398,7 @@ MITRE will then update the CVE information on the CVE web site with a
 proper description, references, etc.
 
 The CVE information will also be updated in the National Vulnerability
-Database (NVD) at http://nvd.nist.gov.
+Database (NVD) at https://nvd.nist.gov.
 
 
 
@@ -416,13 +416,13 @@ disclosure practices that lead to more accurate CVE entries.
 2. "Vulnerability Disclosure Framework", US Department of Homeland
     Security.  January 2004.
 
-      http://www.dhs.gov/xlibrary/assets/vdwgreport.pdf
+      https://www.dhs.gov/xlibrary/assets/vdwgreport.pdf
 
 3. "Responsible Vulnerability Disclosure Process", IETF draft
    document, Christey/Wysopal.  February 2002.
 
-      http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00
+      https://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00
 
 4. "RFPolicy 2.0", Rain Forest Puppy.  2000.
 
-      http://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt
+      https://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt
