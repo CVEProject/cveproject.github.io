@@ -16,6 +16,8 @@ layout: page
         <ul>
           <li markdown="span">[CNA Processes](cna/processes.html)</li>
           <li markdown="span">[CVE Content Decisions: Application Guidance for CNAs](cna/application-guidance.html)</li>
+          <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
+          <li markdown="span">[DRAFT - Review and Update of CNA Roster](cna/DRAFT - Review and Update of CNA Roster.docx)</li>
         </ul>
       </div>
     </div>
