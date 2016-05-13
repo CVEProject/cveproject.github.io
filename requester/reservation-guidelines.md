@@ -399,7 +399,7 @@ disclosure practices that lead to more accurate CVE entries.
 1.  "Guidelines for Security Vulnerability Reporting and Response",
     Organization for Internet Safety.  Version 2.0, 01 September 2004.
 
-      [http://www.oisafety.org/](http://www.oisafety.org/)
+      [http://www.oisafety.org/](http://www.oisafety.org/)  
       [http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf](http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf)
 
 2. "Vulnerability Disclosure Framework", US Department of Homeland
