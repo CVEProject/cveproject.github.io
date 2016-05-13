@@ -230,26 +230,23 @@ CVE as well.
 
 The information should be sent to: cve-assign@mitre.org
 
-You do not necessarily need to reveal the product or vendor names, as
-long as there is sufficient information to determine the correct
-number of CVE IDs.
+A CVE ID request must have sufficient information to determine the correct number of CVE IDs, and to categorize the product.
 
-However, the request will have much higher priority if you explain
-its relationship to the CVE coverage goals stated at:
+Specifically, there is no requirement to state the product name or vendor name. However, not all products are covered by CVE, and not all products can have CVE IDs from our CVE Assignment Team.
 
-  http://cve.mitre.org/cve/data_sources_product_coverage.html
+First, please confirm that cve-assign@mitre.org is the correct place to send your request. For a number of major vendors, the request must be sent directly to the vendor. See our "CNA List" on the http://cve.mitre.org/cve/cna.html web page.
 
-There are three aspects to this:
+Second, please confirm that the vendor or product is listed on our "Product List" at http://cve.mitre.org/data/board/archives/2016-01/msg00015.html under the "TIER 1," "TIER 2," "TIER 3," or "Unspecified" section. No other software or hardware product can receive a CVE ID at present.
 
-  - Is the product on the "Must-Have Products" list?
+If you are able to confirm these, please ensure that your CVE ID request includes a wording similar to "The vendor is not on the CNA List. The vendor or product is on the Product List."
 
-  - Does the vendor plan to announce the vulnerability fix within
-    a source on the "Full Coverage Sources - Vendor Related" or
-    "Partial Coverage Sources - Vendor Related" list?
+Here are a few notes about possible misunderstandings:
 
-  - Do you plan to announce your vulnerability discovery within
-    a source on the "Full Coverage Sources - Other" or
-    "Partial Coverage Sources - Other" list?
+  - We assign CVE IDs for all products that have been packaged by a Linux distribution on our Product List, such as Debian or Fedora. It is not necessary for the specific product name to be listed under "TIER 1," "TIER 2," or "TIER 3."
+
+  - We do not assign CVE IDs for software that may be optionally added to a listed product, such as a third-party plugin or module. For example, we assign CVE IDs for the WordPress core product but not for any WordPress plugin. We do not assign CVE IDs for an Android or iOS app unless the app's author is a listed vendor. We assign CVE IDs for a number of languages including Python and PHP, but not for all code written in those languages (e.g., we do not assign CVE IDs for a web application written in PHP, unless the product or vendor is separately listed).
+
+  - If your request was about CVE IDs for multiple products, we need separate information about presence on the CNA List and Product List for each product.
 
 You must state that you are actively working with the vendor to fix
 the problem.  If the vendor is unresponsive, you should state this.
@@ -259,65 +256,57 @@ the following cve-assign@mitre.org PGP key, which can be downloaded
 from various PGP key servers:
 
     - -----BEGIN PGP PUBLIC KEY BLOCK-----
-    Version: GnuPG v1
+	Version: GnuPG v1
 
-    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
-    z2alm8YFAk7nvkLSXfEveHr/EtVm3kM=
-    =v/YW
-    - -----END PGP PUBLIC KEY BLOCK-----
+	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
+	=N2Ok
+	-----END PGP PUBLIC KEY BLOCK-----
 
 
 ## 8. Information That You Receive from the CNA (or MITRE)
