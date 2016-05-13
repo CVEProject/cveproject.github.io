@@ -366,7 +366,7 @@ You can also just say something like:
 3. OSF (an organization separate from MITRE) offers suggestions about
    other content in the announcement:
 
-    http://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines
+    [http://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines](http://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines)
 
 
 ## 11. After Your Announcement Has Been Publicized
@@ -399,19 +399,19 @@ disclosure practices that lead to more accurate CVE entries.
 1.  "Guidelines for Security Vulnerability Reporting and Response",
     Organization for Internet Safety.  Version 2.0, 01 September 2004.
 
-      http://www.oisafety.org/
-      http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf
+      [http://www.oisafety.org/](http://www.oisafety.org/)
+      [http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf](http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf)
 
 2. "Vulnerability Disclosure Framework", US Department of Homeland
     Security.  January 2004.
 
-      http://www.dhs.gov/xlibrary/assets/vdwgreport.pdf
+      [http://www.dhs.gov/xlibrary/assets/vdwgreport.pdf](http://www.dhs.gov/xlibrary/assets/vdwgreport.pdf)
 
 3. "Responsible Vulnerability Disclosure Process", IETF draft
    document, Christey/Wysopal.  February 2002.
 
-      http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00
+      [http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00](http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00)
 
 4. "RFPolicy 2.0", Rain Forest Puppy.  2000.
 
-      http://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt
+      [http://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt](http://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt)
