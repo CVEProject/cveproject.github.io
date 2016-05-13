@@ -19,7 +19,7 @@ Here are the five factors that most often affect determination of the
 correct number of new CVE IDs:
 
 A. Duplicate search. Duplicates may be found by searching
-[<u>the MITRE CVE site</u></u>](http://cve.mitre.org/cve/cve.html) and also by general web searches (at
+[<u>the MITRE CVE site</u>](http://cve.mitre.org/cve/cve.html) and also by general web searches (at
 any moment in time, not every assigned CVE ID is covered on the
 cve.mitre.org web site). Also, if you have previously contacted
 another organization on [<u>the CNA list</u>](http://cve.mitre.org/cve/cna.html), a
