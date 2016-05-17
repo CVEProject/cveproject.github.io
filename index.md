@@ -18,7 +18,7 @@ layout: page
           <li markdown="span">[CVE Content Decisions: Application Guidance for CNAs](cna/application-guidance.html)</li>
           <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
           <li markdown="span">[DRAFT - Review and Update of CNA Roster](cna/DRAFT - Review and Update of CNA Roster.docx)</li>
-          <li markdown="spam">[DRAFT - Information Sharing and Embargo Policies](cna/DRAFT - Information Sharing and Embargo Policies.docx)</li>
+          <li markdown="span">[DRAFT - Information Sharing and Embargo Policies](cna/DRAFT - Information Sharing and Embargo Policies.docx)</li>
         </ul>
       </div>
     </div>
