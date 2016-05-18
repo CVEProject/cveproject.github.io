@@ -19,10 +19,10 @@ Here are the five factors that most often affect determination of the
 correct number of new CVE IDs:
 
 A. Duplicate search. Duplicates may be found by searching
-[<u>the MITRE CVE site</u>](http://cve.mitre.org/cve/cve.html) and also by general web searches (at
+[<u>the MITRE CVE site</u>](https://cve.mitre.org/cve/cve.html) and also by general web searches (at
 any moment in time, not every assigned CVE ID is covered on the
 cve.mitre.org web site). Also, if you have previously contacted
-another organization on [<u>the CNA list</u>](http://cve.mitre.org/cve/cna.html), a
+another organization on [<u>the CNA list</u>](https://cve.mitre.org/cve/cna.html), a
 CVE ID assignment may already exist and should not be duplicated.
 
 B. Scope of CVE. CVE IDs are for cases in which the primary method of
@@ -108,7 +108,7 @@ The basic process is:
 Following is some background information, which may help you to
 understand the rationales for the process.
 
-1. See [<u>the Identifiers page</u>](http://cve.mitre.org/cve/identifiers/index.html) for
+1. See [<u>the Identifiers page</u>](https://cve.mitre.org/cve/identifiers/index.html) for
    details on how vulnerabilities are included in CVE.
 
 2. As more and more CVEs are included in announcements of new
@@ -139,7 +139,7 @@ understand the rationales for the process.
 
 2. You must make sure that your issue is not already a duplicate of an
    existing CVE entry by performing a keyword search on [<u>the CVE web
-   site</u>](http://cve.mitre.org/cve/).
+   site</u>](https://cve.mitre.org/cve/).
 
 3. You should follow coordinated disclosure practices as described in
    the next section.
@@ -218,7 +218,7 @@ publicize the vulnerability.
 
 You request a CVE number from a CVE Numbering Authority (CNA).  CNAs
 obtain pools of "blank" candidate numbers from MITRE, and use those
-pools to assign candidates to specific issues.  See [<u>the CNA list</u>](http://cve.mitre.org/cve/cna.html)
+pools to assign candidates to specific issues.  See [<u>the CNA list</u>](https://cve.mitre.org/cve/cna.html)
 page.
 
 Most major OS vendors use CVE numbers, even if they are not a CNA;
@@ -234,9 +234,9 @@ A CVE ID request must have sufficient information to determine the correct numbe
 
 Specifically, there is no requirement to state the product name or vendor name. However, not all products are covered by CVE, and not all products can have CVE IDs from our CVE Assignment Team.
 
-First, please confirm that cve-assign@mitre.org is the correct place to send your request. For a number of major vendors, the request must be sent directly to the vendor. See our [<u>"CNA List"</u>](http://cve.mitre.org/cve/cna.html) web page.
+First, please confirm that cve-assign@mitre.org is the correct place to send your request. For a number of major vendors, the request must be sent directly to the vendor. See our [<u>"CNA List"</u>](https://cve.mitre.org/cve/cna.html) web page.
 
-Second, please confirm that the vendor or product is listed on our [<u>"Product List"</u>](http://cve.mitre.org/data/board/archives/2016-01/msg00015.html) under the "TIER 1," "TIER 2," "TIER 3," or "Unspecified" section. No other software or hardware product can receive a CVE ID at present.
+Second, please confirm that the vendor or product is listed on our [<u>"Product List"</u>](https://cve.mitre.org/data/board/archives/2016-01/msg00015.html) under the "TIER 1," "TIER 2," "TIER 3," or "Unspecified" section. No other software or hardware product can receive a CVE ID at present.
 
 If you are able to confirm these, please ensure that your CVE ID request includes a wording similar to "The vendor is not on the CNA List. The vendor or product is on the Product List."
 
@@ -340,13 +340,13 @@ You can include a paragraph such as the following:
 
   The Common Vulnerabilities and Exposures (CVE) project has assigned
   the name CVE-YYYY-NNNN to this issue. This is an entry on [<u>the CVE
-  list</u>](http://cve.mitre.org), which standardizes names for security
+  list</u>](https://cve.mitre.org), which standardizes names for security
   problems.
 
 If you can not include this text due to space limitations, then try to
 include a URL to the CVE:
 
-   http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-YYYY-NNNN
+   https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-YYYY-NNNN
 
 You can also just say something like:
 
@@ -366,7 +366,7 @@ You can also just say something like:
 3. OSF (an organization separate from MITRE) offers suggestions about
    other content in the announcement:
 
-    [http://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines](http://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines)
+    [https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines](https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines)
 
 
 ## 11. After Your Announcement Has Been Publicized
@@ -387,7 +387,7 @@ MITRE will then update the CVE information on the CVE web site with a
 proper description, references, etc.
 
 The CVE information will also be updated in [<u>the National Vulnerability
-Database (NVD)</u>](http://nvd.nist.gov).
+Database (NVD)</u>](https://nvd.nist.gov).
 
 
 
