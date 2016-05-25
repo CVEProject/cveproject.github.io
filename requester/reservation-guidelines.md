@@ -255,7 +255,7 @@ You may encrypt your communications using PGP or GnuPG (gpg), with
 the following cve-assign@mitre.org PGP key, which can be downloaded
 from various PGP key servers:
 
-    - -----BEGIN PGP PUBLIC KEY BLOCK-----
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
 	Version: GnuPG v1
 
 	mQINBFb1cyYBEAC6z0QzTNhnlyTnBRjOOH2m84gVibf5+S19pY985uaseeeZoWel
