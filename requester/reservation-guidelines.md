@@ -236,13 +236,13 @@ Specifically, there is no requirement to state the product name or vendor name. 
 
 First, please confirm that cve-assign@mitre.org is the correct place to send your request. For a number of major vendors, the request must be sent directly to the vendor. See our [<u>"CNA List"</u>](https://cve.mitre.org/cve/cna.html) web page.
 
-Second, please confirm that the vendor or product is listed on our [<u>"Product List"</u>](https://cve.mitre.org/data/board/archives/2016-01/msg00015.html) under the "TIER 1," "TIER 2," "TIER 3," or "Unspecified" section. No other software or hardware product can receive a CVE ID at present.
+Second, please confirm that the vendor or product is listed on our [<u>"Product List"</u>](http://cve.mitre.org/cve/data_sources_product_coverage.html#products). No other software or hardware product can receive a CVE ID at present.
 
 If you are able to confirm these, please ensure that your CVE ID request includes a wording similar to "The vendor is not on the CNA List. The vendor or product is on the Product List."
 
 Here are a few notes about possible misunderstandings:
 
-  - We assign CVE IDs for all products that have been packaged by a Linux distribution on our Product List, such as Debian or Fedora. It is not necessary for the specific product name to be listed under "TIER 1," "TIER 2," or "TIER 3."
+  - We assign CVE IDs for all products that have been packaged by a Linux distribution on our Product List, such as Debian or Fedora. It is not necessary for the specific product name to be listed on our "Product List."
 
   - We do not assign CVE IDs for software that may be optionally added to a listed product, such as a third-party plugin or module. For example, we assign CVE IDs for the WordPress core product but not for any WordPress plugin. We do not assign CVE IDs for an Android or iOS app unless the app's author is a listed vendor. We assign CVE IDs for a number of languages including Python and PHP, but not for all code written in those languages (e.g., we do not assign CVE IDs for a web application written in PHP, unless the product or vendor is separately listed).
 
