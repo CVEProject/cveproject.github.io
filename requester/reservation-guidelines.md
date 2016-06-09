@@ -167,12 +167,12 @@ Improper disclosure practices have the following impact on CVE:
 
 There are several documents that provide guidelines on disclosure,
 such as the one at [<u>OISafety.org</u>](http://www.oisafety.org/) in PDF format.  See
-Appendix A: Documents on Disclosure Practices for more details.
+[<u>Appendix A: Documents on Disclosure Practices</u>](#appendix-a-documents-on-disclosure-practices) for more details.
 
 
 In general, you should do the following:
 
-1. Find and notify the appropriate security contact for the vendor
+1. Find and notify the appropriate security contact for the vendor.
    If you cannot find a contact, then try technical support.
 
 2. Provide the vendor with at least 5 business days to respond and
@@ -360,7 +360,7 @@ You can also just say something like:
    can easily tell which candidate is related to which issue.  For
    example:
 
-      CVE-yyyy-nnnn - buffer overflows
+      CVE-yyyy-nnnn - buffer overflows  
       CVE-yyyy-mmmm - format string
 
 3. OSF (an organization separate from MITRE) offers suggestions about
