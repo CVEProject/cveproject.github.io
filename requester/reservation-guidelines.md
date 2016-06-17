@@ -236,7 +236,7 @@ Specifically, there is no requirement to state the product name or vendor name. 
 
 First, please confirm that cve-assign@mitre.org is the correct place to send your request. For a number of major vendors, the request must be sent directly to the vendor. See our [<u>"CNA List"</u>](https://cve.mitre.org/cve/cna.html) web page.
 
-Second, please confirm that the vendor or product is listed on our [<u>"Product List"</u>](http://cve.mitre.org/cve/data_sources_product_coverage.html#products). No other software or hardware product can receive a CVE ID at present.
+Second, please confirm that the vendor or product is listed on our [<u>"Product List"</u>](http://cve.mitre.org/cve/data_sources_product_coverage.html#products). This list represents the current coverage goals for the CVE program.
 
 If you are able to confirm these, please ensure that your CVE ID request includes a wording similar to "The vendor is not on the CNA List. The vendor or product is on the Product List."
 
