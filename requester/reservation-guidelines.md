@@ -3,257 +3,357 @@ title: Researcher Reservation Guidelines
 layout: page
 ---
 
-Here is the current description of how CVE reservation requests occur,
-along with information about closely related parts of the CVE process.
+This document provides information on how to reserve a CVE ID(s) 
+before publicizing a new vulnerability so that CVE IDs can be 
+included in the initial public announcement of the vulnerability and 
+can be used to track vulnerabilities. 
 
-The main elements of the reservation process are:
+Some important things to note:
 
-  1. Someone sends cve-assign@mitre.org sufficient information
-     to determine the correct number of new CVE IDs.
+* The CVE request process reduces the amount of overlap with the 
+  work of other entities by identifying which organization(s) should 
+  be contacted first.
 
-  2. We send an e-mail response that provides one or more CVE IDs
-     and an indication of which vulnerability information is
-     associated with which ID.
+* The CVE request process is designed to ensure all vulnerability 
+  information included in CVE is publicly available. This reduces 
+  the risk of accidental disclosure of such information. **Details 
+  provided in requests will not be released until those details have 
+  been made public.**
 
-Here are the five factors that most often affect determination of the
-correct number of new CVE IDs:
+* If a requester does not use and share CVE IDs properly, MITRE and 
+  other CVE Numbering Authorities (CNAs) reserve the right to refuse 
+  assigning CVE IDs to that requester in the future. Steps 2, 10, 
+  11, and 12 in the list below provide details on proper use and 
+  sharing of CVE IDs.
 
-A. Duplicate search. Duplicates may be found by searching
-[<u>the MITRE CVE site</u>](https://cve.mitre.org/cve/cve.html) and also by general web searches (at
-any moment in time, not every assigned CVE ID is covered on the
-cve.mitre.org web site). Also, if you have previously contacted
-another organization on [<u>the CNA list</u>](https://cve.mitre.org/cve/cna.html), a
-CVE ID assignment may already exist and should not be duplicated.
+  
+## The basic process for reserving a CVE ID is as follows:
 
-B. Scope of CVE. CVE IDs are for cases in which the primary method of
-addressing the vulnerability is for individual product users to take
-an action to update their own copy of the product. (CVE IDs are not
-for cases in which the primary method of addressing the vulnerability
-is for an action to be taken by the operator of a single web site or
-online service.)
+1.	[Determine if a CVE ID is needed and appropriate.](#determine-if-a-cve-id-is-needed-and-appropriate.) If yes,
+2.	[Contact a vendor whose product is affected to disclose a 
+    vulnerability (coordinated disclosure).](#contact-the-affected-product-vendor-directly)
+3.	[Determine whether the request should be made to a vendor CNA.](#requests-to-a-vendor-cna) If no,
+4.	[Determine whether the request should be made to a third party 
+    coordinator CNA, or to a disclosure mailing list.](#requests-to-third-party-coordinator-cnas-or-email-lists) If no,
+5.	[Request a CVE ID from MITRE using the CVE Request web form.](#requests-to-mitre)
+6.	[Provide the required information in the request.](#information-to-provide-in-the-request-to-mitre)
+7.	[Receive a confirmation email with a reference number and save 
+    it for your records.](#confirmation-of-request)
+8.	[Provide follow-up information as needed.](#followup-information-requests-from-mitre)
+9.	[Receive a CVE ID (or an explanation if a CVE ID was not 
+    provided)](#receive-a-cve-id-or-rationale-if-not-assigned)
+10.	[Share the CVE ID with all parties.](#sharing-the-cve-id-with-others)
+11.	[Include the CVE ID in the announcement of the vulnerability.](#information-to-include-in-a-vulnerability-announcement)
+12.	[Notify MITRE that the vulnerability has been made public using 
+    the CVE Request web form, and selecting "Notify CVE about a 
+	Publication."](#notify-the-mitre-cve-assignment-team-of-publication)
 
-C. Establishing a policy violation. CVE IDs are for cases in which the
-vendor agrees (or it is essentially certain that a vendor would agree)
-that the observed product behavior violates a security policy, such as
-an unintended loss of confidentiality, integrity, or availability.
-(CVE IDs are not for cases in which a reporter unilaterally believes
-that product hardening is desirable, such as a different approach to
-abuse prevention or a different display of security-relevant data.)
+The CVE is then published by MITRE and will appear on the CVE List. 
 
-D. Establishing how the vulnerabilities differ. For example, in cases
-of multiple findings reported at the same time for a single product,
-separate CVE IDs are needed for each difference in primary
-vulnerability type, set of affected versions, or discoverer.
+These steps are detailed in the sections below.
 
-E. Cross-vendor coordination. Separate CVE IDs are not assigned solely
-because vulnerable code is shipped in more than one product.
-Especially in the case of open-source software, it is common for
-multiple vendors to use the same CVE ID in any scenario in which they
-have bundled, repackaged, or copied a piece of vulnerable code.
+## 1. Determine if a CVE ID is needed and appropriate
 
+CVE IDs are currently only assigned to vulnerabilities that are 
+going to be publicly announced.
 
-Other text from our recent "Reservation Guidelines for Researchers"
-including steps that occur before and after reservation:
+1. Determine whether the problem you identified is a vulnerability.
 
-* You should really coordinate with the vendor, including sharing CVE
-  numbers.  Information quality is much better that way, and it
-  reduces the chance of duplicate CVEs.
+   A vulnerability in the context of the CVE program is indicated by 
+   code that can be exploited, resulting in a negative impact to 
+   confidentiality, integrity, OR availability, and that requires a 
+   coding change, specification change, or specification deprecation 
+   to mitigate or address.
+   
+2. Ensure that the vulnerability for which you are seeking a CVE ID 
+   does not already have an assigned CVE ID by performing a keyword 
+   search on the [CVE website](https://cve.mitre.org/cve/).
 
-* You can encrypt your request using the cve-assign@mitre.org PGP key,
-  available from the usual places and in this message.
+## 2. Contact the affected product vendor directly
 
-* We don't release any details until they're public.
+You should make a good faith effort to notify the affected vendor 
+and work with them to ensure that a patch is available prior to 
+publicly disclosing the vulnerability. Information is more accurate 
+and complete when researchers and vendors work together. This 
+practice also reduces the likelihood of a duplicate CVE ID being 
+issued, which can happen when both a researcher and vendor request 
+CVE IDs. 
 
-* If you have multiple CVEs, make sure that your advisory makes it
-  clear about which CVE goes with which issue.
+Without independent confirmation or vendor acknowledgement, it may 
+not be possible to determine if the vulnerability is real, which 
+could result in a request for a CVE ID being denied.
 
-## Table of Contents
-
-
-1. [Introduction](#introduction)
-2. [Background](#background)
-3. [Before Requesting a CVE Number](#before-requesting-a-cve-number)
-4. [Following Coordinated Disclosure Practices](#following-coordinated-disclosure-practices)
-5. [When to Request a CVE Number](#when-to-request-a-cve-number)
-6. [Where to Request a CVE Number](#where-to-request-a-cve-number)
-7. [Information to Provide in Your Request](#information-to-provide-in-your-request)
-8. [Information That You Receive from the CNA (or MITRE)](#information-that-you-receive-from-the-cna-or-mitre)
-9. [Sharing the CVE Number with Others](#sharing-the-cve-number-with-others)
-10. [Information to Include in Your Announcement](#information-to-include-in-your-announcement)
-11. [After Your Announcement Has Been Publicized](#after-your-announcement-has-been-publicized)
-
-
-## 1. Introduction
-
-
-This document provides vulnerability researchers with information on
-how to reserve a CVE number before publicizing a new vulnerability.
-CVE reservation allows researchers to include candidate numbers in the
-initial public announcement of the vulnerability.  It ensures that the
-CVE number is instantly available to all CVE users and makes it easier
-to track vulnerabilities over time.
-
-The basic process is:
-
-1. You REQUEST one or more CVE numbers.
-2. MITRE RESERVES the CVE numbers and provides them to you.
-3. You share these CVE numbers with all parties
-4. You include the CVE number in your announcement of the
-   vulnerability.
-5. You notify MITRE that the CVE has been made public.
-6. The CVE later appears on the cve.mitre.org web site.
-
-## 2. Background
-
-Following is some background information, which may help you to
-understand the rationales for the process.
-
-1. See [<u>the Identifiers page</u>](https://cve.mitre.org/cve/identifiers/index.html) for
-   details on how vulnerabilities are included in CVE.
-
-2. As more and more CVEs are included in announcements of new
-   vulnerabilities, it can be more difficult to exchange CVEs
-   across all involved parties.  This could increase the amount of
-   "noise" in CVE.
-
-3. If you do not use and share CVE numbers properly, then MITRE
-   and other CVE Numbering Authorities (CNAs) will not provide
-   them to you any more.  This reduces the risk of #2, and it helps to
-   prevent abuse.
-
-4. The CVE request process is designed so that it minimizes
-   interference with the current disclosure process, e.g. posting to
-   Bugtraq or Full-Disclosure.
-
-5. The CVE request process is designed to minimize the amount of
-   non-public vulnerability information that is available to MITRE.
-   This reduces the risk of accidental disclosure of such information.
-   It also reduces the amount of overlap with the work of other
-   entities such as CERT/CC, Bugtraq, and Full-Disclosure.
-
-
-## 3. Before Requesting a CVE Number
-
-1. CVE numbers are ONLY for security issues that are going to be
-   publicly announced.
-
-2. You must make sure that your issue is not already a duplicate of an
-   existing CVE entry by performing a keyword search on [<u>the CVE web
-   site</u>](https://cve.mitre.org/cve/).
-
-3. You should follow coordinated disclosure practices as described in
-   the next section.
-
-## 4. Following Coordinated Disclosure Practices
-
-You should make a good faith effort to notify the affected vendor and
-work with them to ensure that a patch is available.  Information is
-more accurate and complete when researchers and vendors work together.
-
-Improper disclosure practices have the following impact on CVE:
-
-1. You may introduce inaccurate information, such as the affected
-   versions or the underlying cause of the problem.
-
-2. Your description of the problem could vary so much from that of the
-   vendor, that duplicate CVE IDs may be produced - one for your
-   description, and another for the vendor's.  This has happened in
-   the past.
-
-3. Without independent confirmation or vendor acknowledgement, members
-   of the CVE Editorial Board may not be confident that the issue is
-   real.
-
-
-There are several documents that provide guidelines on disclosure,
-such as the one at [<u>OISafety.org</u>](http://www.oisafety.org/) in PDF format.  See
-Appendix A: Documents on Disclosure Practices for more details.
-
+There are several documents that provide guidelines on disclosure. 
+See [Appendix A: Documents on Disclosure Practices for more details](#appendix-a:-documents-on-disclosure-practices-for-more-details).
 
 In general, you should do the following:
 
-1. Find and notify the appropriate security contact for the vendor
-   If you cannot find a contact, then try technical support.
+1. Find and notify the appropriate security contact for the vendor. 
+   If you cannot find a contact, try technical support.
+   
+2. Allow the vendor five business days to respond and acknowledge 
+   that they are aware of the problem. An "auto-reply" email or 
+   other computer-generated response does not represent vendor 
+   awareness.
+   
+   a) Work with the vendor to explain the problem, conduct further 
+      analysis if necessary, test any patches that the vendor 
+	  proposes, and ensure the accuracy of both your, and the 
+	  vendor’s, advisory.
+	  
+3. If, after five business days, the vendor is unresponsive, report 
+   the problem to a third party "coordinator" such as CERT/CC. These 
+   coordinators may have contacts with the vendor, or they may lend 
+   credibility to your report.
+   
+4. If an advisory will not be published by the vendor or an 
+   established response team (e.g., CERT/CC), you may choose to 
+   announce the vulnerability to a public forum that allows others 
+   to validate the claims. Currently, those forums include the 
+   Bugtraq and Full-Disclosure mailing lists, and sites such as 
+   exploit-db and Packet Storm.
+   
+When possible, do not announce a vulnerability until the vendor has 
+provided a patch. This could take between one day and six months, 
+depending on the vendor and the nature of the problem. If you 
+believe that the issue is urgent and the vendor is not responding 
+quickly enough, try using a coordinator as described in #4. Also, 
+you should avoid releasing precise details of the vulnerability 
+until system administrators have time to apply the patch.
 
-2. Provide the vendor with at least 5 business days to respond and
-   show that the vendor is aware of the problem.  An "auto-reply"
-   email or other computer-generated response does not represent
-   vendor awareness.
+## 3. Requests to a vendor CNA
 
-3. Work with the vendor to explain the problem, conduct further
-   analysis if necessary, test any patches that the vendor proposes,
-   and ensure the accuracy of your advisory - as well as the vendor's.
+Software vendors participating as [CNAs](https://cve.mitre.org/cve/cna.html) assign CVE IDs for their 
+products. If the vulnerability is related to a CNA product, contact 
+the [appropriate CNA organization](https://cve.mitre.org/cve/cna.html#participating_cnas) directly. If the request is 
+accepted, the organization will assign a CVE ID for the issue and 
+include it in its initial public announcement. 
 
-4. If the vendor is not responsive, then report the problem to a third
-   party ("coordinator") such as CERT/CC.  These coordinators may have
-   contacts with the vendor, or they may lend credibility to your
-   report.
+## 4. Requests to third party coordinator CNAs or email lists
+ 
+If a CVE ID cannot be requested through a CNA, consider contacting a 
+third party coordinator such as an emergency response or 
+vulnerability analysis team (e.g., CERT/CC), especially when there 
+are problems in contacting the affected vendor. If the request is 
+accepted, that organization will work to have a CVE ID assigned to 
+the issue. Or, you may post the information to mailing lists such as 
+BugTraq or oss-security and, if accepted, the issue will eventually 
+be assigned a CVE ID by a CNA.
 
-5. When possible, do not announce the vulnerability until the vendor
-   has provided a patch.  This could take between 1 day and 6 months,
-   depending on the vendor and the nature of the problem.  If you
-   believe that the issue is urgent and the vendor is not responding
-   quickly enough, then try using a coordinator as described in #4.
+## 5. Requests to MITRE
 
-6. When possible, avoid releasing precise details of the vulnerability
-   until system administrators have some time to apply the patch.
+If you are unable to obtain a CVE ID via the methods cited above, 
+you may request a CVE ID directly from MITRE using MITRE’s [CVE 
+Request web form](https://cveform.mitre.org/) (view [guidance](http://cve.mitre.org/about/documents.html#web_form)). Complete the "Request a CVE ID" 
+web form.
+ 
+Determine if the affected product is within the scope of MITRE as a 
+CNA by checking the [CVE Coverage Goals](https://cve.mitre.org/cve/data_sources_product_coverage.html). If a product is not within 
+scope, it may not be issued a CVE ID by the MITRE CVE Assignment 
+Team.
 
-If an advisory will not be published by the vendor or an established
-response team (e.g. CERT/CC), then you must announce the vulnerability
-to a public forum that allows others to validate your claims.
-Currently, those forums include the Bugtraq and Full-Disclosure
-mailing lists, and sites like exploit-db and Packet Storm.
+As an exception, the MITRE CVE Assignment Team assigns CVE IDs for 
+products that have been packaged by a Linux distribution on our 
+Product List, such as Debian or Fedora. It is not necessary for the 
+specific product name to be listed on the Product List.
 
+CVE IDs are not assigned by the MITRE CVE Assignment Team for 
+software that may be optionally added to a listed product, such as a 
+third-party plugin or module. For example, CVE IDs are assigned for 
+the WordPress core product, but not for any WordPress plugin. CVE 
+IDs are also not assigned for Android or iOS apps unless the app’s 
+author is a listed vendor.
+ 
+In addition, the MITRE CVE Assignment Team assigns CVE IDs for a 
+number of programming languages including Python and PHP, but not 
+for all code written in those languages. As an example, CVE IDs are 
+not assigned for a web application written in PHP, unless the 
+product or vendor is separately listed.
 
-## 5. When to Request a CVE Number
+## 6. Information to provide in the request to MITRE
 
-You should request a CVE number after you have made a good faith
-attempt to notify the vendor.
+The [CVE Request web form > Request a CVE ID](https://cveform.mitre.org/) requires the following 
+information:
 
-In general, you should request a CVE number 1 to 2 weeks before you
-publicize the vulnerability.
+* The type of request;
+* The e-mail address of the requester;
+* The number of IDs being requested;
+* The type of vulnerability for each CVE ID requested;
+* The affected vendor for each vulnerability; and
+* The affected product and version for each vulnerability (a generic 
+  name can be used if the vulnerability has not been made public).
 
+The required information is the minimum information required to 
+request a CVE ID. However, you can also provide optional information 
+which can be used to provide additional detail for your CVE ID 
+request and may be valuable to creating the CVE entry as well as for 
+downstream consumers. 
 
-## 6. Where to Request a CVE Number
+Optional information includes:
+* Attack type;
+* Impact;
+* Affected component;
+* Attack vector;
+* Discoverer;
+* References; and
+* Any additional information.
+ 
+## 7. Confirmation of request
 
-You request a CVE number from a CVE Numbering Authority (CNA).  CNAs
-obtain pools of "blank" candidate numbers from MITRE, and use those
-pools to assign candidates to specific issues.  See [<u>the CNA list</u>](https://cve.mitre.org/cve/cna.html)
-page.
+Upon completion of the CVE Request web form, the requestor will 
+receive a confirmation email that the request was received and a 
+reference number. If you need to communicate with MITRE about this 
+request, reply to the confirmation email without changing the 
+subject line, as it contains the reference number associated with 
+your request.
 
-Most major OS vendors use CVE numbers, even if they are not a CNA;
-they generally obtain them from other CNAs.  You could ask them for a
-CVE as well.
+If you do not seem to have received a confirmation email, please 
+check your spam folder.
 
+## 8. Follow-up information requests from MITRE
 
-## 7. Information to Provide in Your Request
+If MITRE requires any additional clarification, they will contact 
+the requester via email, referencing the confirmation number for the 
+submitted CVE Request.
 
-The information should be sent to: cve-assign@mitre.org
+## 9. Receive a CVE ID (or rationale if not assigned)
 
-A CVE ID request must have sufficient information to determine the correct number of CVE IDs, and to categorize the product.
+Once there is enough information to confirm the vulnerability exists 
+and that it affects a covered product, the MITRE CVE Assignment Team 
+will reply to the requester with a CVE ID. The CVE ID is considered 
+"reserved" at this stage. Descriptions with details of the 
+vulnerability will only be added when the vulnerability is made 
+public (see step 12).
+ 
+If the vulnerability is not confirmed, or if it is not in a covered 
+product, a CVE ID request may be rejected. In this case, the 
+requester will receive a response from the MITRE CVE Assignment Team 
+notifying them of the decision.
 
-Specifically, there is no requirement to state the product name or vendor name. However, not all products are covered by CVE, and not all products can have CVE IDs from our CVE Assignment Team.
+## 10. Sharing the CVE ID with others
 
-First, please confirm that cve-assign@mitre.org is the correct place to send your request. For a number of major vendors, the request must be sent directly to the vendor. See our [<u>"CNA List"</u>](https://cve.mitre.org/cve/cna.html) web page.
+Once a CVE ID is obtained, provide it to all affected vendors and 
+other parties (such as CERT/CC) with whom you are communicating. 
+This makes it easier to share information about the vulnerability 
+and reduces the risk that different parties may assign different CVE 
+IDs to the same vulnerability.
 
-Second, please confirm that the vendor or product is listed on our [<u>"Product List"</u>](http://cve.mitre.org/cve/data_sources_product_coverage.html#products). This list represents the current coverage goals for the CVE program.
+## 11. Information to include in a vulnerability announcement
 
-If you are able to confirm these, please ensure that your CVE ID request includes a wording similar to "The vendor is not on the CNA List. The vendor or product is on the Product List."
+When publishing a vulnerability with an associated CVE ID, include 
+the CVE ID in the announcement. Announcements containing multiple 
+CVE IDs should delineate which CVE ID is associated with which 
+vulnerability.
 
-Here are a few notes about possible misunderstandings:
+The following information may be contained in the vulnerability 
+announcement:
 
-  - We assign CVE IDs for all products that have been packaged by a Linux distribution on our Product List, such as Debian or Fedora. It is not necessary for the specific product name to be listed on our "Product List."
+* The Common Vulnerabilities and Exposures (CVE) project has 
+  assigned the ID CVE-YYYY-NNNN to this issue. This is an entry on 
+  [the CVE List](https://cve.mitre.org/cve/index.html), which standardizes names for security problems.
+* https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-YYYY-NNNN
+* CVE ID: CVE- YYYY-NNNN
 
-  - We do not assign CVE IDs for software that may be optionally added to a listed product, such as a third-party plugin or module. For example, we assign CVE IDs for the WordPress core product but not for any WordPress plugin. We do not assign CVE IDs for an Android or iOS app unless the app's author is a listed vendor. We assign CVE IDs for a number of languages including Python and PHP, but not for all code written in those languages (e.g., we do not assign CVE IDs for a web application written in PHP, unless the product or vendor is separately listed).
+Some tips:
 
-  - If your request was about CVE IDs for multiple products, we need separate information about presence on the CNA List and Product List for each product.
+1. When announcing more than one CVE ID, associate each CVE ID with 
+   the vulnerability it is assigned to, so that people can easily 
+   identify which CVE ID is related to each issue. For example:
+   
+   CVE-yyyy-nnnn - buffer overflow in product
+   
+   CVE-yyyy-mmmm - format string
+   
+2. OSVDB offers additional suggestions about other content in the 
+   announcement:
+   
+   [https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines](https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines)
+   
+## 12. Notify the MITRE CVE Assignment Team of publication
 
-You must state that you are actively working with the vendor to fix
-the problem.  If the vendor is unresponsive, you should state this.
+After your announcement has been publicized, contact the MITRE CVE 
+Assignment Team by either replying to the original email discussion 
+or via the [CVE Request web form](https://cveform.mitre.org/). If you submit a new form, select 
+"Notify CVE about a publication" and provide the following 
+information:
 
-You may encrypt your communications using PGP or GnuPG (gpg), with
-the following cve-assign@mitre.org PGP key, which can be downloaded
-from various PGP key servers:
+* The CVE ID(s) assigned to the vulnerabilities being publicly 
+  announced
+* Links to the public forum(s) or advisories where the announcements 
+  can be found
+  
+Until this information is provided to MITRE, only a reserved CVE 
+entry may be recorded on the CVE web site. No description or details 
+of the vulnerability will be made available in the CVE entry until 
+the vulnerability has been publicized.
+
+When notified of a publication, MITRE will then populate the CVE 
+entry with a description and references. This information will be 
+made available on the [CVE List](https://cve.mitre.org/cve/index.html).
+
+The CVE information will also be updated in [the National 
+Vulnerability Database (NVD)](https://nvd.nist.gov/).
+
+## Appendix A: Documents on disclosure practices
+
+The following documents describe processes and provide guidelines 
+for responsible vulnerability disclosure practices.
+
+1. "Guidelines for Security Vulnerability Reporting and Response," 
+   Organization for Internet Safety. Version 2.0, 01 September 2004.
+   
+   [http://www.oisafety.org/](http://www.oisafety.org/)
+   [http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf](http://www.symantec.com/security/OIS_Guidelines for responsible disclosure.pdf)
+   
+2. "Responsible Vulnerability Disclosure Process," IETF draft 
+   document, Christey/Wysopal. February 2002.
+   
+   [http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00](http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00)
+   
+## Appendix B: Determining if CVE IDs are needed
+
+There are several factors to consider to determine whether one or 
+more vulnerabilities require a CVE ID when providing information to 
+MITRE:
+
+A. Duplicates. Duplicates may be found by searching the MITRE CVE 
+site and also by general web searches. Also, if a researcher 
+previously contacted another organization on the CNA list about a 
+vulnerability, a CVE ID assignment may already exist. The 
+vulnerability should not be duplicated by the assignment of two CVE 
+IDs.
+
+B. Origination. CVE IDs are assigned to issues for which the primary 
+method of addressing the vulnerability is for the vendor to take an 
+action to remediate the vulnerability in their product. CVE IDs are 
+not for cases in which the primary method of addressing the 
+vulnerability is for an action to be taken by the operator of a 
+single website or online service.
+
+C. Establishing a policy violation. CVE IDs are needed when the 
+vendor agrees that the observed product behavior violates a security 
+policy, such as an unintended loss of confidentiality, integrity, or 
+availability. CVE IDs are not for cases in which a reporter 
+unilaterally believes that product hardening is desirable, such as a 
+different approach to abuse prevention, or a different display of 
+security-relevant data.
+
+D. Establishing whether the vulnerabilities differ. In cases of 
+multiple findings reported at the same time for a single product, 
+separate CVE IDs are sometimes needed when there is a difference in 
+the primary vulnerability types or affected versions.
+
+E. Cross-vendor coordination. Separate CVE IDs are not assigned 
+solely because vulnerable code is shipped in more than one product. 
+Particularly in the case of open-source software, it is common for 
+multiple vendors to use the same CVE ID in any scenario in which 
+they have bundled, repackaged, or copied a piece of vulnerable code.
+
+## Appendix C: PGP Key
+
+You may encrypt any post-web form communications using PGP or GnuPG 
+(gpg), with the following PGP key, which can be downloaded from 
+various PGP key servers:
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -338,110 +438,3 @@ Adbk
 ```
 
 (NOTE: PGP key updated August 2016)
-
-## 8. Information That You Receive from the CNA (or MITRE)
-
-After you send your request, MITRE will reserve the CVE number(s) and
-provide them to you.  Generic, "blank" descriptions will be added to
-the CVE entries, and the blank entries will be published on the CVE
-web site.
-
-NOTE: to reduce the risk of accidental disclosure of vulnerability
-information before it is publicized, MITRE does not record any
-vulnerability information with the CVEs it has assigned to your
-security issue.  You must inform MITRE once you have publicized the
-vulnerability.  See below.
-
-
-## 9. Sharing the CVE Number with Others
-
-After you have obtained the CVE number, you should provide it to
-all affected vendors and other parties (such as CERT/CC) that you are
-communicating with.  This reduces the risk that different parties may
-assign different numbers.
-
-
-## 10. Information to Include in Your Announcement
-
-When you make your public announcement, include the CVE number
-in the text.
-
-You can include a paragraph such as the following:
-
-  The Common Vulnerabilities and Exposures (CVE) project has assigned
-  the name CVE-YYYY-NNNN to this issue. This is an entry on [<u>the CVE
-  list</u>](https://cve.mitre.org), which standardizes names for security
-  problems.
-
-If you can not include this text due to space limitations, then try to
-include a URL to the CVE:
-
-   https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-YYYY-NNNN
-
-You can also just say something like:
-
-    CVE Number: CVE-yyyy-nnnn
-
-1. Make sure that the CVE number is correct.  Some advisories have
-   been released with incorrect numbers, occasionally due to typos.
-
-2. If you are announcing more than one CVE number, then list each
-   number followed by a short title (only a few words), so that people
-   can easily tell which candidate is related to which issue.  For
-   example:
-
-      CVE-yyyy-nnnn - buffer overflows
-      CVE-yyyy-mmmm - format string
-
-3. OSF (an organization separate from MITRE) offers suggestions about
-   other content in the announcement:
-
-    [https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines](https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines)
-
-
-## 11. After Your Announcement Has Been Publicized
-
-After your announcement has been publicized, you should contact MITRE
-again (cve-assign@mitre.org) and provide us with the following
-information:
-
-  - The CVE number(s) you used in the announcement
-  - The public forum(s) or advisories where the announcement can be
-    found
-
-Until you provide this information to MITRE, only a "blank" entry
-may be recorded on the CVE web site.  As described in section 7,
-MITRE may not have the details of the vulnerability.
-
-MITRE will then update the CVE information on the CVE web site with a
-proper description, references, etc.
-
-The CVE information will also be updated in [<u>the National Vulnerability
-Database (NVD)</u>](https://nvd.nist.gov).
-
-
-
-## Appendix A: Documents on Disclosure Practices
-
-The following documents describe processes for vulnerability
-disclosure practices that lead to more accurate CVE entries.
-
-1.  "Guidelines for Security Vulnerability Reporting and Response",
-    Organization for Internet Safety.  Version 2.0, 01 September 2004.
-
-      [http://www.oisafety.org/](http://www.oisafety.org/)  
-      [http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf](http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf)
-
-2. "Vulnerability Disclosure Framework", US Department of Homeland
-    Security.  January 2004.
-
-      [http://www.dhs.gov/xlibrary/assets/vdwgreport.pdf](http://www.dhs.gov/xlibrary/assets/vdwgreport.pdf)
-
-3. "Responsible Vulnerability Disclosure Process", IETF draft
-   document, Christey/Wysopal.  February 2002.
-
-      [http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00](http://tools.ietf.org/html/draft-christey-wysopal-vuln-disclosure-00)
-
-4. "RFPolicy 2.0", Rain Forest Puppy.  2000.
-
-      [http://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt](http://packetstormsecurity.org/files/view/23364/rfpolicy-2.0.txt)
