@@ -14,6 +14,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
+          <li markdown="span">[CNA Rules v1.1](cna/CNA Rulesv1.1.docx)</li>
           <li markdown="span">[CNA Processes](cna/processes.html)</li>
           <li markdown="span">[CVE Content Decisions: Application Guidance for CNAs](cna/application-guidance.html)</li>
           <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
@@ -62,7 +63,7 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">Editorial Board</div>
+        <div class="panel-title">CVE Board</div>
       </div>
       <div class="panel-body">
         <div class="alert alert-info">Coming Soon!</div>
