@@ -1,0 +1,14 @@
+
+CVE Numbering Authorities (CNAs)
+What are CNAs? 
+The Common Vulnerabilities and Exposures (CVE) Program is comprised of organizations that participate as CVE Numbering Authorizes (CNAs).
+CNAs are major operating system vendors, security researchers, and research organizations. CNAs assign CVE Identifiers to newly discovered issues affecting products within their distinct, agreed upon scope. They are also authorized to distribute CVE IDs to researchers and information technology vendors for inclusion in first-time public announcements of new vulnerabilities. CNAs have the authority to operate, within their agreed upon scope, without directly involving MITRE in the details of the specific vulnerabilities.
+Why Does CVE Need CNAs?
+A primary challenge for the CVE Program is satisfying the demand for timely, accurate CVE assignments.  CNAs help to address this challenge, while also enabling the CVE Program to expand the scope of coverage to address the increasing number of vulnerabilities and evolving state of vulnerability management. CNAs allow CVEs to be produced both more quickly, and in a more decentralized manner.
+Why Become a CNA? 
+Every CNA is part of a vulnerability management process for a company, a sector, or other group. Vulnerability management is a complex and evolving practice, and CNAs often share the same challenges related to discovering, documenting, disclosing, and resolving vulnerabilities. Through discussion lists, shared documentation, and meetings, the CNAs form a community of practice. That community reduces the burden of vulnerability management through collaboration and communication.
+Beyond community interaction, participation in the CNA program offers a number of other benefits. CNAs can publicly disclose a vulnerability with an already-assigned CVE ID and not have to wait for the assignment. CNAs have the ability to control the disclosure of vulnerability information without pre-publishing that information; they would otherwise have to perform some public disclosure to obtain a CVE ID. Finally, CNAs are always notified of vulnerabilities in products within the CNA’s scope; researchers and other disclosers must request a CVE ID from a CNA directly.
+How to Become a CNA
+To become a CNA, a vendor must have a significant user base and an established security advisory capability or an be established entity with an established security advisory capability that typically acts as a neutral interface between researchers and vendors.  Vendors must also be an established distribution point or source for first-time product vulnerability announcements (which may concern their own products).  Vendors interested in becoming CNAs participate in an on-boarding process that prepares them for fully operating as a CNA.
+To learn more contact, the Primary CNA, MITRE, at:
+Web: http://cve.mitre.org/   or   Email: cve@mitre.org
