@@ -23,3 +23,5 @@ ______
 - Should the original reservation entity or reservation chain be added to required data?
 
 - Should "Description" be excluded from the required fields in Appendix B?
+
+- Add references and rules updates regarding the CVE JSON format and its use.
