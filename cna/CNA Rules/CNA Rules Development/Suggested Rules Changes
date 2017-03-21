@@ -1,0 +1,25 @@
+Suggested Rules Changes
+
+These are suggested changes to the CNA Rules. These changes have not been vetted, and they may not have been fully developed or discussed. As suggestions are developed and discussed by the Board and the CNA community, this list will be updated to indicate if each suggestion will be incorporated or declined.
+
+Comments can be added to each item or included in the Git comment system.
+
+______
+
+20 March 2017
+- Dan Adinolfi
+
+- 2.2.9 has a typo at the end.
+
+- Clarify the difference between "when a vulnerability is made public" versus "when a vulnerability is added to the CVE list" and how they affect each other.
+
+- Better define "hardware" with regard to CVE.
+
+- Better describe the nested Root CNA structure (with a new diagram?).
+
+- Should the requirement that CVE assignments must be public or planned to be made public be removed?
+  - Should there be a new record type: "Not Public". This would accommodate the use case of a CVE ID being assigned without there being an intention for it to ever be made public (outside of the CNA's internal operation).
+
+- Should the original reservation entity or reservation chain be added to required data?
+
+- Should "Description" be excluded from the required fields in Appendix B?
