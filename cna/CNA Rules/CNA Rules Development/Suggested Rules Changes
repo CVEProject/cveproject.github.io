@@ -30,3 +30,7 @@ ______
 - Dan Adinolfi
 
 - Add a rule that states a CNA must provide a page on their web site which lists the products for which they accept vulnerability reports. This includes a listing of EOL (or other) software that are explicitly _not_ covered.
+
+- Page 5 of the current CNA rules state:
+"In cases where requests or issues cannot be resolved by a given CNA, the issues are escalated to the next higher level CNA."
+Provide examples of the kinds of issues that might cause escalations. Also, create rule that requires some kind of paper trail for attempts to work with the CNA.
