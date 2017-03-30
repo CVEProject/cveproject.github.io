@@ -25,3 +25,8 @@ ______
 - Should "Description" be excluded from the required fields in Appendix B?
 
 - Add references and rules updates regarding the CVE JSON format and its use.
+
+30 March 2017
+- Dan Adinolfi
+
+- Add a rule that states a CNA must provide a page on their web site which lists the products for which they accept vulnerability reports. This includes a listing of EOL (or other) software that are explicitly _not_ covered.
