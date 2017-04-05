@@ -3,10 +3,18 @@ Information Sharing and Embargo Policy
 
 This document provides the Information Sharing and Embargo Policy for MITRE as the Primary CNA and publisher of the CVE list.  For information on the type of information that MITRE collects, how it is used, and what information may be provided to third parties, please refer to the CVE Privacy Policy located at https://cve.mitre.org/about/privacy_policy.html.
 
+Information Sharing
+
 As part of the CVE ID assignment request, MITRE accepts private/privileged information in addition to publicly disclosed information. MITRE will not share any private/privileged information provided and the information provided to MITRE is not subject to the Freedom of Information Act (FOIA) requests. If the private/privileged information becomes public MITRE may add that information as a public reference to the CVE ID entry.
 
 The CVE list, published by MITRE, contains entries of publicly disclosed vulnerabilities. That is, CVE is not an initial public discloser of vulnerability information and CVE IDs are not assigned to vulnerabilities that will never be made public. The CVE list is publicly available and all CVE feeds and formats are available to all users.  If MITRE receives a request for more information regarding a particular vulnerability, MITRE will refer the requestor to the originator of the CVE entry. 
 
 It is the policy of MITRE that CVE ID requests are not visible to persons with any perceived conflict of interest with the CVE program. CVE ID requests may be read by persons who are MITRE employees and/or contractors. These persons must not work for other organizations that request CVE IDs, use CVE IDs, or produce or sell products that may have CVEs (i.e., customer-controlled products of software or computer hardware). MITRE does not provide any preferential treatment of CVE ID requests that originate within MITRE or that relate to products produced or used by MITRE.
 
+Embargo Policy
 
+CVE Numbering Authorities (CNAs) are given a group of CVE IDs each year. MITRE does not become aware of any CVE assignments from a CNA until the CNA notifies MITRE and asks for a CVE ID entry to be published or updated. CNAs often do not use all the CVE IDs they are assigned, and, on a yearly basis, MITRE will mark any reserved but unpublished CVE IDs as "REJECT" unless requested not to by a CNA.
+
+For CVE ID requests from non-CNA sources, reserved but unpublished CVE IDs will be valid for 90 days after their assignment. MITRE does not require that all details about the issue be shared, but the original requester must contact MITRE within 90 days of assignment with an update. If the requester fails to update MITRE within 90 days of the previous communication, MITRE will mark the CVE ID as "REJECT". At that point, the requester will need to request a new CVE ID.
+
+If a CVE ID assignment has been reserved but unpublished for more than 12 months, MITRE will mark the CVE ID as "REJECT", regardless of notifications received.
