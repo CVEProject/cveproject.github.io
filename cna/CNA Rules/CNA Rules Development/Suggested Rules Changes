@@ -31,6 +31,16 @@ ______
 
 - Add a rule that states a CNA must provide a page on their web site which lists the products for which they accept vulnerability reports. This includes a listing of EOL (or other) software that are explicitly _not_ covered.
 
+
+- Kurt Seifried
+
+- Ensure discoverability of the CNA coverage page (e.g. they list the URL in their CNA entry?)
+
+- Ensure some normalized format for the data, e.g. JSON? a simple list?
+
+- Should we also allow projects/etc. to simply embed the data into their CNA listing, especially if it is "simple" (e.g. an Open Source project with a single software project, or a project with multiple projects that are well defined (e.g. within their GitHub organization) where they cover "everything" for example
+
 - Page 5 of the current CNA rules state:
 "In cases where requests or issues cannot be resolved by a given CNA, the issues are escalated to the next higher level CNA."
 Provide examples of the kinds of issues that might cause escalations. Also, create rule that requires some kind of paper trail for attempts to work with the CNA.
+
