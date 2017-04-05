@@ -25,12 +25,14 @@ ______
 - Should "Description" be excluded from the required fields in Appendix B?
 
 - Add references and rules updates regarding the CVE JSON format and its use.
+______
 
 30 March 2017
 - Dan Adinolfi
 
 - Add a rule that states a CNA must provide a page on their web site which lists the products for which they accept vulnerability reports. This includes a listing of EOL (or other) software that are explicitly _not_ covered.
 
+______
 
 - Kurt Seifried
 
@@ -44,3 +46,11 @@ ______
 "In cases where requests or issues cannot be resolved by a given CNA, the issues are escalated to the next higher level CNA."
 Provide examples of the kinds of issues that might cause escalations. Also, create rule that requires some kind of paper trail for attempts to work with the CNA.
 
+
+______
+
+The current CNA rules do not stipulate a specific time by which a CNA should update their upstream CNA after a CVE ID has been made public. MITRE asked the Board for guidance on the most time a CNA can wait. The Board suggested that CNAs should update their upstream CNAs within 24 hours of the publication of a CVE ID. This recommendation will be added to the list of updates to be considered for the next CNA Rules update.
+
+Additionally, CVE IDs that have been reserved for long periods of time without any public assignment could be “REJECT”ed or labeled in some other way to indicate they are inactive in the CVE list.
+
+______
