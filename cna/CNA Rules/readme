@@ -1,5 +1,7 @@
 CNA Rules - The purpose the CNA Rules document is to maintain consistency in the CVE assignment process and administration of the CNA program across all CNAs. The goal of the CNA Rules document is to provide the Root CNAs with the maximum flexibility to administer the CNA program within their respective communities, while also maintaining consistency in CVE assignment process and administration of the CNA program.
  
+CNA Issue Resolution Process - Process for resolving incidents where a CNA has not followed the CNA Rules.
+ 
 CVE Counting Rules - This set of rules provides the definition of, and guidelines for, the CVE vulnerability counting process. These guidelines should be used by any CVE Numbering Authorities (CNAs) who participate within the CVE Program. These are currently included within the CNA Rules document.
  
 CVE Assignment Technical Details - This document describes how to present CVE ID assignments within upstream communications and how to transport CVE ID assignments upstream. This is a technical specification and will be actively developed as CVE infrastructure is developed.
