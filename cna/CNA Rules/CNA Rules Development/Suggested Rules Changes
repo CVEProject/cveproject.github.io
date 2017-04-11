@@ -54,3 +54,9 @@ The current CNA rules do not stipulate a specific time by which a CNA should upd
 Additionally, CVE IDs that have been reserved for long periods of time without any public assignment could be “REJECT”ed or labeled in some other way to indicate they are inactive in the CVE list.
 
 ______
+
+11 April 2017
+Kurt Seifried
+
+Go through the CNA docs and highlight some of the potentially undefined/problematic terms/phrases, e.g. "public disclosure" and so on is so that we can maybe define them better. 
+
