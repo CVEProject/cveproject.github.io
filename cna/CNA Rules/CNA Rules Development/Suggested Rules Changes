@@ -59,4 +59,10 @@ ______
 Kurt Seifried
 
 Go through the CNA docs and highlight some of the potentially undefined/problematic terms/phrases, e.g. "public disclosure" and so on is so that we can maybe define them better. 
+______
+
+3 May 2017
+
+Clarification around disclosure policies and what kinds of vulnerabilities (public, non-public, etc.) are given CVE IDs by the CNA. Include a policy template. (Review the Embargo and Disclosure template)
+
 
