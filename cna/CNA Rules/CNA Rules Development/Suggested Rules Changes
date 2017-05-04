@@ -64,3 +64,29 @@ ______
 3 May 2017
 
 Clarification around disclosure policies and what kinds of vulnerabilities (public, non-public, etc.) are given CVE IDs by the CNA and for what specific scope. Include a policy template. (Review the Embargo and Disclosure template)
+
+_____
+
+Revision Process:
+
+Revisions will be made in Git.
+
+Create a template for submissions to the CNA Rules revision process.
+  - Goal
+  - Proposed solution
+  - Expected Outcome
+  - Proposed language (optional)
+
+First 30 days
+  - open comment period
+  - Board and CNAs
+  - Use above format for revisions
+  - 2 or 3 conference calls
+  
+ Next 60 days
+  - 1 week sprints with a subset of the proposed revisions each sprint. Each subset is only to be discussed during that sprint.
+  - 8 total sprints.
+  - At the end of a sprint, if something wasn't resolved or discussed, it will not be included in this revision.
+  - At the end of all sprints, the document will be finalized and sent to the Board for approval.
+  
+Proposed: New Rules go into affect on Jan 1, 2018
