@@ -66,6 +66,13 @@ ______
 Clarification around disclosure policies and what kinds of vulnerabilities (public, non-public, etc.) are given CVE IDs by the CNA and for what specific scope. Include a policy template. (Review the Embargo and Disclosure template)
 
 _____
+9 May 2017
+
+Include rules describing how and when to assign CVE IDs using a year different from the current one.
+http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
+
+Include rules explicitly describing when and how unused CVE IDs will be rejected each year.
+_____
 
 Revision Process (also to be added to the CNA Rules as an Appendix):
 
