@@ -72,6 +72,12 @@ Include rules describing how and when to assign CVE IDs using a year different f
 http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
 
 Include rules explicitly describing when and how unused CVE IDs will be rejected each year.
+
+_____
+
+11 May 2017
+
+Add explicit how-to steps for submitting CVE entries to the Primary CNA.
 _____
 
 Revision Process (also to be added to the CNA Rules as an Appendix):
