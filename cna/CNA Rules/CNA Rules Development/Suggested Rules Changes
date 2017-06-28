@@ -108,22 +108,91 @@ Proposed: New Rules go into effect on Jan 1, 2018
 
 ______
 
-21 June 2017
+21 June 2017 (edited 26 June 2017)
 
-Should we make the publication date a required field? 
+GOAL:
+CHANGE: Should we make the publication date a required field? 
+OUTCOME:
 
-Just make CVE ID year the year it was assigned.
+GOAL: Simplify assignment process
+CHANGE: Just make CVE ID year the year it was assigned.
+OUTCOME: Reduced overhead for getting a CVE ID with the correct year.  Reduced confusion by CVE consumers.
 
-When should something be marked as disputed versus rejected?
+GOAL:  Make the CNA processes more standardized and repeatable.
+CHANGE: Define when an entry be marked as disputed versus rejected.
+OUTCOME:  Consistent results with defensible reasoning
 
-The CVE List cannot be the first point of publication for any information.
+GOAL: Transparency
+CHANGE: The CVE List cannot be the first point of publication for any information.
+OUTCOME:  Document current policy
 
-How to handle third-party updates to a CNA's entry. References? Description changes?
+GOAL:  Make the CNA processes more standardized and repeatable.
+CHANGE Define how to handle third-party updates to a CNA's entry. References? Description changes?
+OUTCOME: Set expectations, consistent results, and transparent processes.
 
-Expand who can be a CNA (from CERTs, vendors, CCs).
+GOAL:  Increase coverage
+CHANGE:  Expand who can be a CNA (from CERTs, vendors, CCs).
+OUTCOME:  Clarify requirements for becoming a CNA.  
 
-Describe the annual review cycle for recycling CVE IDs.
+GOAL:  Make the CNA processes more standardized and repeatable.
+CHANGE:  Describe the annual review cycle for rejecting CVE IDs.
+OUTCOME:  
 
-Appendix B overhaul including what needs to be in the Description (product/version).
+GOAL:  
+CHANGE:  Appendix B overhaul including what needs to be in the Description (product/version).
+OUTCOME:
 
-How to assign for bundled third-party products.
+GOAL:  Make the CNA processes more standardized and repeatable.
+CHANGE:  Define if and how CNAs assign CVE IDs to bundled third-party products.
+OUTCOME:  Reduce duplicate, increased transparency in processes, and better quality entries.
+WORDING:
+	A product vendor may assign a CVE ID to a bundled product, if
+		the producer of the bundled product is not a CNA
+		they coordinate with the producer of the bundled product or 
+    (if contact with the producer fails) the Root CNA for the product.
+
+______
+
+26 June 2017
+- Jonathan Evans
+
+GOAL:  Make the CNA Rules easier to use
+CHANGE: Split CNT3 into a rule for codebases and another for standards, libraries, etc.
+OUTCOME:  Increased clarity in the process.
+WORDING:
+	CNT3: Shared Codebase
+		Affects a single product, assign one CVE ID
+		Affects the same code in multiple products, assign a CVE ID to each affected codebase
+		Affects multiple products but with different code, assign a CVE ID to each product
+		Not sure or undefined, assign a CVE ID to each product
+	CNT 4: Libraries, Protocols, Standards, etc.
+		Results from conforming to the specification, assign a single CVE ID.
+		Results from a choice by the implementer, assign a CVE ID to each affected codebase.
+		Not sure, assign a CVE ID to each affected codebase.
+ 
+GOAL:  Make the CNA Rules easier to use
+CHANGE: Add extra decision for the case when issues aren't independently fixable and when you aren't sure.
+OUTCOME:  
+WORDING:
+	CNT1:
+		If a vulnerability can be fixed independently of the others, go to CNT2.
+		If the vulnerabilities cannot be fixed independently, group the bugs together and go to CNT2.
+		If it is not clear whether the vulnerabilities can be fixed independently, group the bugs together and go to CNT2.
+
+GOAL: Document existing policy
+CHANGE: INC2 should be changed to clarify that the vulnerabilities that are already public can be assigned a CVE ID.
+OUTCOME:  Reduced confusion.
+
+GOAL: Increase adobption of CVE
+CHANGE: Remove CVE ID assignment requirements for Root CNAs
+OUTCOME:  Organizations willing to be a Root CNA but without the resources to handle CVE ID assignment will become join.
+
+GOAL:  Clarify the CNA Rules
+CHANGE: Rework the wording for INC4
+OUTCOME:  The Counting Rules are easier to implement.
+
+GOAL:  Incentivise proper behavior
+CHANGE:  Change the issue resolution processes (Appendix E) to account for CNAs who violate the rules
+OUTCOME:  Fewer rules violations
+
+
