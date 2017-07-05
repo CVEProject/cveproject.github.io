@@ -180,7 +180,9 @@ http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
 	- How to assign for bundled third-party products.
 OUTCOME: CNAs will have clear processes to follow.
 
-
+GOAL: Better data in CVE database - IMPACT data
+CHANGE: Make IMPACT an explicitly required component of the CVE unless it is truly not known. Ideally the information should be specific (e.g. "code execution") but if not a more general (AIC impact) should be provided.
+OUTCOME: Less "unknown impact CVEs"
 
 
 
