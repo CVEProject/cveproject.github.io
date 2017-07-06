@@ -153,7 +153,7 @@ GOAL:  Clarify the CNA Rules
 CHANGE: Rework the wording for INC4
 OUTCOME:  The Counting Rules are easier to implement.
 
-GOAL:  Incentivise proper behavior
+GOAL:  Incentivize proper behavior
 CHANGE:  Change the issue resolution processes (Appendix E) to account for CNAs who violate the rules
 OUTCOME:  Fewer rules violations
 
@@ -178,7 +178,13 @@ http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
 	- Add explicit how-to steps for submitting CVE entries to the Primary CNA.
 	- Include rules explicitly describing when and how unused CVE IDs will be rejected each year.
 	- How to assign for bundled third-party products.
+	- A time limit for how long reserved CVE IDs can be held without any update to the CNA who issued them.
+	- Sub CNAs can send CVE assignment information directly to the Primary CNA and not have to go through their Root CNA.
 OUTCOME: CNAs will have clear processes to follow.
+
+GOAL: Address reference formats in CNA rules.
+CHANGE: Add descriptions and process for use of reference formats in CVE descriptions (e.g., MISC:, CONFIRM:, BUGTRAQ:, etc.)
+OUTCOME: CNAs will make use of the reference formats to enrich the metadata surrounding entries.
 
 
 
