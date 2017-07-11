@@ -1,4 +1,5 @@
-Revision Process (also to be added to the CNA Rules as an Appendix):
+# Revision Process
+*(also to be added to the CNA Rules as an Appendix)*
 
 Revisions will be made in Git.
 
