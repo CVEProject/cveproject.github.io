@@ -340,4 +340,36 @@ CHANGE: Create a requirement that the original requester of a CVE ID will be not
 
 OUTCOME: Improved communication between CNAs and CVE requesters.
 
+_________________________________
+
+11 July 2017
+
+CVE Used vs. CVE assigned
+Helps differentiate between what are actually assigned vs. those that are reserved and (maybe) unused.
+The Primary CNA should be publishing these summaries.
+The Root CNAs must provide the Primary CNA these data.
+"Allocated" vs. "Reserved"?
+
+Primary CNA will send periodic reports to the Root/Sub CNAs indicating what CVE IDs we have observed/had reported to us that have not been published.
+One other option is a query on demand vs an email notification
+
+For Automation WG: more publication notification tools, push or pull
+
+JSON will become the preferred format for CVE assignment. This would be done through a migration process. Year-long?
+JSON revision is tied to CNA Rules revision timeline
+
+Add numbers to suggestions.
+
+notification timeframes... what is a reasonable amount of time to expect details of CVE from CNA. Set as guideline with loose compliance. "notify immediately", but not a hard rule.
+
+are the counting rules too flexible?
+
+
+
+
+
+
+
+
+
 
