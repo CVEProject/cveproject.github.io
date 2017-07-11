@@ -215,16 +215,16 @@ WORDING:
 
 - CNT3: Shared Codebase
 
-		Affects a single product, assign one CVE ID
-		Affects the same code in multiple products, assign a CVE ID to each affected codebase
-		Affects multiple products but with different code, assign a CVE ID to each product
-		Not sure or undefined, assign a CVE ID to each product
+      Affects a single product, assign one CVE ID
+      Affects the same code in multiple products, assign a CVE ID to each affected codebase
+      Affects multiple products but with different code, assign a CVE ID to each product
+      Not sure or undefined, assign a CVE ID to each product
     
 - CNT4: Libraries, Protocols, Standards, etc.
 
-		Results from conforming to the specification, assign a single CVE ID.
-		Results from a choice by the implementer, assign a CVE ID to each affected codebase.
-		Not sure, assign a CVE ID to each affected codebase.
+      Results from conforming to the specification, assign a single CVE ID.
+      Results from a choice by the implementer, assign a CVE ID to each affected codebase.
+      Not sure, assign a CVE ID to each affected codebase.
  
 ______
 
@@ -237,10 +237,10 @@ OUTCOME:
 WORDING:
 
 - CNT1:
-  
-    If a vulnerability can be fixed independently of the others, go to CNT2.
-    If the vulnerabilities cannot be fixed independently, group the bugs together and go to CNT2.
-    If it is not clear whether the vulnerabilities can be fixed independently, group the bugs together and go to CNT2.
+
+      If a vulnerability can be fixed independently of the others, go to CNT2.
+      If the vulnerabilities cannot be fixed independently, group the bugs together and go to CNT2.
+      If it is not clear whether the vulnerabilities can be fixed independently, group the bugs together and go to CNT2.
 
 ______
 
@@ -279,7 +279,8 @@ ______
 GOAL: Fix typos.
 
 CHANGE:
-	- 2.2.9 has a typo at the end.
+
+- 2.2.9 has a typo at the end.
 
 OUTCOME: Correct grammar and spelling.
 
@@ -288,8 +289,9 @@ ______
 GOAL: Better define terms.
 
 CHANGE: 
-	- Better define "hardware" with regard to CVE.
-	- Go through the CNA docs and highlight some of the potentially undefined/problematic terms/phrases, e.g. "public disclosure" and so on is so that we can maybe define them better. 
+
+  - Better define "hardware" with regard to CVE.
+  - Go through the CNA docs and highlight some of the potentially undefined/problematic terms/phrases, e.g. "public disclosure" and so on is so that we can maybe define them better. 
 
 OUTCOME: Regularized terminology.
 
@@ -298,16 +300,19 @@ ______
 GOAL: Improve process descriptions.
 
 CHANGE:
-	- Add references and rules updates regarding the CVE JSON format and its use.
-	- The current CNA rules do not stipulate a specific time by which a CNA should update their upstream CNA after a CVE ID has been made public. MITRE asked the Board for guidance on the most time a CNA can wait. The Board suggested that CNAs should update their upstream CNAs within 24 hours of the publication of a CVE ID. This recommendation will be added to the list of updates to be considered for the next CNA Rules update.
-	- Additionally, CVE IDs that have been reserved for long periods of time without any public assignment could be “REJECT”ed or labeled in some other way to indicate they are inactive in the CVE list.
-	- Include rules describing how and when to assign CVE IDs using a year different from the current one.
+
+  - Add references and rules updates regarding the CVE JSON format and its use.
+  - The current CNA rules do not stipulate a specific time by which a CNA should update their upstream CNA after a CVE ID has been made public. MITRE asked the Board for guidance on the most time a CNA can wait. The Board suggested that CNAs should update their upstream CNAs within 24 hours of the publication of a CVE ID. This recommendation will be added to the list of updates to be considered for the next CNA Rules update.
+  - Additionally, CVE IDs that have been reserved for long periods of time without any public assignment could be “REJECT”ed or labeled in some other way to indicate they are inactive in the CVE list.
+  - Include rules describing how and when to assign CVE IDs using a year different from the current one.
+
 http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
-	- Add explicit how-to steps for submitting CVE entries to the Primary CNA.
-	- Include rules explicitly describing when and how unused CVE IDs will be rejected each year.
-	- How to assign for bundled third-party products.
-	- A time limit for how long reserved CVE IDs can be held without any update to the CNA who issued them.
-	- Sub CNAs can send CVE assignment information directly to the Primary CNA and not have to go through their Root CNA.
+
+  - Add explicit how-to steps for submitting CVE entries to the Primary CNA.
+  - Include rules explicitly describing when and how unused CVE IDs will be rejected each year.
+  - How to assign for bundled third-party products.
+  - A time limit for how long reserved CVE IDs can be held without any update to the CNA who issued them.
+  - Sub CNAs can send CVE assignment information directly to the Primary CNA and not have to go through their Root CNA.
 
 OUTCOME: CNAs will have clear processes to follow.
 
