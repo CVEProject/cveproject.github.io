@@ -33,26 +33,24 @@ Comments can be added to each item or included in the Git comment system.
 
 ______
 
-GOAL: Better define the correct use of CVE.
+1. GOAL: Better define the correct use of CVE.
 CHANGE: Should the requirement that CVE assignments must be public or planned to be made public be removed?
   - Should there be a new record type: "Not Public". This would accommodate the use case of a CVE ID being assigned without there being an intention for it to ever be made public (outside of the CNA's internal operation).
 OUTCOME: CVE will be used as widely as necessary for as many use cases as practical.
 
-GOAL: Track who reserved what CVE IDs.
+2. GOAL: Track who reserved what CVE IDs.
 CHANGE: Should the original reservation entity or reservation chain be added to required data?
 OUTCOME: Regardless of the assigner, the entire Sub CNA/Root CNA chain of CVE ID reservations will be included in each CVE entry.
 
-GOAL: Streamline the CVE Entry creation process.
+3. GOAL: Streamline the CVE Entry creation process.
 CHANGE: Should "Description" be excluded from the required fields in Appendix B?
 OUTCOME: CNAs and requesters will be able to assign CVE IDs with the least necessary effort.
 
-
-GOAL: Make CNA scope more easily determined by third parties.
+4. GOAL: Make CNA scope more easily determined by third parties.
 CHANGE: Add a rule that states a CNA must provide a page on their web site which lists the products for which they accept vulnerability reports. This includes a listing of EOL (or other) software that are explicitly _not_ covered.
 OUTCOME: CNA scopes will be easy to find by anyone.
 
-
-GOAL: Clarify existing language.
+5. GOAL: Clarify existing language.
 	- Page 5 of the current CNA rules state:
 "In cases where requests or issues cannot be resolved by a given CNA, the issues are escalated to the next higher level CNA."
 Provide examples of the kinds of issues that might cause escalations. Also, create rule that requires some kind of paper trail for attempts to work with the CNA.
@@ -73,57 +71,61 @@ What about standard formats like file formats or data encoding formats?
 	- 
 OUTCOME: Less vague or confusing language.
 
-GOAL:
+6. GOAL:
 CHANGE: Should we also allow projects/etc. to simply embed the data into their CNA listing, especially if it is "simple" (e.g. an Open Source project with a single software project, or a project with multiple projects that are well defined (e.g. within their GitHub organization) where they cover "everything" for example
 OUTCOME:
 
-GOAL:
+7. GOAL:
 CHANGE: Ensure some normalized format for the data, e.g. JSON? a simple list?
 OUTCOME:
 
-GOAL:
+8. GOAL:
 CHANGE: Ensure discoverability of the CNA coverage page (e.g. they list the URL in their CNA entry?)
 OUTCOME:
 
-GOAL:
+9. GOAL:
 CHANGE: Tie JSON updates schedule to CNA Rules update schedule.
 OUTCOME:
 
-GOAL: Add new required fields.
+10. GOAL: Add new required fields.
 CHANGE: 
 	- Should we make the publication date a required field? 
 	- Should we make Impact a required field?
 OUTCOME: Enrich the metadata included in CVE entries.
 
-GOAL: Simplify assignment process
+[Manion 2017-07-11]
+publication date: yes (publication of the populated CVE ID, not the public disclosure date of the vulnerability?)
+impact: no, but prefer it, and give some guidance, such as, impact can be CVSS-like direct effect of exploiting vulnerability, and doesn't have to get into more risk-like real world impact.
+
+11. GOAL: Simplify assignment process
 CHANGE: Just make CVE ID year the year it was assigned.
 OUTCOME: Reduced overhead for getting a CVE ID with the correct year.  Reduced confusion by CVE consumers.
 
-GOAL:  Make the CNA processes more standardized and repeatable.
+12. GOAL:  Make the CNA processes more standardized and repeatable.
 CHANGE: Define when an entry be marked as disputed versus rejected.
 OUTCOME:  Consistent results with defensible reasoning
 
-GOAL: Transparency
+13. GOAL: Transparency
 CHANGE: The CVE List cannot be the first point of publication for any information.
 OUTCOME:  Document current policy
 
-GOAL:  Make the CNA processes more standardized and repeatable.
+14. GOAL:  Make the CNA processes more standardized and repeatable.
 CHANGE Define how to handle third-party updates to a CNA's entry. References? Description changes?
 OUTCOME: Set expectations, consistent results, and transparent processes.
 
-GOAL:  Increase coverage
+15. GOAL:  Increase coverage
 CHANGE:  Expand who can be a CNA (from CERTs, vendors, CCs).
 OUTCOME:  Clarify requirements for becoming a CNA.  
 
-GOAL:  Make the CNA processes more standardized and repeatable.
+16. GOAL:  Make the CNA processes more standardized and repeatable.
 CHANGE:  Describe the annual review cycle for rejecting CVE IDs.
 OUTCOME:  
 
-GOAL:  
+17. GOAL:  
 CHANGE:  Appendix B overhaul including what needs to be in the Description (product/version).
 OUTCOME:
 
-GOAL:  Make the CNA processes more standardized and repeatable.
+18. GOAL:  Make the CNA processes more standardized and repeatable.
 CHANGE:  Define if and how CNAs assign CVE IDs to bundled third-party products.
 OUTCOME:  Reduce duplicate, increased transparency in processes, and better quality entries.
 WORDING:
@@ -132,7 +134,7 @@ WORDING:
 		they coordinate with the producer of the bundled product or 
     (if contact with the producer fails) the Root CNA for the product.
 
-GOAL:  Make the CNA Rules easier to use
+19. GOAL:  Make the CNA Rules easier to use
 CHANGE: Split CNT3 into a rule for codebases and another for standards, libraries, etc.
 OUTCOME:  Increased clarity in the process.
 WORDING:
@@ -146,7 +148,7 @@ WORDING:
 		Results from a choice by the implementer, assign a CVE ID to each affected codebase.
 		Not sure, assign a CVE ID to each affected codebase.
  
-GOAL:  Make the CNA Rules easier to use
+20. GOAL:  Make the CNA Rules easier to use
 CHANGE: Add extra decision for the case when issues aren't independently fixable and when you aren't sure.
 OUTCOME:  
 WORDING:
@@ -155,34 +157,34 @@ WORDING:
 		If the vulnerabilities cannot be fixed independently, group the bugs together and go to CNT2.
 		If it is not clear whether the vulnerabilities can be fixed independently, group the bugs together and go to CNT2.
 
-GOAL: Document existing policy
+21. GOAL: Document existing policy
 CHANGE: INC2 should be changed to clarify that the vulnerabilities that are already public can be assigned a CVE ID.
 OUTCOME:  Reduced confusion.
 
-GOAL: Increase adobption of CVE
+22. GOAL: Increase adobption of CVE
 CHANGE: Remove CVE ID assignment requirements for Root CNAs
 OUTCOME:  Organizations willing to be a Root CNA but without the resources to handle CVE ID assignment will become join.
 
-GOAL:  Clarify the CNA Rules
+23. GOAL:  Clarify the CNA Rules
 CHANGE: Rework the wording for INC4
 OUTCOME:  The Counting Rules are easier to implement.
 
-GOAL:  Incentivize proper behavior
+24. GOAL:  Incentivize proper behavior
 CHANGE:  Change the issue resolution processes (Appendix E) to account for CNAs who violate the rules
 OUTCOME:  Fewer rules violations
 
-GOAL: Fix typos.
+25. GOAL: Fix typos.
 CHANGE:
 	- 2.2.9 has a typo at the end.
 OUTCOME: Correct grammar and spelling.
 
-GOAL: Better define terms.
+26. GOAL: Better define terms.
 CHANGE: 
 	- Better define "hardware" with regard to CVE.
 	- Go through the CNA docs and highlight some of the potentially undefined/problematic terms/phrases, e.g. "public disclosure" and so on is so that we can maybe define them better. 
 OUTCOME: Regularized terminology.
 
-GOAL: Improve process descriptions.
+27. GOAL: Improve process descriptions.
 CHANGE:
 	- Add references and rules updates regarding the CVE JSON format and its use.
 	- The current CNA rules do not stipulate a specific time by which a CNA should update their upstream CNA after a CVE ID has been made public. MITRE asked the Board for guidance on the most time a CNA can wait. The Board suggested that CNAs should update their upstream CNAs within 24 hours of the publication of a CVE ID. This recommendation will be added to the list of updates to be considered for the next CNA Rules update.
@@ -196,15 +198,23 @@ http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
 	- Sub CNAs can send CVE assignment information directly to the Primary CNA and not have to go through their Root CNA.
 OUTCOME: CNAs will have clear processes to follow.
 
-GOAL: Address reference formats in CNA rules.
+28. GOAL: Address reference formats in CNA rules.
 CHANGE: Add descriptions and process for use of reference formats in CVE descriptions (e.g., MISC:, CONFIRM:, BUGTRAQ:, etc.)
 OUTCOME: CNAs will make use of the reference formats to enrich the metadata surrounding entries.
 
-GOAL: Include optional fields in CVE entry CSV and flat file submission standard.
+[Manion 2017-07-11]
+Agree, but also consider more scalable reference format such as vxref:
+https://github.com/FIRSTdotorg/vrdx-sig-vxref-wip/tree/master/vxref
+
+29. GOAL: Include optional fields in CVE entry CSV and flat file submission standard.
 CHANGE: Include [INITIALRELEASEDATE], [CURRENTRELEASEDATE], [CVSSSCORE], [ACKNOWLEDGEMENT], [PUBLISHER], [CWE], [CPE]. Should we rely on the JSON format to supply this instead?
 OUTCOME: More metadata can be submitted in regularized formats.
+NOTES: Consider more scalable 
 
-GOAL: Notify requester when a CVE ID has been assigned.
+[Manion 2017-07-11]
+All allowed formats should be consistent, moving towards JSON MVP (and optional elements) as the standard.  Focus on MVP.  Note multiple "vulnerability data format" efforts:  CVE, CVE+DWF, CVRF/SCAF, NIST NVD, NIST vulntology.  CVE format should focus on CVE mission of vulnerability identification.  Connect/integrate with other formats (severity, product list, type of vulnerability) but do not build the into CVE MVP (just need the hooks/containers).
+
+30. GOAL: Notify requester when a CVE ID has been assigned.
 CHANGE: Create a requirement that the original requester of a CVE ID will be notified when the CVE ID has been assigned.
 OUTCOME: Improved communication between CNAs and CVE requesters.
 
@@ -220,6 +230,9 @@ The Root CNAs must provide the Primary CNA these data.
 
 Primary CNA will send periodic reports to the Root/Sub CNAs indicating what CVE IDs we have observed/had reported to us that have not been published.
 One other option is a query on demand vs an email notification
+
+[Manion 2017-07-11]
+I question how much effort to put into tracking reserved vs. assigned.  We have plenty of IDs now, if bunches go unassigned, so be it.  What is critical is that IDs that go public (are assigned) are populated, ideally by the assigning/responsible CNA.  So I understand the need for reports about public IDs that aren't populated.  But for reports about what is reserved/unused, I don't see a strong need.  If the reporting is easy/low cost, I see no harm.
 
 For Automation WG: more publication notification tools, push or pull
 
