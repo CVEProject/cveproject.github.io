@@ -68,24 +68,26 @@ OUTCOME: CNA scopes will be easy to find by anyone.
 ______
 
 GOAL: Clarify existing language.
-	- Page 5 of the current CNA rules state:
-"In cases where requests or issues cannot be resolved by a given CNA, the issues are escalated to the next higher level CNA."
-Provide examples of the kinds of issues that might cause escalations. Also, create rule that requires some kind of paper trail for attempts to work with the CNA.
-	-Clarification around disclosure policies and what kinds of vulnerabilities (public, non-public, etc.) are given CVE IDs by the CNA and for what specific scope. Include a policy template. (Review the Embargo and Disclosure template)
-	- Clarify the difference between "when a vulnerability is made public" versus "when a vulnerability is added to the CVE list" and how they affect each other.
-	- Better describe the nested Root CNA structure (with a new diagram?).
-	- Section 1.3: Clarify how to approach CNAs that are violating CNA Rules. Also, place limitations on sanctions (Perhaps "Any sanctions implemented by a Root CNA may be appealed up to the Primary CNA for adjudication.")
-	- In Appendix B, clarify how to use the [VERSION] field. Use any of: Fixed-Version, Known-Affected-Version, Last-Affected-Version, First-Fixed-Version, etc. Adopt JSON standard here?
-	- In Appendix B, remove "to the greatest level of detail available". As it is, this sounds like asking for full disclosure. Some may never provide details that can only be useful in constructing an exploit. The phrase "greatest level of detail" sounds unnecessary.
-	- In Appendix B, give more examples that show how to handle multiple products or versions.
-	- For Appendix C, INC2: Vulnerabilities intended to be private can become public.
+
+- Page 5 of the current CNA rules state: "In cases where requests or issues cannot be resolved by a given CNA, the issues are escalated to the next higher level CNA." Provide examples of the kinds of issues that might cause escalations. Also, create rule that requires some kind of paper trail for attempts to work with the CNA.
+- Clarification around disclosure policies and what kinds of vulnerabilities (public, non-public, etc.) are given CVE IDs by the CNA and for what specific scope. Include a policy template. (Review the Embargo and Disclosure template)
+- Clarify the difference between "when a vulnerability is made public" versus "when a vulnerability is added to the CVE list" and how they affect each other.
+- Better describe the nested Root CNA structure (with a new diagram?).
+  - Section 1.3: Clarify how to approach CNAs that are violating CNA Rules. Also, place limitations on sanctions (Perhaps "Any sanctions implemented by a Root CNA may be appealed up to the Primary CNA for adjudication.")
+  - In Appendix B, clarify how to use the [VERSION] field. Use any of: Fixed-Version, Known-Affected-Version, Last-Affected-Version, First-Fixed-Version, etc. Adopt JSON standard here?
+  - In Appendix B, remove "to the greatest level of detail available". As it is, this sounds like asking for full disclosure. Some may never provide details that can only be useful in constructing an exploit. The phrase "greatest level of detail" sounds unnecessary.
+  - In Appendix B, give more examples that show how to handle multiple products or versions.
+  - For Appendix C, INC2: Vulnerabilities intended to be private can become public.
+
 I guess section 2.1.1 stated it better: "CVE IDs should only be assigned to vulnerabilities that are or will be made public."
-	- For Appendix C, INC3: Suggestion this can be rephrased as:
-'Is it only in an online service (software-as-a-service), on a specific web site, or only offered through hosting solutions, where complete remediation of the vulnerability is under the full control of the vendor, and does not require any action from anyone else'.
-	- For Appendix C, CNT3: 'Vulnerabilities in protocols' and 'vulnerabilities in protocol implementation' are two different beasts. Suggestion: make it 'vulnerabilities in protocol specifications "and" implementations'.
-	- For Appendix C, CNT3: What about shared hardware or shared hardware architecture?
+
+  - For Appendix C, INC3: Suggestion this can be rephrased as:
+  'Is it only in an online service (software-as-a-service), on a specific web site, or only offered through hosting solutions, where complete remediation of the vulnerability is under the full control of the vendor, and does not require any action from anyone else'.
+  - For Appendix C, CNT3: 'Vulnerabilities in protocols' and 'vulnerabilities in protocol implementation' are two different beasts. Suggestion: make it 'vulnerabilities in protocol specifications "and" implementations'.
+  - For Appendix C, CNT3: What about shared hardware or shared hardware architecture?
+
 What about standard formats like file formats or data encoding formats?
-	- 
+
 OUTCOME: Less vague or confusing language.
 
 ______
@@ -125,8 +127,8 @@ ______
 GOAL: Add new required fields.
 
 CHANGE: 
-	- Should we make the publication date a required field? 
-	- Should we make Impact a required field?
+  - Should we make the publication date a required field? 
+  - Should we make Impact a required field?
 
 OUTCOME: Enrich the metadata included in CVE entries.
 
@@ -195,9 +197,10 @@ CHANGE:  Define if and how CNAs assign CVE IDs to bundled third-party products.
 OUTCOME:  Reduce duplicate, increased transparency in processes, and better quality entries.
 
 WORDING:
-	A product vendor may assign a CVE ID to a bundled product, if
-		the producer of the bundled product is not a CNA
-		they coordinate with the producer of the bundled product or 
+
+    A product vendor may assign a CVE ID to a bundled product, if
+    the producer of the bundled product is not a CNA
+    they coordinate with the producer of the bundled product or
     (if contact with the producer fails) the Root CNA for the product.
 
 ______
@@ -210,13 +213,15 @@ OUTCOME:  Increased clarity in the process.
 
 WORDING:
 
-  CNT3: Shared Codebase
+- CNT3: Shared Codebase
+
 		Affects a single product, assign one CVE ID
 		Affects the same code in multiple products, assign a CVE ID to each affected codebase
 		Affects multiple products but with different code, assign a CVE ID to each product
 		Not sure or undefined, assign a CVE ID to each product
     
-  CNT 4: Libraries, Protocols, Standards, etc.
+- CNT4: Libraries, Protocols, Standards, etc.
+
 		Results from conforming to the specification, assign a single CVE ID.
 		Results from a choice by the implementer, assign a CVE ID to each affected codebase.
 		Not sure, assign a CVE ID to each affected codebase.
@@ -231,11 +236,11 @@ OUTCOME:
 
 WORDING:
 
-  CNT1:
-
+- CNT1:
+  
     If a vulnerability can be fixed independently of the others, go to CNT2.
-		If the vulnerabilities cannot be fixed independently, group the bugs together and go to CNT2.
-		If it is not clear whether the vulnerabilities can be fixed independently, group the bugs together and go to CNT2.
+    If the vulnerabilities cannot be fixed independently, group the bugs together and go to CNT2.
+    If it is not clear whether the vulnerabilities can be fixed independently, group the bugs together and go to CNT2.
 
 ______
 
