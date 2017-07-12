@@ -196,6 +196,11 @@ http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
 	- Sub CNAs can send CVE assignment information directly to the Primary CNA and not have to go through their Root CNA.
 OUTCOME: CNAs will have clear processes to follow.
 
+
+GOAL: Better data in CVE database - IMPACT data
+CHANGE: Make IMPACT an explicitly required component of the CVE unless it is truly not known. Ideally the information should be specific (e.g. "code execution") but if not a more general (AIC impact) should be provided.
+OUTCOME: Less "unknown impact CVEs"
+
 GOAL: Address reference formats in CNA rules.
 CHANGE: Add descriptions and process for use of reference formats in CVE descriptions (e.g., MISC:, CONFIRM:, BUGTRAQ:, etc.)
 OUTCOME: CNAs will make use of the reference formats to enrich the metadata surrounding entries.
