@@ -216,3 +216,80 @@ OUTCOME:  The Counting Rules are easier to implement.
 GOAL:  Incentivise proper behavior
 CHANGE:  Change the issue resolution processes (Appendix E) to account for CNAs who violate the rules
 OUTCOME:  Fewer rules violations
+
+
+GOAL: Fix typos.
+CHANGE:
+	- 2.2.9 has a typo at the end.
+OUTCOME: Correct grammar and spelling.
+
+GOAL: Better define terms.
+CHANGE: 
+	- Better define "hardware" with regard to CVE.
+	- Go through the CNA docs and highlight some of the potentially undefined/problematic terms/phrases, e.g. "public disclosure" and so on is so that we can maybe define them better. 
+OUTCOME: Regularized terminology.
+
+GOAL: Improve process descriptions.
+CHANGE:
+	- Add references and rules updates regarding the CVE JSON format and its use.
+	- The current CNA rules do not stipulate a specific time by which a CNA should update their upstream CNA after a CVE ID has been made public. MITRE asked the Board for guidance on the most time a CNA can wait. The Board suggested that CNAs should update their upstream CNAs within 24 hours of the publication of a CVE ID. This recommendation will be added to the list of updates to be considered for the next CNA Rules update.
+	- Additionally, CVE IDs that have been reserved for long periods of time without any public assignment could be “REJECT”ed or labeled in some other way to indicate they are inactive in the CVE list.
+	- Include rules describing how and when to assign CVE IDs using a year different from the current one.
+http://cve.mitre.org/about/faqs.html#year_portion_of_cve_id
+	- Add explicit how-to steps for submitting CVE entries to the Primary CNA.
+	- Include rules explicitly describing when and how unused CVE IDs will be rejected each year.
+	- How to assign for bundled third-party products.
+	- A time limit for how long reserved CVE IDs can be held without any update to the CNA who issued them.
+	- Sub CNAs can send CVE assignment information directly to the Primary CNA and not have to go through their Root CNA.
+OUTCOME: CNAs will have clear processes to follow.
+
+
+GOAL: Better data in CVE database - IMPACT data
+CHANGE: Make IMPACT an explicitly required component of the CVE unless it is truly not known. Ideally the information should be specific (e.g. "code execution") but if not a more general (AIC impact) should be provided.
+OUTCOME: Less "unknown impact CVEs"
+
+GOAL: Address reference formats in CNA rules.
+CHANGE: Add descriptions and process for use of reference formats in CVE descriptions (e.g., MISC:, CONFIRM:, BUGTRAQ:, etc.)
+OUTCOME: CNAs will make use of the reference formats to enrich the metadata surrounding entries.
+
+GOAL: Include optional fields in CVE entry CSV and flat file submission standard.
+CHANGE: Include [INITIALRELEASEDATE], [CURRENTRELEASEDATE], [CVSSSCORE], [ACKNOWLEDGEMENT], [PUBLISHER], [CWE], [CPE]. Should we rely on the JSON format to supply this instead?
+OUTCOME: More metadata can be submitted in regularized formats.
+
+GOAL: Notify requester when a CVE ID has been assigned.
+CHANGE: Create a requirement that the original requester of a CVE ID will be notified when the CVE ID has been assigned.
+OUTCOME: Improved communication between CNAs and CVE requesters.
+
+_________________________________
+
+11 July 2017
+
+CVE Used vs. CVE assigned
+Helps differentiate between what are actually assigned vs. those that are reserved and (maybe) unused.
+The Primary CNA should be publishing these summaries.
+The Root CNAs must provide the Primary CNA these data.
+"Allocated" vs. "Reserved"?
+
+Primary CNA will send periodic reports to the Root/Sub CNAs indicating what CVE IDs we have observed/had reported to us that have not been published.
+One other option is a query on demand vs an email notification
+
+For Automation WG: more publication notification tools, push or pull
+
+JSON will become the preferred format for CVE assignment. This would be done through a migration process. Year-long?
+JSON revision is tied to CNA Rules revision timeline
+
+Add numbers to suggestions.
+
+notification timeframes... what is a reasonable amount of time to expect details of CVE from CNA. Set as guideline with loose compliance. "notify immediately", but not a hard rule.
+
+are the counting rules too flexible?
+
+
+
+
+
+
+
+
+
+
