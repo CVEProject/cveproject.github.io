@@ -373,6 +373,54 @@ notification timeframes... what is a reasonable amount of time to expect details
 
 are the counting rules too flexible?
 
+Allow flexibility in CNT1 to accommodate large numbers of almost-identical CVE IDs?
+For example, using gt instead of >= over and over.
+
+Interpretations of protocols
+Multiple vendors using the same misinterpretation of a protocol in different products.
+Currently, would assign different CVE IDs for each product because we do not know, but if we do know we should assign a single CVE ID if the mistake is identical.
+CNT3 addresses this to some degree. "Results from conforming to the specification, assign a single CVE ID. Results from a choice by the implementer, assign a CVE ID to each affected codebase. Not sure, assign a CVE ID to each affected codebase."
+VXREF could help with this, as it has a function to create relationships between vulnerabilities.
+SUGGESTION: "Results from a choice by the implementer, assign a single CVE ID."
+SUGGESTION: Clarify what we mean by "choice by the implementer"
+
+
+FAQs for integrating the CNA processes into their operations
+
+Edge cases for counting
+
+Resource that points to all our documentation
+Lays out the documentation in a logical way
+
+Include PGP information on our CNA page.
+Link to PGP along with email address?
+
+More specific guidance on what information needs to be reported back to the Primary and what formats.
+Templates need justification and explanation of what we are using those data for. Data needs meaning and results should be actionable.
+
+References:
+Way to categorize them? CONFIRM exists, do we need more tags? "Advisory" "Analysis" "Dispute" etc. 
+SUGGESTION: CNAs should use reference tags when possible.
+https://github.com/CVEProject/automation-working-group/issues/28
+
+Attribution of vuln and credit?
+https://github.com/CVEProject/automation-working-group/blob/master/cve_json_schema/DRAFT-JSON-file-format-v4.md#credit
+What should be done with discoverer or other attribution?
+Currently use references to give info about discovery/attribution.
+
+SUGGESTION: Distinguish between what information is captured where. CVE ID entry vs. raw CVE feed vs. git repo.
+
+SUGGESTION: CNAs will be attributed to any CVE IDs they assign on the CVE List.
+
+
+
+
+
+
+
+
+
+
 
 
 
