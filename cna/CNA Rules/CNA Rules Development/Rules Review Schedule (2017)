@@ -1,0 +1,67 @@
+| Week 1 | Issue Number |
+| ------------- | ------------- |
+| Define hardware | 43 | 
+| Update definitions | 17 | 
+| Define when an entry should be marked as disputed versus rejected | 25 | 
+| Fix typo in 2.2.9 | 35 | 
+| Use terminology as defined by RFC 2119 (MUST, SHOULD, MAY) | 23 | 
+| Remove "to the greatest level of detail available" from the Appendix B | 48 | 
+
+| Week #2 | Issue Number |
+| ------------- | ------------- |
+| Clarify the nested CNA structure | 49 | 
+| Define what metrics CNAs need to report | 46 | 
+| Remove CVE ID assignment requirements for Root CNAs | 44 | 
+| Clarify who can be a CNA | 29 | 
+| Re section 4.1(3) | 5 | 
+| Re section 4.1(4) | 4 | 
+
+| Week #3 | Issue Number |
+| ------------- | ------------- |
+| Define requirements for disclosure policies | 16 | 
+| Add language setting expectations on when downstream developers should coordinate with upstream developers. | 51 | 
+| CNAs must provide a scope page on their website | 14 | 
+| Define the expiration process for reserved CVE IDs | 28 | 
+| Tie JSON updates schedule to CNA Rules update schedule. | 22 |
+
+| Week #4 | Issue Number |
+| ------------- | ------------- |
+| Add explicit how-to steps for submitting CVE entries to the Primary CNA | 40 |
+| Make JSON the preferred format | 39 |
+| Define how quickly CNAs are expected to submit entries after publishing an advisory | 2238|
+| Require reporting of which reserved CVE IDs have and have not been assigned to a vulnerability | 37 |
+| Notify requester when a CVE ID has been assigned. | 36 |
+
+| Week #5 | Issue Number |
+| ------------- | ------------- |
+| Change the issue resolution processes (Appendix E) to account for CNAs who violate the rules | 34 |
+| The CVE List cannot be the first point of publication for any information. | 26 |
+| Examples and paper trail for the escalation process | 15 |
+| Allow CNAs to embed data into their CNA listing | 20 |
+| Define how to handle third-party updates to a CNA's entry. | 27 |
+
+| Week #6 | Issue Number |
+| ------------- | ------------- |
+| Require all approved submission formats can capture the same information | 42 |
+| Make IMPACT an explicitly required component of CVE entries | 41 |
+| Should references be categorized? | 21 |
+| Remove the description from the required information for an entry submission | 13 |
+| Add the assigning CNA to the required information for an entry submission | 12 |
+| Add publication date as a required field | 45 |
+
+| Week #7 | Issue Number |
+| ------------- | ------------- |
+| Review INC4 | 33 |
+| Update CNT1 | 31 |
+| Update CNT3 (Shared codebase, library, protocol, standard, etc.) | 19 |
+| Change INC3 to allow for coverage of services | 18 |
+| Allow assignments to vulnerabilities in hardware | 50 |
+| Strengthen the need for enough information to show uniqueness in CVE entries | 52 |
+
+| Week #8 | Issue Number |
+| ------------- | ------------- |
+| Remove requirement to make vulnerabilities public (INC2) | 11 |
+| Define what year of CVE ID (e.g. CVE-2017) should be used during an assignment. | 24 |
+| Define how to handle overlapping assignments | 47 |
+| Clarify that CVE IDs can be assigned to vulnerabilities that are already public | 32 |
+| Define if and how CNAs assign CVE IDs to bundled third-party products. | 30 |
