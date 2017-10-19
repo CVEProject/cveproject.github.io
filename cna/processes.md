@@ -1,3 +1,8 @@
+THIS CONTENT HAS BEEN DEPRECATED. 
+
+REFER TO THE CNA RULES LOCATED AT <http://cve.mitre.org/cve/cna.html#documentation_for_cnas>
+FOR THE CURRENT CNA PROCESSES
+
 ---
 title: CNA Processes
 layout: page
