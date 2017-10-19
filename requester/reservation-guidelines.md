@@ -84,7 +84,7 @@ not be possible to determine if the vulnerability is real, which
 could result in a request for a CVE ID being denied.
 
 There are several documents that provide guidelines on disclosure.
-See [Appendix A: Documents on Disclosure Practices for more details](#appendix-a:-documents-on-disclosure-practices-for-more-details).
+See [<u>Appendix A: Documents on Disclosure Practices</u>](#appendix-a-documents-on-disclosure-practices) for more details.
 
 In general, you should do the following:
 
