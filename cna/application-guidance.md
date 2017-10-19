@@ -15,7 +15,7 @@ set of issues.
 </p><p>
 
 This guidance only applies to CVE assignment that occurs <u>BEFORE
-DISCLOSURE.</u> MITRE must be consulted after disclosure, and has
+DISCLOSURE.</u> The Primary CNA must be consulted after disclosure and has
 additional rules that may be followed.
 
 </p><p>
