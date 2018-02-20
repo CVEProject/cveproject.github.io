@@ -15,11 +15,9 @@ layout: page
       <div class="panel-body">
         <ul>
           <li markdown="span">[CNA Rules v2.0](cna/CNA Rules v2.0.docx)</li>
-          <li markdown="span">[CNA Processes](cna/processes.html)</li>
-          <li markdown="span">[CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C)</li>
+          <li markdown="span">[CNA Onboarding Processes](http://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding)</li>
+          <li markdown="span">[CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C) (cve.mitre.org)</li>
           <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
-          <li markdown="span">[DRAFT - Review and Update of CNA Roster](cna/DRAFT - Review and Update of CNA Roster.docx)</li>
-          <li markdown="span">[DRAFT - Information Sharing and Embargo Policies](cna/DRAFT - Information Sharing and Embargo Policies.docx)</li>
         </ul>
       </div>
     </div>
@@ -34,10 +32,6 @@ layout: page
         <ul>
           <li markdown="span">[CVE Counting - Draft for comment - 2016-03-22](content/CVE Counting - Draft for comment - 2016-03-22.pdf) (PDF)</li>
           <li markdown="span">[Key Details Phrasing](content/key-details-phrasing.pdf) (PDF)</li>
-        </ul>
-        <p>See also:</p>
-        <ul>
-          <li markdown="span">[CVE Content Decisions: Application Guidance for CNAs](cna/application-guidance.html)</li>
         </ul>
       </div>
     </div>
