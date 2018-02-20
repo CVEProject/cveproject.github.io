@@ -16,7 +16,7 @@ layout: page
         <ul>
           <li markdown="span">[CNA Rules v2.0](cna/CNA Rules v2.0.docx)</li>
           <li markdown="span">[CNA Processes](cna/processes.html)</li>
-          <li markdown="span">[CVE Content Decisions: Application Guidance for CNAs](cna/application-guidance.html)</li>
+          <li markdown="span">[CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C)</li>
           <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
           <li markdown="span">[DRAFT - Review and Update of CNA Roster](cna/DRAFT - Review and Update of CNA Roster.docx)</li>
           <li markdown="span">[DRAFT - Information Sharing and Embargo Policies](cna/DRAFT - Information Sharing and Embargo Policies.docx)</li>
