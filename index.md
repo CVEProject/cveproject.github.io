@@ -14,7 +14,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[CNA Rules v1.1](cna/CNA Rules v1.1.docx)</li>
+          <li markdown="span">[CNA Rules v2.0](cna/CNA Rules v2.0.docx)</li>
           <li markdown="span">[CNA Processes](cna/processes.html)</li>
           <li markdown="span">[CVE Content Decisions: Application Guidance for CNAs](cna/application-guidance.html)</li>
           <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
