@@ -15,7 +15,7 @@ layout: page
       <div class="panel-body">
         <ul>
           <li markdown="span">[CNA Rules v2.0](cna/CNA Rules v2.0.docx)</li>
-          <li markdown="span">[CNA Onboarding Processes](http://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding)</li>
+          <li markdown="span">[CNA Onboarding Processes](http://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding) (cve.mitre.org)</li>
           <li markdown="span">[CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C) (cve.mitre.org)</li>
           <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
         </ul>
