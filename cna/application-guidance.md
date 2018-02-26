@@ -15,7 +15,7 @@ set of issues.
 </p><p>
 
 This guidance only applies to CVE assignment that occurs <u>BEFORE
-DISCLOSURE.</u> MITRE must be consulted after disclosure, and has
+DISCLOSURE.</u> The Primary CNA must be consulted after disclosure and has
 additional rules that may be followed.
 
 </p><p>
@@ -871,7 +871,7 @@ addition to the regular decision tree.
 	automatically fix the second issue?"  If so, then the first issue is
 	probably the "root cause," and only one CVE would be needed.  But if
 	the second issue could still exist even after the first is fixed,
-	then likely both of them need separate issues.
+	then likely both of them need separate CVEs.
 	</li>
 
 	<li>If bug X creates a condition that introduces bug Y - e.g., an
@@ -890,7 +890,7 @@ addition to the regular decision tree.
 	attacker can call an administrator function that modifies web pages;
 	the attacker then modifies the web page to insert an HTML injection
 	(XSS) attack.  Here, an administrator is already allowed to modify
-	HTML; the admin is already have the legitimate privileges to insert
+	HTML; the admin already has the legitimate privileges to insert
 	arbitrary HTML or Javascript code into the page, so to an admin
 	there is no extra benefit to attempting an XSS.  As a result, only
 	one CVE would be assigned - to the web application's lack of access
@@ -1026,7 +1026,7 @@ In this case, a separate CVE ID would then be assigned.
 
 <p></p>
 
-<h3>Changing CVEs Assignments After Discovering New Information</h3>
+<h3>Changing CVE Assignments After Discovering New Information</h3>
 
 
 <ul>
@@ -1053,7 +1053,7 @@ should I use?
   <ul><li>Consult MITRE; only MITRE, as the Primary CNA, can decide
   which ID to use when a duplicate occurs.  (We generally follow the
   process as documented in
-  https://cve.mitre.org/cve/editorial_policies/duplicates.html).
+  <a href="https://cve.mitre.org/cve/editorial_policies/duplicates.html">https://cve.mitre.org/cve/editorial_policies/duplicates.html</a>).
   </li></ul>
 
 </li></ul>
