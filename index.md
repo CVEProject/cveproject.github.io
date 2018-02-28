@@ -18,7 +18,7 @@ layout: page
           <li markdown="span">[CNA Onboarding Processes](http://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding) (cve.mitre.org)</li>
           <li markdown="span">[CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C) (cve.mitre.org)</li>
           <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
-          <li markdown="span">Training<br>
+          <li markdown="span">Training
             <ul>
             <li markdown="span">[Becoming a CNA](cna/Becoming a CNA.pptx)</li>
             <li markdown="span">[CNA Processes](cna/CNA Processes.pptx)</li>
