@@ -12,7 +12,8 @@ title: CNA Resources
 [Current Roster of CNAs/Scopes](https://cve.mitre.org/cve/request_id.html#cna_participants)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Types of CNAs](https://cve.mitre.org/cve/cna.html#cna_types)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Growth of CNA program worldwide](https://cve.mitre.org/cve/cna.html#cnas_growth)
 
 ## Requesting Blocks of CVE IDs/Submitting CVE ID Assigment Information
-[CVE ID Request web form (Primary CNA only)](https://cveform.mitre.org/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[How to request blocks of CVE IDs](https://cve.mitre.org/about/faqs.html#web_form_need_more_than_10_cveids)
+[How to request blocks of CVE IDs](https://cve.mitre.org/about/faqs.html#web_form_need_more_than_10_cveids)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+[CVE ID Request web form (Primary CNA only)](https://cveform.mitre.org/)       
                
 [Submitting CVE assignment info to CVE Team](https://cve.mitre.org/cve/cna.html#submitting_cve_assignment_info)
 
