@@ -4,9 +4,11 @@ title: CNA Resources
 ---
 
 ## Communications Methods       
+**To communicate with all CNAs**             
 [CNA Group Discussion List Email (cve-cna-list@lists.mitre.org)](mailto:cve-cna-list@lists.mitre.org)     
              
-[CNA Coordinator Email (cna-coordinator@mitre.org)](mailto:cna-coordinator@mitre.org)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CVE ID Request web form (for contacting Primary CNA) - choose "Other"](https://cveform.mitre.org/)      
+**To contact the Primary CNA**                
+[CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[General CVE Team Contact Email](mailto:cve@mitre.org)
 
 ## Basic Information                       
 [Current Roster of CNAs/Scopes](https://cve.mitre.org/cve/request_id.html#cna_participants)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Types of CNAs](https://cve.mitre.org/cve/cna.html#cna_types)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Growth of CNA program worldwide](https://cve.mitre.org/cve/cna.html#cnas_growth)
@@ -23,8 +25,3 @@ title: CNA Resources
 
 ## CNA Metrics Requirements
 [Quarterly Metrics](https://cve.mitre.org/cve/cna/rules.html#Appendix_G)
-
-## Help
-For help, contact the Primary CNA:
-               
-[CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[General CVE Team Contact Email](mailto:cve@mitre.org)
