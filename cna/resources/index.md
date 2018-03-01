@@ -5,7 +5,7 @@ title: CNA Resources
 
 ## Communications Methods       
 **To communicate with all CNAs**             
-[CNA Group Discussion List Email (cve-cna-list@lists.mitre.org)](mailto:cve-cna-list@lists.mitre.org)     
+[CNA Group Discussion List Email](mailto:cve-cna-list@lists.mitre.org)     
              
 **To contact the Primary CNA**                
 [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[General CVE Team Contact Email](mailto:cve@mitre.org)
