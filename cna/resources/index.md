@@ -18,7 +18,7 @@ title: CNA Resources
 
 ## CNA Documentation and Training
 **Current CNAs**        
-[CNA Rules v2.0](https://cve.mitre.org/cve/cna/rules.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Processes Documentation](/processes_documentation/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Training Slides](/training_slides/)
+[CNA Rules v2.0](https://cve.mitre.org/cve/cna/rules.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Processes Documentation](/cna/processes_documentation/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Training Slides](/cna/training_slides/)
 
 **Prospective CNAs**        
 [CVE overview for prospective CNAs](https://cve.mitre.org/cve/cna/CVE_Overview_for_Prospective_CNAs_v1.0.pdf)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Instructions for how to become a CNA](https://cve.mitre.org/cve/cna.html#become_a_cna)
