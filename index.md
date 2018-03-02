@@ -13,20 +13,12 @@ layout: page
         <div class="panel-title">CVE Numbering Authorities (CNAs)</div>
       </div>
       <div class="panel-body">
-        <ul>
-          <li markdown="span">[CNA Rules v2.0](cna/CNA Rules v2.0.docx)</li>
-          <li markdown="span">[CNA Onboarding Processes](http://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding) (cve.mitre.org)</li>
-          <li markdown="span">[CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C) (cve.mitre.org)</li>
-          <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
-          <li markdown="span">Training</li>
-            <ul>
-            <li markdown="span">[Becoming a CNA](cna/Becoming a CNA.pptx)</li>
-            <li markdown="span">[CNA Processes](cna/CNA Processes.pptx)</li>
-            <li markdown="span">[Counting Rules Training](cna/CVE Counting Rules Training.pptx)</li>
-            <li markdown="span">[Creating a CVE Entry for Submission](cna/Entry_Creation.pptx)</li>
-            <li markdown="span">[Submitting CVE Entries to MITRE](cna/Entry_Submission_Process.pptx)</li>
-            </ul>
-        </ul>
+       <ul>
+         <li markdown="span">[What Is a CNA?](http://cve.mitre.org/cve/cna.html) (cve.mitre.org)</li>
+         <li markdown="span">[CNA Resources](/cna/resources/)</li>
+         <li markdown="span">[CNA Training Slides](/cna/training_slides/)</li>
+         <li markdown="span">[CNA Processes Documentation](/cna/processes_documentation)</li>
+      </ul>
       </div>
     </div>
   </div>
@@ -68,7 +60,11 @@ layout: page
         <div class="panel-title">CVE Board</div>
       </div>
       <div class="panel-body">
-        <div class="alert alert-info">Coming Soon!</div>
+        <ul>
+           <li markdown="span">[CVE Board Charter v2.5](https://cve.mitre.org/community/board/charter.html) (cve.mitre.org)</li> 
+           <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries)  (cve.mitre.org)</li> 
+           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive)  (cve.mitre.org)</li> 
+       </ul>
       </div>
     </div>
   </div>
