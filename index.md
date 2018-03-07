@@ -57,7 +57,7 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">Automation Working Group/div>
+        <div class="panel-title">Automation Working Group</div>
       </div>
       <div class="panel-body">
         <div class="alert alert-info">Coming Soon!</div>
@@ -68,7 +68,7 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">Strategic Planning Working Group/div>
+        <div class="panel-title">Strategic Planning Working Group</div>
       </div>
       <div class="panel-body">
         <div class="alert alert-info">Coming Soon!</div>
