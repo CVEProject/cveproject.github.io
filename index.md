@@ -39,8 +39,6 @@ layout: page
 
 </div>
 
-<div class="row">
-
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -50,6 +48,30 @@ layout: page
         <ul>
           <li markdown="span">[Researcher Reservation Guidelines](requester/reservation-guidelines.html)</li>
         </ul>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">Automation Working Group/div>
+      </div>
+      <div class="panel-body">
+        <div class="alert alert-info">Coming Soon!</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">Strategic Planning Working Group/div>
+      </div>
+      <div class="panel-body">
+        <div class="alert alert-info">Coming Soon!</div>
       </div>
     </div>
   </div>
