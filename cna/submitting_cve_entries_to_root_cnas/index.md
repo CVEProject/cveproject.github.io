@@ -10,17 +10,17 @@ Each Root CNA listed above has its own process for accepting CVE Entries from CN
 
 ## Submitting to the Primary CNA
 
-A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is hosted on the [CVEProject](https://github.com/CVEProject/) pages on GitHub.com. 
+A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is hosted on the [CVEProject](https://github.com/CVEProject/) website on GitHub.com. 
 
 **IMPORTANT:**                                      
 
-* Only [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) and [CVE Automation Working Group](https://github.com/CVEProject/automation-working-group) members are eligible to submit CVE Entries to the Primary CNA using JSON.</li>
+* Only [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) and [CVE Automation Working Group](https://github.com/CVEProject/automation-working-group) members are eligible to submit CVE Entries to the Primary CNA using JSON during the pilot program.</li>
 * All other CNAs should continue use the [CVE Request web form](https://cveform.mitre.org/) to submit CVE Entries to the Primary CNA.
 
 **Resources**                                      
 
 * [How to Contribute](https://github.com/CVEProject/cvelist/blob/master/CONTRIBUTING.md)
-* [CVE JSON Schema](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)
+* [CVE JSON Schema Repository](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)
   <ul>
     <li><a href="https://github.com/CVEProject/automation-working-group/blob/master/cve_json_schema/DRAFT-JSON-file-format-v4.md">CVE ID JSON File Format 4.0 (Draft)</a></li>
     <li><a href="https://github.com/CVEProject/automation-working-group/blob/master/cve_json_schema/CVE_JSON_4.0_min_public.schema">Schema for validating a JSON file against the minimal CVE structure</a></li>
