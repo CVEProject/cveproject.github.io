@@ -10,7 +10,7 @@ Each Root CNA listed above has its own process for accepting CVE Entries from CN
 
 ## Submitting to the Primary CNA
 
-A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is hosted on the [CVEProject](https://github.com/CVEProject/) website on GitHub.com. 
+A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/) website on GitHub.com. 
 
 **IMPORTANT:**                                      
 
