@@ -8,7 +8,7 @@ title: Submitting CVE Entries to Root CNAs
 
 Each Root CNA listed above has its own process for accepting CVE Entries from CNAs.         
               
-Contact the specific Root CNA directly to request their specific submission requirements.
+Contact a specific Root CNA directly to request their specific submission requirements.
 
 ## Submitting to the Primary CNA
 
