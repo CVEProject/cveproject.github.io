@@ -17,7 +17,7 @@ layout: page
          <li markdown="span">[What Is a CNA?](https://cve.mitre.org/cve/cna.html) (cve.mitre.org)</li>
          <li markdown="span">[CNA Resources](/cna/resources/)</li>
          <li markdown="span">[CNA Training Slides](/cna/training_slides/)</li>
-         <li markdown="span">[CNA Processes Documentation](/cna/processes_documentation)</li>
+         <li markdown="span">[CNA Processes Documentation](/cna/processes_documentation/)</li>
       </ul>
       </div>
     </div>
