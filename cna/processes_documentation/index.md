@@ -9,7 +9,7 @@ Current CVE Numbering Authorities (CNAs) processes documents are listed below.
 * [CNA Rules v2.0](cna/CNA_Rules_v2.0.docx)
 * [CNA Onboarding Processes](http://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding) (cve.mitre.org)
 * [CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C) (cve.mitre.org)
-* [DRAFT - CNA Candidate Process](cna/DRAFT_-_CNA_Candidate_Process.docx)
+* [Submitting CVE Entries to Root CNAs](cna/submitting_cve_entries_to_root_cnas/index.md)
                
 
 ## Help      
