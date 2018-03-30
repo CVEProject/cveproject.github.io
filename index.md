@@ -1,9 +1,7 @@
 ---
-title: Common Vulnerabilities and Exposures
+title: CVE Project Documentation
 layout: page
 ---
-
-<img class="center-block img-responsive" src="{{ site.baseurl }}/img/cve-logo-600.png" alt="CVE Logo" />
 
 <div class="row">
 
@@ -15,9 +13,9 @@ layout: page
       <div class="panel-body">
        <ul>
          <li markdown="span">[What Is a CNA?](https://cve.mitre.org/cve/cna.html) (cve.mitre.org)</li>
-         <li markdown="span">[CNA Resources](/cna/resources/)</li>
-         <li markdown="span">[CNA Training Slides](/cna/training_slides/)</li>
-         <li markdown="span">[CNA Processes Documentation](/cna/processes_documentation/)</li>
+         <li markdown="span">[CNA Resources](/cna/resources.html)</li>
+         <li markdown="span">[CNA Training Slides](/cna/training_slides.html)</li>
+         <li markdown="span">[CNA Processes Documentation](/cna/processes_documentation.html)</li>
       </ul>
       </div>
     </div>
