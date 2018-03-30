@@ -20,4 +20,4 @@ title: CNA Resources
 [CVE overview for prospective CNAs](https://cve.mitre.org/cve/cna/CVE_Overview_for_Prospective_CNAs_v1.0.pdf)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Instructions for how to become a CNA](https://cve.mitre.org/cve/cna.html#become_a_cna)
 
 ## CNA Metrics Requirements
-[Quarterly Metrics](https://cve.mitre.org/cve/cna/rules.html#Appendix_G)
+[Quarterly Metrics](https://cve.mitre.org/cve/cna/rules.html#Appendix_G) 
