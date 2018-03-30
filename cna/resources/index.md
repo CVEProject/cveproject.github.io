@@ -1,6 +1,6 @@
 ---
-layout: flat
 title: CNA Resources
+layout: page
 ---
 
 ## Contacting the Primary CNA
