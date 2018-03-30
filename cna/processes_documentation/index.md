@@ -12,7 +12,7 @@ Current CVE Numbering Authorities (CNAs) processes documents are listed below.
 * [Submitting CVE Entries to Root CNAs](/cna/submitting_cve_entries_to_root_cnas/index.md)
                
 
-## Help      
+## Help       
                                         
 For help, contact the Primary CNA:                                      
                                               
