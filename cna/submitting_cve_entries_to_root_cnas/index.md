@@ -19,7 +19,7 @@ A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre
 
 **Resources**                                      
 
-* [How to Contribute](https://github.com/CVEProject/cvelist/blob/master/CONTRIBUTING.md)
+* [How to Contribute](https://github.com/CVEProject/cvelist/blob/master/CONTRIBUTING.md) 
 * [CVE JSON Schema Repository](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)
   <ul>
     <li><a href="https://github.com/CVEProject/automation-working-group/blob/master/cve_json_schema/DRAFT-JSON-file-format-v4.md">CVE ID JSON File Format 4.0 (Draft)</a></li>
