@@ -28,6 +28,9 @@ layout: page
       </div>
       <div class="panel-body">
          <p><i>Coming Soon!</i></p>
+        <br>
+        <br>
+        <br>
       </div>
     </div>
   </div>
@@ -47,8 +50,6 @@ layout: page
       </div>
     </div>
   </div>
-  
-  <div class="row">
 
   <div class="col-md-6">
     <div class="panel panel-default">
@@ -57,9 +58,12 @@ layout: page
       </div>
       <div class="panel-body">
         <p><i>Coming Soon!</i></p>
+        <br>
       </div>
     </div>
   </div>
+
+  <div class="row">
 
   <div class="col-md-6">
     <div class="panel panel-default">
