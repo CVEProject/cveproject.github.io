@@ -24,6 +24,23 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
+        <div class="panel-title">Automation Working Group</div>
+      </div>
+      <div class="panel-body">
+        <ul>
+         <li><i>Coming Soon!<i/></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+ </div>
+
+<div class="row">
+  
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
         <div class="panel-title">Content Development</div>
       </div>
       <div class="panel-body">
@@ -40,11 +57,11 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">Requesters                   </div>
+        <div class="panel-title">Strategic Planning Working Group</div>
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[Researcher Reservation Guidelines](/docs/requester/reservation-guidelines.html)</li>
+         <li><i>Coming Soon!<i/></li>
         </ul>
       </div>
     </div>
@@ -55,30 +72,17 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">Automation Working Group</div>
+        <div class="panel-title">Requesters</div>
       </div>
       <div class="panel-body">
         <ul>
-        <li>Coming Soon!</li>
+          <li markdown="span">[Researcher Reservation Guidelines](/docs/requester/reservation-guidelines.html)</li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="col-md-6">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <div class="panel-title">Strategic Planning Working Group</div>
-      </div>
-      <div class="panel-body">
-        <ul>
-        <li>Coming Soon!</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6">
+ <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="panel-title">CVE Board</div>
