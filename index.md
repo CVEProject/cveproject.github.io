@@ -37,7 +37,7 @@ layout: page
   
   </div>
   
-  <div class="col-md-8">
+  <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="panel-title">Content Development</div>
@@ -51,7 +51,7 @@ layout: page
     </div>
   </div>
 
-  <div class="col-md-8">
+  <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="panel-title">Strategic Planning Working Group</div>
@@ -72,8 +72,6 @@ layout: page
         <ul>
           <li markdown="span">[Researcher Reservation Guidelines](/docs/requester/reservation-guidelines.html)</li>
         </ul>
-        <br>
-        <br>
       </div>
     </div>
   </div>
@@ -93,4 +91,4 @@ layout: page
     </div>
   </div>
 
-</div>
+
