@@ -1,9 +1,7 @@
 ---
-title: Common Vulnerabilities and Exposures
+title: CVE Project Documentation
 layout: page
 ---
-
-<img class="center-block img-responsive" src="{{ site.baseurl }}/img/cve-logo-600.png" alt="CVE Logo" />
 
 <div class="row">
 
@@ -13,20 +11,12 @@ layout: page
         <div class="panel-title">CVE Numbering Authorities (CNAs)</div>
       </div>
       <div class="panel-body">
-        <ul>
-          <li markdown="span">[CNA Rules v2.0](cna/CNA Rules v2.0.docx)</li>
-          <li markdown="span">[CNA Onboarding Processes](http://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding) (cve.mitre.org)</li>
-          <li markdown="span">[CVE Content Decisions](http://cve.mitre.org/cve/cna/rules.html#Appendix_C) (cve.mitre.org)</li>
-          <li markdown="span">[DRAFT - CNA Candidate Process](cna/DRAFT - CNA Candidate Process.docx)</li>
-          <li markdown="span">Training</li>
-            <ul>
-            <li markdown="span">[Becoming a CNA](cna/Becoming a CNA.pptx)</li>
-            <li markdown="span">[CNA Processes](cna/CNA Processes.pptx)</li>
-            <li markdown="span">[Counting Rules Training](cna/CVE Counting Rules Training.pptx)</li>
-            <li markdown="span">[Creating a CVE Entry for Submission](cna/Entry_Creation.pptx)</li>
-            <li markdown="span">[Submitting CVE Entries to MITRE](cna/Entry_Submission_Process.pptx)</li>
-            </ul>
-        </ul>
+       <ul>
+         <li markdown="span">[What Is a CNA?](https://cve.mitre.org/cve/cna.html) (cve.mitre.org)</li>
+         <li markdown="span">[CNA Resources](/docs/cna/resources.html)</li>
+         <li markdown="span">[CNA Training Slides](/docs/cna/training_slides.html)</li>
+         <li markdown="span">[CNA Processes Documentation](/docs/cna/processes_documentation.html)</li>
+      </ul>
       </div>
     </div>
   </div>
@@ -38,16 +28,14 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[CVE Counting - Draft for comment - 2016-03-22](content/CVE Counting - Draft for comment - 2016-03-22.pdf) (PDF)</li>
-          <li markdown="span">[Key Details Phrasing](content/key-details-phrasing.pdf) (PDF)</li>
+          <li markdown="span">[CVE Counting - Draft for comment - 2016-03-22](/content/CVE Counting - Draft for comment - 2016-03-22.pdf) (PDF)</li>
+          <li markdown="span">[Key Details Phrasing](/content/key-details-phrasing.pdf) (PDF)</li>
         </ul>
       </div>
     </div>
   </div>
 
 </div>
-
-<div class="row">
 
   <div class="col-md-6">
     <div class="panel panel-default">
@@ -56,8 +44,32 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[Researcher Reservation Guidelines](requester/reservation-guidelines.html)</li>
+          <li markdown="span">[Researcher Reservation Guidelines](/docs/requester/reservation-guidelines.html)</li>
         </ul>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">Automation Working Group</div>
+      </div>
+      <div class="panel-body">
+        <div class="alert alert-info">Coming Soon!</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">Strategic Planning Working Group</div>
+      </div>
+      <div class="panel-body">
+        <div class="alert alert-info">Coming Soon!</div>
       </div>
     </div>
   </div>
@@ -68,7 +80,11 @@ layout: page
         <div class="panel-title">CVE Board</div>
       </div>
       <div class="panel-body">
-        <div class="alert alert-info">Coming Soon!</div>
+        <ul>
+           <li markdown="span">[CVE Board Charter v2.5](https://cve.mitre.org/community/board/charter.html) (cve.mitre.org)</li> 
+           <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries)  (cve.mitre.org)</li> 
+           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive)  (cve.mitre.org)</li> 
+       </ul>
       </div>
     </div>
   </div>
