@@ -58,7 +58,9 @@ layout: page
         <div class="panel-title">Automation Working Group</div>
       </div>
       <div class="panel-body">
-        <p>Coming Soon!</p>
+        <ul>
+        <li>Coming Soon!</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -69,7 +71,9 @@ layout: page
         <div class="panel-title">Strategic Planning Working Group</div>
       </div>
       <div class="panel-body">
-        <p>Coming Soon!</p>
+        <ul>
+        <li>Coming Soon!</li>
+        </ul>
       </div>
     </div>
   </div>
