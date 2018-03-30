@@ -44,7 +44,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[Researcher Reservation Guidelines](/requester/reservation-guidelines.html)</li>
+          <li markdown="span">[Researcher Reservation Guidelines](/docs/requester/reservation-guidelines.html)</li>
         </ul>
       </div>
     </div>
