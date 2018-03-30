@@ -27,16 +27,12 @@ layout: page
         <div class="panel-title">Automation Working Group</div>
       </div>
       <div class="panel-body">
-        <ul>
-         <li><i>Coming Soon!<i/></li>
-        </ul>
+         <p><i>Coming Soon!<i/></p>
       </div>
     </div>
   </div>
 
  </div>
-
-<div class="row">
   
   <div class="col-md-6">
     <div class="panel panel-default">
@@ -60,14 +56,12 @@ layout: page
         <div class="panel-title">Strategic Planning Working Group</div>
       </div>
       <div class="panel-body">
-        <ul>
-         <li><i>Coming Soon!<i/></li>
-        </ul>
+         <p><i>Coming Soon!<i/></p>
       </div>
     </div>
   </div>
-
-<div class="row">
+  
+  <div class="row">
 
   <div class="col-md-6">
     <div class="panel panel-default">
