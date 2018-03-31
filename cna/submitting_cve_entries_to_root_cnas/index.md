@@ -14,7 +14,7 @@ A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre
 
 All CNAs are eligible to submit CVE Entries to the Primary CNA using JSON during the pilot program.
 
-**Resources**                                      
+#### Resources                                     
 
 * [How to Contribute](https://github.com/CVEProject/cvelist/blob/master/CONTRIBUTING.md) 
 * [CVE JSON Schema Repository](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)
