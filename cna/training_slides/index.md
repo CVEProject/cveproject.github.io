@@ -13,7 +13,7 @@ Current CVE Numbering Authority (CNA) training slides are listed below.
 
 ### Help
                       
-For help, contact the Primary CNA:                    
+For help, contact the Primary CNA:                        
                     
 * [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)
 * [CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)
