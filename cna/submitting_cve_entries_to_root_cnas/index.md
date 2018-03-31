@@ -1,14 +1,14 @@
 ---
-layout: flat
 title: Submitting CVE Entries to Root CNAs
+layout: page
 ---
 [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) manage a group of sub-CNAs within a given domain or community. Examples of organizations currently participating as Root CNAs include [Distributed Weakness Filing Project](https://cve.mitre.org/cve/request_id.html#cna_participants), [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#j), and the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants).
 
-## Submitting to Root CNAs
+### Submitting to Root CNAs
 
 Each Root CNA listed above has its own process for accepting CVE Entries from CNAs. Contact a specific Root CNA directly to request their specific submission requirements.
 
-## Submitting to the Primary CNA
+### Submitting to the Primary CNA
 
 A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/) website on GitHub.com. 
 
@@ -35,7 +35,7 @@ A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre
   <li><a href="https://vulnogram.github.io/">https://vulnogram.github.io/</a></li>
   </ul>
 
-## Help
+### Help
       
 For help, contact the Primary CNA:                                      
                                               
