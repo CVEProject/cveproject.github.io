@@ -5,11 +5,11 @@ layout: page
         
 Current CVE Numbering Authority (CNA) training slides are listed below.                 
                           
-* [Becoming a CNA](/docs/cna/Becoming_a_CNA.pptx)          
-* [CNA Processes](/docs/cna/CNA_Processes.pptx)      
-* [Counting Rules Training](/docs/cna/CVE_Counting_Rules_Training.pptx)     
-* [Creating a CVE Entry for Submission](/docs/cna/Entry_Creation.pptx)         
-* [Primary CNA Web Form CVE Entry Submission Process](/docs/cna/Web_Form_Entry_Submission_Process.pptx)   
+* [Becoming a CNA](/cna/Becoming a CNA.pptx)          
+* [CNA Processes](/cna/CNA Processes.pptx)      
+* [Counting Rules Training](/cna/CVE Counting Rules Training.pptx)     
+* [Creating a CVE Entry for Submission](/cna/Entry Creation.pptx)         
+* [Primary CNA Web Form CVE Entry Submission Process](/cna/Web Form Entry Submission Process.pptx)   
 
 ### Help
                       
