@@ -74,6 +74,8 @@ layout: page
         <ul>
           <li markdown="span">[Researcher Reservation Guidelines](/docs/requester/reservation-guidelines.html)</li>
         </ul>
+        <br>
+        <br>
       </div>
     </div>
   </div>
