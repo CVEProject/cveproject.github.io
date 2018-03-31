@@ -14,8 +14,8 @@ A pilot program for submiting CVE Entries to the [Primary CNA](https://cve.mitre
 
 **IMPORTANT:**                                      
 
-* Only [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) and [CVE Automation Working Group](https://github.com/CVEProject/automation-working-group) members are eligible to submit CVE Entries to the Primary CNA using JSON during the pilot program.</li>
-* All other CNAs should continue use the [CVE Request web form](https://cveform.mitre.org/) to submit CVE Entries to the Primary CNA.
+* All CNAs are eligible to submit CVE Entries to the Primary CNA using JSON during the pilot program.
+* Non-CNAs should use the [CVE Request web form](https://cveform.mitre.org/) to submit CVE Entries to the Primary CNA.
 
 **Resources**                                      
 
