@@ -59,7 +59,9 @@ layout: page
         <div class="panel-title">Strategic Planning Working Group</div>
       </div>
       <div class="panel-body">
-        <p><i>Coming Soon!</i></p>
+        <ul>
+          <li markdown="span">[SPWG GitHub Repository](https://github.com/CVEProject/strategic-planning-working-group)</li>
+        </ul>
         <br>
       </div>
     </div>
