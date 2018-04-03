@@ -30,7 +30,7 @@ layout: page
       <div class="panel-body">
        <ul>
          <li markdown="span">[CVE List GitHub Automation Pilot](https://github.com/CVEProject/cvelist)</li>
-         <li markdown="span">[CVE JSON Schema](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)</li>
+         <li markdown="span">[CVE JSON Schema Project](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)</li>
          <li markdown="span">[CNA Registry Project](https://github.com/CVEProject/CNA-registry-project-AWG)</li>
          <li markdown="span">[AWG Charter](https://github.com/CVEProject/automation-working-group/blob/master/CAWG_Charter_DRAFT.md)</li>        
          <li markdown="span">[AWG GitHub Repository](https://github.com/CVEProject/automation-working-group)</li>
