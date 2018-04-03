@@ -3,4 +3,4 @@ title: CVE Project Documentation
 layout: page
 ---
 
-[Documentation](docs/)
+[Documentation](docs/index.html)
