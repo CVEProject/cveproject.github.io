@@ -27,10 +27,12 @@ layout: page
         <div class="panel-title">Automation Working Group</div>
       </div>
       <div class="panel-body">
-         <p><i>Coming Soon!</i></p>
-        <br>
-        <br>
-        <br>
+       <ul>
+         <li markdown="span">[CVE List GitHub Automation Pilot](https://github.com/CVEProject/cvelist)</li>
+         <li markdown="span">[CVE JSON Schema](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)</li>
+         <li markdown="span">[AWG Charter](https://github.com/CVEProject/automation-working-group/blob/master/CAWG_Charter_DRAFT.md)</li>        
+         <li markdown="span">[AWG GitHub Repository](https://github.com/CVEProject/automation-working-group)</li>
+      </ul>
       </div>
     </div>
   </div>
@@ -57,7 +59,9 @@ layout: page
         <div class="panel-title">Strategic Planning Working Group</div>
       </div>
       <div class="panel-body">
-        <p><i>Coming Soon!</i></p>
+        <ul>
+          <li markdown="span">[SPWG GitHub Repository](https://github.com/CVEProject/strategic-planning-working-group)</li>
+        </ul>
         <br>
       </div>
     </div>
