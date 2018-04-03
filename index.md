@@ -16,7 +16,8 @@ layout: page
          <li markdown="span">[CNA Resources](/docs/cna/resources/index.html)</li>
          <li markdown="span">[CNA Training Slides](/docs/cna/training_slides/index.html)</li>
          <li markdown="span">[CNA Processes Documentation](/docs/cna/processes_documentation/index.html)</li>
-      </ul>
+       </ul>
+       <br>
       </div>
     </div>
   </div>
