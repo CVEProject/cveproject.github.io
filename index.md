@@ -4,7 +4,6 @@ layout: page
 
 <h1 class="site-title">Common Vulnerabilities and Exposures (CVE®)</h1>
 <br>
-<br>
 <div class="jumbotron">
   <h3>This website hosts documentation for the <a href="https://cve.mitre.org/">CVE</a> project.</h3>
   <br>
