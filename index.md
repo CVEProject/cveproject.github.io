@@ -6,7 +6,7 @@ layout: page
 <br>
 <br>
 <div class="jumbotron">
-  <h3>This website hosts documentation for the <a href="https://cve.mitre.org/">CVE project</a>.</h3>
+  <h3>This website hosts documentation for the <a href="https://cve.mitre.org/">CVE</a> project.</h3>
   <br>
   <h3>Go to our main website to learn more about CVE, or to view CVE Entries:</h3>
   <br>
