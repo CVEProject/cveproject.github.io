@@ -1,15 +1,16 @@
 ---
-title: CVE Project Documentation
 layout: page
 ---
 
 <h1 class="site-title">Common Vulnerabilities and Exposures (CVE®)</h1>
-
+<br>
+<br>
 <div class="jumbotron">
-  <h2>This website hosts documentation for the CVE project.</h2>
+  <h3>This website hosts documentation for the CVE project.</h3>
   <br>
-  <h2>Go to our main website to learn more about CVE, or to view CVE Entries:</h2>
-  <p><a class="btn btn-primary btn-lg" role="button" href="https://cve.mitre.org/about/index.html">About CVE »</a>
+  <h3>Go to our main website to learn more about CVE, or to view CVE Entries:</h3>
+  <br>
+  <p><a class="btn btn-primary btn-lg" role="button" href="https://cve.mitre.org/about/index.html">About CVE »</a>     
   <a class="btn btn-primary btn-lg" role="button" href="https://cve.mitre.org/cve/">CVE List »</a></p>
 </div>
 
