@@ -2,8 +2,7 @@
 title: CNA Resources
 layout: page
 ---
-This page includes resources and basic information for [CVE Numbering Authorities (CNAs)](https://cve.mitre.org/cve/cna.html).
-&nbsp;         
+This page includes links to resources and information for [CVE Numbering Authorities (CNAs)](https://cve.mitre.org/cve/cna.html).    
 &nbsp;    
                                
 ### Contacting the Primary CNA
