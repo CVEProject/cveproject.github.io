@@ -5,7 +5,7 @@ layout: page
 <h1 class="site-title">Common Vulnerabilities and Exposures (CVE®)</h1>
 <br>
 <div class="jumbotron">
-  <h3>This website hosts <strong><a href="/docs/">documentation</a></strong> for the CVE project.</h3>
+  <h3>This website hosts <a href="/docs/">documentation</a> for the CVE project.</h3>
   <br>
   <h3>Go to our main website to learn more about CVE, or to view CVE Entries:</h3>
   <br>
