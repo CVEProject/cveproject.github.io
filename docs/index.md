@@ -12,7 +12,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[What Is a CNA?](https://cve.mitre.org/cve/cna.html) (cve.mitre.org)</li>
+         <li markdown="span">[What Is a CNA?](https://cve.mitre.org/cve/cna.html) (hosted on CVE Main Website)</li>
          <li markdown="span">[CNA Resources](/docs/cna/resources/index.html)</li>
          <li markdown="span">[CNA Training Slides](/docs/cna/training_slides/index.html)</li>
          <li markdown="span">[CNA Processes Documentation](/docs/cna/processes_documentation/index.html)</li>
@@ -93,9 +93,9 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-           <li markdown="span">[CVE Board Charter v2.5](https://cve.mitre.org/community/board/charter.html) (cve.mitre.org)</li> 
-           <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries)  (cve.mitre.org)</li> 
-           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive)  (cve.mitre.org)</li> 
+           <li markdown="span">[CVE Board Charter v2.5](https://cve.mitre.org/community/board/charter.html) (hosted on CVE Main Website)</li> 
+           <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries) (hosted on CVE Main Website)</li> 
+           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive) (hosted on CVE Main Website)</li> 
        </ul>
       </div>
     </div>
