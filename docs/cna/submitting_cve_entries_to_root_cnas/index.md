@@ -10,13 +10,15 @@ Each Root CNA listed above has its own process for accepting CVE Entries from CN
 
 ### Submitting to the Primary CNA
 
-A pilot program for CNAs to submit CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/) website on GitHub.com. All CNAs are eligible to participate in the pilot.
+A pilot program for CNAs to submit CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate in the pilot.
 
 CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitre.org/) to submit CVE Entries to the Primary CNA.
 
 #### Resources                                     
 
-* [How to Contribute](https://github.com/CVEProject/cvelist/blob/master/CONTRIBUTING.md) 
+* [How to Contribute](https://github.com/CVEProject/cveproject.github.io/blob/master/docs/cna/Entry_Submission_Process.pptx)
+  * [GitHub](https://github.com/CVEProject/cvelist/blob/master/CONTRIBUTING.md)
+  * [Web form](http://cveproject.github.io/docs/cna/Web%20Form%20Entry%20Submission%20Process.pptx)
 * [CVE JSON Schema Repository](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)
   <ul>
     <li><a href="https://github.com/CVEProject/automation-working-group/blob/master/cve_json_schema/DRAFT-JSON-file-format-v4.md">CVE ID JSON File Format 4.0 (Draft)</a></li>
