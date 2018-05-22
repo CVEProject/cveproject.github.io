@@ -39,10 +39,9 @@ Some important things to note:
 4.	[Determine whether the request should be made to a third party
     coordinator CNA, or to a disclosure mailing list.](#requests-to-third-party-coordinator-cnas-or-email-lists) If no,
 5.	[Request a CVE ID from DWF](#requests-to-dwf)
-6.      [Request a CVE ID from MITRE using the CVE Request web form.](#requests-to-mitre)
-6.	[Provide the required information in the request.](#information-to-provide-in-the-request-to-mitre)
-7.	[Receive a confirmation email with a reference number and save
-    it for your records.](#confirmation-of-request)
+6.	[Request a CVE ID from MITRE using the CVE Request web form.](#requests-to-mitre)
+7.	[Provide the required information in the request.](#information-to-provide-in-the-request-to-mitre)
+7.	[Receive a confirmation email with a reference number and save it for your records.](#confirmation-of-request)
 8.	[Provide follow-up information as needed.](#followup-information-requests-from-mitre)
 9.	[Receive a CVE ID (or an explanation if a CVE ID was not
     provided)](#receive-a-cve-id-or-rationale-if-not-assigned)
