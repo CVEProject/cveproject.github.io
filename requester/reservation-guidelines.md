@@ -26,6 +26,9 @@ Some important things to note:
   11, and 12 in the list below provide details on proper use and
   sharing of CVE IDs.
 
+* Anyone (researchers, vendors, or third-parties) can request a CVE ID
+  be assigned to a vulnerability so long as they make the request
+  using the proper channels.
 
 ## The basic process for reserving a CVE ID is as follows:
 
@@ -35,10 +38,10 @@ Some important things to note:
 3.	[Determine whether the request should be made to a vendor CNA.](#requests-to-a-vendor-cna) If no,
 4.	[Determine whether the request should be made to a third party
     coordinator CNA, or to a disclosure mailing list.](#requests-to-third-party-coordinator-cnas-or-email-lists) If no,
-5.	[Request a CVE ID from MITRE using the CVE Request web form.](#requests-to-mitre)
-6.	[Provide the required information in the request.](#information-to-provide-in-the-request-to-mitre)
-7.	[Receive a confirmation email with a reference number and save
-    it for your records.](#confirmation-of-request)
+5.	[Request a CVE ID from DWF](#requests-to-dwf)
+6.	[Request a CVE ID from MITRE using the CVE Request web form.](#requests-to-mitre)
+7.	[Provide the required information in the request.](#information-to-provide-in-the-request-to-mitre)
+7.	[Receive a confirmation email with a reference number and save it for your records.](#confirmation-of-request)
 8.	[Provide follow-up information as needed.](#followup-information-requests-from-mitre)
 9.	[Receive a CVE ID (or an explanation if a CVE ID was not
     provided)](#receive-a-cve-id-or-rationale-if-not-assigned)
@@ -140,37 +143,22 @@ the issue. Or, you may post the information to mailing lists such as
 BugTraq or oss-security and, if accepted, the issue will eventually
 be assigned a CVE ID by a CNA.
 
-## 5. Requests to MITRE
+## 5. Requests to DWF
+
+If you are unable to obtain a CVE ID through a third-party
+coordinator and the vulnerability is in an open source product,
+you can request an ID from the DWF CNA.  For public vulnerabilities
+in open source software, you should use the form at https://iwantacve.org/.
+For embargoed requests, you can email cve-assign@distributedweaknessfiling.org.
+
+## 6. Requests to MITRE
 
 If you are unable to obtain a CVE ID via the methods cited above,
 you may request a CVE ID directly from MITRE using MITRE’s [CVE
 Request web form](https://cveform.mitre.org/) (view [guidance](http://cve.mitre.org/about/documents.html#web_form)). Complete the "Request a CVE ID"
 web form.
 
-Determine if the affected product is within the scope of MITRE as a
-CNA by checking the [CVE Coverage Goals](https://cve.mitre.org/cve/data_sources_product_coverage.html). If a product is not within
-scope, it may not be issued a CVE ID by the MITRE CVE Assignment
-Team.
-
-As an exception, the MITRE CVE Assignment Team assigns CVE IDs for
-products that have been packaged by a Linux distribution on our
-Product List, such as Debian or Fedora. It is not necessary for the
-specific product name to be listed on the Product List.
-
-CVE IDs are not assigned by the MITRE CVE Assignment Team for
-software that may be optionally added to a listed product, such as a
-third-party plugin or module. For example, CVE IDs are assigned for
-the WordPress core product, but not for any WordPress plugin. CVE
-IDs are also not assigned for Android or iOS apps unless the app’s
-author is a listed vendor.
-
-In addition, the MITRE CVE Assignment Team assigns CVE IDs for a
-number of programming languages including Python and PHP, but not
-for all code written in those languages. As an example, CVE IDs are
-not assigned for a web application written in PHP, unless the
-product or vendor is separately listed.
-
-## 6. Information to provide in the request to MITRE
+## 7. Information to provide in the request to MITRE
 
 The [CVE Request web form > Request a CVE ID](https://cveform.mitre.org/) requires the following
 information:
@@ -198,7 +186,7 @@ Optional information includes:
 * References; and
 * Any additional information.
 
-## 7. Confirmation of request
+## 8. Confirmation of request
 
 Upon completion of the CVE Request web form, the requestor will
 receive a confirmation email that the request was received and a
@@ -210,13 +198,13 @@ your request.
 If you do not seem to have received a confirmation email, please
 check your spam folder.
 
-## 8. Follow-up information requests from MITRE
+## 9. Follow-up information requests from MITRE
 
 If MITRE requires any additional clarification, they will contact
 the requester via email, referencing the confirmation number for the
 submitted CVE Request.
 
-## 9. Receive a CVE ID (or rationale if not assigned)
+## 10. Receive a CVE ID (or rationale if not assigned)
 
 Once there is enough information to confirm the vulnerability exists
 and that it affects a covered product, the MITRE CVE Assignment Team
@@ -230,7 +218,7 @@ product, a CVE ID request may be rejected. In this case, the
 requester will receive a response from the MITRE CVE Assignment Team
 notifying them of the decision.
 
-## 10. Sharing the CVE ID with others
+## 11. Sharing the CVE ID with others
 
 Once a CVE ID is obtained, provide it to all affected vendors and
 other parties (such as CERT/CC) with whom you are communicating.
@@ -238,7 +226,7 @@ This makes it easier to share information about the vulnerability
 and reduces the risk that different parties may assign different CVE
 IDs to the same vulnerability.
 
-## 11. Information to include in a vulnerability announcement
+## 12. Information to include in a vulnerability announcement
 
 When publishing a vulnerability with an associated CVE ID, include
 the CVE ID in the announcement. Announcements containing multiple
@@ -269,18 +257,19 @@ Some tips:
 
    [https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines](https://blog.osvdb.org/2013/01/15/researcher-security-advisory-writing-guidelines)
 
-## 12. Notify the MITRE CVE Assignment Team of publication
+## 13. Notify the MITRE CVE Assignment Team of publication
 
 After your announcement has been publicized, contact the MITRE CVE
-Assignment Team by either replying to the original email discussion
-or via the [CVE Request web form](https://cveform.mitre.org/). If you submit a new form, select
-"Notify CVE about a publication" and provide the following
+Assignment Team via the [CVE Request web form](https://cveform.mitre.org/). 
+Select "Notify CVE about a publication" and provide the following
 information:
 
 * The CVE ID(s) assigned to the vulnerabilities being publicly
   announced
 * Links to the public forum(s) or advisories where the announcements
   can be found
+* (Optional) A description for each vulnerability to be used in
+  the official CVE List.
 
 Until this information is provided to MITRE, only a reserved CVE
 entry may be recorded on the CVE web site. No description or details
@@ -355,86 +344,5 @@ You may encrypt any post-web form communications using PGP or GnuPG
 (gpg), with the following PGP key, which can be downloaded from
 various PGP key servers:
 
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v1
+http://cve.mitre.org/cve/publickey/pubkey.txt
 
-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
-Adbk
-=rTcK
------END PGP PUBLIC KEY BLOCK-----
-```
-
-(NOTE: PGP key updated August 2016)
