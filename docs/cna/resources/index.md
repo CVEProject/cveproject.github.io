@@ -22,7 +22,7 @@ This page includes links to resources and information for [CVE Numbering Authori
                                
 ### CNA Documentation and Training       
 **Current CNAs**        
-[CNA Rules v2.0](https://cve.mitre.org/cve/cna/rules.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Processes Documentation](/docs/cna/processes_documentation/index.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Training Slides](/docs/cna/training_slides/index.html)
+[CNA Rules v2.0](https://cve.mitre.org/cve/cna/rules.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Processes Documentation](/docs/cna/processes_documentation/index.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Onboarding Slides](/docs/cna/onboarding/index.html)
 &nbsp;        
                  
 **Prospective CNAs**        
