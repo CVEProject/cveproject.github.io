@@ -5,7 +5,7 @@ layout: page
 This page includes links to resources and information for [CVE Numbering Authorities (CNAs)](https://cve.mitre.org/cve/cna.html).    
 &nbsp;    
                                
-### Contacting the Primary CNA
+### Contacting the CVE Program Root CNA
 [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[General CVE Team Contact Email](mailto:cve@mitre.org)
 &nbsp;         
 &nbsp;    
