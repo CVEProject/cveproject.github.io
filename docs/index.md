@@ -78,7 +78,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[Researcher Reservation Guidelines](https://github.com/CVEProject/cveproject.github.io/blob/master/requester/reservation-guidelines.md)</li>
+          <li markdown="span">[Researcher Reservation Guidelines](https://cve.mitre.org/cve/researcher_reservation_guidelines) (hosted on CVE Main Website)</li>
         </ul>
         <br>
         <br>
