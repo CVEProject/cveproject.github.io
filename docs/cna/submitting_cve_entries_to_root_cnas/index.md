@@ -2,17 +2,17 @@
 title: Submitting CVE Entries to Root CNAs
 layout: page
 ---
-"Root" CVE Numbering Authorities (CNAs) manage a group of sub-CNAs within a given domain or community. Examples of organizations currently participating as [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) include [Distributed Weakness Filing Project](https://cve.mitre.org/cve/request_id.html#cna_participants), [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#j), and the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants).
+"Root" CVE Numbering Authorities (CNAs) manage a group of sub-CNAs within a given domain or community. Examples of organizations currently participating as [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) include [Distributed Weakness Filing Project](https://cve.mitre.org/cve/request_id.html#cna_participants), [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#j), and the [CVE Program Root CNA](https://cve.mitre.org/cve/request_id.html#cna_participants).
 
 ### Submitting to Root CNAs
 
 Each Root CNA listed above has its own process for accepting CVE Entries from CNAs. Contact a specific Root CNA directly to request their specific submission requirements.
 
-### Submitting to the Primary CNA
+### Submitting to the Program Root CNA
 
-A pilot program for CNAs to submit CVE Entries to the [Primary CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate in the pilot.
+A pilot program for CNAs to submit CVE Entries to the [Program Root CNA(https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate in the pilot.
 
-CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitre.org/) to submit CVE Entries to the Primary CNA.
+CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitre.org/) to submit CVE Entries to the Program Root CNA.
 
 #### Resources                                     
 
@@ -36,7 +36,7 @@ CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitr
 
 ### Help
       
-For help, contact the Primary CNA:                                      
+For help, contact the Program Root CNA:                                      
                                               
 * [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)
 * [CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)
