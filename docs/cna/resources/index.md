@@ -15,8 +15,8 @@ This page includes links to resources and information for [CVE Numbering Authori
 &nbsp;         
 &nbsp;    
                                
-### Requesting Blocks of CVE IDs/Submitting CVE ID Assignment Information
-[How to request blocks of CVE IDs](https://cve.mitre.org/about/faqs.html#request_blocks_of_cve_ids)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Submitting CVE assignment info to CVE Team](https://cve.mitre.org/cve/cna.html#submitting_cve_assignment_info)
+### Requesting Blocks of CVE IDs/Submitting CVE Entry Information
+[How to request blocks of CVE IDs](https://cve.mitre.org/about/faqs.html#request_blocks_of_cve_ids)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Submitting CVE Entry infotmation to CVE Team](https://cve.mitre.org/cve/cna.html#submitting_cve_entry_info)
 &nbsp;         
 &nbsp;    
                                
