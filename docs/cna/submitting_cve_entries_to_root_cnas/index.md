@@ -2,7 +2,7 @@
 title: Submitting CVE Entries to Root CNAs
 layout: page
 ---
-"Root" CVE Numbering Authorities (CNAs) manage a group of sub-CNAs within a given domain or community. Examples of organizations currently participating as [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) include [Distributed Weakness Filing Project](https://cve.mitre.org/cve/request_id.html#cna_participants), [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#j), and the [CVE Program Root CNA](https://cve.mitre.org/cve/request_id.html#cna_participants).
+"Root" CVE Numbering Authorities (CNAs) manage a group of sub-CNAs within a given domain or community. Examples of organizations currently participating as [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) include [Distributed Weakness Filing Project](https://cve.mitre.org/cve/request_id.html#cna_participants), [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#j), and the [CVE Program Root CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) (currently MITRE Corporation).
 
 ### Submitting to Root CNAs
 
@@ -10,7 +10,7 @@ Each Root CNA listed above has its own process for accepting CVE Entries from CN
 
 ### Submitting to the Program Root CNA
 
-A pilot program for CNAs to submit CVE Entries to the [Program Root CNA(https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate in the pilot.
+A pilot program for CNAs to submit CVE Entries to the [Program Root CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) using JSON is currently being hosted on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate in the pilot.
 
 CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitre.org/) to submit CVE Entries to the Program Root CNA.
 
