@@ -16,7 +16,7 @@ CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitr
 
 #### Resources                                     
 
-* [How to Contribute](https://github.com/CVEProject/cveproject.github.io/blob/master/docs/cna/Entry_Submission_Process.pptx)
+* [How to Contribute](https://github.com/CVEProject/cveproject.github.io/blob/master/docs/cna/CVE_Entry_Submission_Process.pptx)
   * [GitHub](https://github.com/CVEProject/cvelist/blob/master/CONTRIBUTING.md)
   * [Web form](http://cveproject.github.io/docs/cna/Program_Root_CNA_Web_Form_Entry_Submission_Process.pptx)
 * [CVE JSON Schema Repository](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)
