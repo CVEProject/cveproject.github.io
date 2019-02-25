@@ -6,7 +6,7 @@ This page includes links to resources and information for [CVE Numbering Authori
 &nbsp;    
                                
 ### Contacting the CVE Program Root CNA
-[CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[General CVE Team Contact Email](mailto:cve@mitre.org)
+[CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[General CVE Team Contact via web form - choose "Other"](https://cveform.mitre.org/)
 &nbsp;         
 &nbsp;    
                                
@@ -20,7 +20,7 @@ This page includes links to resources and information for [CVE Numbering Authori
 &nbsp;         
 &nbsp;    
                                
-### CNA Documentation and Training       
+### CNA Documentation and Onboarding       
 **Current CNAs**        
 [CNA Rules v2.0](https://cve.mitre.org/cve/cna/rules.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Processes Documentation](/docs/cna/processes_documentation/index.html)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[CNA Onboarding Slides](/docs/cna/onboarding/index.html)
 &nbsp;        
