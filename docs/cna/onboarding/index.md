@@ -1,9 +1,9 @@
 ---
-title: CNA Guidance Slides
+title: CNA Onboarding Slides
 layout: page
 ---
         
-Current CVE Numbering Authority (CNA) guidance slides are listed below.                 
+Current CVE Numbering Authority (CNA) onboarding guidance slides are listed below.                 
                           
 * [Becoming a CNA](/docs/cna/Becoming_a_CNA.pptx)          
 * [CNA Processes](/docs/cna/CNA_Processes.pptx)      
