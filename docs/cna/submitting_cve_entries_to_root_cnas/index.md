@@ -2,7 +2,7 @@
 title: Submitting CVE Entries to Root CNAs
 layout: page
 ---
-"Root" CVE Numbering Authorities (CNAs) manage a group of sub-CNAs within a given domain or community. Examples of organizations currently participating as [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) include [Distributed Weakness Filing Project](https://cve.mitre.org/cve/request_id.html#cna_participants), [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#j), and the [CVE Program Root CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) (currently MITRE Corporation).
+"Root" CVE Numbering Authorities (CNAs) manage a group of sub-CNAs within a given domain or community. Examples of organizations currently participating as [Root CNAs](https://cve.mitre.org/cve/cna.html#cna_types) include [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#j) and the [CVE Program Root CNA](https://cve.mitre.org/cve/request_id.html#cna_participants) (currently MITRE Corporation).
 
 ### Submitting to Root CNAs
 
