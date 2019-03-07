@@ -115,7 +115,7 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">CVE Cloud Services Working Group</div>
+        <div class="panel-title">Cloud Services Working Group</div>
       </div>
       <div class="panel-body">
        <ul>
