@@ -80,7 +80,6 @@ layout: page
         <ul>
           <li markdown="span">[Researcher Reservation Guidelines](https://cve.mitre.org/cve/researcher_reservation_guidelines) (hosted on CVE Main Website)</li>
         </ul>
-        <br>
       </div>
     </div>
   </div>
@@ -94,8 +93,6 @@ layout: page
        <ul>
          <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
        </ul>
-       <br>
-        <br>
       </div>
     </div>
   </div>
@@ -122,7 +119,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">More information: [CVE Request web form](https://cveform.mitre.org/) - select “Other” from dropdown</li>
+         <li markdown="span">[Request information](https://cveform.mitre.org/) (Use CVE Request Web Form and select “Other” from dropdown)</li>
        </ul>
        <br>
       </div>
