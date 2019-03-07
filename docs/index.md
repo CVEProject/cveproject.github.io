@@ -86,6 +86,22 @@ layout: page
     </div>
   </div>
 
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">CVE Entry Quality Working Group</div>
+      </div>
+      <div class="panel-body">
+       <ul>
+         <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
+       </ul>
+       <br>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+
  <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -95,8 +111,22 @@ layout: page
         <ul>
            <li markdown="span">[CVE Board Charter](https://cve.mitre.org/community/board/charter.html) (hosted on CVE Main Website)</li> 
            <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries) (hosted on CVE Main Website)</li> 
-           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive) (hosted on CVE Main Website)</li> 
+           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive)</li> 
        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">CNA Coordination Working Group</div>
+      </div>
+      <div class="panel-body">
+       <ul>
+         <li markdown="span">More information: [CVE Request web form](https://cveform.mitre.org/) - select “Other” from dropdown</li>
+       </ul>
+       <br>
       </div>
     </div>
   </div>
