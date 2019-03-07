@@ -127,4 +127,32 @@ layout: page
     </div>
   </div>
 
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title"></div>
+      </div>
+      <div class="panel-body">
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">CVE Cloud Services Working Group</div>
+      </div>
+      <div class="panel-body">
+       <ul>
+         <li markdown="span">["CVE and Cloud Services" blog article]() (hosted on Cloud Security Alliance Blog)</li>
+         <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
+       </ul>
+      </div>
+    </div>
+  </div>
+
+
+
 </div>
