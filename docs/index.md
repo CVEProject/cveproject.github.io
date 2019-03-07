@@ -119,7 +119,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[Request information](https://cveform.mitre.org/) (Use CVE Request Web Form and select “Other” from dropdown)</li>
+         <li markdown="span">[Request information](https://cveform.mitre.org/) (CVE Request Web Form - select “Other”)</li>
        </ul>
        <br>
       </div>
