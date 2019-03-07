@@ -81,7 +81,6 @@ layout: page
           <li markdown="span">[Researcher Reservation Guidelines](https://cve.mitre.org/cve/researcher_reservation_guidelines) (hosted on CVE Main Website)</li>
         </ul>
         <br>
-        <br>
       </div>
     </div>
   </div>
@@ -96,11 +95,10 @@ layout: page
          <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
        </ul>
        <br>
+        <br>
       </div>
     </div>
   </div>
-  
- </div>
 
  <div class="col-md-6">
     <div class="panel panel-default">
