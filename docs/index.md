@@ -135,8 +135,6 @@ layout: page
        <ul>
          <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
-       <br>
-       <br>
       </div>
     </div>
   </div>
