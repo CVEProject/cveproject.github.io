@@ -119,8 +119,9 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[Request information](https://cveform.mitre.org/) (CVE Request Web Form - select “Other”)</li>
+         <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
+       <br>
        <br>
       </div>
     </div>
