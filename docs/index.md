@@ -106,7 +106,7 @@ layout: page
         <ul>
            <li markdown="span">[CVE Board Charter](https://cve.mitre.org/community/board/charter.html) (hosted on CVE Main Website)</li> 
            <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries) (hosted on CVE Main Website)</li> 
-           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive)</li> 
+           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive) (hosted on CVE Main Website)</li> 
        </ul>
       </div>
     </div>
