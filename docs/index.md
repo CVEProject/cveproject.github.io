@@ -127,17 +127,6 @@ layout: page
   </div>
 
   <div class="col-md-6">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="panel-title">CNA Coordination Working Group</div>
