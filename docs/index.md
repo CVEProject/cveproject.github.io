@@ -119,7 +119,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
+         <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-08/msg00022.html) (hosted on CVE Main Website)</li>
          <li markdown="span">["CVE and Cloud Services" article](https://blog.cloudsecurityalliance.org/2018/08/13/cve-cloud-services-part-1/) (hosted on Cloud Security Alliance Blog)</li>
        </ul>
       </div>
