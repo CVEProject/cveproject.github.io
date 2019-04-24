@@ -36,7 +36,7 @@ layout: page
          <li markdown="span">[AWG GitHub Repository](https://github.com/CVEProject/automation-working-group)</li>
          <br>
          <li markdown="span">[CVE ID Allocation Service](https://github.com/CVEProject/CVE-Services)</li>
-         <li markdown="span">[CVE ID Allocation Service Specification](https://github.com/CVEProject/cvelist)</li>
+         <li markdown="span">[CVE ID Allocation Service Specification](https://github.com/CVEProject/CVE-ID-Allocation-Service)</li>
       </ul>
       </div>
     </div>
