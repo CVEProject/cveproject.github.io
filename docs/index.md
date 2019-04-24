@@ -34,6 +34,9 @@ layout: page
          <li markdown="span">[CNA Registry Project](https://github.com/CVEProject/CNA-registry-project-AWG)</li>
          <li markdown="span">[AWG Charter](https://github.com/CVEProject/automation-working-group/blob/master/CAWG_Charter_DRAFT.md)</li>        
          <li markdown="span">[AWG GitHub Repository](https://github.com/CVEProject/automation-working-group)</li>
+         <br>
+         <li markdown="span">[CVE ID Allocation Service](https://github.com/CVEProject/CVE-Services)</li>
+         <li markdown="span">[CVE ID Allocation Service Specification](https://github.com/CVEProject/cvelist)</li>
       </ul>
       </div>
     </div>
