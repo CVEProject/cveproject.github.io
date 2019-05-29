@@ -37,6 +37,8 @@ layout: page
          <br>
          <li markdown="span">[CVE ID Allocation Service](https://github.com/CVEProject/CVE-Services)</li>
          <li markdown="span">[CVE ID Allocation Service Specification](https://github.com/CVEProject/CVE-ID-Allocation-Service)</li>
+         <br>
+         <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
       </ul>
       </div>
     </div>
@@ -66,6 +68,7 @@ layout: page
       <div class="panel-body">
         <ul>
           <li markdown="span">[SPWG GitHub Repository](https://github.com/CVEProject/strategic-planning-working-group)</li>
+          <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
         </ul>
         <br>
       </div>
@@ -95,6 +98,7 @@ layout: page
       <div class="panel-body">
        <ul>
          <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
+         <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
     </div>
