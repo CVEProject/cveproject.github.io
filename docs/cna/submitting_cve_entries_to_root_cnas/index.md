@@ -40,4 +40,4 @@ For help, contact the CVE Program Root CNA:
                                               
 * [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)
 * [CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)
-* [General CVE Team Contact Email](mailto:cve@mitre.org)
+* [General CVE Team Contact via web form - choose "Other"](https://cveform.mitre.org/)
