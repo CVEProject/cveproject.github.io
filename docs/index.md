@@ -93,11 +93,11 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">CVE Entry Quality Working Group</div>
+        <div class="panel-title">CNA Coordination Working Group</div>
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
+         <li markdown="span">[CNACWG Charter](https://cve.mitre.org/working_group_documents/CNACWG_Charter_Version_1.1.pdf) (hosted on CVE Main Website)</li>     
          <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
@@ -118,14 +118,15 @@ layout: page
       </div>
     </div>
   </div>
-  
+
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">CVE Workflow Working Group</div>
+        <div class="panel-title">CVE Entry Quality Working Group</div>
       </div>
       <div class="panel-body">
        <ul>
+         <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
          <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
@@ -135,11 +136,10 @@ layout: page
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">CNA Coordination Working Group</div>
+        <div class="panel-title">CVE Workflow Working Group</div>
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[CNACWG Charter](https://cve.mitre.org/working_group_documents/CNACWG_Charter_Version_1.1.pdf) (hosted on CVE Main Website)</li>     
          <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
