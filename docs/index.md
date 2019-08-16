@@ -158,6 +158,5 @@ layout: page
       </div>
     </div>
   </div>
- </div> 
  
 </div>
