@@ -118,7 +118,6 @@ layout: page
       </div>
     </div>
   </div>
-  </div>
 
   <div class="col-md-6">
     <div class="panel panel-default">
@@ -159,6 +158,6 @@ layout: page
       </div>
     </div>
   </div>
-  
+ </div> 
  
 </div>
