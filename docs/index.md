@@ -146,4 +146,18 @@ layout: page
     </div>
   </div>
 
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">CVE Outreach and Communications Working Group (OCWG)</div>
+      </div>
+      <div class="panel-body">
+       <ul>
+         <li markdown="span">[Request information](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
+       </ul>
+      </div>
+    </div>
+  </div>
+  
+ 
 </div>
