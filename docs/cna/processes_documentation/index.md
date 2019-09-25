@@ -3,11 +3,19 @@ title: CNA Processes Documentation
 layout: page
 ---
            
-Current CVE Numbering Authorities (CNAs) processes documents are listed below.     
-                   
-* [Becoming a CNA](/docs/cna/Becoming_a_CNA.pptx)
-* [CNA Rules v2.0](https://cve.mitre.org/cve/cna/rules.html) (hosted on CVE Main Website)
-* [CNA Onboarding Processes](https://cve.mitre.org/cve/cna/rules.html#Section_4_2_on_boarding) (hosted on CVE Main Website)
+CVE Numbering Authorities (CNAs) processes documents are listed below. Additional CNA documentation is [available here](http://cveproject.github.io/docs/cna/resources/index.html).
+
+### CVE Entry Submissions via git
+These documents walk through how to set up your local environment to
+submit CVE entries in JSON format to CVEList. The Initial Tools doc
+walks through basic info and requirements, and should be read first.
+After that you can follow one of the other docs to finish setup based on your desired workflow.
+* [Initial Tools: overview and first steps](/docs/cna/resources/Submitting New CVEs Using GitHub - Initial Tools Setup.docx)
+* [Command Line Interface setup](/docs/cna/resources/Submitting New CVEs Using CLI.docx)
+* [GitHub Desktop GUI setup](/docs/cna/resources/Submitting New CVEs Using GitHub Desktop.docx)
+* [SourceTree GUI setup](/docs/cna/resources/Submitting New CVEs using SourceTree.docx)
+
+### CVE Content and Additional Submission Resources
 * [CVE Content Decisions](https://cve.mitre.org/cve/cna/rules.html#Appendix_C) (hosted on CVE Main Website)
 * [Submitting CVE Entries to Root CNAs](/docs/cna/submitting_cve_entries_to_root_cnas/index.html)
 
