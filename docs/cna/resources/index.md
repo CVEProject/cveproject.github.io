@@ -6,7 +6,7 @@ This page includes links to resources and information for [CVE Numbering Authori
 &nbsp;    
                                
 ### Contacting the CVE Program Root CNA
-* [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)
+* [CVE Request web form - choose "Request a CVE ID"](https://cveform.mitre.org/)
 * [CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)
 * [General CVE Team Contact via web form - choose "Other"](https://cveform.mitre.org/)
                                
