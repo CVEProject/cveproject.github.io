@@ -7,7 +7,7 @@ CVE Numbering Authorities (CNAs) processes documents are listed below. Additiona
 
 ### CVE Entry Submissions via git
 These documents walk through how to set up your local environment to
-submit CVE entries in JSON format to CVEList. The Initial Tools doc
+submit CVE Entries in JSON format to CVE List. The Initial Tools doc
 walks through basic info and requirements, and should be read first.
 After that you can follow one of the other docs to finish setup based on your desired workflow.
 * [Initial Tools: overview and first steps](/docs/cna/resources/Submitting New CVEs Using GitHub - Initial Tools Setup.docx)
@@ -25,4 +25,3 @@ For help, contact the CVE Program Root CNA:
                                               
 * [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)
 * [CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)
-* [General CVE Team Contact Email](mailto:cve@mitre.org)
