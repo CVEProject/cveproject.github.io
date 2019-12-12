@@ -23,5 +23,5 @@ After that you can follow one of the other docs to finish setup based on your de
                                         
 For help, contact the CVE Program Root CNA:                                      
                                               
-* [CVE ID Request web form - choose "Other"](https://cveform.mitre.org/)
+* [CVE Request web form - choose "Other"](https://cveform.mitre.org/)
 * [CNA Coordinator Contact Email](mailto:cna-coordinator@mitre.org)
