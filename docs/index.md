@@ -97,7 +97,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[CNACWG Charter](https://cve.mitre.org/working_group_documents/CNACWG_Charter_Version_1.2.pdf) (hosted on CVE Main Website)</li>     
+         <li markdown="span">[CNACWG Charter](https://cve.mitre.org/working_group_documents/CNACWG_Charter_Version_1.3.pdf) (hosted on CVE Main Website)</li>     
          <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
