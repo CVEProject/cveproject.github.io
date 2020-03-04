@@ -18,6 +18,7 @@ layout: page
          <br>
          <li markdown="span">[CNA Rules](https://cve.mitre.org/cve/cna/rules.html) (hosted on CVE Main Website)</li> 
          <li markdown="span">[CNA Onboarding Slides & Videos](https://cve.mitre.org/cve/cna.html#new_cna_onboarding) (hosted on CVE Main Website)</li>
+         <br>
          <li markdown="span">[CNA Processes Documentation](/docs/cna/processes_documentation/index.html)</li>
          <li markdown="span">[CNA Resources](/docs/cna/resources/index.html)</li>         
        </ul>
