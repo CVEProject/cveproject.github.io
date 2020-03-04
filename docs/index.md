@@ -13,6 +13,7 @@ layout: page
       <div class="panel-body">
        <ul>
          <li markdown="span">[What Is a CNA?](https://cve.mitre.org/cve/cna.html) (hosted on CVE Main Website)</li>
+         <li markdown="span">[Why Become a CNA?](https://cve.mitre.org/cve/cna.html#why_become_a_cna) (hosted on CVE Main Website)</li> 
          <li markdown="span">[How to Become a CNA](https://cve.mitre.org/cve/cna.html#become_a_cna) (hosted on CVE Main Website)</li>   
          <li markdown="span">[CNA Onboarding Slides & Videos](https://cve.mitre.org/cve/cna.html#new_cna_onboarding) (hosted on CVE Main Website)</li>
          <li markdown="span">[CNA Processes Documentation](/docs/cna/processes_documentation/index.html)</li>
