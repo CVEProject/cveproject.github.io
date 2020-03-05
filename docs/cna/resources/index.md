@@ -21,13 +21,14 @@ This page includes links to resources and information for [CVE Numbering Authori
                                
 ### CNA Documentation
 #### Current CNAs
-* [CNA Rules v2.0](https://cve.mitre.org/cve/cna/rules.html)
+* [CNA Rules v3.0](https://cve.mitre.org/cve/cna/rules.html)
 * [CNA Processes Documentation](/docs/cna/processes_documentation/index.html)
-* [CNA Onboarding Slides](/docs/cna/onboarding/index.html)
+* [CNA Onboarding Slides & Videos](https://cve.mitre.org/cve/cna.html#new_cna_onboarding)
                  
 #### Prospective CNAs
-* [CVE overview for prospective CNAs](https://cve.mitre.org/cve/cna/CVE_Overview_for_Prospective_CNAs_v1.0.pdf)
-* [Instructions for how to become a CNA](https://cve.mitre.org/cve/cna.html#become_a_cna)
-                               
-### CNA Metrics Requirements
-[Quarterly Metrics](https://cve.mitre.org/cve/cna/rules.html#Appendix_G) 
+* [Why Become a CNA?](https://cve.mitre.org/cve/cna.html#why_become_a_cna)
+* [Benefits](https://cve.mitre.org/cve/cna.html#why_become_a_cna)
+* [Cost](https://cve.mitre.org/cve/cna.html#why_become_a_cna)
+* [Requirements](https://cve.mitre.org/cve/cna.html#why_become_a_cna)
+* [How to Become a CNA](https://cve.mitre.org/cve/cna.html#become_a_cna)
+                              
