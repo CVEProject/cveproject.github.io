@@ -21,7 +21,7 @@ This page includes links to resources and information for [CVE Numbering Authori
                                
 ### CNA Documentation
 #### Current CNAs
-* [CNA Rules v3.0](https://cve.mitre.org/cve/cna/rules.html)
+* [CNA Rules](https://cve.mitre.org/cve/cna/rules.html)
 * [CNA Processes Documentation](/docs/cna/processes_documentation/index.html)
 * [CNA Onboarding Slides & Videos](https://cve.mitre.org/cve/cna.html#new_cna_onboarding)
                  
