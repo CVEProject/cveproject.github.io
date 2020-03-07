@@ -16,7 +16,7 @@ After that you can follow one of the other docs to finish setup based on your de
 * [SourceTree GUI setup](/docs/cna/resources/Submitting New CVEs using SourceTree.docx)
 
 ### CVE Content and Additional Submission Resources
-* [CVE Content Decisions](https://cve.mitre.org/cve/cna/rules.html#Appendix_C) (hosted on CVE Main Website)
+* [CVE Assignment Rules](https://cve.mitre.org/cve/cna/rules.html#section_7_assignment_rules) (hosted on CVE Main Website)
 * [Submitting CVE Entries to Root CNAs](/docs/cna/submitting_cve_entries_to_root_cnas/index.html)
 
 ### Help       
