@@ -58,8 +58,9 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[Key Details Phrasing](/content/key-details-phrasing.pdf) (PDF)<br></li>
+          <li markdown="span">[Key Details Phrasing](/content/key-details-phrasing.pdf) (PDF)</li>
         </ul>
+        <br>
       </div>
     </div>
   </div>
@@ -74,7 +75,6 @@ layout: page
           <li markdown="span">[SPWG GitHub Repository](https://github.com/CVEProject/strategic-planning-working-group)</li>
           <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
         </ul>
-        <br>
       </div>
     </div>
   </div>
