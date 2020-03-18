@@ -58,8 +58,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[CVE Counting - Draft for comment - 2016-03-22](/content/CVE Counting - Draft for comment - 2016-03-22.pdf) (PDF)</li>
-          <li markdown="span">[Key Details Phrasing](/content/key-details-phrasing.pdf) (PDF)</li>
+          <li markdown="span">[Key Details Phrasing](/content/key-details-phrasing.pdf) (PDF)<br></li>
         </ul>
       </div>
     </div>
