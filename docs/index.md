@@ -72,6 +72,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
+          <li markdown="span">[SPWG Charter](https://cve.mitre.org/working_group_documents/SPWG_Charter_Version_1.3.pdf) (hosted on CVE Main Website)</li>          
           <li markdown="span">[SPWG GitHub Repository](https://github.com/CVEProject/strategic-planning-working-group)</li>
           <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
         </ul>
