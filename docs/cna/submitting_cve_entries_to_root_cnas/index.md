@@ -2,7 +2,7 @@
 title: Submitting CVE Records to Root CNAs
 layout: page
 ---
-"Root" CVE Numbering Authorities ([CNAs](https://cve.mitre.org/about/terminology.html#cna)) manage a group of sub-CNAs within a given domain or community. For example, [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#cna-lr) is a [Root CNA](https://cve.mitre.org/about/terminology.html#root_cna), and [CISA ICS Top-Level Root CNA](https://cve.mitre.org/cve/request_id.html#cna-lr) and the [MITRE Top-Level Root CNA](https://cve.mitre.org/cve/request_id.html#cna-lr) are [Top-Level Root CNAs](https://cve.mitre.org/about/terminology.html#tlr-cna). Both Top-Level Root CNAs are also their own [CNAs of Last Resort (CNA-LR)](https://cve.mitre.org/about/terminology.html#cna-lr). 
+"Root" CVE Numbering Authorities ([CNAs](https://cve.mitre.org/about/terminology.html#cna)) manage a group of sub-CNAs within a given domain or community. For example, [JPCERT/CC](https://cve.mitre.org/cve/request_id.html#cna-lr) is a [Root CNA](https://cve.mitre.org/about/terminology.html#root_cna), and [CISA ICS](https://cve.mitre.org/cve/request_id.html#cna-lr) and [MITRE](https://cve.mitre.org/cve/request_id.html#cna-lr) are [Top-Level Root CNAs](https://cve.mitre.org/about/terminology.html#tlr-cna). Both Top-Level Root CNAs are also their own [CNAs of Last Resort (CNA-LR)](https://cve.mitre.org/about/terminology.html#cna-lr). 
 
 ### Submitting to Top-Level Root and Root CNAs
 
