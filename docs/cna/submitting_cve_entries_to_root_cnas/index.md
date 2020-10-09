@@ -6,7 +6,7 @@ layout: page
 
 ### Submitting to Top-Level Root and Root CNAs
 
-Each Root CNA listed above has its own process for accepting [CVE Records](https://cve.mitre.org/about/terminology.html#cve_record) (formally called CVE Entries) from CNAs. Contact a specific Top-Level Root CNA-LR or Root CNA directly to request their specific submission requirements.
+Each Top-Level Root and Root CNA listed above has its own process for accepting [CVE Records](https://cve.mitre.org/about/terminology.html#cve_record) (formally called CVE Entries) from CNAs. Contact a specific Top-Level Root CNA-LR or Root CNA directly to request their specific submission requirements.
 
 ### Submitting to the MITRE Top-Level Root CNA
 
