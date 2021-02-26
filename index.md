@@ -2,10 +2,10 @@
 layout: page
 ---
 
-<h1 class="site-title">CVE®</h1>
+<h1 class="site-title"></h1>
 <br>
 <div class="jumbotron">
-  <h3>This website hosts <a href="/docs/">documentation</a> for the CVE Program.</h3>
+  <h3>This website hosts <a href="/docs/">documentation</a> for the CVE® Program.</h3>
   <br>
   <h3>Go to our main website to learn more about CVE, or to view CVE Records:</h3>
   <br>
