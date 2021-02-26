@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h1 class="site-title">The mission of the CVE® Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.</h1>
+<h1 class="site-title">CVE® Program</h1>
 <br>
 <div class="jumbotron">
   <h3>This website hosts <a href="/docs/">documentation</a> for the CVE Program.</h3>
