@@ -2,10 +2,10 @@
 layout: page
 ---
 
-<h1 class="site-title">This website hosts <a href="/docs/">documentation</a> for the CVE® Program.</h1>
+<h1 class="site-title">The mission of the CVE® Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.</h1>
 <br>
 <div class="jumbotron">
-  <h3>The mission of the CVE Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.</h3>
+  <h3>This website hosts <a href="/docs/">documentation</a> for the CVE Program.</h3>
   <br>
   <h3>Go to our main website to learn more about CVE, or to view CVE Records:</h3>
   <br>
