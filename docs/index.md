@@ -131,7 +131,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[Initial Announcement](https://cve.mitre.org/data/board/archives/2018-11/msg00004.html) (hosted on CVE Main Website)</li>
+         <li markdown="span">[QWG Charter](https://github.com/CVEProject/quality-workgroup/blob/main/README.md)</li> 
          <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
@@ -159,6 +159,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
+         <li markdown="span">[OCWG Charter](https://cve.mitre.org/working_group_documents/OCWG_Charter_Version_1.0.2.pdf) (hosted on CVE Main Website)</li> 
          <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
