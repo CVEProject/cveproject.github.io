@@ -12,15 +12,14 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[What Is a CNA?](https://cve.mitre.org/cve/cna.html) (hosted on CVE Main Website)</li>
-         <li markdown="span">[Why Become a CNA?](https://cve.mitre.org/cve/cna.html#why_become_a_cna) (hosted on CVE Main Website)</li> 
-         <li markdown="span">[How to Become a CNA](https://cve.mitre.org/cve/cna.html#become_a_cna) (hosted on CVE Main Website)</li>
+         <li markdown="span">[What Is a CNA?](https://www.cve.org/ProgramOrganization/CNAs) (hosted on CVE Main Website)</li>
+         <li markdown="span">[Why Become a CNA?](https://www.cve.org/PartnerInformation/Partner#CNA) (hosted on CVE Main Website)</li> 
+         <li markdown="span">[How to Become a CNA](https://www.cve.org/PartnerInformation/Partner#CNA) (hosted on CVE Main Website)</li>
          <br>
-         <li markdown="span">[CNA Rules](https://cve.mitre.org/cve/cna/rules.html) (hosted on CVE Main Website)</li> 
-         <li markdown="span">[CNA Onboarding Slides & Videos](https://cve.mitre.org/cve/cna.html#new_cna_onboarding) (hosted on CVE Main Website)</li>
+         <li markdown="span">[CNA Rules](https://www.cve.org/ResourcesSupport/AllResources/CNARules) (hosted on CVE Main Website)</li> 
+         <li markdown="span">[CNA Onboarding Slides & Videos](https://www.cve.org/ResourcesSupport/Resources#CVENumberingAuthorities) (hosted on CVE Main Website)</li>
          <br>
-         <li markdown="span">[CNA Documents, Policies, & Guidance](https://cve.mitre.org/about/documents.html#cna) (hosted on CVE Main Website)</li>
-         <li markdown="span">[CNA Resources](https://cve.mitre.org/cve/cna/resources.html) (hosted on CVE Main Website)</li>         
+         <li markdown="span">[CNA Documents, Policies, & Guidance](https://www.cve.org/ResourcesSupport/Resources#CVENumberingAuthorities) (hosted on CVE Main Website)</li>        
        </ul>
        <br>
       </div>
@@ -72,7 +71,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[SPWG Charter](https://cve.mitre.org/working_group_documents/SPWG_Charter_Version_1.3.pdf) (hosted on CVE Main Website)</li>          
+          <li markdown="span">[SPWG Charter](https://cve.mitre.org/working_group_documents/SPWG_Charter_Version_1.3.pdf) (hosted on original CVE Main Website)</li>          
           <li markdown="span">[SPWG GitHub Repository](https://github.com/CVEProject/strategic-planning-working-group)</li>
           <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
         </ul>
@@ -89,7 +88,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[Researcher Reservation Guidelines](https://cve.mitre.org/cve/researcher_reservation_guidelines) (hosted on CVE Main Website)</li>
+          <li markdown="span">[Researcher Reservation Guidelines](https://cve.mitre.org/cve/researcher_reservation_guidelines) (hosted on original CVE Main Website)</li>
         </ul>
       </div>
     </div>
@@ -102,7 +101,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[CNACWG Charter](https://cve.mitre.org/working_group_documents/CNACWG_Charter_Version_1.3.pdf) (hosted on CVE Main Website)</li>     
+         <li markdown="span">[CNACWG Charter](https://cve.mitre.org/working_group_documents/CNACWG_Charter_Version_1.4.pdf) (hosted on original CVE Main Website)</li>     
          <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
@@ -116,9 +115,9 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-           <li markdown="span">[CVE Board Charter](https://cve.mitre.org/community/board/charter.html) (hosted on CVE Main Website)</li> 
-           <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries) (hosted on CVE Main Website)</li> 
-           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive) (hosted on CVE Main Website)</li> 
+           <li markdown="span">[CVE Board Charter](https://www.cve.org/ResourcesSupport/AllResources/BoardCharter) (hosted on CVE Main Website)</li> 
+           <li markdown="span">[Board Meeting Summaries](https://cve.mitre.org/community/board/archive.html#meeting_summaries) (hosted on original CVE Main Website)</li> 
+           <li markdown="span">[Board Discussion Archives](https://cve.mitre.org/community/board/archive.html#board_mail_list_archive) (hosted on original CVE Main Website)</li> 
        </ul>
       </div>
     </div>
@@ -159,7 +158,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[OCWG Charter](https://cve.mitre.org/working_group_documents/OCWG_Charter_Version_1.0.2.pdf) (hosted on CVE Main Website)</li> 
+         <li markdown="span">[OCWG Charter](https://cve.mitre.org/working_group_documents/OCWG_Charter_Version_1.0.2.pdf) (hosted on original CVE Main Website)</li> 
          <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
