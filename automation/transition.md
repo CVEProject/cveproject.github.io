@@ -9,7 +9,7 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 * [CVE Services v2.1](https://github.com/CVEProject/cve-services)
 * [CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json)
 
-Transition details and rough draft deployment timelines, along with links to additional resources, are included below. Refer to the CVE Automation announcements for the most recent transition news and updates.
+Transition details and rough draft deployment timelines, along with links to additional resources, are included below. Future transition news and updates will be posted below.
 
 ## Transition Details
 *CVE Services Transition Bulletin #1 — January 6, 2021*
