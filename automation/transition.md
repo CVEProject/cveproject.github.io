@@ -12,7 +12,7 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 Transition details and rough draft deployment timelines, along with links to additional resources, are included below. Future transition news and updates will be posted below.
 
 ## Transition Details
-*CVE Services Transition Bulletin #1 — January 6, 2021*
+*CVE Services Transition Bulletin #1 – January 6, 2021*
 
 Although the majority of the transition activities will take place in 2022, the process began informally with the release of CVE Services 2.0 into the “CVE Services Testing Instance” in September 2021. The CVE Services Testing Instance allows CNAs to test their CVE Service Clients against the new CVE Services 2.0 and JSON 5.0 versions prior to their official releases.
 
