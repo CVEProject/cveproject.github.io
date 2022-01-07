@@ -26,7 +26,7 @@ The next steps in the transition process are:
 <li><strong>CVE Services 2.1/JSON 5.0 Hard Deployment</strong> — After the soft deployment phase toward the end of March 2022, the AWG will move into a hard deployment phase that will include deployments to make JSON 5.0-format CVE Records easily accessible to the global community through the deployment of the JSON 5.0 GitHub download capability and the JSON website display and download capability on the main CVE website.</li>
 </ol>
 
-Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also contact us with any comments or concerns.
+Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Additional Resources 
 
