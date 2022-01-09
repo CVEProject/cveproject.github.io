@@ -57,7 +57,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[Key Details Phrasing](/content/key-details-phrasing.pdf) (PDF)</li>
+          <li markdown="span">[Key Details Phrasing](https://www.cve.org/Resources/General/Key-Details-Phrasing.pdf) (PDF hosted on original CVE Main Website)</li>
         </ul>
         <br>
       </div>
@@ -71,7 +71,7 @@ layout: page
       </div>
       <div class="panel-body">
         <ul>
-          <li markdown="span">[SPWG Charter](https://cve.mitre.org/working_group_documents/SPWG_Charter_Version_1.3.pdf) (hosted on original CVE Main Website)</li>          
+          <li markdown="span">[SPWG Charter](https://www.cve.org/Resources/Roles/WorkingGroups/SPWG/SPWG-Charter.pdf) (PDF hosted on original CVE Main Website)</li>          
           <li markdown="span">[SPWG GitHub Repository](https://github.com/CVEProject/strategic-planning-working-group)</li>
           <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
         </ul>
@@ -101,7 +101,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[CNACWG Charter](https://cve.mitre.org/working_group_documents/CNACWG_Charter_Version_1.4.pdf) (hosted on original CVE Main Website)</li>     
+         <li markdown="span">[CNACWG Charter](https://www.cve.org/Resources/Roles/WorkingGroups/CNACWG/CNACWG-Charter.pdf) (hosted on CVE Main Website)</li>     
          <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
@@ -158,7 +158,7 @@ layout: page
       </div>
       <div class="panel-body">
        <ul>
-         <li markdown="span">[OCWG Charter](https://cve.mitre.org/working_group_documents/OCWG_Charter_Version_1.0.2.pdf) (hosted on original CVE Main Website)</li> 
+         <li markdown="span">[OCWG Charter](https://www.cve.org/Resources/Roles/WorkingGroups/OCWG/OCWG-Charter.pdf) (hosted on CVE Main Website)</li> 
          <li markdown="span">[Request information or Join](https://cveform.mitre.org/) (via CVE Request Web Form - select “Other”)</li>
        </ul>
       </div>
