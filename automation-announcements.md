@@ -11,7 +11,7 @@ CVE Services Website | January 26, 2022
 ### [CVE Services Transition Bulletin #1](https://www.cve.org/Media/News/item/news/2022/01/11/Changes-Coming-to-CVE-Record)
 Main CVE Website | January 26, 2022
 
-<strong>Related</strong>
+### Related
 
 ### [CVE List Download Formats Are Changing](https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are)
 Main CVE Website | January 18, 2022
