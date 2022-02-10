@@ -13,8 +13,8 @@ Transition details and rough draft deployment timelines, along with links to add
 
 ## Transition Details
 
-#### CVE Services Transition Bulletin #2
-### *January 26, 2022*
+## CVE Services Transition Bulletin #2
+*January 26, 2022*
 
 For CVE CNAs, the transition to CVE Services and JSON 5.0 began in December 2019 with the deployment of CVE Services 1.0 (the CVE ID Reservation (IDR) system) and the continued review and evolution the new CVE Record format (i.e., JSON 5.0). In June 2020 CVE Services 1.1 was deployed and in September 2021 CVE Services 2.0 was deployed into the new CVE Testing Instance. In November 2021, the community finalized the new JSON 5.0 format with the release of JSON 5.0 Release Candidate 5. Additional transition activities will take place in the spring of 2022 that will culminate in a major step forward for the automation effort for the program and the adoption of a richer, more robust CVE Record format (i.e., CVE JSON 5.0).
 
