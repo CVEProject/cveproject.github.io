@@ -1,12 +1,17 @@
 ---
-title: Submitting CVE Records to Roots and CNA-LRs
+title: Submitting CVE Records to CNA-LRs
 layout: page
 ---
-[Top-Level Roots (TL-Root)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryTLRoot) and [Roots](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRoot) manage a group of CNAs within a given domain or community. For example, [JPCERT/CC](https://www.cve.org/PartnerInformation/ListofPartners/partner/jpcert) and [Spanish National Cybersecurity Institute, S.A. (INCIBE)](https://www.cve.org/PartnerInformation/ListofPartners/partner/INCIBE) are Roots, and [CISA ICS](https://www.cve.org/PartnerInformation/ListofPartners/partner/icscert) and [MITRE](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) are TL-Roots. Both TL-Root are also their own [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR). 
 
-### Submitting to Roots and CNA-LRs
+If the product affected by the vulnerability is not covered by a [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) partner [listed on the main CVE website](https://www.cve.org/PartnerInformation/ListofPartners), please contact the appropriate [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) ([Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)](https://www.cve.org/PartnerInformation/ListofPartners/partner/icscert) and [MITRE Corporation](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre)), per below.
 
-Each Root and CNA-LR listed above has its own process for accepting [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) (formally called CVE Entries) from CNAs. Contact a specific CNA-LR or Root directly to request their specific submission requirements.
+### Submitting to CNAs
+
+Follow the instructions at [Request a CVE ID](https://www.cve.org/ResourcesSupport/ReportRequest#RequestCVEID).
+
+### Submitting to the CISA ICS CNA-LR
+
+Follow the instructions at [Report Incidents, Phishing, Malware, or Vulnerabilities to CISA ICS](https://www.cisa.gov/uscert/report).
 
 ### Submitting to the MITRE CNA-LR
 
