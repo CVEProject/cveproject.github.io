@@ -1,5 +1,3 @@
-CNA Guidance
-
 ---
 title: Submitting CVE Records to Root CNAs
 layout: page
