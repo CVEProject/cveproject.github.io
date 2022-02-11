@@ -9,7 +9,7 @@ Links to updates and announcements about the [CVE Services v2.1](https://github.
 CVE Services Website | January 26, 2022
 
 ### [CVE Services Transition Bulletin #1](https://www.cve.org/Media/News/item/news/2022/01/11/Changes-Coming-to-CVE-Record)
-Main CVE Website | January 26, 2022
+Main CVE Website | January 6, 2022
 
 ### Related
 
