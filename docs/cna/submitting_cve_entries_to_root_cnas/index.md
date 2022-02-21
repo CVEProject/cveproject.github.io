@@ -15,9 +15,9 @@ To learn about the CVE Program's automated [CVE Numbering Authority (CNA)](https
 
 [CNA partners](https://www.cve.org/ProgramOrganization/CNAs) may submit CVE Records to the CVE Program for posting on the [CVE website](https://www.cve.org/), per below:
 
-* A program for CNAs to submit CVE Records to the [MITRE CNA-LR](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) using JSON is available on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate.
+* A program for CNAs to submit CVE Records using JSON is available on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate.
 
-* CNAs may also continue to use the [CVE Request web form](https://cveform.mitre.org/) to submit CVE Records to the CVE Program.
+* CNAs may also continue to use the [CVE Request web form](https://cveform.mitre.org/) to submit CVE Records.
 
 <br>
 
@@ -25,7 +25,7 @@ To learn about the CVE Program's automated [CVE Numbering Authority (CNA)](https
 
 * [How to Contribute](https://cve.mitre.org/cve/cna/CVE_Entry_Creation.pptx)
   * [GitHub](https://cve.mitre.org/cve/cna/CVE_Entry_Submission_Process.pptx)
-  * [Web form](https://cve.mitre.org/cve/cna/CVE_Entry_Submission_Process.pptx)
+  * [Web Form](https://cve.mitre.org/cve/cna/CVE_Entry_Submission_Process.pptx)
 * [CVE JSON Schema Repository](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema)
   <ul>
     <li><a href="https://github.com/CVEProject/automation-working-group/blob/master/cve_json_schema/DRAFT-JSON-file-format-v4.md">CVE ID JSON File Format 4.0 (Draft)</a></li>
