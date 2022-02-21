@@ -1,17 +1,9 @@
 ---
-title: Submitting CVE Records to CNA-LRs
+title: Submitting CVE Records to the MITRE CNA-LR
 layout: page
 ---
 
-If the product affected by the vulnerability is not covered by a [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) partner [listed on the main CVE website](https://www.cve.org/PartnerInformation/ListofPartners), please contact the appropriate [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) &mdash; [Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)](https://www.cve.org/PartnerInformation/ListofPartners/partner/icscert) or [MITRE Corporation](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) &mdash; per below.
-
-### Submitting to CNAs
-
-Follow the instructions at [Request a CVE ID](https://www.cve.org/ResourcesSupport/ReportRequest#RequestCVEID).
-
-### Submitting to the CISA ICS CNA-LR
-
-Follow the instructions at [Report Incidents, Phishing, Malware, or Vulnerabilities to CISA ICS](https://www.cisa.gov/uscert/report).
+[CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) partners may submit CVE Records to the [MITRE Corporation](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre), a [Top-Level Root (TL-Root)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) and [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR), per below.
 
 ### Submitting to the MITRE CNA-LR
 
