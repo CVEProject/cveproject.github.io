@@ -7,13 +7,13 @@ layout: page
 
 #### Important Message for CNAs
 
-To learn about the CVE Program's automated [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) tools for assigning CVE IDs and publishing CVE Records and updating them over time, [click here](https://cveproject.github.io/) or select [CVE Services](https://cveproject.github.io/automation-cve-services) from the menu above.
+To learn about the CVE Program's automated [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) tools for assigning [CVE IDs](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=CVEID) and publishing [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) and updating them over time, select [Home](https://cveproject.github.io/) or [CVE Services](https://cveproject.github.io/automation-cve-services) from the menu above.
 
 <br>
 
 ### How to Submit CVE Records (CNAs-only)
 
-[CNA partners](https://www.cve.org/ProgramOrganization/CNAs) may submit [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) to the [CVE Program](https://www.cve.org/) for posting on the CVE website, per below:
+[CNA partners](https://www.cve.org/ProgramOrganization/CNAs) may submit CVE Records to the CVE Program for posting on the [CVE website](https://www.cve.org/), per below:
 
 * A program for CNAs to submit CVE Records to the [MITRE CNA-LR](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) using JSON is available on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate.
 
