@@ -3,7 +3,7 @@ title: Submitting CVE Records to the MITRE CNA-LR
 layout: page
 ---
 
-<br><br>
+<br>
 
 #### Important Message for CNAs
 
