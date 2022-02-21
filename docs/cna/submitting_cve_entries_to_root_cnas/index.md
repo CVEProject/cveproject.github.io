@@ -1,5 +1,5 @@
 ---
-title: Submitting CVE Records to the MITRE CNA-LR
+title: Submitting CVE Records to the CVE Program
 layout: page
 ---
 
@@ -7,17 +7,17 @@ layout: page
 
 #### Important Message for CNAs
 
-To learn about the CVE Program's automated CNA tools for assigning CVE IDs and publishing CVE Records and updating them over time, [click here](https://cveproject.github.io/).
+To learn about the CVE Program's automated CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) tools for assigning CVE IDs and publishing CVE Records and updating them over time, [click here](https://cveproject.github.io/) or select [CVE Services](https://cveproject.github.io/automation-cve-services) from the menu above.
 
 <br>
 
 ### How to Submit CVE Records (CNAs-only)
 
-[CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) partners may submit CVE Records to the [MITRE Corporation](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) &mdash; a [Top-Level Root (TL-Root)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) and [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) &mdash; per below:
+[CNA partners](https://www.cve.org/ProgramOrganization/CNAs) may submit [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) to the [CVE Program](https://www.cve.org/) for posting on the CVE website, per below:
 
 * A program for CNAs to submit CVE Records to the [MITRE CNA-LR](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) using JSON is available on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate.
 
-* CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitre.org/) to submit CVE Records to the MITRE CNA-LR.
+* CNAs may also continue to use the [CVE Request web form](https://cveform.mitre.org/) to submit CVE Records to the CVE Program.
 
 <br>
 
