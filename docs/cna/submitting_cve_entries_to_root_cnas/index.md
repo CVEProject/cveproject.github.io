@@ -7,7 +7,7 @@ layout: page
 
 #### Important Message for CNAs
 
-To learn about the CVE Program's automated CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) tools for assigning CVE IDs and publishing CVE Records and updating them over time, [click here](https://cveproject.github.io/) or select [CVE Services](https://cveproject.github.io/automation-cve-services) from the menu above.
+To learn about the CVE Program's automated [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) tools for assigning CVE IDs and publishing CVE Records and updating them over time, [click here](https://cveproject.github.io/) or select [CVE Services](https://cveproject.github.io/automation-cve-services) from the menu above.
 
 <br>
 
