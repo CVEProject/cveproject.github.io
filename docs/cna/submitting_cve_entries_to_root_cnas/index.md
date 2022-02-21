@@ -3,13 +3,13 @@ title: Submitting CVE Records to the MITRE CNA-LR
 layout: page
 ---
 
-[CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) partners may submit CVE Records to the [MITRE Corporation](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre), a [Top-Level Root (TL-Root)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) and [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR), per below.
+**Note:** To learn about the CVE Program's automated CNA tools for assigning CVE IDs and publishing CVE Records and updating them over time, [click here](https://cveproject.github.io/).<br/>
 
-### Submitting to the MITRE CNA-LR
+[CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) partners may submit CVE Records to the [MITRE Corporation](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre), a [Top-Level Root (TL-Root)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) and [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR), per below:
 
-A program for CNAs to submit CVE Records to the [MITRE CNA-LR](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) using JSON is available on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate.
+* A program for CNAs to submit CVE Records to the [MITRE CNA-LR](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) using JSON is available on the [CVEProject](https://github.com/CVEProject/cvelist) website on GitHub.com. All CNAs are eligible to participate.
 
-CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitre.org/) to submit CVE Records to the MITRE CNA-LR.
+* CNAs may also continue to use the [CVE ID Request web form](https://cveform.mitre.org/) to submit CVE Records to the MITRE CNA-LR.
 
 #### Resources                                     
 
