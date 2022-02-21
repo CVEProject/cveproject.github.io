@@ -11,7 +11,7 @@ To learn about the CVE Program's automated CNA tools for assigning CVE IDs and p
 
 <br>
 
-### How to Submit CVE Records for Publication on the CVE List
+### How to Submit CVE Records (CNAs-only)
 
 [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) partners may submit CVE Records to the [MITRE Corporation](https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre) &mdash; a [Top-Level Root (TL-Root)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) and [CNAs of Last Resort (CNA-LR)](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCNALR) &mdash; per below:
 
