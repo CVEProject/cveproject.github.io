@@ -34,12 +34,12 @@ Updated Transition Schedule:
 
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:10%;padding-left:5%;"></th>
+      <th style="width:10%;padding-left:5%;">Item</th>
       <th style="width:45%">Activity</th>
       <th style="width:45%">Schedule</th>
     </tr>
     <tr>
-      <td>1</td>
+      <td style="padding-left:5%;">1</td>
       <td>CVE Services 2.1 Community Testing in the Testing Instance</td>
       <td>Late February/early March 2022</td>
     </tr>
