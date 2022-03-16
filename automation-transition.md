@@ -16,7 +16,7 @@ Transition details and rough draft deployment timelines, along with links to add
 ## Bulletin Number 3
 <strong>*CVE Services Transition  —  March 16, 2022*</strong>
 
-The activities and schedule for the transition to CVE Services 2.1 and CVE JSON 5.0, as provided last month in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2), are now underway. This bulletin adds two new activities (7 & 8) and includes schedule updates where needed. Most importantly, it adds a new notification to CNAs that the [CVE List GitHub Submission Pilot](https://github.com/CVEProject/cvelist) will be retired as part of the transition (see below for details).
+The activities and schedule for the transition to CVE Services 2.1 and CVE JSON 5.0, as provided last month in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2), are now underway. This bulletin adds two new activities and includes schedule updates where needed. Most importantly, it adds a new notification to CNAs that the [CVE List GitHub Submission Pilot](https://github.com/CVEProject/cvelist) will be retired as part of the transition (see below for details).
 
 <strong>Transition Schedule and Activity Updates</strong>
 
