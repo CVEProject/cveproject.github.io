@@ -116,7 +116,7 @@ CVE Services resources are hosted on GitHub:
 * [cvelib (free CVE Services API)](https://github.com/RedHatProductSecurity/cvelib)
 * [CVE Services License](https://github.com/CVEProject/cve-services/blob/dev/LICENSE)
 * [Contributing to CVE Services](https://github.com/CVEProject/cve-services/blob/dev/CONTRIBUTING.md)
-* [CVE Services CNA Account Registration form]((https://forms.monday.com/forms/03132d0646401f5d10d06c60e25444a1?r=use1))
+* [CVE Services Account Registration form for CNAs]((https://forms.monday.com/forms/03132d0646401f5d10d06c60e25444a1?r=use1))
 
 CVE JSON resources are hosted on GitHub:
 * [CVE Record Structure Mind Map](https://cveproject.github.io/cve-schema/schema/v5.0/docs/mindmap.html)
