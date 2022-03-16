@@ -20,7 +20,7 @@ The activities and schedule for the transition to CVE Services 2.1 and CVE JSON 
 
 <strong>Transition Schedule and Activity Updates</strong>
 
-Detailed descriptions for activities 1-6 below are provided in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2). The new bulletin (#3) includes the addition of two new activities and updates to the transition schedule, to ensure CNAs have advance notice of all upcoming transition activities and actions needed by CNAs.  
+Detailed descriptions for activities 1-6 below are provided in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2). This new bulletin, Transition Bulletin #3, includes the addition of two new activities and updates to the transition schedule, to ensure CNAs have advance notice of all upcoming transition activities and actions needed by CNAs.  
 
 Detailed descriptions of the two newly added activities for Bulletin #3 are included below. They have also been added as items 7 and 8 in the transition schedule that follows.
 
