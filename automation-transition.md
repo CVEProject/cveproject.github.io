@@ -35,8 +35,8 @@ Another activity, “CVE List Download Changes,” was previously added as a tra
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
       <th style="width:15%">Item</th>
-      <th style="width:45%">Activity</th>
-      <th style="width:40%">Schedule</th>
+      <th style="width:40%">Activity</th>
+      <th style="width:45%">Schedule</th>
     </tr>
     <tr>
       <td>1</td>
