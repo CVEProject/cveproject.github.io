@@ -109,7 +109,7 @@ For extended community awareness, the announcement was also posted on the main C
 
 ## Additional Resources 
 
-CVE Services resources are hosted on GitHub:
+CVE Services resources are hosted on GitHub and Monday.com:
 * [CVE Services Project](https://github.com/CVEProject/cve-services#project)
 * [cvelib (free CVE Services API)](https://github.com/RedHatProductSecurity/cvelib)
 * [CVE Services License](https://github.com/CVEProject/cve-services/blob/dev/LICENSE)
