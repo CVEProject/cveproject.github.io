@@ -80,7 +80,7 @@ Updated Transition Schedule:
   </table>
 <br>  
 <strong>*</strong> *See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2) for activity details.*
-<br>
+<br><br>
 Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 2
