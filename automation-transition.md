@@ -29,8 +29,8 @@ Another activity, “CVE List Download Changes,” was previously added as a tra
 
 * <strong>CVE List Download Format Changes</strong> &mdash; After JSON 4.0 Retirement, JSON 5.0 format will be the only format available for CVE List downloads. All other download formats will be retired at the same time JSON 4.0 is retired (read [announcement](https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are)).
 
+<strong>Updated Transition Schedule</strong>
 <br>
-Updated transition schedule:
 
   <table style="padding-left:30%;padding-right:20%;">
     <tr>
