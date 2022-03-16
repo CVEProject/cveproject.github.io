@@ -34,7 +34,7 @@ Updated Transition Schedule:
 
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:10%">Item</th>
+      <th style="width:10%;padding-left:5%;"></th>
       <th style="width:45%">Activity</th>
       <th style="width:45%">Schedule</th>
     </tr>
