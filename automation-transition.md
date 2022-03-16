@@ -20,7 +20,7 @@ The activities and schedule for the transition to CVE Services 2.1 and CVE JSON 
 
 <strong>Transition Schedule and Activity Updates</strong>
 
-Detailed descriptions for activities 1-6 below are provided in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2). This new bulletin (#3) provides the current transition schedule along with any schedule adjustments, to ensure CNAs have advance notice of all upcoming transition activities and actions needed by CNAs. 
+Detailed descriptions for activities 1-6 below are provided in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2). Detailed  descriptions of newly added activities 7 and 8 are included directly below. This new bulletin (#3) also provides the current transition schedule along with any schedule adjustments, to ensure CNAs have advance notice of all upcoming transition activities and actions needed by CNAs. 
 
 “GitHub Pilot Retirement,” described below, is a new transition activity. It has also been added to the updated transition schedule as item 8.
 
