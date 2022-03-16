@@ -32,11 +32,11 @@ Another activity, “CVE List Download Changes,” was previously added as a tra
 <strong>Updated Transition Schedule</strong>
 <br>
 
-  <table style="padding-left:30%;">
+  <table style="padding-left:10%;">
     <tr>
       <th style="width:5%">Item</th>
-      <th style="width:70%">Activity</th>
-      <th style="width:25%">Schedule</th>
+      <th style="width:50%">Activity</th>
+      <th style="width:45%">Schedule</th>
     </tr>
     <tr>
       <td>1</td>
