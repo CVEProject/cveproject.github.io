@@ -28,11 +28,10 @@ Detailed descriptions of the two newly added activities for Bulletin #3 are incl
 
 * <strong>CVE List Download Format Changes</strong> &mdash; After JSON 4.0 Retirement, JSON 5.0 format will be the only format available for CVE List downloads. All other download formats will be retired at the same time JSON 4.0 is retired (read [announcement](https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are)).
 
+<br>
 <strong>Updated Transition Schedule</strong>
 
 See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2) for descriptions of activities 1-6; descriptions for activities 7 and 8 are  above.
-
-<br>
 
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
