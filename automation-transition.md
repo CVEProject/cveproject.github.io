@@ -34,47 +34,47 @@ Updated Transition Schedule:
 
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:10%;padding-left:5%;">Item</th>
+      <th style="width:12%;padding-left:3%;">Item</th>
       <th style="width:45%">Activity</th>
-      <th style="width:45%">Schedule</th>
+      <th style="width:43%">Schedule</th>
     </tr>
     <tr>
-      <td style="padding-left:5%;">1</td>
+      <td style="padding-left:3%;">1</td>
       <td>CVE Services 2.1 Community Testing in the Testing Instance</td>
       <td>Late February/early March 2022</td>
     </tr>
     <tr>
-      <td>&nbsp;2</td>
+      <td style="padding-left:3%;">2</td>
       <td>CVE Services 2.1 Community Penetration Testing</td>
       <td>Mid-to-late March 2022 (will run for approximately 3 weeks)</td>
     </tr>
       <tr>
-      <td>3</td>
+      <td style="padding-left:3%;">3</td>
       <td>CNA Community Review of Historical JSON 5.0 Records</td>
       <td>January through April 2022</td>
     </tr>
       <tr>
-      <td>4</td>
+      <td style="padding-left:3%;">4</td>
       <td>CVE Services 2.1/JSON 5.0 Soft Deployment</td>
       <td>Mid-to-late April 2022 (will span approximately 3 weeks)</td>
     </tr>
       <tr>
-      <td>5</td>
+      <td style="padding-left:3%;">5</td>
       <td>CVE Services 2.1/JSON 5.0 Hard Deployment</td>
       <td>Late April 2022</td>
     </tr>
       <tr>
-      <td>6</td>
+      <td style="padding-left:3%;">6</td>
       <td>JSON 4.0 Retirement</td>
       <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
     </tr>
       <tr>
-      <td>7</td>
+      <td style="padding-left:3%;">7</td>
       <td>CVE List GitHub Submission Pilot Retirement</td>
       <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
     </tr>
       <tr>
-      <td>8</td>
+      <td style="padding-left:3%;">8</td>
       <td>CVE List Download Format Changes</td>
       <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
     </tr>
