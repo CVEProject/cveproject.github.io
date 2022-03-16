@@ -33,8 +33,8 @@ Updated transition schedule:
 
   <table>
     <tr>
-      <th style="width:3%">Item</th>
-      <th style="width:67%">Activity</th>
+      <th style="width:5%">Item</th>
+      <th style="width:65%">Activity</th>
       <th style="width:30%">Schedule</th>
     </tr>
     <tr>
@@ -79,7 +79,7 @@ Updated transition schedule:
     </tr>
   </table>
 
-<br><br>
+<br>
 Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 2
