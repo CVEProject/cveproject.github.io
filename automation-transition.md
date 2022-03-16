@@ -31,11 +31,11 @@ Another activity, “CVE List Download Changes,” was previously added as a tra
 
 Updated transition schedule:
 
-  <table style="padding-left:30%;padding-right:20%;">
+  <table>
     <tr>
-      <th style="width:5%">Item</th>
-      <th style="width:50%">Activity</th>
-      <th style="width:45%">Schedule</th>
+      <th style="width:3%">Item</th>
+      <th style="width:67%">Activity</th>
+      <th style="width:30%">Schedule</th>
     </tr>
     <tr>
       <td>1</td>
@@ -79,6 +79,7 @@ Updated transition schedule:
     </tr>
   </table>
 
+<br><br>
 Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 2
