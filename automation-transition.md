@@ -13,6 +13,73 @@ Transition details and rough draft deployment timelines, along with links to add
 
 ## Transition Details
 
+<strong>*CVE Services Transition  —  March 16, 2022*</strong>
+
+The activities and schedule for the transition to CVE Services 2.1 and CVE JSON 5.0, as provided last month in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2), are now underway. This bulletin includes schedule updates where needed, as well as a new notification to CNAs that the [CVE List GitHub Submission Pilot](https://github.com/CVEProject/cvelist) will be retired as part of the transition (see below for details).
+
+<strong>Transition Schedule and Activity Updates</strong>
+
+Detailed descriptions for activities 1-6 below are provided in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2). This new bulletin (#3) provides the current transition schedule along with any schedule adjustments, to ensure CNAs have advance notice of all upcoming transition activities and actions needed by CNAs. 
+
+* “GitHub Pilot Retirement,” described below, is a new transition activity. It has also been added to the updated transition schedule as item 8.
+<strong>CVE List GitHub Submission Pilot Retirement</strong> &mdash; The CVE List GitHub Submission Pilot is JSON 4.0-based and will not be upgraded to JSON 5.0. As a JSON 4.0 based effort, it will not continue to operate after JSON 4.0 Retirement. It will continue to operate for 3 months after CVE Services 2.1/JSON 5.0 Hard Deployment. After JSON 4.0 Retirement, JSON 5.0 format will be the only format that is available for download (other downloadable formats will be retired), and CNAs will be expected to submit CVE Records in JSON 5.0 format through either CVE Services web application API, or a program designated web interface.
+
+Another activity, “CVE List Download Changes,” was previously added as a transition activity. It has been added to the updated transition schedule below as item 8.
+
+* <strong>CVE List Download Format Changes</strong> &mdash; After JSON 4.0 Retirement, JSON 5.0 format will be the only format available for CVE List downloads. All other download formats will be retired at the same time JSON 4.0 is retired (read [announcement](https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are)).
+
+Updated transition schedule:
+
+  <table>
+    <tr>
+      <th style="width:10%">Item</th>
+      <th style="width:50%">Activity</th>
+      <th style="width:40%">Schedule</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>CVE Services 2.1 Community Testing in the Testing Instance</td>
+      <td>Late February/early March 2022</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>CVE Services 2.1 Community Penetration Testing</td>
+      <td>Mid-to-late March 2022 (will run for approximately 3 weeks)</td>
+    </tr>
+      <tr>
+      <td>3</td>
+      <td>CNA Community Review of Historical JSON 5.0 Records</td>
+      <td>January through April 2022</td>
+    </tr>
+      <tr>
+      <td>4</td>
+      <td>CVE Services 2.1/JSON 5.0 Soft Deployment</td>
+      <td>Mid-to-late April 2022 (will span approximately 3 weeks)</td>
+    </tr>
+      <tr>
+      <td>5</td>
+      <td>CVE Services 2.1/JSON 5.0 Hard Deployment</td>
+      <td>Late April 2022</td>
+    </tr>
+      <tr>
+      <td>6</td>
+      <td>JSON 4.0 Retirement</td>
+      <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
+    </tr>
+      <tr>
+      <td>7</td>
+      <td>CVE List GitHub Submission Pilot Retirement</td>
+      <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
+    </tr>
+      <tr>
+      <td>8</td>
+      <td>CVE List Download Format Changes</td>
+      <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
+    </tr>
+  </table>
+
+Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+
 ## Bulletin Number 2
 <strong>*CVE Services Transition  —  February 11, 2022*</strong>
 
