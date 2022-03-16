@@ -21,8 +21,9 @@ The activities and schedule for the transition to CVE Services 2.1 and CVE JSON 
 
 Detailed descriptions for activities 1-6 below are provided in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2). This new bulletin (#3) provides the current transition schedule along with any schedule adjustments, to ensure CNAs have advance notice of all upcoming transition activities and actions needed by CNAs. 
 
-* “GitHub Pilot Retirement,” described below, is a new transition activity. It has also been added to the updated transition schedule as item 8.
-<strong>CVE List GitHub Submission Pilot Retirement</strong> &mdash; The CVE List GitHub Submission Pilot is JSON 4.0-based and will not be upgraded to JSON 5.0. As a JSON 4.0 based effort, it will not continue to operate after JSON 4.0 Retirement. It will continue to operate for 3 months after CVE Services 2.1/JSON 5.0 Hard Deployment. After JSON 4.0 Retirement, JSON 5.0 format will be the only format that is available for download (other downloadable formats will be retired), and CNAs will be expected to submit CVE Records in JSON 5.0 format through either CVE Services web application API, or a program designated web interface.
+“GitHub Pilot Retirement,” described below, is a new transition activity. It has also been added to the updated transition schedule as item 8.
+
+* <strong>CVE List GitHub Submission Pilot Retirement</strong> &mdash; The CVE List GitHub Submission Pilot is JSON 4.0-based and will not be upgraded to JSON 5.0. As a JSON 4.0 based effort, it will not continue to operate after JSON 4.0 Retirement. It will continue to operate for 3 months after CVE Services 2.1/JSON 5.0 Hard Deployment. After JSON 4.0 Retirement, JSON 5.0 format will be the only format that is available for download (other downloadable formats will be retired), and CNAs will be expected to submit CVE Records in JSON 5.0 format through either CVE Services web application API, or a program designated web interface.
 
 Another activity, “CVE List Download Changes,” was previously added as a transition activity. It has been added to the updated transition schedule below as item 8.
 
@@ -30,7 +31,7 @@ Another activity, “CVE List Download Changes,” was previously added as a tra
 
 Updated transition schedule:
 
-  <table style="padding-left:20%;padding-right:20%>
+  <table style="padding-left:30%;padding-right:20%>
     <tr>
       <th style="width:5%">Item</th>
       <th style="width:50%">Activity</th>
