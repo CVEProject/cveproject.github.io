@@ -78,7 +78,7 @@ Updated Transition Schedule:
       <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
     </tr>
   </table> 
-<sup>2</sup> *See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2) for descriptions of activities 1-6.*
+<sup>*</sup>*See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2) for descriptions of activities 1-6.*
 <br><br>
 Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
