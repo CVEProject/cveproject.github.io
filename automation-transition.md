@@ -26,7 +26,7 @@ Once these sprints and schedule are better defined, they will be published to en
 
 To ensure the CVE Program delivers effective, automated, and secure CVE 2.1 services that reduce the transaction costs of program participation, the “CVE Global Summit” is being shifted to a later date so that program participants can get an interactive, “hands on” description of the services to make the transition to the services easier. A new summit date will be announced in the near future.
 
-Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the CVE CNA Slack channel, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on the [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the CVE CNA Slack channel, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 3
 <strong>*CVE Services Transition  —  March 16, 2022*</strong>
@@ -97,7 +97,7 @@ See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#
   </table>
   
 <br>
-Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on the [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the CVE CNA Slack channel, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 2
 <strong>*CVE Services Transition  —  February 11, 2022*</strong>
@@ -115,7 +115,7 @@ For CVE CNAs, the transition to CVE Services and JSON 5.0 began in December 2019
 <li><strong>JSON 4.0 Retirement</strong> — Six months after JSON 5.0 is made available to CVE downstream users, JSON 4.0 will be retired. After JSON 4.0 retirement, historical JSON 4.0 records will continue to be available in an archived state. CNAs will be expected to submit CVE Records in JSON 5.0 format through either CVE Services web application API or a program designated web interface. At this time, JSON 5.0 format will be the only format that is available for download (other downloadable formats will be retired).</li>
 </ol>
 
-Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the main CVE website, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on CVE CNA Slack channel, and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 1
 <strong>*CVE Services Transition  —  January 6, 2022*</strong>
