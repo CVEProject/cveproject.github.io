@@ -16,9 +16,9 @@ Transition details and rough draft deployment timelines, along with links to add
 ## Bulletin Number 4
 <strong>*CVE Services Transition  —  March 21, 2022*</strong>
 
-This message is to inform you about a revision to the CVE Services deployment schedule that will affect when [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview) is available for use by CNAs.
+This message is to inform you about a revision to the CVE Services deployment schedule that will affect when CVE Services 2.1 is available for use by CNAs.
 
-CVE Services 2.1 consists of the Record Submission and Upload Service (RSUS) and the new [CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) data format. The CVE Program is in the middle of testing CVE Services 2.1. The program thanks the CVE community for participating in the functional and penetration testing during the test period that began on February 25, 2022. 
+[CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview) consists of the Record Submission and Upload Service (RSUS) and the new [CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) data format. The CVE Program is in the middle of testing CVE Services 2.1. The program thanks the CVE community for participating in the functional and penetration testing during the test period that began on February 25, 2022. 
 
 As a result of the ongoing testing, multiple issues have been identified. The [CVE Automation Working Group (AWG)](https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG) is currently developing the sprint plans and deployment schedule to remediate the identified issues as quickly as possible. Once developed, the AWG will manage the sprints to fix the identified issues. Then, a second period of testing will be opened to the community. The second testing period is the best way to ensure that the services are effective and secure.
 
