@@ -26,7 +26,6 @@ Once these sprints and schedule are better defined, they will be published to en
 
 To ensure the CVE Program delivers effective, automated, and secure CVE 2.1 services that reduce the transaction costs of program participation, the “CVE Global Summit” is being shifted to a later date so that program participants can get an interactive, “hands on” description of the services to make the transition to the services easier. A new summit date will be announced in the near future.
 
-<br>
 Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on the [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the [CVE CNA Slack channel](https://cve-cna.slack.com/), and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 3
