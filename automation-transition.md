@@ -16,13 +16,13 @@ Transition details and rough draft deployment timelines, along with links to add
 ## Bulletin Number 4
 <strong>*CVE Services Transition  —  March 21, 2022*</strong>
 
-This bulletin is to inform you about a revision to the CVE Services deployment schedule that will affect when CVE Services 2.1 is available for use by CNAs.
+This message is to inform you about a revision to the CVE Services deployment schedule that will affect when [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview) is available for use by CNAs.
 
-CVE Services 2.1 consists of the Record Submission and Upload Service (RSUS) and the new JSON 5.0 data format. The CVE Program is in the middle of testing CVE Services 2.1. The program thanks the CVE community for participating in the functional and penetration testing during the test period that began on March 25, 2022. 
+CVE Services 2.1 consists of the Record Submission and Upload Service (RSUS) and the new [CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) data format. The CVE Program is in the middle of testing CVE Services 2.1. The program thanks the CVE community for participating in the functional and penetration testing during the test period that began on February 25, 2022. 
 
-As a result of the ongoing testing, multiple issues have been identified. The Automation Working Group (AWG) is currently developing the sprint plans and deployment schedule to remediate the identified issues as quickly as possible. Once developed, the AWG will manage the sprints to fix the identified issues. Then, a second period of testing will be opened to the community. The second testing period is the best way to ensure that the services are effective and secure.
+As a result of the ongoing testing, multiple issues have been identified. The [CVE Automation Working Group (AWG)](https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG) is currently developing the sprint plans and deployment schedule to remediate the identified issues as quickly as possible. Once developed, the AWG will manage the sprints to fix the identified issues. Then, a second period of testing will be opened to the community. The second testing period is the best way to ensure that the services are effective and secure.
 
-Once these sprints and schedule are better defined, they will be published to enhance community understanding of the issues and foster voluntary participation in the CVE Program (e.g., the AWG). Information related to the sprints and deployment plan will be announced on CVE CNA Slack channel, CVE CNA Discussion email list, CVE Program Automation Website, and on CVE social media. 
+Once these sprints and schedule are better defined, they will be published to enhance community understanding of the issues and foster voluntary participation in the CVE Program (e.g., the AWG). Information related to the sprints and deployment plan will be announced on the CVE CNA Slack channel, CVE CNA Discussion email list, CVE Program Automation Website, and on CVE social media. 
 
 To ensure the CVE Program delivers effective, automated, and secure CVE 2.1 services that reduce the transaction costs of program participation, the “CVE Global Summit” is being shifted to a later date so that program participants can get an interactive, “hands on” description of the services to make the transition to the services easier. A new summit date will be announced in the near future.
 
