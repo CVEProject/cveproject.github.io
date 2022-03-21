@@ -22,11 +22,11 @@ CVE Services 2.1 consists of the Record Submission and Upload Service (RSUS) and
 
 As a result of the ongoing testing, multiple issues have been identified. The [CVE Automation Working Group (AWG)](https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG) is currently developing the sprint plans and deployment schedule to remediate the identified issues as quickly as possible. Once developed, the AWG will manage the sprints to fix the identified issues. Then, a second period of testing will be opened to the community. The second testing period is the best way to ensure that the services are effective and secure.
 
-Once these sprints and schedule are better defined, they will be published to enhance community understanding of the issues and foster voluntary participation in the CVE Program (e.g., the AWG). Information related to the sprints and deployment plan will be announced on the CVE CNA Slack channel, CVE CNA Discussion email list, CVE Program Automation Website, and on CVE social media. 
+Once these sprints and schedule are better defined, they will be published to enhance community understanding of the issues and foster voluntary participation in the CVE Program (e.g., the AWG). Information related to the sprints and deployment plan will be announced on the [CVE CNA Slack channel](https://cve-cna.slack.com/), [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), this [CVE Program Automation Website](/), and on CVE social media. 
 
 To ensure the CVE Program delivers effective, automated, and secure CVE 2.1 services that reduce the transaction costs of program participation, the “CVE Global Summit” is being shifted to a later date so that program participants can get an interactive, “hands on” description of the services to make the transition to the services easier. A new summit date will be announced in the near future.
 
-Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on the [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the [CVE CNA Slack channel](https://cve-cna.slack.com/), and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 3
 <strong>*CVE Services Transition  —  March 16, 2022*</strong>
