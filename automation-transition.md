@@ -52,7 +52,7 @@ During this process, 314 records had issues with the data and are autocorrected 
   <li>
     The display/layout of the CVE Record information as shown on <a href="https://vulnogram.github.io/seaview/">vulnogram.github.io/seaview</a> would be similar to how these records may be rendered on the new <a href="https://www.cve.org/">cve.org website</a>. Feedback on this new CVE Record display or layout is most welcome.
   </li>
- </ul>
+ </ol>
 
 If you have any further questions, please feel free to raise them with the CVE Quality Working Group ([cve-board-qualitywg-list@mitre.org](mailto:cve-board-qualitywg-list@mitre.org)) or as issues at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues).
 
