@@ -14,7 +14,7 @@ Transition details and rough draft deployment timelines, along with links to add
 ## Transition Details
 
 ## Bulletin Number 5
-<strong>*Review Needed by CNAs for CVE Records in JSON 5.0 Format —  March 22, 2022*</strong>
+<strong>*JSON 5.0 Format Record Review —  March 23, 2022*</strong>
 
 The CVE Program transition to CVE JSON 5.0 continues with the community review of historical JSON 4.0 records that have been converted to JSON 5.0 format.
 
