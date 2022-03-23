@@ -30,7 +30,7 @@ An index of these records by the CNAs is available here [https://cveproject.gith
 
 During this process, 314 records had issues with the data and are autocorrected to ensure we have valid content in the CVE Records. Such corrections include trimming excessively long fields and dropping invalid dates and data. Such records are reported here: [https://cveproject.github.io/quality-workgroup/reports/warnings]( https://cveproject.github.io/quality-workgroup/reports/warnings).
 
- <ul>
+ <ol>
    <li>
      Please review <a href="https://cveproject.github.io/quality-workgroup/reports/">your CVE Records</a> to ensure the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconversion script</a> did not alter the meaning of the CVE Records.
     <br><br>
