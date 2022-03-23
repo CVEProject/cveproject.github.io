@@ -41,7 +41,7 @@ During this process, 314 records had issues with the data and are autocorrected 
     Please <a href="https://cveproject.github.io/quality-workgroup/reports/warnings">review this warnings report</a> to check if you have any CVE Records that triggered warnings or errors.
    <br><br>
    If you have a CVE Record that needs to be fixed, you have a few options:
-   <br>
+   <br><br>
       <ul>
         <li>(Preferred) wait for the record submission feature in the CVE Services to be available (ETA June 2022)</li>
         <li>Submit corrections to the records via the Git pilot submission process</li>
