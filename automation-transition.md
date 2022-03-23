@@ -13,6 +13,45 @@ Transition details and rough draft deployment timelines, along with links to add
 
 ## Transition Details
 
+## Bulletin Number 5
+<strong>*Review Needed by CNAs for CVE Records in JSON 5.0 Format —  March 22, 2022*</strong>
+
+The CVE Program transition to CVE JSON 5.0 continues with the community review of historical JSON 4.0 records that have been converted to JSON 5.0 format.
+
+The message below is from the Quality Working Group (QWG) and announces that review:
+
+March 21, 2022
+
+CNAs,
+
+The GitHub submission pilot has been using an experimental JSON format (version 4.0) for publishing CVE Records. The CVE Quality Working Group has been working to improve this format for use with the upcoming [CVE Services API](https://github.com/CVEProject/cve-services), with a better-specified schema while fulfilling new requirements from the CVE Program ([version 5.0](https://github.com/CVEProject/cve-schema)).
+
+As part of this process, all existing CVE records (about 181 thousand) are being programmatically upconverted and are available at [https://github.com/CVEProject/cvelistV5/tree/master/review_set](https://github.com/CVEProject/cvelistV5/tree/master/review_set) (last updated March 15th).
+
+An index of these records by the CNAs is available here [https://cveproject.github.io/quality-workgroup/reports/](https://cveproject.github.io/quality-workgroup/reports/). You can also compare the records and their display previews for any converted CVE ID using the tool [https://vulnogram.github.io/seaview/](https://vulnogram.github.io/seaview/).
+
+During this process, 314 records had issues with the data and are autocorrected to ensure we have valid content in the CVE Records. Such corrections include trimming excessively long fields, dropping invalid dates and data. Such records are reported here: [https://cveproject.github.io/quality-workgroup/reports/warnings]( https://cveproject.github.io/quality-workgroup/reports/warnings).
+
+ <ul>
+   <li>
+     <strong>Please review [your records](https://cveproject.github.io/quality-workgroup/reports/) to ensure the [upconversion script](https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter) did not alter the meaning</strong> of the CVE Records. If you believe [the upconversion script](https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter) has a bug, please raise an issue at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues) or suggest changes to the [upconverter script](https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter) using a pull request. The upconverter will be used to continually transform any CVE JSON 4 submissions to version 5 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
+  </li>
+  <li>
+    <strong>Please [review this warnings report](https://cveproject.github.io/quality-workgroup/reports/warnings) to check if you have any CVE records</strong> that triggered warnings or errors.
+<br>
+    If you have a CVE Record that needs to be fixed, you have a few options:
+<br>
+      * (Preferred) wait for the record submission feature in the CVE Services to be available (ETA June 2022)
+      * Submit corrections to the records via the Git pilot submission process
+      * No action is needed if the autocorrects make sense to you
+  </li>
+  <li>
+    <strong>The display/layout of the CVE Record information as shown on [vulnogram.github.io/seaview/](https://vulnogram.github.io/seaview/) would be similar</strong> to how these records may be rendered on the new [cve.org website](https://www.cve.org/). Feedback on this new CVE Record display or layout is most welcome.
+  </li>
+ </ul>
+
+If you have any further questions, please feel free to raise them with the CVE Quality Workgroup ([cve-board-qualitywg-list@mitre.org] mailto:cve-board-qualitywg-list@mitre.org)) or as issues at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues).
+
 ## Bulletin Number 4
 <strong>*CVE Services Transition  —  March 21, 2022*</strong>
 
