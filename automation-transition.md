@@ -18,7 +18,7 @@ Transition details and rough draft deployment timelines, along with links to add
 
 The CVE Program transition to CVE JSON 5.0 continues with the community review of historical JSON 4.0 records that have been converted to JSON 5.0 format.
 
-The message below, sent to CNAs by the Quality Working Group (QWG) was sent to CNAs on March 21, 2022, announces that review:
+The message below, sent to CNAs by the Quality Working Group (QWG) on March 21, 2022, announces that review:
 
 CNAs,
 
