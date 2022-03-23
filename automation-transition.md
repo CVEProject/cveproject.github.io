@@ -34,19 +34,21 @@ During this process, 314 records had issues with the data and are autocorrected 
 
  <ul>
    <li>
-     <strong>Please review [your records](https://cveproject.github.io/quality-workgroup/reports/) to ensure the [upconversion script](https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter) did not alter the meaning</strong> of the CVE Records. If you believe [the upconversion script](https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter) has a bug, please raise an issue at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues) or suggest changes to the [upconverter script](https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter) using a pull request. The upconverter will be used to continually transform any CVE JSON 4 submissions to version 5 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
+     <strong>Please review <a href="https://cveproject.github.io/quality-workgroup/reports/">your records</a> to ensure the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconversion script</a> did not alter the meaning</strong> of the CVE Records. If you believe <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">the upconversion script]</a> has a bug, please raise an issue at <a href="https://github.com/CVEProject/cve-schema/issues">https://github.com/CVEProject/cve-schema/issues</a> or suggest changes to the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconverter script]</a> using a pull request. The upconverter will be used to continually transform any CVE JSON 4 submissions to version 5 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
   </li>
   <li>
-    <strong>Please [review this warnings report](https://cveproject.github.io/quality-workgroup/reports/warnings) to check if you have any CVE records</strong> that triggered warnings or errors.
+    <strong>Please <a href="https://cveproject.github.io/quality-workgroup/reports/warnings">review this warnings report</a> to check if you have any CVE records</strong> that triggered warnings or errors.
 <br>
     If you have a CVE Record that needs to be fixed, you have a few options:
 <br>
-      * (Preferred) wait for the record submission feature in the CVE Services to be available (ETA June 2022)
-      * Submit corrections to the records via the Git pilot submission process
-      * No action is needed if the autocorrects make sense to you
+     <ul>
+       <li>(Preferred) wait for the record submission feature in the CVE Services to be available (ETA June 2022)</li>
+       <li>Submit corrections to the records via the Git pilot submission process</li>
+       <li>No action is needed if the autocorrects make sense to you</li>
+     </ul>
   </li>
   <li>
-    <strong>The display/layout of the CVE Record information as shown on [vulnogram.github.io/seaview/](https://vulnogram.github.io/seaview/) would be similar</strong> to how these records may be rendered on the new [cve.org website](https://www.cve.org/). Feedback on this new CVE Record display or layout is most welcome.
+    <strong>The display/layout of the CVE Record information as shown on <a href="https://vulnogram.github.io/seaview/">vulnogram.github.io/seaview</a> would be similar</strong> to how these records may be rendered on the new <a href="https://www.cve.org/">cve.org website</a>. Feedback on this new CVE Record display or layout is most welcome.
   </li>
  </ul>
 
