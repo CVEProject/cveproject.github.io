@@ -32,25 +32,27 @@ During this process, 314 records had issues with the data and are autocorrected 
 
  <ul>
    <li>
-     <strong>Please review <a href="https://cveproject.github.io/quality-workgroup/reports/">your CVE Records</a> to ensure the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconversion script</a> did not alter the meaning</strong> of the CVE Records. If you believe <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">the upconversion script</a> has a bug, please raise an issue at <a href="https://github.com/CVEProject/cve-schema/issues">https://github.com/CVEProject/cve-schema/issues</a> or suggest changes to the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconverter script]</a> using a pull request. The upconverter will be used to continually transform any CVE JSON 4 submissions to version 5 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
+     Please review <a href="https://cveproject.github.io/quality-workgroup/reports/">your CVE Records</a> to ensure the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconversion script</a> did not alter the meaning of the CVE Records.
+    <br>
+    If you believe <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">the upconversion script</a> has a bug, please raise an issue at <a href="https://github.com/CVEProject/cve-schema/issues">https://github.com/CVEProject/cve-schema/issues</a> or suggest changes to the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconverter script</a> using a pull request. The upconverter will be used to continually transform any CVE JSON 4 submissions to version 5 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
   </li>
   <li>
-    <strong>Please <a href="https://cveproject.github.io/quality-workgroup/reports/warnings">review this warnings report</a> to check if you have any CVE Records</strong> that triggered warnings or errors.
-<br>
-    If you have a CVE Record that needs to be fixed, you have a few options:
-<br>
-     <ul>
-       <li>(Preferred) wait for the record submission feature in the CVE Services to be available (ETA June 2022)</li>
-       <li>Submit corrections to the records via the Git pilot submission process</li>
-       <li>No action is needed if the autocorrects make sense to you</li>
-     </ul>
+    Please <a href="https://cveproject.github.io/quality-workgroup/reports/warnings">review this warnings report</a> to check if you have any CVE Records that triggered warnings or errors.
+   <br>
+   If you have a CVE Record that needs to be fixed, you have a few options:
+   <br>
+      <ul>
+        <li>(Preferred) wait for the record submission feature in the CVE Services to be available (ETA June 2022)</li>
+        <li>Submit corrections to the records via the Git pilot submission process</li>
+        <li>No action is needed if the autocorrects make sense to you</li>
+      </ul>
   </li>
   <li>
-    <strong>The display/layout of the CVE Record information as shown on <a href="https://vulnogram.github.io/seaview/">vulnogram.github.io/seaview</a></strong> would be similar to how these records may be rendered on the new <a href="https://www.cve.org/">cve.org website</a>. Feedback on this new CVE Record display or layout is most welcome.
+    The display/layout of the CVE Record information as shown on <a href="https://vulnogram.github.io/seaview/">vulnogram.github.io/seaview</a> would be similar to how these records may be rendered on the new <a href="https://www.cve.org/">cve.org website</a>. Feedback on this new CVE Record display or layout is most welcome.
   </li>
  </ul>
 
-If you have any further questions, please feel free to raise them with the CVE Quality Workgroup ([cve-board-qualitywg-list@mitre.org] mailto:cve-board-qualitywg-list@mitre.org)) or as issues at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues).
+If you have any further questions, please feel free to raise them with the CVE Quality Working Group ([cve-board-qualitywg-list@mitre.org](mailto:cve-board-qualitywg-list@mitre.org)) or as issues at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues).
 
 ## Bulletin Number 4
 <strong>*CVE Services Transition  —  March 21, 2022*</strong>
