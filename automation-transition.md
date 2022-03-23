@@ -35,7 +35,7 @@ During this process, 314 records had issues with the data and are autocorrected 
      Please review <a href="https://cveproject.github.io/quality-workgroup/reports/">your CVE Records</a> to ensure the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconversion script</a> did not alter the meaning of the CVE Records.
     <br><br>
     If you believe <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">the upconversion script</a> has a bug, please raise an issue at <a href="https://github.com/CVEProject/cve-schema/issues">https://github.com/CVEProject/cve-schema/issues</a> or suggest changes to the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconverter script</a> using a pull request. The upconverter will be used to continually transform any CVE JSON 4 submissions to version 5 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
-    <br>
+    <br><br>
   </li>
   <li>
     Please <a href="https://cveproject.github.io/quality-workgroup/reports/warnings">review this warnings report</a> to check if you have any CVE Records that triggered warnings or errors.
