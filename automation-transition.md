@@ -24,7 +24,7 @@ CNAs,
 
 The GitHub submission pilot has been using an experimental JSON format (version 4.0) for publishing CVE Records. The CVE Quality Working Group has been working to improve this format for use with the upcoming [CVE Services API](https://github.com/CVEProject/cve-services), with a better-specified schema while fulfilling new requirements from the CVE Program ([version 5.0](https://github.com/CVEProject/cve-schema)).
 
-As part of this process, all existing CVE records (about 181 thousand) are being programmatically upconverted and are available at [https://github.com/CVEProject/cvelistV5/tree/master/review_set](https://github.com/CVEProject/cvelistV5/tree/master/review_set) (last updated March 15th).
+As part of this process, all existing CVE Records (about 181 thousand) are being programmatically upconverted and are available at [https://github.com/CVEProject/cvelistV5/tree/master/review_set](https://github.com/CVEProject/cvelistV5/tree/master/review_set) (last updated March 15th).
 
 An index of these records by the CNAs is available here [https://cveproject.github.io/quality-workgroup/reports/](https://cveproject.github.io/quality-workgroup/reports/). You can also compare the records and their display previews for any converted CVE ID using the tool [https://vulnogram.github.io/seaview/](https://vulnogram.github.io/seaview/).
 
@@ -34,7 +34,7 @@ During this process, 314 records had issues with the data and are autocorrected 
    <li>
      Please review <a href="https://cveproject.github.io/quality-workgroup/reports/">your CVE Records</a> to ensure the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconversion script</a> did not alter the meaning of the CVE Records.
     <br><br>
-    If you believe <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">the upconversion script</a> has a bug, please raise an issue at <a href="https://github.com/CVEProject/cve-schema/issues">https://github.com/CVEProject/cve-schema/issues</a> or suggest changes to the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconverter script</a> using a pull request. The upconverter will be used to continually transform any CVE JSON 4 submissions to version 5 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
+    If you believe <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">the upconversion script</a> has a bug, please raise an issue at <a href="https://github.com/CVEProject/cve-schema/issues">https://github.com/CVEProject/cve-schema/issues</a> or suggest changes to the <a href="https://github.com/CVEProject/cve-schema/tree/master/schema/v5.0/support/CVE_4_to_5_converter">upconverter script</a> using a pull request. The upconverter will be used to continually transform any JSON 4.0 submissions to JSON 5.0 format for use in the CVE Services API during the transition phase while CNAs migrate to CVE JSON 5.0.
     <br><br>
   </li>
   <li>
