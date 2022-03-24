@@ -22,5 +22,11 @@ Main CVE Website | January 6, 2022
 
 ### Related
 
+### [Podcast: The Latest on Transitioning to CVE Services 2.1 and CVE JSON 5.0](https://www.cve.org/Media/News/item/podcast/2022/03/22/The-Latest-on-Transitioning-to)
+Main CVE Website | March 22, 2022
+
 ### [CVE List Download Formats Are Changing](https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are)
 Main CVE Website | January 18, 2022
+
+### [Podcast: How the New CVE Record Format Is a Game Changer](https://www.cve.org/Media/News/item/podcast/2021/07/13/How-the-New-CVE-Record)
+Main CVE Website | July 13, 2021
