@@ -28,3 +28,6 @@ Main CVE Website | January 6, 2022
 
 ### [Podcast: How the New CVE Record Format Is a Game Changer](https://www.cve.org/Media/News/item/podcast/2021/07/13/How-the-New-CVE-Record)
 Main CVE Website | July 13, 2021
+
+### [Podcast: Engaging with CVE’s Automated CNA Services](https://www.cve.org/Media/News/item/podcast/2021/06/14/Engaging-with-CVEs-Automated-CNA)
+Main CVE Website | June 14, 2021
