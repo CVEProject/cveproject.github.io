@@ -20,11 +20,11 @@ CVE Services Website | March 16, 2022
 ### [CVE Services Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2) 
 CVE Services Website | February 11, 2022
 
-### [CVE Services Transition Bulletin #1](https://www.cve.org/Media/News/item/news/2022/01/11/Changes-Coming-to-CVE-Record)
-Main CVE Website | January 6, 2022
-
 ### [Blog: CVE List Download Formats Are Changing](https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are)
 Main CVE Website | January 18, 2022
+
+### [CVE Services Transition Bulletin #1](https://www.cve.org/Media/News/item/news/2022/01/11/Changes-Coming-to-CVE-Record)
+Main CVE Website | January 6, 2022 
 
 ### [Podcast: How the New CVE Record Format Is a Game Changer](https://www.cve.org/Media/News/item/podcast/2021/07/13/How-the-New-CVE-Record)
 Main CVE Website | July 13, 2021
