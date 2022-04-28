@@ -19,9 +19,9 @@ Last updated: March 16, 2022
 <div>
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:70%;padding-bottom:2%;text-align:center;">ACTIVITY</th>
-      <th style="width:5%;padding-bottom:2%;"></th>      
-      <th style="width:25%;padding-bottom:2%;text-align:center;">TIMEFRAME</th>
+      <th style="width:70%;padding-bottom:2%;font-size:12px;">ACTIVITY</th>
+      <th style="width:5%;padding-bottom:2%;font-size:12px;"></th>      
+      <th style="width:25%;padding-bottom:2%;font-size:12px;">TIMEFRAME</th>
     </tr>
     
     <tr>
