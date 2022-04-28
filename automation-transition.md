@@ -14,13 +14,14 @@ A draft [Transition Schedule](https://cveproject.github.io/automation-transition
 ## Transition Schedule Master
 Status: Draft   
 Last updated: March 16, 2022  
+<br>
   
 <div>
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:70%;padding-bottom:2%;">Activity</th>
+      <th style="width:70%;padding-bottom:2%;">ACTIVITY</th>
       <th style="width:5%;padding-bottom:2%;"></th>      
-      <th style="width:25%;padding-bottom:2%;">Timeframe</th>
+      <th style="width:25%;padding-bottom:2%;">TIMEFRAME</th>
     </tr>
     
     <tr>
