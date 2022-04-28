@@ -68,7 +68,7 @@ Last updated: March 16, 2022
     </tr>
       <tr>
       <td style="padding-bottom:2%;"><strong>CVE List Download Format Changes</strong><br>
-        After JSON 4.0 Retirement, JSON 5.0 format will be the only format available for CVE List downloads. All other download formats will be retired at the same time JSON 4.0 is retired (<a href="https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are">announcement</a>).</td>
+        After JSON 4.0 Retirement, JSON 5.0 format will be the only format available for CVE List downloads. All other download formats will be retired at the same time JSON 4.0 is retired (<a href="https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are">read announcement</a>).</td>
         <td style="padding-bottom:2%;"></td>
         <td style="padding-bottom:2%;">July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
     </tr>
