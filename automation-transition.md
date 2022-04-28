@@ -18,9 +18,9 @@ Last updated: March 16, 2022
 <div>
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:70%;padding-bottom:2%;font-size:16px;">ACTIVITY</th>
-      <th style="width:5%;padding-bottom:2%;font-size:16px;"></th>      
-      <th style="width:25%;padding-bottom:2%;font-size:16px;">TIMEFRAME</th>
+      <th style="width:70%;padding-bottom:2%;font-size:18px;">ACTIVITY</th>
+      <th style="width:5%;padding-bottom:2%;font-size:18px;"></th>      
+      <th style="width:25%;padding-bottom:2%;font-size:18px;">TIMEFRAME</th>
     </tr>
     
     <tr>
@@ -73,6 +73,7 @@ Last updated: March 16, 2022
     </tr>
   </table>
 </div>  
+<br>
 
 ## Transition Details
 
