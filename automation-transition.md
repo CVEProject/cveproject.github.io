@@ -9,7 +9,7 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 * <strong>[CVE Services v2.1](https://github.com/CVEProject/cve-services)</strong> &mdash; CVE Services is a CVE Program Web Application that allows members of the CNA community to reserve [CVE IDs](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) and publish/update/reject [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) 24/7. It is meant to fully automate the CVE Record publication process that is used today that often involves significant manual intervention and maintenance. CVE Services 2.1 is a major upgrade that includes the adoption of CVE JSON 5.0 (see below). With the deployment of CVE Services 2.1, CNAs will be able to perform the most common CVE Program functions in a more efficient manner, obtaining results in the matter of minutes. 
 * <strong>[CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json)</strong> &mdash; JSON is the format used by CNAs for publishing CVE Records. CVE JSON 5.0, which is a major upgrade to JSON 4.0 that further normalizes and enriches how CVE information is presented, adds several new data fields to CVE Records. In addition to the required data of CVE ID number, affected product(s), affected version(s), and public references, JSON 5.0 CVE Records will now include optional data such as severity scores, credit for researchers, additional languages, affected product lists, additional references, ability for community contributions, etc. This optional data will enhance CVE Records for both downstream users and the overall vulnerability management community. 
 
-A draft [Transition Schedule](https://cveproject.github.io/automation-transition), [Transition Details bulletins](https://cveproject.github.io/automation-transition), and links to [additional helpful resources](https://cveproject.github.io/automation-transition) are included below. Future transition updates and news will be posted below.
+A draft [Transition Schedule](https://cveproject.github.io/automation-transition#transition-schedule-master), [Transition Details bulletins](https://cveproject.github.io/automation-transition#transition-details), and links to [additional helpful resources](https://cveproject.github.io/automation-transition#additional-resources) are included below. Future transition updates and news will be posted below.
 
 ## Transition Schedule Master
 Status: Draft   
@@ -19,9 +19,9 @@ Last updated: March 16, 2022
 <div>
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:70%;padding-bottom:2%;">ACTIVITY</th>
+      <th style="width:70%;padding-bottom:2%;float:center;">ACTIVITY</th>
       <th style="width:5%;padding-bottom:2%;"></th>      
-      <th style="width:25%;padding-bottom:2%;">TIMEFRAME</th>
+      <th style="width:25%;padding-bottom:2%;float:center;">TIMEFRAME</th>
     </tr>
     
     <tr>
