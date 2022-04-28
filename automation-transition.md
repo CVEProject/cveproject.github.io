@@ -11,8 +11,8 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 A draft [Transition Schedule](https://cveproject.github.io/automation-transition#transition-schedule-master), [Transition Details bulletins](https://cveproject.github.io/automation-transition#transition-details), and links to [additional helpful resources](https://cveproject.github.io/automation-transition#additional-resources) are included below. Future transition updates and news will be posted below.
 
-## Transition Schedule Master
-Status: Draft | Last updated: March 16, 2022  
+## Transition Schedule 
+Status: Draft  |  Last updated: March 16, 2022  
   
 <div>
   <table style="padding-left:5%;padding-left:30%;">
