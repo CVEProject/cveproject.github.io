@@ -14,7 +14,6 @@ A draft [Transition Schedule](https://cveproject.github.io/automation-transition
 ## Transition Schedule Master
 Status: Draft   
 Last updated: March 16, 2022  
-<br>
   
 <div>
   <table style="padding-left:5%;padding-left:30%;">
@@ -74,7 +73,6 @@ Last updated: March 16, 2022
     </tr>
   </table>
 </div>  
-<br>
 
 ## Transition Details
 
