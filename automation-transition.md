@@ -12,20 +12,21 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 A draft [Transition Schedule](https://cveproject.github.io/automation-transition), [Transition Details bulletins](https://cveproject.github.io/automation-transition), and links to [additional helpful resources](https://cveproject.github.io/automation-transition) are included below. Future transition updates and news will be posted below.
 
 ## Transition Schedule Master
-Status: Draft 
-Last updated: March 16, 2022
+Status: Draft   
+Last updated: March 16, 2022  
+  
 <div>
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
-      <th style="width:70%;padding-bottom:15%;">Activity</th>
-      <th style="width:5%;padding-bottom:15%;"></th>      
-      <th style="width:25%;padding-bottom:15%;">Timeframe</th>
+      <th style="width:70%;">Activity</th>
+      <th style="width:5%;;"></th>      
+      <th style="width:25%;">Timeframe</th>
     </tr>
     <tr>
-      <td style="padding-bottom:15%;"><strong>CVE Services 2.1 Community Testing in the Testing Instance</strong><br>
+      <td style="padding-bottom:3%;"><strong>CVE Services 2.1 Community Testing in the Testing Instance</strong><br>
       In late February/early March 2022, the <a href="https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG" target="_blank">CVE Automation Working Group (AWG)</a> is planning on releasing CVE Services 2.1 into the CVE Services Testing Instance. As with CVE Service 2.0 testing, CNAs will be able to continue to test their clients against this instance. CVE Services 2.1 is the target version of CVE Services that will be deployed into production that will be supporting JSON 5.0 for the community.</td>
-      <td style="padding-bottom:15%;"></td>
-      <td style="padding-bottom:15%;">Late February/early March 2022</td>
+      <td style="padding-bottom:3%;"></td>
+      <td style="padding-bottom:3%;">Late February/early March 2022</td>
     </tr>
     <tr>
       <td><strong>CVE Services 2.1 Community Penetration Testing</strong><br>
