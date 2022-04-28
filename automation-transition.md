@@ -9,7 +9,61 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 * <strong>[CVE Services v2.1](https://github.com/CVEProject/cve-services)</strong> &mdash; CVE Services is a CVE Program Web Application that allows members of the CNA community to reserve [CVE IDs](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) and publish/update/reject [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) 24/7. It is meant to fully automate the CVE Record publication process that is used today that often involves significant manual intervention and maintenance. CVE Services 2.1 is a major upgrade that includes the adoption of CVE JSON 5.0 (see below). With the deployment of CVE Services 2.1, CNAs will be able to perform the most common CVE Program functions in a more efficient manner, obtaining results in the matter of minutes. 
 * <strong>[CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json)</strong> &mdash; JSON is the format used by CNAs for publishing CVE Records. CVE JSON 5.0, which is a major upgrade to JSON 4.0 that further normalizes and enriches how CVE information is presented, adds several new data fields to CVE Records. In addition to the required data of CVE ID number, affected product(s), affected version(s), and public references, JSON 5.0 CVE Records will now include optional data such as severity scores, credit for researchers, additional languages, affected product lists, additional references, ability for community contributions, etc. This optional data will enhance CVE Records for both downstream users and the overall vulnerability management community. 
 
-Transition details and rough draft deployment timelines, along with links to additional resources, are included below. Future transition news and updates will be posted below.
+A draft Transition Schedule, Transition Details bulletins, and links to additional helpful resources are included below. Future transition updates and news will be posted below.
+
+## Transition Schedule Master (draft)
+Last updated: March 16, 2022
+
+  <table style="padding-left:5%;padding-left:30%;">
+    <tr>
+      <th style="width:12%;padding-left:3%;">Item</th>
+      <th style="width:42%">Activity</th>
+      <th style="width:46%">Timeframe</th>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;">1</td>
+      <td><strong>CVE Services 2.1 Community Testing in the Testing Instance</strong><br>In late February/early March 2022, the <a href="https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG" target="_blank">CVE Automation Working Group (AWG)</a> is planning on releasing CVE Services 2.1 into the CVE Services Testing Instance. As with CVE Service 2.0 testing, CNAs will be able to continue to test their clients against this instance. CVE Services 2.1 is the target version of CVE Services that will be deployed into production that will be supporting JSON 5.0 for the community.</li>
+<li><strong>CVE Services 2.1 Community Penetration Testing</strong> — Upon the release of CVE Service 2.1 into the Testing Instance, the CVE Services 2.1 Community Penetration Testing effort will commence and will run for approximately 3 weeks into mid/late March 2022. The <a href="https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG" target="_blank">AWG</a> will be coordinating this community penetration testing effort so that interested members of the community may perform penetration testing on CVE Services 2.1. (This topic was discussed in the two “CVE Services 2.x Workshops” held September and October 2021). After the completion of the penetration testing effort, there will be a period of time for the development team to respond to issues identified in during the testing.</td>
+      <td>Late February/early March 2022</td>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;">2</td>
+      <td><strong>CVE Services 2.1 Community Penetration Testing</strong><br>Upon the release of CVE Service 2.1 into the Testing Instance, the CVE Services 2.1 Community Penetration Testing effort will commence and will run for approximately 3 weeks into mid/late March 2022. The <a href="https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG" target="_blank">AWG</a> will be coordinating this community penetration testing effort so that interested members of the community may perform penetration testing on CVE Services 2.1. (This topic was discussed in the two “CVE Services 2.x Workshops” held September and October 2021). After the completion of the penetration testing effort, there will be a period of time for the development team to respond to issues identified in during the testing.</td>
+      <td>Mid-to-late March 2022 (will run for approximately 3 weeks)</td>
+    </tr>
+      <tr>
+      <td style="padding-left:3%;">3</td>
+      <td><strong>CNA Community Review of Historical JSON 5.0 Records</strong><br>From January through April 2022, the <a href="https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupQWG" target="_blank">CVE Quality Working Group (QWG)</a> will be coordinating two community reviews of historical CVE Records that have been converted to JSON 5.0. During the first review CNAs have an opportunity to review records that they “own” in the new format and offer early feedback on the Secretariat’s upconvert process. During the second review, CNAs will have an opportunity to update the CVE Records they own using the CVE Services Record Submission and Upload Subsystem (RSUS) interface. (This may be preferable for large CNAs who might be interested in upconverting their own records instead of relying on the Secretariat upconvert.) If you or your organization are interested in getting more engaged in the planning of these reviews, please send email to the QWG Co-Chairs.</td>
+      <td>January through April 2022</td>
+    </tr>
+      <tr>
+      <td style="padding-left:3%;">4</td>
+      <td><strong>CVE Services 2.1/JSON 5.0 Soft Deployment</strong><br>Once the above activities are completed, there will be a soft deployment of CVE Services 2.1/JSON 5.0 that will span approximately 3 weeks into mid/late April 2022. During this timeframe CVE Services 2.1 will be deployed into the production environment and CNAs will have the full feature set of CVE Services to submit and update JSON 5.0 records. Also, during this time, the QWG will administer the second phase of the CNA Community Review of JSON 5.0 Historical Records (see above), in which CNAs will be encouraged to review the CVE Records they own and make appropriate updates using CVE Services. It is important to note that during the soft deployment phase, only members of the CVE CNA community will have access to the JSON 5.0 CVE List. The general “downstream” user population of the CVE List will continue to observe and download JSON 4.0 Records from the main CVE website.</td>
+      <td>Mid-to-late April 2022 (will span approximately 3 weeks)</td>
+    </tr>
+      <tr>
+      <td style="padding-left:3%;">5</td>
+      <td><strong>CVE Services 2.1/JSON 5.0 Hard Deployment</strong><br>After the soft deployment phase toward the end of April 2022, the AWG will move into a hard deployment phase that will include deployments to make JSON 5.0-format CVE Records easily accessible to the global community through the deployment of the JSON 5.0 GitHub download capability and the JSON website display and download capability on the main CVE website.</td>
+      <td>Late April 2022</td>
+    </tr>
+      <tr>
+      <td style="padding-left:3%;">6</td>
+      <td><strong>JSON 4.0 Retirement</strong><br>Six months after JSON 5.0 is made available to CVE downstream users, JSON 4.0 will be retired. After JSON 4.0 retirement, historical JSON 4.0 records will continue to be available in an archived state. CNAs will be expected to submit CVE Records in JSON 5.0 format through either CVE Services web application API or a program designated web interface. At this time, JSON 5.0 format will be the only format that is available for download (other downloadable formats will be retired).</td>
+      <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
+    </tr>
+      <tr>
+      <td style="padding-left:3%;">7</td>
+      <td><strong>CVE List GitHub Submission Pilot Retirement</strong><br>The CVE List GitHub Submission Pilot is JSON 4.0-based and will not be upgraded to JSON 5.0. As a JSON 4.0 based effort, it will not continue to operate after JSON 4.0 Retirement. It will continue to operate for 3 months after CVE Services 2.1/JSON 5.0 Hard Deployment. After JSON 4.0 Retirement, JSON 5.0 format will be the only format that is available for download (other downloadable formats will be retired), and CNAs will be expected to submit CVE Records in JSON 5.0 format through either CVE Services web application API, or a program designated web interface.</td>
+      <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
+    </tr>
+      <tr>
+      <td style="padding-left:3%;">8</td>
+      <td><strong>CVE List Download Format Changes</strong><br>After JSON 4.0 Retirement, JSON 5.0 format will be the only format available for CVE List downloads. All other download formats will be retired at the same time JSON 4.0 is retired (<a href="https://www.cve.org/Media/News/item/blog/2022/01/18/CVE-List-Download-Formats-Are">announcement</a>)</td>
+      <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
+    </tr>
+  </table>
+  
+<br>
 
 ## Transition Details
 
