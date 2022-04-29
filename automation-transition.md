@@ -37,8 +37,8 @@ Status: Draft  |  Last updated: March 16, 2022
       <tr>
       <td style="padding-bottom:2%;"><strong>CNA Community Review of Historical JSON 5.0 Records</strong><br>
         From January through April 2022, the <a href="https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupQWG" target="_blank">CVE Quality Working Group (QWG)</a> will be coordinating two community reviews of historical CVE Records that have been converted to JSON 5.0. During the first review CNAs have an opportunity to review records that they “own” in the new format and offer early feedback on the Secretariat’s upconvert process. During the second review, CNAs will have an opportunity to update the CVE Records they own using the CVE Services Record Submission and Upload Subsystem (RSUS) interface. (This may be preferable for large CNAs who might be interested in upconverting their own records instead of relying on the Secretariat upconvert.) If you or your organization are interested in getting more engaged in the planning of these reviews, please send email to the QWG Co-Chairs.
-        <br>
-        Read the [JSON 5.0 Format Record Review](https://cveproject.github.io/automation-transition#bulletin-number-5) message to CNAs.
+        <br><br>
+        Read the <a href="https://cveproject.github.io/automation-transition#bulletin-number-5">JSON 5.0 Format Record Review message</a> to CNAs.
         </td>
         <td style="padding-bottom:2%;"></td>
         <td style="padding-bottom:2%;">January through April 2022</td>
