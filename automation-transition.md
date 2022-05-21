@@ -13,6 +13,64 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 ## Transition Details
 
+## Bulletin Number 6
+<strong>*Submitting CVE Records after CVE Service 2.x/JSON 5.0 Roll-out —  May 20, 2022*</strong>
+
+As we prepare for CVE Services 2.x/JSON 5.0 roll-out in the coming weeks, there have been a number of questions about the various methods CNAs currently use to make CVE ID reservations and publish CVE Records and which methods will continue to be supported post deployment.
+
+This bulletin clarifies the CVE Program specific methods that will be available to CNAs for reserving CVE IDs and submitting CVE Records after CVE Services/JSON 5.0 deployment. For non-CNAs, the existing method for requesting CVE IDs will not be affected.
+
+<h3>Non-CNA Submission Methods</h3>
+Non-CNAs will continue to contact the appropriate CNA to request CVE IDs, as described on the [Report/Request](https://www.cve.org/ResourcesSupport/ReportRequest) page on the CVE Program website. The CNA that assigns the ID will publish the CVE Record.
+
+In addition, the CVE Program Secretariat will continue to maintain the [CVE Program Request web form]( https://cveform.mitre.org/) for non-CNAs to submit vulnerability reports.
+
+<h3>CNA Submission Methods</h3>
+For CNAs, there will be five methods to reserve CVE IDs and submit CVE Records. Some methods will be retired over time while others will have constraints, but all five methods described below will be available for use immediately after CVE Services 2.x/JSON 5.0 is deployed.
+
+CNAs that don’t yet have a CVE Services account may contact their Root to receive account credentials ahead of deployment.
+
+<strong><i>Method 1: The current CVE Program Secretariat Web Forms</strong></i>
+This method allows CNAs to submit CVE Records in multiple formats: JSON 4.0, CSV, and flat file.
+For a limited time, CNAs will continue to be able to request CVE ID Reservations and publish CVE Records as they do today using the CVE Program Secretariat [CVE Program Request web forms](https://cveform.mitre.org/). All currently supported input formats will continue to be supported, but this method will not process JSON 5.0 formatted input.
+
+<p class="callout info"><strong>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</strong></p>
+
+<strong><i>Method 2: CVE List GitHub Submission Pilot</strong></i>
+This method allows CNAs to submit CVE Records in JSON 4.0 using GitHub pull requests. 
+For a limited time, CNAs will continue to be able to use the [CVE List GitHub Submission Pilot](https://github.com/CVEProject/cvelist) to submit CVE Records in JSON 4.0, which will then be upconverted to JSON 5.0 records. 
+
+<p class="callout info"><strong>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</strong></p>
+
+<strong><i>Method 3: Vulnogram</strong></i>
+This method is an existing web-based tool for reserving CVE IDs and creating and submitting CVE Records that is currently in use by CNAs. JSON 4.0 will continue to be supported in this method for 90 days post deployment.
+After CVE Services/JSON 5.0 is deployed, this method will only accept direct user input (i.e., no attached files) and will submit JSON 5.0 CVE Records directly to CVE Services on the CNA’s behalf for publication on the CVE List. 
+
+To use this method, CNAs will need to present their CVE Services User ID and authentication token through [Vulnogram](https://vulnogram.github.io/cve5/#editor) to identify/authenticate to CVE Services. New users, please request CVE Services credentials from your Root. 
+
+<p class="callout danger"><strong>Active submission method</strong></p>
+
+<strong><i>Method 4: Adopt an available CVE Services Client</strong></i>
+CVE Services is implemented as a Client/Server architecture. This method enables CNAs to adopt an already existing client and install and execute it in their own environment to assign CVE IDs and create and submit CVE Records. 
+
+Three clients are currently available for use as part of CVE Services/JSON 5.0 deployment:
+
+     <ul>
+          <li>[Vulnogram web-based interface](https://vulnogram.github.io/cve5/#editor) (described above as Method 3)</li>
+          <li>[Red Hat command line interface – cvelib](https://github.com/RedHatProductSecurity/cvelib)</li>
+          <li>[CERT/CC simple HTML interface – cveClient](https://github.com/CERTCC/cveClient)</li>
+     </ul>
+
+<p class="callout danger"><strong>Active submission method</strong></p>
+
+<strong><i>Method 5: CNAs can develop their own clients</strong></i>
+CNAs may develop their own CVE Services clients. The CVE Program is currently preparing documentation to support that development, which will be announced in a future bulletin.
+
+<p class="callout danger"><strong>Active submission method</strong></p>
+
+Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+
+
 ## Bulletin Number 5
 <strong>*JSON 5.0 Format Record Review —  March 23, 2022*</strong>
 
