@@ -32,7 +32,7 @@ CNAs that don’t yet have a CVE Services account may contact their Root to rece
 
 <br/>
 
-------
+<hr style="border:2px solid blue">
 
 <h4><i>Method 1: The current CVE Program Secretariat Web Forms</i></h4>
 
@@ -41,7 +41,7 @@ For a limited time, CNAs will continue to be able to request CVE ID Reservations
 
 <h3>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</h3>
 
-------
+<hr style="border:2px solid blue">
 
 <h4><i>Method 2: CVE List GitHub Submission Pilot</i></h4>
 
@@ -50,7 +50,7 @@ For a limited time, CNAs will continue to be able to use the [CVE List GitHub Su
 
 <h3>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</h3>
 
-------
+<hr style="border:2px solid blue">
 
 <h4><i>Method 3: Vulnogram</i></h4>
 
@@ -61,7 +61,7 @@ To use this method, CNAs will need to present their CVE Services User ID and aut
 
 <h3>Active submission method.</h3>
 
-------
+<hr style="border:2px solid blue">
 
 <h4><i>Method 4: Adopt an available CVE Services Client</i></h4>
 
@@ -75,7 +75,7 @@ Three clients are currently available for use as part of CVE Services/JSON 5.0 d
 
 <h3>Active submission method.</h3>
 
-------
+<hr style="border:2px solid blue">
 
 <h4><i>Method 5: CNAs can develop their own clients</i></h4>
 
@@ -83,7 +83,7 @@ CNAs may develop their own CVE Services clients. The CVE Program is currently pr
 
 <h3>Active submission method.</h3>
 
-------
+<hr style="border:2px solid blue">
 
 Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
