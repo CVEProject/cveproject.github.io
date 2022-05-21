@@ -101,6 +101,8 @@ CNAs may develop their own CVE Services clients. The CVE Program is currently pr
 
 <hr style="border:1px solid red">
 
+<br/>
+
 Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 
