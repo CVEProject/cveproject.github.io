@@ -32,25 +32,27 @@ CNAs that don’t yet have a CVE Services account may contact their Root to rece
 
 <br/>
 
-<hr style="border:2px solid blue">
-
 <h4><i>Method 1: The current CVE Program Secretariat Web Forms</i></h4>
 
 This method allows CNAs to submit CVE Records in multiple formats: JSON 4.0, CSV, and flat file.
 For a limited time, CNAs will continue to be able to request CVE ID Reservations and publish CVE Records as they do today using the CVE Program Secretariat [CVE Program Request web forms](https://cveform.mitre.org/). All currently supported input formats will continue to be supported, but this method will not process JSON 5.0 formatted input.
 
+<hr style="border:2px solid black">
+
 <h3>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</h3>
 
-<hr style="border:2px solid blue">
+<hr style="border:2px solid black">
 
 <h4><i>Method 2: CVE List GitHub Submission Pilot</i></h4>
 
 This method allows CNAs to submit CVE Records in JSON 4.0 using GitHub pull requests. 
 For a limited time, CNAs will continue to be able to use the [CVE List GitHub Submission Pilot](https://github.com/CVEProject/cvelist) to submit CVE Records in JSON 4.0, which will then be upconverted to JSON 5.0 records. 
 
+<hr style="border:2px solid black">
+
 <h3>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</h3>
 
-<hr style="border:2px solid blue">
+<hr style="border:2px solid black">
 
 <h4><i>Method 3: Vulnogram</i></h4>
 
@@ -59,9 +61,11 @@ After CVE Services/JSON 5.0 is deployed, this method will only accept direct use
 
 To use this method, CNAs will need to present their CVE Services User ID and authentication token through [Vulnogram](https://vulnogram.github.io/cve5/#editor) to identify/authenticate to CVE Services. New users, please request CVE Services credentials from your Root. 
 
+<hr style="border:2px solid red">
+
 <h3>Active submission method.</h3>
 
-<hr style="border:2px solid blue">
+<hr style="border:2px solid red">
 
 <h4><i>Method 4: Adopt an available CVE Services Client</i></h4>
 
@@ -73,17 +77,21 @@ Three clients are currently available for use as part of CVE Services/JSON 5.0 d
  * [Red Hat command line interface – cvelib](https://github.com/RedHatProductSecurity/cvelib)
  * [CERT/CC simple HTML interface – cveClient](https://github.com/CERTCC/cveClient)
 
+<hr style="border:2px solid red">
+
 <h3>Active submission method.</h3>
 
-<hr style="border:2px solid blue">
+<hr style="border:2px solid red">
 
 <h4><i>Method 5: CNAs can develop their own clients</i></h4>
 
 CNAs may develop their own CVE Services clients. The CVE Program is currently preparing documentation to support that development, which will be announced in a future bulletin.
 
+<hr style="border:2px solid red">
+
 <h3>Active submission method.</h3>
 
-<hr style="border:2px solid blue">
+<hr style="border:2px solid red">
 
 Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
