@@ -22,7 +22,7 @@ The program thanks those of you who participated in previous milestones (e.g., e
 
 <h4>A request for continued support: CVE Services 2.1 Penetration Testing II, July 18-July 29</h4>
 
-We performed Penetration Testing on CVE Services 2.1 in March 2022, during which we identified issues that must be addressed prior to RSUS and JSON 5.0 deployment.
+We performed Penetration Testing on [CVE Services 2.1](/automation-cve-services#services-overview) in March 2022, during which we identified issues that must be addressed prior to RSUS and JSON 5.0 deployment.
 
 Beginning July 18 (and running through July 29) we will be engaging in another round of community penetration testing to achieve a level of assurance necessary to deploy. The program needs your help! The community is an integral part of building assurance and previously made substantial contributions from a testing perspective. If you have interest, contact the [AWG Chair Kris Britton](rbritton@mitre.org) and he will get you the information you need to get started.
 
