@@ -13,6 +13,30 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 ## Transition Details
 
+## Bulletin Number 7
+<strong>*Call for Community Penetration Testing Volunteers to Test CVE Services 2.1 —  June 23, 2022*</strong>
+
+The CVE Program is preparing for the deployment of the [CVE Record Submission and Upload Service (RSUS)](/automation-cve-services#services-overview), and an updated data format (i.e., [CVE JSON 5.0](/automation-cve-services#json-overview)).
+
+The program thanks those of you who participated in previous milestones (e.g., early adoption of the CVE ID Reservation, CVE Services Requirements collection, CVE Services code development and review, Penetration Testing and Security analysis) as we move forward with development, testing, and deployment.
+
+<h3>A request for continued support: CVE Services 2.1 Penetration Testing II, July 18-July 29</h3>
+
+We performed Penetration Testing on CVE Services 2.1 in March 2022, during which we identified issues that must be addressed prior to RSUS and JSON 5.0 deployment.
+
+Beginning July 18 (and running through July 29) we will be engaging in another round of community penetration testing to achieve a level of assurance necessary to deploy. The program needs your help! The community is an integral part of building assurance and previously made substantial contributions from a testing perspective. If you have interest, contact the AWG Chair [Kris Britton](rbritton@mitre.org) and he will get you the information you need to get started.
+
+<h3>If you cannot participate in the Penetration Testing II event, you can still get familiar with CVE Services 2.1</h3>
+
+CVE Services 2.1 will be a major upgrade to CVE Services 1.1.1 as it will provide the API for “client applications” to not only reserve CVE IDs in “near real time” and manage your own “user base” but it will also support the automated submission and update of CVE Records. When it is deployed, CNAs will be able “Post” records immediately to the CVE List with the records being available to the public in near real-time. 
+
+Contact the AWG chair if you have interest in either of the following:
+
+* Learning more about the CVE Services 2.1 by testing your client with the <i>CVE Services Testing Instance</i>
+* Joining the [CVE Automation Working Group (AWG)](https://www.cve.org/ProgramOrganization/WorkingGroups) which meets every Tuesday to discuss requirements, status, and all things related to CVE Services 
+
+Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+
 ## Bulletin Number 6
 <strong>*Submitting CVE Records after CVE Service 2.x/JSON 5.0 Roll-out —  May 20, 2022*</strong>
 
@@ -23,7 +47,7 @@ This bulletin clarifies the CVE Program specific methods that will be available 
 <h3>Non-CNA Submission Methods</h3>
 Non-CNAs will continue to contact the appropriate CNA to request CVE IDs, as described on the [Report/Request](https://www.cve.org/ResourcesSupport/ReportRequest) page on the CVE Program website. The CNA that assigns the ID will publish the CVE Record.
 
-In addition, the CVE Program Secretariat will continue to maintain the [CVE Program Request web form]( https://cveform.mitre.org/) for non-CNAs to submit vulnerability reports.
+In addition, the CVE Program Secretariat will continue to maintain the [CVE Program Request web form](https://cveform.mitre.org/) for non-CNAs to submit vulnerability reports.
 
 <h3>CNA Submission Methods</h3>
 For CNAs, there will be five methods to reserve CVE IDs and submit CVE Records. Some methods will be retired over time while others will have constraints, but all five methods described below will be available for use immediately after CVE Services 2.x/JSON 5.0 is deployed.
@@ -37,11 +61,11 @@ CNAs that don’t yet have a CVE Services account may contact their Root to rece
 This method allows CNAs to submit CVE Records in multiple formats: JSON 4.0, CSV, and flat file.
 For a limited time, CNAs will continue to be able to request CVE ID Reservations and publish CVE Records as they do today using the CVE Program Secretariat [CVE Program Request web forms](https://cveform.mitre.org/). All currently supported input formats will continue to be supported, but this method will not process JSON 5.0 formatted input.
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid red">
 
 <h3>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</h3>
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid red">
 
 <br/>
 
@@ -50,26 +74,27 @@ For a limited time, CNAs will continue to be able to request CVE ID Reservations
 This method allows CNAs to submit CVE Records in JSON 4.0 using GitHub pull requests. 
 For a limited time, CNAs will continue to be able to use the [CVE List GitHub Submission Pilot](https://github.com/CVEProject/cvelist) to submit CVE Records in JSON 4.0, which will then be upconverted to JSON 5.0 records. 
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid red">
 
 <h3>This submission method will be retired 90 days after CVE Services/JSON 5.0 is deployed.</h3>
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid red">
 
 <br/>
 
 <h4><i>Method 3: Vulnogram</i></h4>
 
 This method is an existing web-based tool for reserving CVE IDs and creating and submitting CVE Records that is currently in use by CNAs. JSON 4.0 will continue to be supported in this method for 90 days post deployment.
+
 After CVE Services/JSON 5.0 is deployed, this method will only accept direct user input (i.e., no attached files) and will submit JSON 5.0 CVE Records directly to CVE Services on the CNA’s behalf for publication on the CVE List. 
 
 To use this method, CNAs will need to present their CVE Services User ID and authentication token through [Vulnogram](https://vulnogram.github.io/cve5/#editor) to identify/authenticate to CVE Services. New users, please request CVE Services credentials from your Root. 
 
-<hr style="border:1px solid red">
+<hr style="border:1px solid black">
 
 <h3>Active submission method.</h3>
 
-<hr style="border:1px solid red">
+<hr style="border:1px solid black">
 
 <br/>
 
@@ -83,11 +108,11 @@ Three clients are currently available for use as part of CVE Services/JSON 5.0 d
  * [Red Hat command line interface – cvelib](https://github.com/RedHatProductSecurity/cvelib)
  * [CERT/CC simple HTML interface – cveClient](https://github.com/CERTCC/cveClient)
 
-<hr style="border:1px solid red">
+<hr style="border:1px solid black">
 
 <h3>Active submission method.</h3>
 
-<hr style="border:1px solid red">
+<hr style="border:1px solid black">
 
 <br/>
 
@@ -95,16 +120,17 @@ Three clients are currently available for use as part of CVE Services/JSON 5.0 d
 
 CNAs may develop their own CVE Services clients. The CVE Program is currently preparing documentation to support that development, which will be announced in a future bulletin.
 
-<hr style="border:1px solid red">
+<hr style="border:1px solid black">
 
 <h3>Active submission method.</h3>
 
-<hr style="border:1px solid red">
+<hr style="border:1px solid black">
 
 <br/>
 
 Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
+<br/>
 
 ## Bulletin Number 5
 <strong>*JSON 5.0 Format Record Review —  March 23, 2022*</strong>
