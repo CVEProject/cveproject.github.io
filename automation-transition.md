@@ -20,19 +20,19 @@ The CVE Program is preparing for the deployment of the [CVE Record Submission an
 
 The program thanks those of you who participated in previous milestones (e.g., early adoption of the CVE ID Reservation, CVE Services Requirements collection, CVE Services code development and review, Penetration Testing and Security analysis) as we move forward with development, testing, and deployment.
 
-<h3>A request for continued support: CVE Services 2.1 Penetration Testing II, July 18-July 29</h3>
+<h4>A request for continued support: CVE Services 2.1 Penetration Testing II, July 18-July 29</h4>
 
 We performed Penetration Testing on CVE Services 2.1 in March 2022, during which we identified issues that must be addressed prior to RSUS and JSON 5.0 deployment.
 
-Beginning July 18 (and running through July 29) we will be engaging in another round of community penetration testing to achieve a level of assurance necessary to deploy. The program needs your help! The community is an integral part of building assurance and previously made substantial contributions from a testing perspective. If you have interest, contact the AWG Chair [Kris Britton](rbritton@mitre.org) and he will get you the information you need to get started.
+Beginning July 18 (and running through July 29) we will be engaging in another round of community penetration testing to achieve a level of assurance necessary to deploy. The program needs your help! The community is an integral part of building assurance and previously made substantial contributions from a testing perspective. If you have interest, contact the [AWG Chair Kris Britton](rbritton@mitre.org) and he will get you the information you need to get started.
 
-<h3>If you cannot participate in the Penetration Testing II event, you can still get familiar with CVE Services 2.1</h3>
+<h4>If you cannot participate in the Penetration Testing II event, you can still get familiar with CVE Services 2.1</h4>
 
 CVE Services 2.1 will be a major upgrade to CVE Services 1.1.1 as it will provide the API for “client applications” to not only reserve CVE IDs in “near real time” and manage your own “user base” but it will also support the automated submission and update of CVE Records. When it is deployed, CNAs will be able “Post” records immediately to the CVE List with the records being available to the public in near real-time. 
 
-Contact the AWG chair if you have interest in either of the following:
+Contact the [AWG Chair](rbritton@mitre.org) if you have interest in either of the following:
 
-* Learning more about the CVE Services 2.1 by testing your client with the <i>CVE Services Testing Instance</i>
+* Learning more about the CVE Services 2.1 by testing your client with the “CVE Services Testing Instance”
 * Joining the [CVE Automation Working Group (AWG)](https://www.cve.org/ProgramOrganization/WorkingGroups) which meets every Tuesday to discuss requirements, status, and all things related to CVE Services 
 
 Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
