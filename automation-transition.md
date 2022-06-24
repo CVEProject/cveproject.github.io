@@ -26,7 +26,7 @@ We performed Penetration Testing on [CVE Services 2.1](/automation-cve-services#
 
 Beginning July 18 (and running through July 29) we will be engaging in another round of community penetration testing to achieve a level of assurance necessary to deploy. The program needs your help! The community is an integral part of building assurance and previously made substantial contributions from a testing perspective. If you have interest, contact the [AWG Chair Kris Britton](rbritton@mitre.org) and he will get you the information you need to get started.
 
-##### <strong>If you cannot participate in the Penetration Testing II event, you can still get familiar with CVE Services 2.1</strong>
+#### <strong>If you cannot participate in the Penetration Testing II event, you can still get familiar with CVE Services 2.1</strong>
 
 CVE Services 2.1 will be a major upgrade to CVE Services 1.1.1 as it will provide the API for “client applications” to not only reserve CVE IDs in “near real time” and manage your own “user base” but it will also support the automated submission and update of CVE Records. When it is deployed, CNAs will be able “Post” records immediately to the CVE List with the records being available to the public in near real-time. 
 
