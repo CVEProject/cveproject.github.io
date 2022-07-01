@@ -90,11 +90,11 @@ After CVE Services/JSON 5.0 is deployed, this method will only accept direct use
 
 To use this method, CNAs will need to present their CVE Services User ID and authentication token through [Vulnogram](https://vulnogram.github.io/cve5/#editor) to identify/authenticate to CVE Services. New users, please request CVE Services credentials from your Root. 
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid green">
 
 <h3>Active submission method.</h3>
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid green">
 
 <br/>
 
@@ -108,11 +108,11 @@ Three clients are currently available for use as part of CVE Services/JSON 5.0 d
  * [Red Hat command line interface – cvelib](https://github.com/RedHatProductSecurity/cvelib)
  * [CERT/CC simple HTML interface – cveClient](https://github.com/CERTCC/cveClient)
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid green">
 
 <h3>Active submission method.</h3>
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid green">
 
 <br/>
 
@@ -120,11 +120,11 @@ Three clients are currently available for use as part of CVE Services/JSON 5.0 d
 
 CNAs may develop their own CVE Services clients. The CVE Program is currently preparing documentation to support that development, which will be announced in a future bulletin.
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid green">
 
 <h3>Active submission method.</h3>
 
-<hr style="border:1px solid black">
+<hr style="border:1px solid green">
 
 <br/>
 
@@ -141,7 +141,7 @@ The message below, sent to CNAs by the Quality Working Group (QWG) on March 21, 
 
 CNAs,
 
-The GitHub submission pilot has been using an experimental JSON format (version 4.0) for publishing CVE Records. The CVE Quality Working Group has been working to improve this format for use with the upcoming [CVE Services API](https://github.com/CVEProject/cve-services), with a better-specified schema while fulfilling new requirements from the CVE Program ([version 5.0](https://github.com/CVEProject/cve-schema)).
+The GitHub submission pilot has been using an experimental JSON format (version 4.0) for publishing CVE Records. The CVE Quality Working Group has been working to improve this format for use with the upcoming [CVE Services API](https://github.com/CVEProject/cve-services), with a better-specified schema while fulfilling new requirements from the CVE Program ([version 5.0](https://github.com/CVEProject/cve-schema).
 
 As part of this process, all existing CVE Records (about 181 thousand) are being programmatically upconverted and are available at [https://github.com/CVEProject/cvelistV5/tree/master/review_set](https://github.com/CVEProject/cvelistV5/tree/master/review_set) (last updated March 15th).
 
@@ -162,7 +162,7 @@ During this process, 314 records had issues with the data and are autocorrected 
    If you have a CVE Record that needs to be fixed, you have a few options:
    <br><br>
       <ul>
-        <li>(Preferred) wait for the record submission feature in the CVE Services to be available (ETA June 2022)</li>
+        <li>(Preferred) wait for the record submission feature in the CVE Services to be available (TBA)</li>
         <li>Submit corrections to the records via the Git pilot submission process</li>
         <li>No action is needed if the autocorrects make sense to you</li>
       </ul>
@@ -173,7 +173,7 @@ During this process, 314 records had issues with the data and are autocorrected 
   </li>
  </ol>
 
-If you have any further questions, please feel free to raise them with the CVE Quality Working Group ([cve-board-qualitywg-list@mitre.org](mailto:cve-board-qualitywg-list@mitre.org)) or as issues at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues).
+If you have any further questions, please feel free to raise them with the CVE Quality Working Group ([cve-board-qualitywg-list@mitre.org](mailto:cve-board-qualitywg-list@mitre.org) or as issues at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues).
 
 ## Bulletin Number 4
 <strong>*CVE Services Transition  —  March 21, 2022*</strong>
@@ -208,7 +208,9 @@ Detailed descriptions of the two newly added activities for Bulletin #3 are incl
 <br>
 <strong>Updated Transition Schedule</strong>
 
-See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2) for descriptions of activities 1-6; descriptions for activities 7 and 8 are  above.
+><strong>IMPORTANT:</strong> The timeframes in this bulletin have changed. Please see the newest bulletins above for the most current information.
+
+See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2) for descriptions of activities 1-6; descriptions for activities 7 and 8 are above.
 
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
@@ -263,6 +265,8 @@ Please check this page regularly for updates. In addition, there will be follow-
 
 ## Bulletin Number 2
 <strong>*CVE Services Transition  —  February 11, 2022*</strong>
+ 
+><strong>IMPORTANT:</strong> The timeframes in this bulletin have changed. Please see the newest bulletins above for the most current information.
 
 For CVE CNAs, the transition to CVE Services and JSON 5.0 began in December 2019 with the deployment of CVE Services 1.0 (the CVE ID Reservation (IDR) system) and the continued review and evolution the new CVE Record format (i.e., JSON 5.0). In June 2020 CVE Services 1.1 was deployed and in September 2021 CVE Services 2.0 was deployed into the new CVE Testing Instance. In November 2021, the community finalized the new JSON 5.0 format with the release of JSON 5.0 Release Candidate 5. Additional transition activities will take place in the spring of 2022 that will culminate in a major step forward for the automation effort for the program and the adoption of a richer, more robust CVE Record format (i.e., CVE JSON 5.0).
 
