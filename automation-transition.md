@@ -45,6 +45,7 @@ As we prepare for CVE Services 2.x/JSON 5.0 roll-out in the coming weeks, there 
 This bulletin clarifies the CVE Program specific methods that will be available to CNAs for reserving CVE IDs and submitting CVE Records after CVE Services/JSON 5.0 deployment. For non-CNAs, the existing method for requesting CVE IDs will not be affected.
 
 <h3>Non-CNA Submission Methods</h3>
+
 Non-CNAs will continue to contact the appropriate CNA to request CVE IDs, as described on the [Report/Request](https://www.cve.org/ResourcesSupport/ReportRequest) page on the CVE Program website. The CNA that assigns the ID will publish the CVE Record.
 
 In addition, the CVE Program Secretariat will continue to maintain the [CVE Program Request web form](https://cveform.mitre.org/) for non-CNAs to submit vulnerability reports.
@@ -226,32 +227,32 @@ See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#
       <td>CVE Services 2.1 Community Penetration Testing</td>
       <td>Mid-to-late March 2022 (will run for approximately 3 weeks)</td>
     </tr>
-      <tr>
+    <tr>
       <td style="padding-left:3%;">3</td>
       <td>CNA Community Review of Historical JSON 5.0 Records</td>
       <td>January through April 2022</td>
     </tr>
-      <tr>
+    <tr>
       <td style="padding-left:3%;">4</td>
       <td>CVE Services 2.1/JSON 5.0 Soft Deployment</td>
       <td>Mid-to-late April 2022 (will span approximately 3 weeks)</td>
     </tr>
-      <tr>
+    <tr>
       <td style="padding-left:3%;">5</td>
       <td>CVE Services 2.1/JSON 5.0 Hard Deployment</td>
       <td>Late April 2022</td>
     </tr>
-      <tr>
+    <tr>
       <td style="padding-left:3%;">6</td>
       <td>JSON 4.0 Retirement</td>
       <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
     </tr>
-      <tr>
+    <tr>
       <td style="padding-left:3%;">7</td>
       <td>CVE List GitHub Submission Pilot Retirement</td>
       <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
     </tr>
-      <tr>
+    <tr>
       <td style="padding-left:3%;">8</td>
       <td>CVE List Download Format Changes</td>
       <td>July 2022 (3 months after JSON 5.0 is made available to CVE downstream users)</td>
@@ -259,6 +260,7 @@ See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#
   </table>
   
 <br>
+
 Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on the [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the [CVE CNA Slack channel](https://cve-cna.slack.com/), and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
 
 ## Bulletin Number 2
