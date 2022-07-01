@@ -32,24 +32,24 @@ Some important things to note:
 
 ## The basic process for reserving a CVE ID is as follows:
 
-1.	[Determine if a CVE ID is needed and appropriate.](#determine-if-a-cve-id-is-needed-and-appropriate.) If yes,
+1.	[Determine if a CVE ID is needed and appropriate.](#1-determine-if-a-cve-id-is-needed-and-appropriate) If yes,
 2.	[Contact a vendor whose product is affected to disclose a
-    vulnerability (coordinated disclosure).](#contact-the-affected-product-vendor-directly)
-3.	[Determine whether the request should be made to a vendor CNA.](#requests-to-a-vendor-cna) If no,
+    vulnerability (coordinated disclosure).](#2-contact-the-affected-product-vendor-directly)
+3.	[Determine whether the request should be made to a vendor CNA.](#3-requests-to-a-vendor-cna) If no,
 4.	[Determine whether the request should be made to a third party
-    coordinator CNA, or to a disclosure mailing list.](#requests-to-third-party-coordinator-cnas-or-email-lists) If no,
-5.	[Request a CVE ID from DWF](#requests-to-dwf)
-6.	[Request a CVE ID from MITRE using the CVE Request web form.](#requests-to-mitre)
-7.	[Provide the required information in the request.](#information-to-provide-in-the-request-to-mitre)
-7.	[Receive a confirmation email with a reference number and save it for your records.](#confirmation-of-request)
-8.	[Provide follow-up information as needed.](#followup-information-requests-from-mitre)
+    coordinator CNA, or to a disclosure mailing list.](#4-requests-to-third-party-coordinator-cnas-or-email-lists) If no,
+5.	[Request a CVE ID from DWF](#5-requests-to-dwf)
+6.	[Request a CVE ID from MITRE using the CVE Request web form.](#6-requests-to-mitre)
+7.	[Provide the required information in the request.](#7-information-to-provide-in-the-request-to-mitre)
+7.	[Receive a confirmation email with a reference number and save it for your records.](#8-confirmation-of-request)
+8.	[Provide follow-up information as needed.](#9-follow-up-information-requests-from-mitre)
 9.	[Receive a CVE ID (or an explanation if a CVE ID was not
-    provided)](#receive-a-cve-id-or-rationale-if-not-assigned)
-10.	[Share the CVE ID with all parties.](#sharing-the-cve-id-with-others)
-11.	[Include the CVE ID in the announcement of the vulnerability.](#information-to-include-in-a-vulnerability-announcement)
+    provided)](#10-receive-a-cve-id-or-rationale-if-not-assigned)
+10.	[Share the CVE ID with all parties.](#11-sharing-the-cve-id-with-others)
+11.	[Include the CVE ID in the announcement of the vulnerability.](#12-information-to-include-in-a-vulnerability-announcement)
 12.	[Notify MITRE that the vulnerability has been made public using
     the CVE Request web form, and selecting "Notify CVE about a
-	Publication."](#notify-the-mitre-cve-assignment-team-of-publication)
+	Publication."](#13-notify-the-mitre-cve-assignment-team-of-publication)
 
 The CVE is then published by MITRE and will appear on the CVE List.
 
