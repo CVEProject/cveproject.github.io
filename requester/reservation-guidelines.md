@@ -292,7 +292,8 @@ for responsible vulnerability disclosure practices.
    Organization for Internet Safety. Version 2.0, 01 September 2004.
 
    [http://www.oisafety.org/](http://www.oisafety.org/)
-   [http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf](http://www.symantec.com/security/OIS_Guidelines for responsible disclosure.pdf)
+   
+   [http://www.symantec.com/security/OIS_Guidelines for responsible disclosure.pdf](http://www.symantec.com/security/OIS_Guidelines%20for%20responsible%20disclosure.pdf)
 
 2. "Responsible Vulnerability Disclosure Process," IETF draft
    document, Christey/Wysopal. February 2002.
