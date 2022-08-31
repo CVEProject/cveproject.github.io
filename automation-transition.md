@@ -13,6 +13,15 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 ## Transition Details
 
+## Bulletin Number 8
+<strong>*SAVE THE DATE -“CVE Services Workshop” for CNAs to be held on November 2, 2022  —  August 25, 2022*</strong>
+
+[*CVE Services Workshop* for CNAs to Be Held on November 2, 2022](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs) — This announcement for CNAs about the upcoming *CVE Services Workshop* was sent to the CVE CNA Discussion email list on August 25, 2022 and posted on the main CVE website on August 30, 2022.
+
+Details about the [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview)/[CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) deployment plan and schedule will be announced very soon, so please keep an eye out. 
+
+Questions? Please use the [CVE Request Web Forms ](https://cveform.mitre.org/) and select “Other” from the dropdown.
+
 ## Bulletin Number 7
 <strong>*Call for Community Penetration Testing Volunteers to Test CVE Services 2.1 —  June 23, 2022*</strong>
 
