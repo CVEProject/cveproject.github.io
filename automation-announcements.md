@@ -5,7 +5,7 @@ layout: page
 
 Links to updates and announcements about the [CVE Services v2.1](https://github.com/CVEProject/cve-services) and [CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json) transition are included below. Please [contact us](https://cveform.mitre.org/) with any comments or questions.
 
-### [CVE Services 2.1 - Record Submission and Upload Service (RSUS) / CVE JSON 5.0 Deployment Update - Transition Bulletin #9](https://cveproject.github.io/automation-transition#bulletin-number-9) 
+### [Deployment Update for CVE Services 2.1 - Record Submission and Upload Service (RSUS) and CVE JSON 5.0 - Transition Bulletin #9](https://cveproject.github.io/automation-transition#bulletin-number-9) 
 CVE Services Website | September 7, 2022
 
 ### [“CVE Services Workshop” for CNAs to Be Held on November 2, 2022 - Transition Bulletin #8](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs) 
