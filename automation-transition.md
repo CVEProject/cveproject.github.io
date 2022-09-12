@@ -14,7 +14,7 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 ## Transition Details
 
 ## Bulletin Number 9
-<strong>*Deployment Update for CVE Services 2.1 - Record Submission and Upload Service (RSUS) and CVE JSON 5.0 — September 7, 2022*</strong>
+<strong>*Deployment Update for CVE Services 2.1 - Record Submission and Upload Service (RSUS) and CVE JSON 5.0 — September 12, 2022*</strong>
 
 The CVE Program is in the final stages of planning its next steps in its automation update strategy. In Transition Bulletins [#2](https://cveproject.github.io/automation-transition#bulletin-number-2) and [#3](https://cveproject.github.io/automation-transition#bulletin-number-3) we laid out a broad transition strategy that would culminate in a new automated approach for CNAs to submit CVE Records.
 
