@@ -36,7 +36,7 @@ There are currently three clients that have been developed for community adoptio
   <table style="padding-left:5%;padding-left:30%;">
     <tr>
       <th style="width:30%;padding-left:3%;">Client Name</th>
-      <th style="width:70%">Notes</th>
+      <th style="width:70%;padding-left:3%;">Notes</th>
     </tr>
     <tr>
       <td style="padding-left:3%;"><a href="https://vulnogram.github.io/#editor">Vulnogram</a></td>
