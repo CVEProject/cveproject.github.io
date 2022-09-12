@@ -84,7 +84,7 @@ If you wish to take advantage of these new endpoints, the client that you use wi
 
 Note that all of the old CVE Record submission processes (using CVE JSON 4.0) [see Bulletin #6](https://cveproject.github.io/automation-transition#bulletin-number-6) will be maintained for a period of time after this deployment, so you need not adopt CVE JSON 5.0/CVE Services 2.1  immediately, however, you should begin thinking about how you are going to do that in the very near future. 
 
-><strong>Also, CNAs should make preparations to participate in the virtual “[CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs)” for CNAs to learn how to use CVE Services 2.1/CVE JSON 5.0 scheduled for November 2, 2022, from 11:00 a.m. – 5:00 p.m. ET. Learn more [here](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs).
+><strong>CNAs should also make preparations to participate in the virtual “[CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs)” for CNAs to learn how to use CVE Services 2.1/CVE JSON 5.0 scheduled for November 2, 2022, from 11:00 a.m. – 5:00 p.m. ET. Learn more [here](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs).
 
 Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
 
