@@ -13,6 +13,81 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 ## Transition Details
 
+## Bulletin Number 9
+<strong>*CVE Services 2.1 - Record Submission and Upload Service (RSUS) / CVE JSON 5.0 Deployment Update — September 7, 2022*</strong>
+
+The CVE Program is in the final stages of planning its next steps in its automation update strategy. In Transition Bulletins [#2](https://cveproject.github.io/automation-transition#bulletin-number-2) and [#3](https://cveproject.github.io/automation-transition#bulletin-number-3) we laid out a broad transition strategy that would culminate in a new automated approach for CNAs to submit CVE Records.
+
+<h3>Soft Deployment Schedule</h3>
+
+“Soft Deployment” of [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview)/[CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) will begin the first week of October 2022, and will be implemented in two phases over the course of the month:
+
+* <strong>Phase I –</strong> This phase will begin the first week of October (10/3/22 – 10/9/22) with an update of the [CVE Services 2.1 - CVE IDR Reservation (IDR) Service](https://github.com/CVEProject/cve-services). At the completion of the Phase I on October 10, CNAs using CVE Services for CVE ID Reservation will be using CVE Services 2.1. 
+
+* <strong>Phase II –</strong> The CVE IDR System update that was completed in Phase I will lay the groundwork for Phase II (i.e., the soft deployment of [CVE Services 2.1 – Record Submission and Upload Service (RSUS)](https://github.com/CVEProject/cve-services), which will take place the last full week of October (10/24/22 – 10/28/22). At the completion of Phase II on October 31, CNAs will have the ability to submit CVE JSON 5.0 records using the new CVE Services 2.1 RSUS interfaces to the live CVE List.
+
+<h3>How CNAs Should Prepare</h3>
+
+<h4>Preparing for Phase I (Week 1 October)</h4>
+
+Current users of the CVE Services 1.1.1 - IDR Service will need to migrate to a client that has been upgraded to be compatible with CVE Services 2.1 - IDR Service.   
+There are currently three clients that have been developed for community adoption that are expected to be ready for the first week of October that you can adopt:
+
+  <table style="padding-left:5%;padding-left:30%;">
+    <tr>
+      <th style="width:30%;padding-left:3%;">Client Name</th>
+      <th style="width:70%">Notes</th>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><a href="https://vulnogram.github.io/#editor">Vulnogram</a></td>
+      <td>
+          <ul>
+               <li>A client with a robust GUI</li>
+               <li>Can be installed locally or it can be used from the internet through a web browser</li>
+          </ul>
+     </td>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><a href="https://certcc.github.io/cveClient/">cveClient</a></td>
+      <td>
+          <ul>
+               <li>A client with a simple GUI</li>
+               <li>Can be installed locally or run from the internet through a web browser</li>
+          </ul>
+     </td>
+    </tr>
+      <tr>
+      <td style="padding-left:3%;"><a href="https://github.com/RedHatProductSecurity/cvelib/tree/cve-services-2.1.0">cvelib</a></td>
+      <td>
+          <ul>
+               <li>A command line client</li>
+               <li>Can downloaded and incorporated into existing tooling structure</li>
+          </ul>
+     </td>
+    </tr>
+  </table>
+
+If your organization has created a unique automation framework that interfaces with CVE Services, contact your framework administrator to determine their plans for migrating to CVE Services 2.1 
+
+If there is concern that the client you are using will not be upgraded by October 3, following are some options that may work for you:
+
+* Prior to October 3, reserve a “block” of IDs to carry you through the month while your clients are upgraded.
+* Temporarily adopt one of the publicly available clients that are being actively supported by community members. 
+
+As we get closer to the deployment date for Phase I, we will send out reminders and note the specific days that CVE Records processing will be suspended while we update the software and the repositories. 
+
+<h4>Preparing for Phase II (Week 4 October)</h4>
+
+Phase II deployment will be an update to make the CVE Services 2.1 - RSUS endpoints available to the CVE Services clients for use by the CNA community.
+
+If you wish to take advantage of these new endpoints, the client that you use will need to be designed to specifically do that.  You may adopt one of the recommended clients listed above (which will upgraded to take advantage of the new endpoints).  If you are operating in a unique organizational CVE framework, contact your framework administrators to gain insight into their plans for adoption of CVE JSON 5.0 and CVE Services 2.1 
+
+Note that all of the old CVE Record submission processes (using CVE JSON 4.0) [see Bulletin #6](https://cveproject.github.io/automation-transition#bulletin-number-6) will be maintained for a period of time after this deployment, so you need not adopt CVE JSON 5.0/CVE Services 2.1  immediately, however, you should begin thinking about how you are going to do that in the very near future. 
+
+Also, CNAs should make preparations to participate in the virtual “[CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs)” for CNAs to learn how to use CVE Services 2.1/CVE JSON 5.0 scheduled for November 2, 2022, from 11:00 a.m. – 5:00 p.m. ET. Learn more [here](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs).
+
+Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
+
 ## Bulletin Number 8
 <strong>*SAVE THE DATE -“CVE Services Workshop” for CNAs to be held on November 2, 2022  —  August 25, 2022*</strong>
 
