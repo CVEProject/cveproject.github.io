@@ -41,8 +41,8 @@ The table below provides an overview for CNAs of what to expect in October. Post
     <tr>
       <th style="width:20%;padding-left:3%;">Action</th>
       <th style="width:20%;padding-left:2%;">Now</th>
-      <th style="width:35%;padding-left:2%;">Phase 1 Beginning October 5th</th>
-      <th style="width:25%;padding-left:2%;">Phase 2 Beginning Last week in October</th>
+      <th style="width:25%;padding-left:2%;">Phase 1 Beginning October 5th</th>
+      <th style="width:35%;padding-left:2%;">Phase 2 Beginning Last week in October</th>
     </tr>
     <tr>
       <td style="padding-left:3%;"><strong>Reserve CVE IDs</strong></td>
