@@ -21,15 +21,15 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 <h3>Overview</h3>
 
-Phase 1 of soft deployment—to release CVE Services-IDR 2.1—began today on <strong>October 3, 2022, at 1:00 p.m. EDT.  Entering Phase 1 will take approximately 48 hours, completing on October 5</strong>. During this time, the CVE Program will convert the current CVE JSON 4.0 repository to CVE JSON 5.0, upgrade the software, and perform validation.  
+Phase 1 of soft deployment&mdash;to release CVE Services-IDR 2.1&mdash;began today on <strong>October 3, 2022, at 1:00 p.m. EDT.  Entering Phase 1 will take approximately 48 hours, completing on October 5</strong>. During this time, the CVE Program will convert the current CVE JSON 4.0 repository to CVE JSON 5.0, upgrade the software, and perform validation.  
 <br/> 
 ><strong>During this 48-hour period, the system will be taken “offline” and CVE ID assignment and posting CVE Records to the CVE List will be suspended.  
 <br/>
 CVE Records submitted during this time will be “queued” and advanced to the CVE List when the system is brought back “online.”</strong>
  
-We will make an announcement via this email list and on the CVE Services Slack Channel prior to taking the system down and again when we bring the system back up. Phase I marks the beginning of a significant transition for the CVE Program. You may see anomalies in processing data during the course of this transition. You can report anomalies/issues to CVE Services Slack Channel, which will be monitored from 9:00 a.m. to 5:00 p.m. ET weekdays for technical support.  In addition, you can report any anomalies for the CVE Program Web Form as well. 
+We will make an announcement via this email list and on the CVE Services Slack Channel prior to taking the system down and again when we bring the system back up. Phase I marks the beginning of a significant transition for the CVE Program. You may see anomalies in processing data during the course of this transition. You can report anomalies/issues to CVE Services Slack Channel, which will be monitored from 9:00 a.m. to 5:00 p.m. EDT weekdays for technical support. In addition, you can report any anomalies using the [CVE Program Web Forms](https://cveform.mitre.org/)(select "Other" from the droopdown menu) as well. 
 
-Phase 2 of soft deployment—to release CVE Services-RSUS 2.1—will take place during last week of October. An RSUS-specific deployment bulletin will be sent as we approach that date.
+Phase 2 of soft deployment&mdash;to release CVE Services-RSUS 2.1&mdash;will take place during last week of October. An RSUS-specific deployment bulletin will be sent as we approach that date.
 
 <h3>CVE Services 2.1 October Transition Description</h3>
 
