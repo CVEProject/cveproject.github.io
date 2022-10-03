@@ -34,15 +34,15 @@ Phase 2 of soft deployment—to release CVE Services-RSUS 2.1—will take place 
 <h3>CVE Services 2.1 October Transition Description</h3>
 
 The table below provides an overview for CNAs of what to expect in October. Post October “next steps” will be announced in future bulletins. 
-
-<h4>CNA &ndash; CVE ID Reservation/ CVE Record Uploading / User Registry Operations</h4>
-
-<table style="padding-left:5%;padding-left:30%;">
+<br/>
+<h4>CVE ID Reservation/ CVE Record Uploading / User Registry Operations</h4>
+<br/>
+<table style="padding-left:5%;padding-right:30%;">
     <tr>
-      <th style="width:10%;padding-left:3%;">Action</th>
-      <th style="width:10%;padding-left:2%;">Now</th>
-      <th style="width:40%;padding-left:2%;">Phase 1 Beginning October 5th</th>
-      <th style="width:40%;padding-left:2%;">Phase 2 Beginning Last week in October</th>
+      <th style="width:15%;padding-left:3%;">Action</th>
+      <th style="width:15%;padding-left:2%;">Now</th>
+      <th style="width:35%;padding-left:2%;">Phase 1 Beginning October 5th</th>
+      <th style="width:35%;padding-left:2%;">Phase 2 Beginning Last week in October</th>
     </tr>
     <tr>
       <td style="padding-left:3%;"><strong>Reserve CVE IDs</strong></td>
