@@ -13,6 +13,66 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 ## Transition Details
 
+## Bulletin Number 10
+
+<strong>*Schedule for October Deployment of CVE Services 2.1/CVE JSON 5.0 — October 3, 2022*</strong>
+
+[CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview)/[CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) Soft Deploy will occur during the entire month of October with Phase 1 beginning on October 3 and Phase 2 occurring during the last week of October. See [Bulletin #9](https://cveproject.github.io/automation-transition#bulletin-number-9) for a full description of all the Soft Deploy phases and how to prepare.
+
+<h3>Overview</h3>
+
+Phase 1 of soft deployment—to release CVE Services-IDR 2.1—began today on <strong>October 3, 2022, at 1:00 p.m. EDT.  Entering Phase 1 will take approximately 48 hours, completing on October 5</strong>. During this time, the CVE Program will convert the current CVE JSON 4.0 repository to CVE JSON 5.0, upgrade the software, and perform validation.  
+<br/> 
+><strong>During this 48-hour period, the system will be taken “offline” and CVE ID assignment and posting CVE Records to the CVE List will be suspended.  
+<br/>
+CVE Records submitted during this time will be “queued” and advanced to the CVE List when the system is brought back “online.”</strong>
+ 
+We will make an announcement via this email list and on the CVE Services Slack Channel prior to taking the system down and again when we bring the system back up. Phase I marks the beginning of a significant transition for the CVE Program. You may see anomalies in processing data during the course of this transition. You can report anomalies/issues to CVE Services Slack Channel, which will be monitored from 9:00 a.m. to 5:00 p.m. ET weekdays for technical support.  In addition, you can report any anomalies for the CVE Program Web Form as well. 
+
+Phase 2 of soft deployment—to release CVE Services-RSUS 2.1—will take place during last week of October. An RSUS-specific deployment bulletin will be sent as we approach that date.
+
+<h3>CVE Services 2.1 October Transition Description</h3>
+
+The table below provides an overview for CNAs of what to expect in October. Post October “next steps” will be announced in future bulletins. 
+
+<h4>CNA CVE ID Reservation/ CVE Record Uploading / User Registry Operations</h4>
+
+  <table style="padding-left:5%;padding-left:30%;">
+    <tr>
+      <th style="width:10%;padding-left:3%;">Action</th>
+      <th style="width:10%;padding-left:2%;">Now</th>
+      <th style="width:40%;padding-left:2%;">Phase 1 Beginning October 5th</th>
+      <th style="width:40%;padding-left:2%;">Phase 2 Beginning Last week in October</th>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><strong>Reserve CVE IDs</strong></td>
+      <td style="padding-left:3%;">IDR 1.1<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;"><strong>IDR 1.1 - DEPRECATED<br/>IDR 2.1 - AVAILABLE</strong><br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;"><strong>IDR 2.1 - AVAILABLE</strong><br/>CVE Request Web Form</td>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><strong> Submit CVE Records</strong></td>
+      <td style="padding-left:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot<br/>CVE Request Web
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><strong>User Registry</strong><br/>(CNA manages its CVE Services users)</td>
+      <td style="padding-left:3%;">IDR 1.1</td>
+      <td style="padding-left:3%;"><strong>IDR 1.1 - DEPRECATED<br/>IDR 2.1 - REQUIRED</strong></td>
+      <td style="padding-left:3%;"><strong>IDR 2.1 – REQUIRED</strong></td>
+    <tr>
+  </table>
+
+<h3>Save the date! — “CVE Services Workshop” Scheduled for November 2, 2022</h3>
+
+CNAs should also make preparations to participate in the virtual “[CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs)” for CNAs to learn how to use CVE Services 2.1/CVE JSON 5.0 scheduled for November 2, 2022, from 10am to 2pm ET. We are considering holding a second live workshop for CNAs in Asia at a better time for them.  If you are a CNA in Asia, please let us know if there is interest.   
+
+A registration link will be sent soon via the CNA Discussion List, so please watch for that email. There is no limit on the number of attendees that can participate from your organization.
+<br/><br/>
+
+Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
+
 ## Bulletin Number 9
 <strong>*Deployment Update for CVE Services 2.1 - Record Submission and Upload Service (RSUS) and CVE JSON 5.0 — September 12, 2022*</strong>
 
@@ -84,7 +144,7 @@ If you wish to take advantage of these new endpoints, the client that you use wi
 
 Note that all of the old CVE Record submission processes (using CVE JSON 4.0) [see Bulletin #6](https://cveproject.github.io/automation-transition#bulletin-number-6) will be maintained for a period of time after this deployment, so you need not adopt CVE JSON 5.0/CVE Services 2.1  immediately, however, you should begin thinking about how you are going to do that in the very near future. 
 
-><strong>CNAs should also make preparations to participate in the virtual “[CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs)” for CNAs to learn how to use CVE Services 2.1/CVE JSON 5.0 scheduled for November 2, 2022, from 11:00 a.m. – 5:00 p.m. ET. Learn more [here](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs).
+><strong>CNAs should also make preparations to participate in the virtual “[CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs)” for CNAs to learn how to use CVE Services 2.1/CVE JSON 5.0 scheduled for November 2, 2022, from 11:00 a.m. – 5:00 p.m. ET. Learn more [here](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs).</strong>
 
 Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
 
