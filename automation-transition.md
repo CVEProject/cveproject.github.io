@@ -41,8 +41,8 @@ The table below provides an overview for CNAs of what to expect in October. Post
     <tr>
       <th style="width:20%;padding-left:3%;">Action</th>
       <th style="width:20%;padding-left:2%;">Now</th>
-      <th style="width:30%;padding-left:2%;">Phase 1 Beginning October 5th</th>
-      <th style="width:30%;padding-left:2%;">Phase 2 Beginning Last week in October</th>
+      <th style="width:35%;padding-left:2%;">Phase 1 Beginning October 5th</th>
+      <th style="width:25%;padding-left:2%;">Phase 2 Beginning Last week in October</th>
     </tr>
     <tr>
       <td style="padding-left:3%;"><strong>Reserve CVE IDs</strong></td>
@@ -63,7 +63,7 @@ The table below provides an overview for CNAs of what to expect in October. Post
       <td style="padding-left:3%;padding-top:3%;"><strong>IDR 2.1 – REQUIRED</strong></td>
     </tr>
   </table>
-
+<br/>
 <h3>Save the date! — “CVE Services Workshop” Scheduled for November 2, 2022</h3>
 
 CNAs should also make preparations to participate in the virtual “[CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs)” for CNAs to learn how to use CVE Services 2.1/CVE JSON 5.0 scheduled for November 2, 2022, from 10am to 2pm ET. We are considering holding a second live workshop for CNAs in Asia at a better time for them.  If you are a CNA in Asia, please let us know if there is interest.   
