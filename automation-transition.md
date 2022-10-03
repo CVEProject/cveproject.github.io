@@ -37,7 +37,7 @@ The table below provides an overview for CNAs of what to expect in October. Post
 <br/><br/>
 <h4>CVE ID Reservation/ CVE Record Uploading / User Registry Operations</h4>
 <br/>
-<table style="padding-left:5%;padding-right:30%;border="1";">
+<table style="padding-left:5%;padding-right:30%;">
     <tr>
       <th style="width:25%;padding-left:3%;">Action</th>
       <th style="width:25%;padding-left:2%;">Now</th>
