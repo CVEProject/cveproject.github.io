@@ -27,7 +27,7 @@ Phase 1 of soft deployment&mdash;to release CVE Services-IDR 2.1&mdash;began tod
 <br/>
 CVE Records submitted during this time will be “queued” and advanced to the CVE List when the system is brought back “online.”</strong>
  
-We will make an announcement via this email list and on the CVE Services Slack Channel prior to taking the system down and again when we bring the system back up. Phase I marks the beginning of a significant transition for the CVE Program. You may see anomalies in processing data during the course of this transition. You can report anomalies/issues to CVE Services Slack Channel, which will be monitored from 9:00 a.m. to 5:00 p.m. EDT weekdays for technical support. In addition, you can report any anomalies using the [CVE Program Web Forms](https://cveform.mitre.org/)(select "Other" from the droopdown menu) as well. 
+We will make an announcement via this email list and on the CVE Services Slack Channel prior to taking the system down and again when we bring the system back up. Phase I marks the beginning of a significant transition for the CVE Program. You may see anomalies in processing data during the course of this transition. You can report anomalies/issues to CVE Services Slack Channel, which will be monitored from 9:00 a.m. to 5:00 p.m. EDT weekdays for technical support. In addition, you can report any anomalies using the [CVE Program Web Forms](https://cveform.mitre.org/) (select "Other" from the droopdown menu) as well. 
 
 Phase 2 of soft deployment&mdash;to release CVE Services-RSUS 2.1&mdash;will take place during last week of October. An RSUS-specific deployment bulletin will be sent as we approach that date.
 
