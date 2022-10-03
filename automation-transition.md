@@ -37,7 +37,7 @@ The table below provides an overview for CNAs of what to expect in October. Post
 
 <h4>CNA CVE ID Reservation/ CVE Record Uploading / User Registry Operations</h4>
 
-<table>
+<table style="padding-left:5%;padding-left:30%;">
     <tr>
       <th style="width:10%;padding-left:3%;">Action</th>
       <th style="width:10%;padding-left:2%;">Now</th>
@@ -54,7 +54,7 @@ The table below provides an overview for CNAs of what to expect in October. Post
       <td style="padding-left:3%;"><strong> Submit CVE Records</strong></td>
       <td style="padding-left:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
       <td style="padding-left:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
-      <td style="padding-left:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot<br/>CVE Request Web
+      <td style="padding-left:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot<br/>CVE Request Web</td>
     </tr>
     <tr>
       <td style="padding-left:3%;"><strong>User Registry</strong><br/>(CNA manages its CVE Services users)</td>
