@@ -35,7 +35,7 @@ Phase 2 of soft deployment—to release CVE Services-RSUS 2.1—will take place 
 
 The table below provides an overview for CNAs of what to expect in October. Post October “next steps” will be announced in future bulletins. 
 
-<h4>CNA CVE ID Reservation/ CVE Record Uploading / User Registry Operations</h4>
+<h4>CNA &ndash; CVE ID Reservation/ CVE Record Uploading / User Registry Operations</h4>
 
 <table style="padding-left:5%;padding-left:30%;">
     <tr>
@@ -61,7 +61,7 @@ The table below provides an overview for CNAs of what to expect in October. Post
       <td style="padding-left:3%;">IDR 1.1</td>
       <td style="padding-left:3%;"><strong>IDR 1.1 - DEPRECATED<br/>IDR 2.1 - REQUIRED</strong></td>
       <td style="padding-left:3%;"><strong>IDR 2.1 – REQUIRED</strong></td>
-    <tr>
+    </tr>
   </table>
 
 <h3>Save the date! — “CVE Services Workshop” Scheduled for November 2, 2022</h3>
