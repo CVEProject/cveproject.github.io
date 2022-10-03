@@ -46,21 +46,21 @@ The table below provides an overview for CNAs of what to expect in October. Post
     </tr>
     <tr>
       <td style="padding-left:3%;"><strong>Reserve CVE IDs</strong></td>
-      <td style="padding-left:3%;">IDR 1.1<br/>CVE Request Web Form</td>
-      <td style="padding-left:3%;"><strong>IDR 1.1 - DEPRECATED<br/>IDR 2.1 - AVAILABLE</strong><br/>CVE Request Web Form</td>
-      <td style="padding-left:3%;"><strong>IDR 2.1 - AVAILABLE</strong><br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;">IDR 1.1<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>IDR 1.1 - DEPRECATED<br/>IDR 2.1 - AVAILABLE</strong><br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>IDR 2.1 - AVAILABLE</strong><br/>CVE Request Web Form</td>
     </tr>
     <tr>
-      <td style="padding-left:3%;"><strong> Submit CVE Records</strong></td>
-      <td style="padding-left:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
-      <td style="padding-left:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
-      <td style="padding-left:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot<br/>CVE Request Web</td>
+      <td style="padding-left:3%;"><strong>Submit CVE Records</strong></td>
+      <td style="padding-left:3%;padding-top:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;">GitHub CVEList Pilot<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot<br/>CVE Request Web</td>
     </tr>
     <tr>
       <td style="padding-left:3%;"><strong>User Registry</strong><br/>(CNA manages its CVE Services users)</td>
-      <td style="padding-left:3%;">IDR 1.1</td>
-      <td style="padding-left:3%;"><strong>IDR 1.1 - DEPRECATED<br/>IDR 2.1 - REQUIRED</strong></td>
-      <td style="padding-left:3%;"><strong>IDR 2.1 – REQUIRED</strong></td>
+      <td style="padding-left:3%;padding-top:3%;">IDR 1.1</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>IDR 1.1 - DEPRECATED<br/>IDR 2.1 - REQUIRED</strong></td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>IDR 2.1 – REQUIRED</strong></td>
     </tr>
   </table>
 
