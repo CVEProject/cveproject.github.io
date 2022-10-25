@@ -406,7 +406,7 @@ See [Transition Bulletin #2](https://cveproject.github.io/automation-transition#
   
 <br>
 
-Please check this page regularly for updates. In addition, there will be follow-on communications to CNAs on the [CVE CNA Discussion email list](mailto:cve-cna-list@mitre.org), on the [CVE CNA Slack channel](https://cve-cna.slack.com/), and on CVE social media. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+If you have any further questions, please feel free to raise them with the [CVE Quality Working Group](cve-board-qualitywg-list@mitre.org) or as issues at [https://github.com/CVEProject/cve-schema/issues](https://github.com/CVEProject/cve-schema/issues).
 
 ## Bulletin Number 2
 <strong>*CVE Services Transition  —  February 11, 2022*</strong>
