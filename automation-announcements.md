@@ -5,6 +5,9 @@ layout: page
 
 Links to updates and announcements about the [CVE Services v2.1](https://github.com/CVEProject/cve-services) and [CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json) transition are included below. Please [contact us](https://cveform.mitre.org/) with any comments or questions.
 
+### [Soft Deployment of Record Submission and Upload Service/CVE JSON 5.0 Complete: What’s Next for CVE Services/CVE JSON 5.0 Adoption - Transition Bulletin #11](https://cveproject.github.io/automation-transition#bulletin-number-11) 
+CVE Services Website | October 27, 2022
+
 ### [Schedule for October Deployment of CVE Services 2.1/CVE JSON 5.0 - Transition Bulletin #10](https://cveproject.github.io/automation-transition#bulletin-number-10) 
 CVE Services Website | October 3, 2022
 
