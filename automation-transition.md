@@ -48,6 +48,8 @@ Post-October next steps, including advance notice for the eventual deprecation o
 <h4>CVE ID Reservation/CVE Record Uploading/User Registry Operations/Search-Viewing Records/CVE Downloads</h4>
 
 <br/>
+
+<div>
 <table style="padding-left:5%;padding-right:30%;">
     <tr>
       <th style="width:25%;padding-left:3%;">Action</th>
@@ -123,9 +125,12 @@ Post-October next steps, including advance notice for the eventual deprecation o
            GitHub CVEList Pilot (JSON 4.0)
       </td>
   </table>
+</div>
+
 <br/>
 
 Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
+
 
 ## Bulletin Number 10
 
