@@ -13,6 +13,119 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 ## Transition Details
 
+## Bulletin Number 11
+
+<strong>*Soft Deployment of Record Submission and Upload Service/CVE JSON 5.0 Complete:  What’s Next for CVE Services/CVE JSON 5.0 Adoption — October 27, 2022*</strong>
+
+Phase 1 of the soft deployment of [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview)/[CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) to deprecate CVE Services ID Reservation (IDR) 1.1 and release [CVE Services - IDR 2.1](https://github.com/CVEProject/cve-services), was completed on October 6, 2022.
+
+Phase 2, soft deployment of [CVE Services 2.1 – Record Submission and Upload Service (RSUS)](https://github.com/CVEProject/cve-services), was completed on October 25, 2022.
+
+See [Bulletin #10](https://cveproject.github.io/automation-transition#bulletin-number-10) and [Bulletin #9](https://cveproject.github.io/automation-transition#bulletin-number-9) for the schedule and complete descriptions of the soft deploy phases.
+
+<h3>Overview</h3>
+
+With the completion of CVE Services 2.1 Soft Deployment, we enter a “transition period” for CNAs to begin adopting the CVE JSON 5.0 format. During the transition period the CVE Program will support the current CVE Record Submission workflows (i.e., the [CVEList GitHub Pilot](https://github.com/CVEProject/cvelist) in CVE JSON 4.0 format and the [CVE Program Request web forms](https://cveform.mitre.org/) submission process) while introducing a new submission process using CVE JSON 5.0 (using CVE Services). CNAs should begin transitioning their CVE Record management infrastructure to use CVE JSON 5.0 format using CVE Services. 
+
+To begin the transition, CNAs should:
+
+1. Check out the [CVE Services Known Issues](https://cveproject.github.io/automation-cve-services-known-issues) page. This page will highlight some important issues that we know about and are working to correct. 2. If you uncover what you might think be an important issue for us to address, you can post it on the CVE Services Slack Channel (which is monitored from 9:00 a.m. – 5:00 p.m. ET weekdays) or by contacting the <a href="mailto:awg@cve-CWE-Programs.groups.io">https://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG</a>.
+3. If you have not already done so, review your historical CVE Records that have been upconverted for you into CVE JSON 5.0 format [here](https://github.com/CVEProject/cvelistV5). (Note that this list is not the official CVE List but only a review list for you to consider as part of this transition period. The official CVE List will continue to be [here](https://cve.mitre.org/cve/search_cve_list.html) and downloadable [here](https://www.cve.org/Downloads) in the traditional formats, based on CVE JSON 4.0 records).
+4. Make updates to your CVE Records using the new CVE Services if you find anomalies (see [Getting Started with CVE Services](https://cveproject.github.io/automation-cve-services-getting-started)).
+5. Begin planning your transition to the new CVE JSON 5.0 format and adoption of CVE Services.
+6. Attending the virtual [CVE Services Workshop](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs) scheduled for November 2, 2022, from 10:00 a.m. – 2:00 p.m. EDT.
+7. Report issues to the CVE Services Slack channel (or the web form), which will be monitored from 9:00 a.m. to 5:00 p.m. EDT for technical support. 
+8. Check out the new [CVE Services Transition Frequently Asked Questions](https://cveproject.github.io/automation-cve-services-faqs) page. If you have a question that is not answered here, you can submit that question for inclusion using the [CVE Program Request web forms](https://cveform.mitre.org/) (use the “other” form).
+
+Look for announcements of the next important CVE Services milestone (i.e., CVE Services “hard deploy” targeted for early 2023 which will introduce a “bulk download” capability for CVE JSON 5.0 records that will upgrade our current CVE List Download Architecture. (Note: there will be no CVE JSON 5.0 Bulk Download capability until this deployment).
+
+<h3>Reviewing What’s Available for ID Reservation, Record Submission, Record Viewing, and Downloads</h3>
+The table below provides a review of the options available to CNAs for reserving CVE IDs and submitting, viewing, and downloading CVE Records, via CVE Services automation or alternate methods, now that soft deployment was completed at the end of October 2022. User Registry is how CNAs manage their own CVE Services users. Post-October next steps, including advance notice for the eventual deprecation of the CVEList GitHub Pilot, will be announced in future bulletin
+
+<h4>CVE ID Reservation/CVE Record Uploading/User Registry Operations/Search-Viewing Records/CVE Downloads</h4>
+
+<br/>
+<table style="padding-left:5%;padding-right:30%;">
+    <tr>
+      <th style="width:25%;padding-left:3%;">Action</th>
+      <th style="width:25%;padding-left:2%;">Prior to October 6</th>
+      <th style="width:25%;padding-left:2%;">Phase 1<br/>Beginning October 6</th>
+      <th style="width:25%;padding-left:2%;">Phase 2<br/>Beginning October 25</th>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><strong>Reserve CVE IDs</strong></td>
+      <td style="padding-left:3%;padding-top:3%;">IDR 1.1<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;">IDR 1.1 - DEPRECATED<br/>IDR 2.1 - AVAILABLE<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>IDR 2.1 - AVAILABLE</strong><br/>CVE Request Web Form</td>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><strong>Submit CVE Records</strong></td>
+      <td style="padding-left:3%;padding-top:3%;">GitHub CVEList Pilot (JSON 4.0 only)<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;">GitHub CVEList Pilot (JSON 4.0 only)<br/>CVE Request Web Form</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot (JSON 4.0 only)<br/>CVE Request Web</td>
+    </tr>
+    <tr>
+      <td style="padding-left:3%;"><strong>User Registry</strong><br/>(CNA manages its CVE Services users)</td>
+      <td style="padding-left:3%;padding-top:3%;">IDR 1.1</td>
+      <td style="padding-left:3%;padding-top:3%;">IDR 1.1 - DEPRECATED<br/>IDR 2.1 - REQUIRED</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>IDR 2.1 – REQUIRED</strong></td>
+    </tr>
+     <tr>
+      <td style="padding-left:3%;"><strong>Searching-Viewing CVE Records</strong></td>
+      <td style="padding-left:3%;padding-top:3%;">
+           <strong>ID LOOK UP:</strong><br/>
+           cve.org website (JSON 4.0)<br/>
+           <br/>
+           <strong>ID & KEYWORD SEARCH:</strong><br/>
+           cve.mitre.org legacy site (JSON 4.0)<br/>
+           <br/>
+           <strong>ID RECORD SEARCH:</strong><br/>
+           GitHub CVEList Pilot (JSON 4.0)
+      </td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>ID LOOK UP:</strong></br>
+           cve.org website - (<strong>JSON 5.0</strong>)<br/>
+           <br/>
+           <strong>ID & KEYWORD SEARCH:</strong><br/>
+           cve.mitre.org legacy site (JSON 4.0)<br/>
+           <br/>
+           <strong>ID RECORD SEARCH:</strong><br/>
+           GitHub CVEList Pilot (JSON 4.0)
+      </td>
+      <td style="padding-left:3%;padding-top:3%;">
+           <strong>ID LOOK UP:</strong><br/>
+           cve.org website - (<strong>JSON 5.0</strong>)<br/>
+           <br/>
+           <strong>ID & KEYWORD SEARCH:</strong><br/>
+           cve.mitre.org legacy site (JSON 4.0)<br/>
+           <br/>
+           <strong>ID RECORD SEARCH:</strong><br/>
+           GitHub CVEList Pilot (JSON 4.0)       
+      </td>
+    </tr>
+     <tr>
+      <td style="padding-left:3%;"><strong>Bulk Downloads</strong><br/>NOTE: cve.org links-out to the cve.mitre.org <a href="https://cve.mitre.org/data/downloads/index.html">downloads</a></td>
+      <td style="padding-left:3%;padding-top:3%;">
+           cve.org website (JSON 4.0)<br/><br/>
+           cve.mitre.org legacy site (JSON 4.0)<br/><br/>
+           GitHub CVEList Pilot (JSON 4.0)
+      </td>
+      <td style="padding-left:3%;padding-top:3%;">
+           cve.org website (JSON 4.0)<br/><br/>
+           cve.mitre.org legacy site (JSON 4.0)<br/><br/>
+           GitHub CVEList Pilot (JSON 4.0)
+      </td>
+      <td style="padding-left:3%;padding-top:3%;">
+           cve.org website (JSON 4.0)<br/><br/>
+           cve.mitre.org legacy site (JSON 4.0)<br/><br/>
+           GitHub CVEList Pilot (JSON 4.0)
+      </td>
+  </table>
+<br/>
+
+
+
+Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
+
 ## Bulletin Number 10
 
 <strong>*Schedule for October Deployment of CVE Services 2.1/CVE JSON 5.0 — October 3, 2022*</strong>
