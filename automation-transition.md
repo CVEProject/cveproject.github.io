@@ -87,7 +87,7 @@ Post-October next steps, including advance notice for the eventual deprecation o
            GitHub CVEList Pilot (JSON 4.0)
       </td>
       <td style="padding-left:3%;padding-top:3%;"><strong>ID LOOK UP:</strong><br/>
-           cve.org website - (<strong>JSON 5.0</strong>)<br/>
+           cve.org website (<strong>JSON 5.0</strong>)<br/>
            <br/>
            <strong>ID & KEYWORD SEARCH:</strong><br/>
            cve.mitre.org legacy site (JSON 4.0)<br/>
@@ -97,7 +97,7 @@ Post-October next steps, including advance notice for the eventual deprecation o
       </td>
       <td style="padding-left:3%;padding-top:3%;">
            <strong>ID LOOK UP:</strong><br/>
-           cve.org website - (<strong>JSON 5.0</strong>)<br/>
+           cve.org website (<strong>JSON 5.0</strong>)<br/>
            <br/>
            <strong>ID & KEYWORD SEARCH:</strong><br/>
            cve.mitre.org legacy site (JSON 4.0)<br/>
