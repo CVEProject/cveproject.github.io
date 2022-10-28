@@ -29,7 +29,7 @@ With the completion of CVE Services 2.1 Soft Deployment, we enter a “transitio
 
 To begin the transition, CNAs should:
 
-1. Check out the [CVE Services Known Issues](https://cveproject.github.io/automation-cve-services-known-issues) page. This page will highlight some important issues that we know about and are working to correct. 2. If you uncover what you might think be an important issue for us to address, you can post it on the CVE Services Slack Channel (which is monitored from 9:00 a.m. – 5:00 p.m. ET weekdays) or by contacting the <a href="mailto:awg@cve-CWE-Programs.groups.io">CVE Automation Working Group (AWG)</a>.
+1. Check out the [CVE Services Known Issues](https://cveproject.github.io/automation-cve-services-known-issues) page. This page will highlight some important issues that we know about and are working to correct. 2. If you uncover what you might think be an important issue for us to address, you can post it on the CVE Services Slack Channel (which is monitored from 9:00 a.m. – 5:00 p.m. ET weekdays) or by contacting the CVE Automation Working Group (AWG) at [awg@cve-CWE-Programs.groups.io](awg@cve-CWE-Programs.groups.io).
 3. If you have not already done so, review your historical CVE Records that have been upconverted for you into CVE JSON 5.0 format [here](https://github.com/CVEProject/cvelistV5). (Note that this list is not the official CVE List but only a review list for you to consider as part of this transition period. The official CVE List will continue to be [here](https://cve.mitre.org/cve/search_cve_list.html) and downloadable [here](https://www.cve.org/Downloads) in the traditional formats, based on CVE JSON 4.0 records).
 4. Make updates to your CVE Records using the new CVE Services if you find anomalies (see [Getting Started with CVE Services](https://cveproject.github.io/automation-cve-services-getting-started)).
 5. Begin planning your transition to the new CVE JSON 5.0 format and adoption of CVE Services.
@@ -40,6 +40,7 @@ To begin the transition, CNAs should:
 Look for announcements of the next important CVE Services milestone (i.e., CVE Services “hard deploy” targeted for early 2023 which will introduce a “bulk download” capability for CVE JSON 5.0 records that will upgrade our current CVE List Download Architecture. (Note: there will be no CVE JSON 5.0 Bulk Download capability until this deployment).
 
 <h3>Reviewing What’s Available for ID Reservation, Record Submission, Record Viewing, and Downloads</h3>
+
 The table below provides a review of the options available to CNAs for reserving CVE IDs and submitting, viewing, and downloading CVE Records, via CVE Services automation or alternate methods, now that soft deployment was completed at the end of October 2022. User Registry is how CNAs manage their own CVE Services users. Post-October next steps, including advance notice for the eventual deprecation of the CVEList GitHub Pilot, will be announced in future bulletin
 
 <h4>CVE ID Reservation/CVE Record Uploading/User Registry Operations/Search-Viewing Records/CVE Downloads</h4>
@@ -103,7 +104,7 @@ The table below provides a review of the options available to CNAs for reserving
       </td>
     </tr>
      <tr>
-      <td style="padding-left:3%;"><strong>Bulk Downloads</strong><br/>NOTE: cve.org links-out to the cve.mitre.org <a href="https://cve.mitre.org/data/downloads/index.html">downloads</a></td>
+      <td style="padding-left:3%;"><strong>CVE Downloads</strong><br/><br/>NOTE: cve.org links-out to the cve.mitre.org <a href="https://cve.mitre.org/data/downloads/index.html">downloads</a></td>
       <td style="padding-left:3%;padding-top:3%;">
            cve.org website (JSON 4.0)<br/><br/>
            cve.mitre.org legacy site (JSON 4.0)<br/><br/>
