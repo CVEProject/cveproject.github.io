@@ -49,7 +49,6 @@ Post-October next steps, including advance notice for the eventual deprecation o
 
 <br/>
 
-<div>
 <table style="padding-left:5%;padding-right:30%;">
     <tr>
       <th style="width:25%;padding-left:3%;">Action</th>
@@ -106,7 +105,7 @@ Post-October next steps, including advance notice for the eventual deprecation o
            <strong>ID RECORD SEARCH:</strong><br/>
            GitHub CVEList Pilot (JSON 4.0)       
       </td>
-    </tr>
+     </tr>
      <tr>
       <td style="padding-left:3%;"><strong>CVE Downloads</strong><br/><br/>NOTE: cve.org links-out to the cve.mitre.org <a href="https://cve.mitre.org/data/downloads/index.html">downloads</a></td>
       <td style="padding-left:3%;padding-top:3%;">
@@ -124,8 +123,8 @@ Post-October next steps, including advance notice for the eventual deprecation o
            cve.mitre.org legacy site (JSON 4.0)<br/><br/>
            GitHub CVEList Pilot (JSON 4.0)
       </td>
+     </tr>    
   </table>
-</div>
 
 <br/>
 
