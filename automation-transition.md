@@ -41,7 +41,9 @@ Look for announcements of the next important CVE Services milestone (i.e., CVE S
 
 <h3>Reviewing What’s Available for ID Reservation, Record Submission, Record Viewing, and Downloads</h3>
 
-The table below provides a review of the options available to CNAs for reserving CVE IDs and submitting, viewing, and downloading CVE Records, via CVE Services automation or alternate methods, now that soft deployment was completed at the end of October 2022. User Registry is how CNAs manage their own CVE Services users. Post-October next steps, including advance notice for the eventual deprecation of the CVEList GitHub Pilot, will be announced in future bulletin
+The table below provides a review of the options available to CNAs for reserving CVE IDs and submitting, viewing, and downloading CVE Records, via CVE Services automation or alternate methods, now that soft deployment was completed at the end of October 2022. User Registry is how CNAs manage their own CVE Services users.
+
+Post-October next steps, including advance notice for the eventual deprecation of the CVEList GitHub Pilot, will be announced in future bulletins.
 
 <h4>CVE ID Reservation/CVE Record Uploading/User Registry Operations/Search-Viewing Records/CVE Downloads</h4>
 
@@ -122,8 +124,6 @@ The table below provides a review of the options available to CNAs for reserving
       </td>
   </table>
 <br/>
-
-
 
 Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
 
