@@ -66,7 +66,7 @@ Post-October next steps, including advance notice for the eventual deprecation o
       <td style="padding-left:3%;"><strong>Submit CVE Records</strong></td>
       <td style="padding-left:3%;padding-top:3%;">GitHub CVEList Pilot (JSON 4.0 only)<br/>CVE Request Web Form (JSON 4.0 only)</td>
       <td style="padding-left:3%;padding-top:3%;">GitHub CVEList Pilot (JSON 4.0 only)<br/>CVE Request Web Form (JSON 4.0 only)</td>
-      <td style="padding-left:3%;padding-top:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot (JSON 4.0 only)<br/>CVE Request Web (JSON 4.0 only)</td>
+      <td style="padding-left:3%;padding-top:3%;"><strong>RSUS 2.1 with JSON 5.0 – AVAILABLE</strong><br/>GitHub CVEList Pilot (JSON 4.0 only)<br/>CVE Request Web Form (JSON 4.0 only)</td>
     </tr>
     <tr>
       <td style="padding-left:3%;"><strong>User Registry</strong><br/>(CNA manages its CVE Services users)</td>
