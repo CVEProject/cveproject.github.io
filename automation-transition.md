@@ -47,8 +47,6 @@ Post-October next steps, including advance notice for the eventual deprecation o
 
 <h4>CVE ID Reservation/CVE Record Uploading/User Registry Operations/Search-Viewing Records/CVE Downloads</h4>
 
-<br/>
-
 <table style="padding-left:5%;padding-right:30%;">
     <tr>
       <th style="width:25%;padding-left:3%;">Action</th>
