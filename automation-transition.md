@@ -13,6 +13,15 @@ The purpose of this webpage is to inform and help prepare CNAs for the upcoming 
 
 ## Transition Details
 
+## Bulletin Number 12
+<strong>*CVE Services Workshop Videos Now Available — November 15, 2022*</strong>
+
+“[CVE JSON 5.0, CVE Services Clients & More Videos from the “CVE Services Workshop” Now Available](https://www.cve.org/Media/News/item/news/2022/11/15/CVE-JSON-50-CVE-Services)” — This announcement about the workshop videos for CNAs was sent to the CVE CNA Discussion email list on November 14, 2022 and posted on the main CVE website on November 15, 2022.
+
+Introductions to CVE JSON 5.0, the CVE ID Reservation Service (IDR), the Record Submission and Upload (RSUS) Service, CVE Clients for interacting with the CVE Services, and information about how to obtain organizational and individual account credentials for the CVE Services, are all included in the videos.
+
+For extended community awareness, the announcement was also posted on the main CVE website and on CVE social media. 
+
 ## Bulletin Number 11
 
 <strong>*Soft Deployment of Record Submission and Upload Service/CVE JSON 5.0 Complete:  What’s Next for CVE Services/CVE JSON 5.0 Adoption — October 27, 2022*</strong>
