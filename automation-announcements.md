@@ -7,7 +7,7 @@ Links to updates and announcements about the [CVE Services v2.1](https://github.
 
 
 ### [CVE Services Workshop Videos Now Available - Transition Bulletin #12](https://cveproject.github.io/automation-transition#bulletin-number-12) 
-Main CVE Website | October 3, 2022
+Main CVE Website | November 15, 2022
 
 ### [Soft Deployment of Record Submission and Upload Service/CVE JSON 5.0 Complete: What’s Next for CVE Services/CVE JSON 5.0 Adoption - Transition Bulletin #11](https://cveproject.github.io/automation-transition#bulletin-number-11) 
 CVE Services Website | October 27, 2022
