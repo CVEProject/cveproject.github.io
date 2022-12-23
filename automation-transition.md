@@ -31,6 +31,8 @@ Last updated: 19 December 2022
 * [Hard Deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy): Q1 calendar year 2023
 * CVE JSON 4.0 Retirement: TBD
 
+<br/>
+
 ## Transition Details
 
 ## Bulletin Number 13
