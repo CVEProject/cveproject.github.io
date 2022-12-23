@@ -9,9 +9,71 @@ The purpose of this webpage is to inform CNAs about the October 2022 (see [Bulle
 * <strong>[CVE Services v2.1](https://github.com/CVEProject/cve-services)</strong> &mdash; CVE Services is a CVE Program Web Application that allows members of the CNA community to reserve [CVE IDs](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) and publish/update/reject [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) 24/7. It is meant to fully automate the CVE Record publication process that is used today that often involves significant manual intervention and maintenance. CVE Services 2.1 is a major upgrade that includes the adoption of CVE JSON 5.0 (see below). With the deployment of CVE Services 2.1, CNAs will be able to perform the most common CVE Program functions in a more efficient manner, obtaining results in the matter of minutes. 
 * <strong>[CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json)</strong> &mdash; JSON is the format used by CNAs for publishing CVE Records. CVE JSON 5.0, which is a major upgrade to JSON 4.0 that further normalizes and enriches how CVE information is presented, adds several new data fields to CVE Records. In addition to the required data of CVE ID number, affected product(s), affected version(s), and public references, JSON 5.0 CVE Records will now include optional data such as severity scores, credit for researchers, additional languages, affected product lists, additional references, ability for community contributions, etc. This optional data will enhance CVE Records for both downstream users and the overall vulnerability management community. 
 
-[Transition Details Bulletins](https://cveproject.github.io/automation-transition#transition-details), and links to [additional helpful resources](https://cveproject.github.io/automation-transition#additional-resources) are included below. Future transition schedule and bulletin updates will be posted below.
+A [Current Status dashboard](), [Transition Details Bulletins](https://cveproject.github.io/automation-transition#transition-details), and links to [additional helpful resources](https://cveproject.github.io/automation-transition#additional-resources) are included below. Future transition schedule and bulletin updates will be posted below.
+
+## Current Status
+
+The purpose of this dashboard section is to provide CNAs with the current status of the CVE Program’s transition to the new CVE Services and CVE JSON 5.0.
+
+Last updated: 19 December 2022
+
+<strong>Current Transition Phase</strong>
+* [Soft Deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy)
+
+<strong>Status of Current Phase Activities</strong>
+*Note: The items below must be completed before we move into the next phase.*
+
+* CVE Services/CVE JSON 5.0 Transition Immediate Priority Issues: [view list](https://cveproject.github.io/automation-cve-services-known-issues)
+* CVE Services developer issues on GitHub (high and low priorities only): [view list](https://github.com/CVEProject/cve-services/projects/29)
+* CVE JSON 5.0-format bulk download capability: in development
+
+<strong>Timeframe for Next Phases</strong>
+* [Hard Deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy): Q1 calendar year 2023
+* CVE JSON 4.0 Retirement: TBD
 
 ## Transition Details
+
+## Bulletin Number 13
+<strong>*Moving Forward on CVE Service/CVE JSON 5.0 Adoption — December 22, 2022*</strong>
+
+As the CVE Program continues to move through the [soft deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy) period for CVE Services/CVE JSON 5.0, we have continued to make upgrades to help you advance your adoption of both. As a reminder, soft deployment means CNAs are actively using the services and any issues found by the community are being prioritized and addressed by the [CVE Automation Working Group (AWG)](http://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG) once reported. The [hard deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy) phase will begin once the soft deployment phase is completed.
+
+The following improvements are now available for CNAs:
+
+<h3>Enhanced test environment for incorporating CVE Services into your infrastructure and/or developing a CVE Services client now available</h3>
+
+The test environment consists of the following:
+
+* CVE Services test instance – [https://cveawg-test.mitre.org/api](https://cveawg-test.mitre.org/api) 
+* CVE website test instance (new) – [https://test.cve.org](https://test.cve.org)
+
+CNAs can use the test environment to ensure that they have correctly integrated CVE Services into their established vulnerability management infrastructures. Specifically, the [CVE Services test instance](https://cveawg-test.mitre.org/api) allows you to test your integration of the [CVE ID Reservation (IDR) service](https://cveproject.github.io/automation-cve-services#services-overview) and [CVE Record Submission and Upload Service (RSUS)](https://cveproject.github.io/automation-cve-services#services-overview), while the new [CVE website test instance](https://test.cve.org/) allows you to verify that test CVE Records will be published correctly in [CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) format (simply use the CVE ID Lookup on the website test instance’s homepage to look up and view a test record). CVE Services test instance docs are available [here](https://cveawg-test.mitre.org/api-docs/).
+
+A CNA developing its own CVE Services client can also use the test environment to test that its client is working properly, in the same manner.
+
+By leveraging the test environment, CNAs can be confident that their incorporation of CVE Services into their infrastructure and processes, or development of their own CVE Services client, will work correctly once deployed in the CVE Services production environment.   
+
+Test Instance Credentials Required — If you are a CNA and wish to use the CVE Services test instance, you will need credentials that are separate from your production environment CVE Services credentials. Credentials are not required to view the CVE website test instance. Learn how to request test instance credentials [here](https://cveproject.github.io/automation-cve-services-getting-started#obtaining-credentials-for-the-cve-services-test-instance).
+
+<h3>CVE Program Website and CVE Services upgraded to address Prioritized Issues</h3>
+
+Two updates were released in December 2022, one for the CVE website and the other for CVE Services.  One issue on the [CVE Services - Prioritized Issue List](https://cveproject.github.io/automation-cve-services-known-issues) was resolved, and we continue to work diligently on all the issue on the list. View the resolved issue [here](https://cveproject.github.io/automation-cve-services-known-issues#resolved-issues).
+
+<strong>December 7</strong> – A bug on the CVE website that incorrectly rendered the “affected version” recorded in CVE JSON 5.0 CVE Records was fixed. With this correction, you can now view CVE JSON 5.0 records on the new cve.org website with confidence that the correct affected version is being rendered. 
+
+<strong>December 19</strong> – CVE Services version 2.1.1 was released to fix, among [other issues](https://github.com/CVEProject/cve-services/releases/tag/v2.1.1-sd), a bug that was identified by the CNA community where valid CVE Records submitted for publication were incorrectly being flagged with JSON schema validation errors.  Thanks to those early adopters of CVE Services that continue to identify areas we need to address as we move CVE Services closer to our Hard Deploy milestone scheduled for Q1 calendar year 2023.  
+
+<h3>“Current Status” dashboard for CVE Services/CVE JSON 5.0 transition added to CVE Program Automation Transition Website</h3>
+
+We realize that the CVE Services/CVE JSON 5.0 transition is a long and often complicated process and that there is a lot of information that must be conveyed, digested, and acted upon. To help CNAs stay aware of the most current information and transition status, a new [“Current Status” dashboard](https://cveproject.github.io/automation-transition#current-status) has been added to the [CVE Automation Transition Details page](https://cveproject.github.io/automation-transition#current-status) on the automation transition website to keep you up to date. 
+
+View the current status [here](https://cveproject.github.io/automation-transition#current-status).
+
+<br/>
+
+Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
+
+<br/>
 
 ## Bulletin Number 12
 <strong>*CVE Services Workshop Videos Now Available — November 15, 2022*</strong>
