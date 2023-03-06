@@ -46,9 +46,9 @@ Important milestones since our last bulletin:
 <div>
     <ul>
         <li>The CVE JSON 5.0 Bulk Download function is currently undergoing testing and is almost complete. This function will make the full CVE List downloadable in CVE JSON 5.0 format. The deployment schedule for this capability will be announced at the upcoming <i><a href="https://www.cve.org/Media/Events">CVE Global Summit – Spring 2023</a></i>.
-        <br/> 
+        <br/><br/>
         <strong>IMPORTANT:</strong> A preview of the CVE JSON 5.0 Bulk Download Repository is <a href="https://github.com/CVEProject/cvelistV5">available for review</a>, but this is a PREVIEW ONLY and SHOULD NOT be considered the official CVE List. This new repository continues to undergo testing and has not been finalized. The official CVE List continues to be based on CVE JSON 4.0 and is found on the <a href="https://github.com/CVEProject/cvelist">CVEList GitHub Pilot site</a> and on the <a href="https://www.cve.org/Downloads">Downloads page</a> on the CVE website.</li>
-        <br/><br/> 
+        <br/>
         <li>The highest priority issue on the <a href="https://cveproject.github.io/automation-cve-services-known-issues">Soft Deploy – Prioritized Issues</a> list was corrected. With this fix, when <a href="https://cveproject.github.io/cve-schema/schema/v5.0/docs/#oneOf_i0_containers_cna_affected_items_versions">version ranges are used in a CVE JSON 5.0 record</a> the record will now properly down-convert to a CVE JSON 4.0 record and be placed in the JSON 4.0 CVE List. Work continues on the remaining issues.</li>
         <br/> 
         <li> CVE Services 2.1.2 was deployed in mid-February. This incremental release fixed a number of issues that had been reported and introduced functions to support the “bulk download” capability. The release notes are available <a href="https://github.com/CVEProject/cve-services/releases/tag/v2.1.2-sd">here</a>.</li>
