@@ -6,7 +6,7 @@ Two major CVE Automation deployments in October 2022/early 2023 will significant
 
 The purpose of this webpage is to inform CNAs about the October 2022 (see [Bulletin 11](https://cveproject.github.io/automation-transition#bulletin-number-11) below) [soft deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy) and help prepare CNAs for the 2023 [hard deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy) releases of:
 
-* <strong>[CVE Services v2.1](https://github.com/CVEProject/cve-services)</strong> &mdash; CVE Services is a CVE Program Web Application that allows members of the CNA community to reserve [CVE IDs](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) and publish/update/reject [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) 24/7. It is meant to fully automate the CVE Record publication process that is used today that often involves significant manual intervention and maintenance. CVE Services 2.1 is a major upgrade that includes the adoption of CVE JSON 5.0 (see below). With the deployment of CVE Services 2.1, CNAs will be able to perform the most common CVE Program functions in a more efficient manner, obtaining results in the matter of minutes. 
+* <strong>[CVE Services v2.1](https://github.com/CVEProject/cve-services)</a></strong> &mdash; CVE Services is a CVE Program Web Application that allows members of the CNA community to reserve [CVE IDs](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) and publish/update/reject [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) 24/7. It is meant to fully automate the CVE Record publication process that is used today that often involves significant manual intervention and maintenance. CVE Services 2.1 is a major upgrade that includes the adoption of CVE JSON 5.0 (see below). With the deployment of CVE Services 2.1, CNAs will be able to perform the most common CVE Program functions in a more efficient manner, obtaining results in the matter of minutes. 
 * <strong>[CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json)</strong> &mdash; JSON is the format used by CNAs for publishing CVE Records. CVE JSON 5.0, which is a major upgrade to JSON 4.0 that further normalizes and enriches how CVE information is presented, adds several new data fields to CVE Records. In addition to the required data of CVE ID number, affected product(s), affected version(s), and public references, JSON 5.0 CVE Records will now include optional data such as severity scores, credit for researchers, additional languages, affected product lists, additional references, ability for community contributions, etc. This optional data will enhance CVE Records for both downstream users and the overall vulnerability management community. 
 
 A [Current Status dashboard](), [Transition Details Bulletins](https://cveproject.github.io/automation-transition#transition-details), and links to [additional helpful resources](https://cveproject.github.io/automation-transition#additional-resources) are included below. Future transition schedule and bulletin updates will be posted below.
@@ -28,12 +28,52 @@ Last updated: 19 December 2022
 * CVE JSON 5.0-format bulk download capability: in development
 
 <strong>Timeframe for Next Phases</strong>
-* [Hard Deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy): Q1 calendar year 2023
-* CVE JSON 4.0 Retirement: TBD
-
+* [Hard Deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy): 2023
+* CVE JSON 4.0 Retirement: on or before 31 December 2023
 <br/>
 
 ## Transition Details
+
+## Bulletin Number 14
+<strong>*CVE Services/CVE JSON 5.0 Hard Deploy Update — March 6, 2023*</strong>
+
+The CVE Program is rapidly approaching the “[hard deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy)” of the [CVE Services](https://www.cve.org/AllResources/CveServices)/[CVE JSON 5.0](https://www.cve.org/AllResources/CveServices#cve-json-5) automation upgrade.
+
+The objective of hard deploy is to address issues that have been identified during the “[soft deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy)” period (which began in October 2022), and to make available a CVE JSON 5.0 Bulk Download capability (see the [Transition FAQs](https://cveproject.github.io/automation-cve-services-faqs) for additional information).
+
+Important milestones since our last bulletin: 
+
+<div>
+    <ul>
+        <li>The CVE JSON 5.0 Bulk Download function is currently undergoing testing and is almost complete. This function will make the full CVE List downloadable in CVE JSON 5.0 format. The deployment schedule for this capability will be announced at the upcoming <i><a href="https://www.cve.org/Media/Events">CVE Global Summit – Spring 2023</a></i>.</li> 
+        <br/> 
+        <strong>IMPORTANT:</strong> A preview of the CVE JSON 5.0 Bulk Download Repository is <a href="https://github.com/CVEProject/cvelistV5">available for review</a>, but this is a PREVIEW ONLY and SHOULD NOT be considered the official CVE List. This new repository continues to undergo testing and has not been finalized. The official CVE List continues to be based on CVE JSON 4.0 and is found on the <a href="https://github.com/CVEProject/cvelist">CVEList GitHub Pilot site</a> and on the <a href="https://www.cve.org/Downloads">Downloads page</a> on the CVE website.</li>
+        <br/><br/> 
+        <li>The highest priority issue on the <a href="https://cveproject.github.io/automation-cve-services-known-issues">Soft Deploy – Prioritized Issues</a> list was corrected. With this fix, when <a href="https://cveproject.github.io/cve-schema/schema/v5.0/docs/#oneOf_i0_containers_cna_affected_items_versions">version ranges are used in a CVE JSON 5.0 record</a> the record will now properly down-convert to a CVE JSON 4.0 record and be placed in the JSON 4.0 CVE List. Work continues on the remaining issues.</li>
+        <br/> 
+        <li> CVE Services 2.1.2 was deployed in mid-February. This incremental release fixed a number of issues that had been reported and introduced functions to support the “bulk download” capability. The release notes are available <a href="https://github.com/CVEProject/cve-services/releases/tag/v2.1.2-sd">here</a>.</li>
+        <br/> 
+        <li> A new “<a href="https://www.cve.org/AllResources/CveServices">CVE Services</a>” page was added to the cve.org website to be the main resource center for access to information about CVE Services/CVE JSON 5.0. The new page includes an overview with current version and status, information on how to obtain credentials for using the services, a workflow tutorial, demos of the clients used to interact with the services, and more. A “<a href="https://www.cve.org/AllResources/ReserveIDsPublishRecords">Reserve IDs & Publish Records (CNAs Only)</a>” page to help direct CNAs to the new CVE Services page was also added.</li>  
+    </ul>
+</div>
+
+<h3>Moving to Hard Deploy — Next Steps</h3>
+
+Over the next several weeks we will be staging the required components to support hard deploy. This entails updating the CVE Services software, the cve.org website, and the Secretariat’s Content Management System (CPS), and finally, deploying the software for the bulk download capability. All of this work will be done without interruption of current services. This means you’ll continue to be able to reserve CVE IDs and submit/update CVE Records as you have in the past, as well as download records for viewing.
+
+Upon completion of these updates and deployment, the Secretariat will send out a notification that the CVE Services/CVE JSON 5.0 hard deploy is complete. This notice will signify that this major milestone of the CVE Program automation update is complete and highlight the program’s next steps in automation upgrade.
+
+<h3>Reminder about the <i>CVE Global Summit – Spring 2023</i> on March 22 & 23</h3>
+
+As a reminder, the <i>[CVE Global Summit – Spring 2023](https://www.cve.org/Media/Events)</i> is being held in-person for CNAs on March 22-23 at MITRE Corporation in McLean, Virginia, USA. There will also be a virtual component. Many of the topics mentioned above will be discussed in more detail at the summit. 
+
+Please refer to the meeting invite and follow-up messages you received for meeting details. We look forward to seeing everyone in person! 
+
+<br/>
+
+Questions about the information in this bulletin? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
+
+<br/>
 
 ## Bulletin Number 13
 <strong>*Moving Forward on CVE Service/CVE JSON 5.0 Adoption — December 22, 2022*</strong>
