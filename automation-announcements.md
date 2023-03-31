@@ -5,6 +5,9 @@ layout: page
 
 Links to updates and announcements about the [CVE Services v2.1](https://github.com/CVEProject/cve-services) and [CVE JSON v5.0](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json) transition are included below. Please [contact us](https://cveform.mitre.org/) with any comments or questions.
 
+### [Hard Deploy of CVE Services, CVE JSON 5.0, and Bulk Downloads in CVE JSON 5.0 Format Now in Effect - Transition Bulletin #15](https://cveproject.github.io/automation-transition#bulletin-number-15) 
+CVE Services Website | March 30, 2023
+
 ### [CVE Services/CVE JSON 5.0 Hard Deploy Update - Transition Bulletin #14](https://cveproject.github.io/automation-transition#bulletin-number-14) 
 CVE Services Website | March 6, 2023
 
