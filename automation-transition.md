@@ -2,7 +2,7 @@
 title: CVE Automation Transition Details
 layout: page
 ---
-Two major CVE Automation deployments significantly enhanced the [CVE Program](https://www.cve.org/)’s ongoing transition towards a fully automated [CVE ID](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) assignment and [CVE Record](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) publishing/updating environment for the [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) community: 
+Two major CVE Automation deployments have significantly enhanced the [CVE Program](https://www.cve.org/)’s ongoing transition towards a fully automated [CVE ID](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) assignment and [CVE Record](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) publishing/updating environment for the [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) community: 
 
 - “[Soft deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy)” of [CVE Services 2.1](https://www.cve.org/AllResources/CveServices) and [CVE JSON 5.0](https://www.cve.org/AllResources/CveServices#cve-json-5) in October 2022 (see [Bulletin 11](https://cveproject.github.io/automation-transition#bulletin-number-11) below)
 - “[Hard deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy)” of CVE Services, CVE JSON 5.0, and the [CVE JSON 5.0 Bulk Download](https://www.cve.org/Media/News/item/blog/2023/03/29/CVE-Downloads-in-JSON-5-Format) capability in March 2023 (see [Bulletin 15](https://cveproject.github.io/automation-transition#bulletin-number-15) below)
