@@ -92,6 +92,14 @@ For assistance, please use the [CVE Program Request forms](https://cveform.mitre
 ## Bulletin Number 14
 <strong>*CVE Services/CVE JSON 5.0 Hard Deploy Update — March 6, 2023*</strong>
 
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
+
 The CVE Program is rapidly approaching the “[hard deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy)” of the [CVE Services](https://www.cve.org/AllResources/CveServices)/[CVE JSON 5.0](https://www.cve.org/AllResources/CveServices#cve-json-5) automation upgrade.
 
 The objective of hard deploy is to address issues that have been identified during the “[soft deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy)” period (which began in October 2022), and to make available a CVE JSON 5.0 Bulk Download capability (see the [Transition FAQs](https://cveproject.github.io/automation-cve-services-faqs) for additional information).
@@ -132,6 +140,14 @@ Questions about the information in this bulletin? Please use the [CVE Request We
 
 ## Bulletin Number 13
 <strong>*Moving Forward on CVE Service/CVE JSON 5.0 Adoption — December 22, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 As the CVE Program continues to move through the [soft deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy) period for CVE Services/CVE JSON 5.0, we have continued to make upgrades to help you advance your adoption of both. As a reminder, soft deployment means CNAs are actively using the services and any issues found by the community are being prioritized and addressed by the [CVE Automation Working Group (AWG)](http://www.cve.org/ProgramOrganization/WorkingGroups#AutomationWorkingGroupAWG) once reported. The [hard deployment](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy) phase will begin once the soft deployment phase is completed.
 
@@ -184,6 +200,14 @@ For extended community awareness, the announcement was also posted on the main C
 ## Bulletin Number 11
 
 <strong>*Soft Deployment of Record Submission and Upload Service/CVE JSON 5.0 Complete:  What’s Next for CVE Services/CVE JSON 5.0 Adoption — October 27, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 Phase 1 of the soft deployment of [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview)/[CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) to deprecate CVE Services ID Reservation (IDR) 1.1 and release [CVE Services - IDR 2.1](https://github.com/CVEProject/cve-services), was completed on October 6, 2022.
 
@@ -301,6 +325,14 @@ Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) an
 
 <strong>*Schedule for October Deployment of CVE Services 2.1/CVE JSON 5.0 — October 3, 2022*</strong>
 
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
+
 [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview)/[CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) Soft Deploy will occur during the entire month of October with Phase 1 beginning on October 3 and Phase 2 occurring during the last week of October. See [Bulletin #9](https://cveproject.github.io/automation-transition#bulletin-number-9) for a full description of all the Soft Deploy phases and how to prepare.
 
 <h3>Overview</h3>
@@ -359,6 +391,14 @@ Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) an
 
 ## Bulletin Number 9
 <strong>*Deployment Update for CVE Services 2.1 - Record Submission and Upload Service (RSUS) and CVE JSON 5.0 — September 12, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 The CVE Program is in the final stages of planning its next steps in its automation update strategy. In Transition Bulletins [#2](https://cveproject.github.io/automation-transition#bulletin-number-2) and [#3](https://cveproject.github.io/automation-transition#bulletin-number-3) we laid out a broad transition strategy that would culminate in a new automated approach for CNAs to submit CVE Records.
 
@@ -563,6 +603,14 @@ Please check this page regularly for updates. You may also [contact us](https://
 ## Bulletin Number 5
 <strong>*JSON 5.0 Format Record Review —  March 23, 2022*</strong>
 
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
+
 The CVE Program transition to CVE JSON 5.0 continues with the community review of historical JSON 4.0 records that have been converted to JSON 5.0 format.
 
 The message below, sent to CNAs by the Quality Working Group (QWG) on March 21, 2022, announces that review:
@@ -606,6 +654,14 @@ If you have any further questions, please feel free to raise them with the CVE Q
 ## Bulletin Number 4
 <strong>*CVE Services Transition  —  March 21, 2022*</strong>
 
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
+
 This message is to inform you about a revision to the CVE Services deployment schedule that will affect when CVE Services 2.1 is available for use by CNAs.
 
 [CVE Services 2.1](https://cveproject.github.io/automation-cve-services#services-overview) consists of the Record Submission and Upload Service (RSUS) and the new [CVE JSON 5.0](https://cveproject.github.io/automation-cve-services#json-overview) data format. The CVE Program is in the middle of testing CVE Services 2.1. The program thanks the CVE community for participating in the functional and penetration testing during the test period that began on February 25, 2022. 
@@ -620,6 +676,14 @@ Please check this page regularly for updates. You may also [contact us](https://
 
 ## Bulletin Number 3
 <strong>*CVE Services Transition  —  March 16, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 The activities and schedule for the transition to CVE Services 2.1 and CVE JSON 5.0, as provided last month in [Transition Bulletin #2](https://cveproject.github.io/automation-transition#bulletin-number-2), are now underway. This bulletin adds two new activities and schedule updates. Most importantly, it adds an important new notification to CNAs that the [CVE List GitHub Submission Pilot](https://github.com/CVEProject/cvelist) will be retired as part of the transition (see below for details).
 
@@ -694,6 +758,14 @@ If you have any further questions, please feel free to raise them with the [CVE 
 
 ## Bulletin Number 2
 <strong>*CVE Services Transition  —  February 11, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
  
 ><strong>IMPORTANT:</strong> The timeframes in this bulletin have changed. Please see the newest bulletins above for the most current information.
 
@@ -714,6 +786,14 @@ Please check this page regularly for updates. In addition, there will be follow-
 
 ## Bulletin Number 1
 <strong>*CVE Services Transition  —  January 6, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 “[Changes Coming to CVE Record Format JSON and CVE List Content Downloads](https://www.cve.org/Media/News/item/news/2022/01/11/Changes-Coming-to-CVE-Record)” — This initial announcement to CNAs about major changes coming to CVE JSON and Downloads in 2022 was sent to the CVE CNA Discussion email list on January 6, 2022.
 
