@@ -89,6 +89,7 @@ Any tools or automation that use these old formats may no longer work once the o
 
 For assistance, please use the [CVE Program Request forms](https://cveform.mitre.org/) and select “Other” from the dropdown menu.
 
+
 ## Bulletin Number 14
 <strong>*CVE Services/CVE JSON 5.0 Hard Deploy Update — March 6, 2023*</strong>
 
@@ -196,6 +197,8 @@ Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) an
 Introductions to CVE JSON 5.0, the CVE ID Reservation Service (IDR), the Record Submission and Upload (RSUS) Service, CVE Clients for interacting with the CVE Services, and information about how to obtain organizational and individual account credentials for the CVE Services, are all included in the videos.
 
 For extended community awareness, the announcement was also posted on the main CVE website and on CVE social media. 
+
+<br/>
 
 ## Bulletin Number 11
 
@@ -389,6 +392,7 @@ A registration link will be sent soon via the CNA Discussion List, so please wat
 
 Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
 
+
 ## Bulletin Number 9
 <strong>*Deployment Update for CVE Services 2.1 - Record Submission and Upload Service (RSUS) and CVE JSON 5.0 — September 12, 2022*</strong>
 
@@ -472,8 +476,17 @@ Note that all of the old CVE Record submission processes (using CVE JSON 4.0) [s
 
 Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) and select “Other” from the dropdown.
 
+
 ## Bulletin Number 8
 <strong>*SAVE THE DATE -“CVE Services Workshop” for CNAs to be held on November 2, 2022  —  August 25, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 [*CVE Services Workshop* for CNAs to Be Held on November 2, 2022](https://www.cve.org/Media/News/item/news/2022/08/30/CVE-Services-Workshop-for-CNAs) — This announcement for CNAs about the upcoming *CVE Services Workshop* was sent to the CVE CNA Discussion email list on August 25, 2022 and posted on the main CVE website on August 30, 2022.
 
@@ -512,6 +525,7 @@ Contact the AWG Chair if you have interest in either of the following:
 * Joining the [CVE Automation Working Group (AWG)](https://www.cve.org/ProgramOrganization/WorkingGroups) which meets every Tuesday to discuss requirements, status, and all things related to CVE Services 
 
 Please check this page regularly for updates. You may also [contact us](https://cveform.mitre.org/) with any comments or concerns.
+
 
 ## Bulletin Number 6
 <strong>*Submitting CVE Records after CVE Service 2.x/JSON 5.0 Roll-out —  May 20, 2022*</strong>
