@@ -94,7 +94,7 @@ For assistance, please use the [CVE Program Request forms](https://cveform.mitre
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -143,7 +143,7 @@ Questions about the information in this bulletin? Please use the [CVE Request We
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -203,7 +203,7 @@ For extended community awareness, the announcement was also posted on the main C
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -327,7 +327,7 @@ Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) an
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -394,7 +394,7 @@ Questions? Please use the [CVE Request Web Forms](https://cveform.mitre.org/) an
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -484,6 +484,14 @@ Questions? Please use the [CVE Request Web Forms ](https://cveform.mitre.org/) a
 ## Bulletin Number 7
 <strong>*Call for Community Penetration Testing Volunteers to Test CVE Services 2.1 —  June 23, 2022*</strong>
 
+<hr style="border:1px solid red">
+
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
+
 The CVE Program is preparing for the deployment of the [CVE Record Submission and Upload Service (RSUS)](/automation-cve-services#services-overview), and an updated data format (i.e., [CVE JSON 5.0](/automation-cve-services#json-overview)).
 
 The program thanks those of you who participated in previous milestones (e.g., early adoption of the CVE ID Reservation, CVE Services Requirements collection, CVE Services code development and review, Penetration Testing and Security analysis) as we move forward with development, testing, and deployment.
@@ -507,6 +515,14 @@ Please check this page regularly for updates. You may also [contact us](https://
 
 ## Bulletin Number 6
 <strong>*Submitting CVE Records after CVE Service 2.x/JSON 5.0 Roll-out —  May 20, 2022*</strong>
+
+<hr style="border:1px solid red">
+
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 As we prepare for CVE Services 2.x/JSON 5.0 roll-out in the coming weeks, there have been a number of questions about the various methods CNAs currently use to make CVE ID reservations and publish CVE Records and which methods will continue to be supported post deployment.
 
@@ -605,7 +621,7 @@ Please check this page regularly for updates. You may also [contact us](https://
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -656,7 +672,7 @@ If you have any further questions, please feel free to raise them with the CVE Q
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -679,7 +695,7 @@ Please check this page regularly for updates. You may also [contact us](https://
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -761,7 +777,7 @@ If you have any further questions, please feel free to raise them with the [CVE 
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
@@ -789,7 +805,7 @@ Please check this page regularly for updates. In addition, there will be follow-
 
 <hr style="border:1px solid red">
 
-<h3>ATTENTION: The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> The information and timeframes in this bulletin are now out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
