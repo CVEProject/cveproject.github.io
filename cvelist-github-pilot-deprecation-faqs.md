@@ -32,7 +32,7 @@ Much of the guidance provided focuses on CNAs entering CVE Record information ma
 
 ## Is there specific guidance/support for engaging the CVE Services in a more automated fashion?
 
-There are resources are available to help CNAs build a more automated infrastructure to submit CVE JSON 5.0 format CVE Records:
+The following resources are available to help CNAs build a more automated infrastructure to submit CVE JSON 5.0 format CVE Records:
 
   <ul>
     <li><strong>CVE Services Interface Specification</strong> &mdash; CVE Services presents itself as a series of APIs addressable from the Internet. You can view the API specification <a href="https://cveawg.mitre.org/api-docs/">here</a>.</li>
