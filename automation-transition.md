@@ -844,9 +844,12 @@ CVE Services resources are hosted on GitHub:
 CVE JSON resources are hosted on GitHub:
 * [CVE Record Structure Mind Map](https://cveproject.github.io/cve-schema/schema/v5.0/docs/mindmap.html)
 * [CVE Record Format JSON 5.0 Schema](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/CVE_JSON_5.0_schema.json)
-* [CVE Record in JSON 5.0 Format – Basic Example](https://github.com/cveproject/cve-schema/blob/master/schema/v5.0/docs/basic-example.json)
-* [CVE Record in JSON 5.0 Format – Advanced Example](https://github.com/cveproject/cve-schema/blob/master/schema/v5.0/docs/advanced-example.json)
 * [Schema Documentation](https://cveproject.github.io/cve-schema/schema/v5.0/docs/)
+* [Basic example of a full record in 5.0 format with minimally required fields](https://github.com/cveproject/cve-schema/blob/master/schema/v5.0/docs/full-record-basic-example.json)
+* [Advanced example of a full record in 5.0 format](https://github.com/cveproject/cve-schema/blob/master/schema/v5.0/docs/full-record-advanced-example.json)
+* [Basic example of a cnaContainer for use with CVE Services)](https://github.com/cveproject/cve-schema/blob/master/schema/v5.0/docs/cnaContainer-basic-example.json)
+* [Advanced example of a cnaContainer for use with CVE Services](https://github.com/cveproject/cve-schema/blob/master/schema/v5.0/docs/cnaContainer-advanced-example.json)
+* [More details about Product and Version Encodings in CVE JSON 5.0 record](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/docs/versions.md)
 
 Other helpful resources are hosted on the main CVE website:
 * [CVE List Downloads](https://www.cve.org/Downloads)
