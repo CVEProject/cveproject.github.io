@@ -25,10 +25,12 @@ CNAs will not be able to update CVE records that are “owned” by a different 
 ## Will the CVEList GitHub Submission Pilot deprecation coincide with the deprecation of the legacy format CVE List (i.e., based on the CVE JSON 4.0 format) hosted on the cve.mitre.org website?
 No, the specific deprecation date for the JSON 4.0 based CVE List has not been determined yet (although it has been announced that it <strong>will take place no later than December 31, 2023</strong>). This means that, although the CVEList GitHub Submission Pilot is ending, the legacy CVE List will continue to be available for Downstream users until announced otherwise. 
 
-## Where can I get more information about CVE Services and the new CVE Record JSON 5.0 format?
+## Where can I find information about CVE Services and the new CVE Record JSON 5.0 format?
 You can get more information about [CVE Services](https://www.cve.org/AllResources/CveServices) (i.e., how to get started), as well as information about the [CVE JSON 5.0 format](https://www.cve.org/AllResources/CveServices#cve-json-5) on the [CVE Services page](https://www.cve.org/AllResources/CveServices) on the CVE.ORG website. 
 
-Much of the guidance provided focuses on CNAs entering CVE Record information manually (i.e., the web clients are very “human user” centric). Is there any specific guidance/support for engaging the CVE Services in a more automated fashion?
+Much of the guidance provided focuses on CNAs entering CVE Record information manually (i.e., the web clients are very “human user” centric). 
+
+## Is there specific guidance/support for engaging the CVE Services in a more automated fashion?
 
 There are resources are available to help CNAs build a more automated infrastructure to submit CVE JSON 5.0 format CVE Records:
 
