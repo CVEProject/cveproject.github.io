@@ -3,9 +3,7 @@ title: CVEList GitHub Pilot Deprecation FAQs
 layout: page
 ---
 
-The [CVEList GitHub Submission Pilot](https://github.com/CVEProject/cvelist) &mdash; which will be deprecated by the CVE Program on June 30, 2023 &mdash; was a temporary method for [CVE Number Authorities (CNAs)](https://www.cve.org/PartnerInformation/Partner#CNA) to submit [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) (by GitHub pull requests) to be processed and posted to the official [CVE List](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEList). 
-
-Answers to frequently asked questions about the deprecation of the pilot are below. 
+The [CVEList GitHub Submission Pilot](https://github.com/CVEProject/cvelist) &mdash; which will be deprecated by the CVE Program on June 30, 2023 &mdash; was a temporary method for [CVE Number Authorities (CNAs)](https://www.cve.org/PartnerInformation/Partner#CNA) to submit [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) (by GitHub pull requests) to be processed and posted to the official [CVE List](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEList). Answers to frequently asked questions about the deprecation of the pilot are below. 
 
 ## When is the GitHub Submission Pilot scheduled to be deprecated?
 The CVE Program’s [Tactical Working Group (TWG)](https://www.cve.org/ProgramOrganization/WorkingGroups#TacticalWorkingGroup) has determined that the CVEList GitHub Submission Pilot <strong>will be deprecated on June 30, 2023</strong>. This means that beginning at 12:01 a.m. GMT, July 1, 2023, any CVE Record submissions (i.e., Pull Requests) to the CVEList GitHub Submission Pilot will not be processed and posted to the CVE List.
