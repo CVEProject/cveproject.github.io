@@ -22,7 +22,7 @@ Almost. CNAs can reserve CVE IDs and Submit/Update CVE Records that they own usi
 
 CNAs will not be able to update CVE records that are “owned” by a different CNA. Although this capability exists today in the GitHub Submission Pilot, this function will not be implemented in CVE Services until the Automated Data Publishing interfaces are available. This capability is the next priority for the CVE Program Automation Upgrade project. A schedule for this effort is forthcoming.
 
-## Will the CVEList GitHub Submission Pilot deprecation coincide with the deprecation of the legacy CVE List (i.e., based on the CVE Program JSON 4.0 format)?
+## Will the CVEList GitHub Submission Pilot deprecation coincide with the deprecation of the legacy format CVE List (i.e., based on the CVE JSON 4.0 format) hosted on the cve.mitre.org website?
 No, the specific deprecation date for the JSON 4.0 based CVE List has not been determined yet (although it has been announced that it <strong>will take place no later than December 31, 2023</strong>). This means that, although the CVEList GitHub Submission Pilot is ending, the legacy CVE List will continue to be available for Downstream users until announced otherwise. 
 
 ## Where can I get more information about CVE Services and the new CVE Record JSON 5.0 format?
