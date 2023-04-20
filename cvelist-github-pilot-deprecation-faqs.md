@@ -1,5 +1,5 @@
 ---
-title: CVEList GitHub Pilot Deprecation FAQ
+title: CVEList GitHub Pilot Deprecation FAQs
 layout: page
 ---
 
