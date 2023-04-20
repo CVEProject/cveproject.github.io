@@ -851,6 +851,11 @@ CVE JSON resources are hosted on GitHub:
 * [Advanced example of a cnaContainer for use with CVE Services](https://github.com/cveproject/cve-schema/blob/master/schema/v5.0/docs/cnaContainer-advanced-example.json)
 * [More details about Product and Version Encodings in CVE JSON 5.0 record](https://github.com/CVEProject/cve-schema/blob/master/schema/v5.0/docs/versions.md)
 
+CVE Services/CVE JSON 5.0 Guidance Videos & Slides:
+
+* [CVE Services Videos (YouTube)](https://www.youtube.com/playlist?list=PLWfD9RQVdJ6ecSMwikUGf6_7YIkoTkWZp)
+* [CVE Services Workshop Slides (PDF)](https://cveproject.github.io/CVE-Services-Workshop-Slides-02November2022-FINAL.pd)
+
 Other helpful resources are hosted on the main CVE website:
 * [CVE List Downloads](https://www.cve.org/Downloads)
 * [CVE List Search](https://www.cve.org/)
