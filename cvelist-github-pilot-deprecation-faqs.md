@@ -36,7 +36,7 @@ The following resources are available to help CNAs build a more automated infras
 
   <ul>
     <li><strong>CVE Services Interface Specification</strong> &mdash; CVE Services presents itself as a series of APIs addressable from the Internet. You can view the API specification <a href="https://cveawg.mitre.org/api-docs/">here</a>.</li>
-    <li><strong>CVE Services Testing Instance</strong> &mdash; The CVE Program has developed a <a href="https://cveawg-test.mitre.org/api-docs/">CVE Services Testing Instance</a> to allow CNAs to “test” their automation infrastructure. To support this testing environment there is also a <a href=">https://test.cve.org/">testing website</a> for CNAs to view individual test CVE Records that they post using the Testing Instance.</li>
+    <li><strong>CVE Services Testing Instance</strong> &mdash; The CVE Program has developed a <a href="https://cveawg-test.mitre.org/api-docs/">CVE Services Testing Instance</a> to allow CNAs to “test” their automation infrastructure. To support this testing environment there is also a <a href="https://test.cve.org/">testing website</a> for CNAs to view individual test CVE Records that they post using the Testing Instance.</li>
     <li><strong>Community Developed Clients</strong> &mdash; There are community development efforts that have produced automation tools that might be useful for CNA CVE Submission automation:</li>
       <ul>
         <li><strong><a href="https://github.com/RedHatProductSecurity/cvelib">Red Hat cvelib</a></strong> &mdash; A library and command line interface for the CVE Services API.</li>
