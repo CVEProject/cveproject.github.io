@@ -30,7 +30,7 @@ You can get more information about [CVE Services](https://www.cve.org/AllResourc
 
 Much of the guidance provided focuses on CNAs entering CVE Record information manually (i.e., the web clients are very “human user” centric). 
 
-## Is there specific guidance/support for engaging the CVE Services in a more automated fashion?
+## Is there specific guidance/support available for engaging the CVE Services in a more automated fashion?
 
 The following resources are available to help CNAs build a more automated infrastructure to submit CVE JSON 5.0 format CVE Records:
 
