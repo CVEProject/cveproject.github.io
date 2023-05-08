@@ -9,8 +9,6 @@ layout: page
   <br>
   <h3>View <a href="https://cveproject.github.io/automation-transition">transition details</a> for the upcoming new version releases of CVE JSON v5.0 and CVE Services v2.1.</h3>
   <br>
-  <p><a class="btn btn-primary btn-lg" role="button" href="https://cveproject.github.io/automation-transition">CVE Services transition »</a> &nbsp; &nbsp;     
-  <a class="btn btn-primary btn-lg" role="button" href="https://cveproject.github.io/automation-transition">CVE JSON 5.0 transition »</a></p>
 </div>
 
 <p class="lead text-center">Have questions or feedback? Please <a href="https://cveform.mitre.org/">contact us</a>.</p>
