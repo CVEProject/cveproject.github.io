@@ -2,7 +2,15 @@
 title: CVEList GitHub Pilot Deprecation FAQs
 layout: page
 ---
+<br/>
 
+<hr style="border:1px solid red">
+
+<h3><strong>ATTENTION:</strong> This page has been moved to ARCHIVE STATUS. Please go to the <a href="[https://www.cve.org/AllResources/CveServices](https://www.cve.org/ReportRequest/ReserveIDsPublishRecordsForCNAs)">Reserve IDs & Publish Records for CNAs page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 The [CVEList GitHub Submission Pilot](https://github.com/CVEProject/cvelist) &mdash; which will be deprecated by the CVE Program on June 30, 2023 &mdash; was a temporary method for [CVE Number Authorities (CNAs)](https://www.cve.org/PartnerInformation/Partner#CNA) to submit [CVE Records](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) (by GitHub pull requests) to be processed and posted to the official [CVE List](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEList). Answers to frequently asked questions about the deprecation of the pilot are below. 
 
 ## When is the GitHub Submission Pilot scheduled to be deprecated?
