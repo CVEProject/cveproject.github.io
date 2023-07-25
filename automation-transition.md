@@ -2,6 +2,13 @@
 title: CVE Automation Transition Details
 layout: page
 ---
+
+<h3><strong>ATTENTION:</strong> This page has been moved to ARCHIVE STATUS. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information about CVE Services and CVE JSON 5.0.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
+
 Two major CVE Automation deployments have significantly enhanced the [CVE Program](https://www.cve.org/)’s ongoing transition towards a fully automated [CVE ID](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEID) assignment and [CVE Record](https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryRecord) publishing/updating environment for the [CVE Numbering Authority (CNA)](https://www.cve.org/ProgramOrganization/CNAs) community: 
 
 - “[Soft deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-soft-deploy)” of [CVE Services 2.1](https://www.cve.org/AllResources/CveServices) and [CVE JSON 5.0](https://www.cve.org/AllResources/CveServices#cve-json-5) in October 2022 (see [Bulletin 11](https://cveproject.github.io/automation-transition#bulletin-number-11) below)
@@ -32,6 +39,14 @@ Last updated: 29 March 2023
 
 ## Bulletin Number 15
 <strong>*Hard Deploy of CVE Services, CVE JSON 5.0, and Bulk Downloads in CVE JSON 5.0 Format Now in Effect — March 30, 2023*</strong>
+
+<hr style="border:1px solid red">
+
+<h3><strong>ATTENTION:</strong> Information and timeframes in this bulletin may be out of date. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 As of March 29, 2023, the CVE Program achieved “[hard deploy](https://cveproject.github.io/automation-cve-services-faqs#what-is-meant-by-cve-services-21-hard-deploy)” of the [CVE Services](https://www.cve.org/AllResources/CveServices)/[CVE JSON 5.0](https://www.cve.org/AllResources/CveServices#cve-json-5)/[CVE JSON 5.0 Bulk Download](https://www.cve.org/Media/News/item/blog/2023/03/29/CVE-Downloads-in-JSON-5-Format) automation upgrade.
 
