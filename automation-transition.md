@@ -2,6 +2,9 @@
 title: CVE Automation Transition Details
 layout: page
 ---
+<br/>
+
+<hr style="border:1px solid red">
 
 <h3><strong>ATTENTION:</strong> This page has been moved to ARCHIVE STATUS. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information about CVE Services and CVE JSON 5.0.</h3>
 
