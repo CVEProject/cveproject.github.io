@@ -2,6 +2,15 @@
 title: CVE Automation Announcements
 layout: page
 ---
+<br/>
+
+<hr style="border:1px solid red">
+
+<h3><strong>ATTENTION:</strong> This page has been moved to ARCHIVE STATUS. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information about CVE Services and CVE JSON 5.0.</h3>
+
+<hr style="border:1px solid red">
+
+<br/>
 
 Links to updates and announcements about the [CVE Services](https://www.cve.org/AllResources/CveServices) and [CVE JSON 5.0](https://www.cve.org/AllResources/CveServices#cve-json-5) transition are included below. Please [contact us](https://cveform.mitre.org/) with any comments or questions.
 
