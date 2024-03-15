@@ -45,7 +45,7 @@ Last updated: 29 March 2023
 
 <hr style="border:1px solid red">
 
-<h3><strong>ATTENTION:</strong> Information and timeframes in this bulletin are no out of date and no longer valid. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
+<h3><strong>ATTENTION:</strong> Information and timeframes in this bulletin are out of date and no longer valid. Please go to the <a href="https://www.cve.org/AllResources/CveServices">CVE Services page on the CVE.ORG website</a> for the most current information.</h3>
 
 <hr style="border:1px solid red">
 
