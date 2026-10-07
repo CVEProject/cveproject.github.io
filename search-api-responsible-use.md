@@ -1,3 +1,8 @@
+---
+title: CVE Project Documentation
+layout: page
+---
+
 # CVE Search API Responsible Use Guidelines (Beta)
 The CVE Search API provides programmatic access to CVE Record data for targeted search, automation, and integration use cases. During the beta period, the service is available without identification or authentication requirements.
 The Search API is a shared community resource. The following guidelines are intended to help users build integrations that use the service efficiently, respect service limits, and avoid unnecessary impact on other users.
