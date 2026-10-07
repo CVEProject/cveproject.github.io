@@ -51,12 +51,12 @@ Accordingly, the absence of a CVE Record or particular field from a Search API r
 Once a CVE Record has been indexed into the Search API's search infrastructure, applicable publication-date and modification-date parameters can be used to locate it according to the documented query behavior.
 
 ## 8. Follow CVE Program terms for use and redistribution
-Use of CVE Program data, including redistribution of CVE Record data retrieved through the Search API, must comply with the CVE Program Terms of Use:
-https://www.cve.org/Legal/TermsOfUse
+Use of CVE Program data, including redistribution of CVE Record data retrieved through the Search API, must comply with the [CVE Program Terms of Use]
+(https://www.cve.org/Legal/TermsOfUse).
 
 ## 9. Protect sensitive information in API requests
-CVE Search API requests are logged and may be retained for up to **one year**. Use of the service is also subject to the CVE Program Privacy Policy:
-https://www.cve.org/Legal/PrivacyPolicy
+CVE Search API requests are logged and may be retained for up to **one year**. Use of the service is also subject to the [CVE Program Privacy Policy]
+(https://www.cve.org/Legal/PrivacyPolicy).
 Do not place passwords, authentication credentials, personal information, proprietary information, or other sensitive information in search parameters or other request fields.
 
 ## 10. Use public feedback channels appropriately
